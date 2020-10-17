@@ -62,7 +62,7 @@ query Post($id: ID!) {
       path
     }
   }
-  
+
 }
 
 
@@ -150,10 +150,7 @@ export default {
   },
   computed: {
     ogImageUrl() {
-      return (
-        `${this.$page.post.cover}` ||
-        `${this.$static.metadata.siteUrl}/logo-pillole-di-energia.png`
-      );
+      return `${this.$page.post.cover}`;
     },
     postUrl() {
       let siteUrl = this.$static.metadata.siteUrl;
@@ -203,7 +200,7 @@ export default {
 .title {
   margin-bottom: -0.6em;
   text-align: left;
-  font-size: 1.5em;  
+  font-size: 1.5em;
 }
 .content {
   text-align: left;

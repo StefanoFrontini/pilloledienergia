@@ -68,42 +68,6 @@ export default function(Vue, { router, head, isClient }) {
   Vue.component("Layout", DefaultLayout),
     Vue.component("font-awesome", FontAwesomeIcon),
     (head.htmlAttrs = { lang: "it-IT" }),
-    head.link.push({
-      rel: "preconnect",
-      href: "https://www.youtube.com",
-    }),
-    head.link.push({
-      rel: "preconnect",
-      href: "https://www.google-analytics.com",
-      crossorigin: "anonymous",
-    }),
-    head.link.push({
-      rel: "preconnect",
-      href: "https://www.googletagmanager.com",
-    }),
-    head.link.push({
-      rel: "preconnect",
-      href: "https://stats.g.doubleclick.net",
-    }),
-    head.link.push({
-      rel: "preconnect",
-      href: "https://static.doubleclick.net",
-      crossorigin: "anonymous",
-    }),
-    head.link.push({
-      rel: "preconnect",
-      href: "https://i.ytimg.com",
-    }),
-    head.link.push({
-      rel: "preconnect",
-      href: "https://googleads.g.doubleclick.net",
-      crossorigin: "anonymous",
-    }),
-    head.link.push({
-      rel: "preconnect",
-      href: "https://yt3.ggpht.com",
-      crossorigin: "anonymous",
-    }),
     Vue.use(SocialSharing),
     Vue.use(InfiniteLoading),
     Vue.directive("scrollanimation", {
