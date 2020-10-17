@@ -2,6 +2,7 @@
   <div class="header-icons">
     <a
       href="https://www.facebook.com/stefanofrontiniconsulenteenergetico"
+      aria-label="facebook"
       target="_blank"
       rel="noopener"
     >
@@ -9,6 +10,7 @@
     /></a>
     <a
       href="https://www.linkedin.com/in/stefano-frontini/"
+      aria-label="linkedin"
       target="_blank"
       rel="noopener"
     >
@@ -16,6 +18,7 @@
     /></a>
     <a
       href="https://www.youtube.com/channel/UCR-O1aNnCvdtANr8Yf7h_RQ"
+      aria-label="youtube"
       target="_blank"
       rel="noopener"
     >
@@ -23,6 +26,7 @@
     /></a>
     <a
       href="https://www.pinterest.it/pilloledienergia/pins/"
+      aria-label="pinterest"
       target="_blank"
       rel="noopener"
     >
@@ -45,7 +49,7 @@ export default {
   align-items: center;
 }
 
-a{
+a {
   margin-right: 1.3em;
 }
 
