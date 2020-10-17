@@ -1,0 +1,225 @@
+<template>
+  <Layout>
+    <div class="page-mercato">
+      <div class="title-mercato">
+        <h1>Andamento dei mercati energetici italiani</h1>
+      </div>
+      <div class="chart-container">
+        <div class="chart">
+          <h3>Energia elettrica</h3>
+          <MensilePUN
+            title="Andamento mensile del prezzo all'ingrosso dell'energia elettrica (PUN)"
+            xKey="Mese"
+            y1Key="Fascia alta"
+            y2Key="Media 24 ore"
+            y3Key="Fascia bassa"
+            :data="MensilePUNData"
+          />
+          <AnnualePUN
+            title="Andamento annuale del prezzo all'ingrosso dell'energia elettrica (PUN)"
+            xKey="Anno"
+            y1Key="Fascia alta"
+            y2Key="Media 24 ore"
+            y3Key="Fascia bassa"
+            :data="AnnualePUNData"
+          />
+          <p>
+            I grafici illustrano l'andamento mensile per fasce orarie da aprile
+            2019 ad oggi del prezzo all'ingrosso dell'energia elettrica (PUN) e
+            l'andamento annuale del PUN dal 2004 (anno di fondazione della Borsa
+            elettrica italiana) ad oggi. <br />
+            I dati sono presi dal sito del
+            <a href="http://www.mercatoelettrico.org/It/default.aspx"
+              >Gestore dei Mercati Energetici</a
+            >
+            e fanno riferimento al Mercato del Giorno Prima (MGP).
+          </p>
+          <ul>
+            <li>
+              Fascia alta: sono le ore comprese tra le 9:00 e le 20:00 dei
+              giorni lavorativi;
+            </li>
+            <li>
+              Fascia bassa: tutte le ore dei giorni festivi e le ore comprese
+              tra le 21:00 e le 8:00 dei giorni lavorativi;
+            </li>
+            <li>1 MWh = 1000 kWh;</li>
+            <li>PUN = Prezzo Unico Nazionale.</li>
+          </ul>
+
+          <h3>Gas naturale</h3>
+          <MensileGas
+            title="Andamento mensile del prezzo all'ingrosso del gas naturale"
+            xKey="Mese"
+            y1Key="Media"
+            :data="MensileGASData"
+          />
+          <p>
+            Il grafico illustra l'andamento mensile del prezzo all'ingrosso del
+            gas naturale da aprile 2019 ad oggi.
+          </p>
+          <ul>
+            <li>
+              I prezzi, pubblicati dal
+              <a href="http://www.mercatoelettrico.org/It/default.aspx"
+                >Gestore dei Mercati Energetici</a
+              >, fanno riferimento al Mercato del Giorno Prima (MGP-GAS). I
+              prezzi sono pubblicati dal GME in €/MWh e sono stati trasformati
+              in €/Smc moltiplicando per un coefficiente pari a 0,01058333;
+            </li>
+            <li>
+              Il potere calorifico superiore (PCS) è assunto pari a 0,0381
+              GJ/Smc.
+            </li>
+          </ul>
+          <div class="call">
+            <p>
+              <g-link to="/contatti">Contattami</g-link> per eseguire un
+              check-up energetico gratuito completo del tuo ristorante/hotel.
+              <br />
+              <a href="/check-up-energetico.pdf" download
+                >SCARICA IL CHECK-UP DI BASE</a
+              >
+            </p>
+          </div>
+
+          <SocialSharing
+            title="Andamento dei mercati energetici italiani"
+            description="Andamento storico dei prezzi dell'energia elettrica e del gas naturale all'ingrosso in Italia"
+            url="mercato"
+          />
+        </div>
+      </div>
+      <Newsletter />
+    </div>
+  </Layout>
+</template>
+
+<static-query>
+query {
+  metadata {
+    siteName
+    siteUrl
+    siteDescription
+  }
+}
+</static-query>
+
+<script>
+import AnnualePUN from "../components/AnnualePUN.vue";
+import MensilePUN from "../components/MensilePUN.vue";
+import MensileGas from "../components/MensileGas.vue";
+
+import MensilePUNData from "@/data/mensilePUN.json";
+import AnnualePUNData from "@/data/annualePUN.json";
+import MensileGASData from "@/data/mensileGAS.json";
+
+import Newsletter from "~/components/Newsletter.vue";
+import SocialSharing from "~/components/SocialSharing.vue";
+
+export default {
+  components: {
+    AnnualePUN,
+    MensilePUN,
+    MensileGas,
+    Newsletter,
+    SocialSharing,
+  },
+  metaInfo() {
+    return {
+      title: "Andamento mercati energetici italiani",
+      titleTemplate: "%s",
+      meta: [
+        {
+          key: "description",
+          name: "description",
+          content:
+            "Andamento storico dei prezzi dell'energia elettrica e del gas naturale all'ingrosso in Italia",
+        },
+        { property: "og:type", content: "website" },
+        {
+          property: "og:title",
+          content: "Andamento dei mercati energetici italiani",
+        },
+        {
+          property: "og:description",
+          content:
+            "Andamento storico dei prezzi dell'energia elettrica e del gas naturale all'ingrosso in Italia",
+        },
+        {
+          property: "og:url",
+          content: `${this.$static.metadata.siteUrl}/mercato`,
+        },
+        { property: "og:image", content: `${this.ogImageUrl}` },
+
+        { name: "twitter:card", content: "summary_large_image" },
+        {
+          name: "twitter:title",
+          content: "Andamento dei mercati energetici italiani",
+        },
+        {
+          name: "twitter:description",
+          content:
+            "Andamento storico dei prezzi dell'energia elettrica e del gas naturale all'ingrosso in Italia",
+        },
+        {
+          name: "twitter:site",
+          content: `${this.$static.metadata.siteUrl}/mercato`,
+        },
+        { name: "twitter:creator", content: "Stefano Frontini" },
+        { name: "twitter:image", content: `${this.ogImageUrl}` },
+      ],
+    };
+  },
+  data: () => ({
+    AnnualePUNData,
+    MensilePUNData,
+    MensileGASData,
+  }),
+  computed: {
+    ogImageUrl() {
+      return `${this.$static.metadata.siteUrl}/logo-pillole-di-energia.png`;
+    },
+  },
+};
+</script>
+
+<style scoped lang="scss">
+.chart-container {
+  display: flex;
+  justify-content: center;
+}
+.chart {
+  width: 100%;
+  max-width: 800px;
+}
+
+.title-mercato {
+  display: flex;
+  justify-content: center;
+}
+
+.title-mercato h1 {
+  font-size: 1.5em;
+}
+
+.page-mercato {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.call {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.call p {
+  width: 80%;
+  border-left: 0.3em solid $primaryColor;
+  padding: 0 15px;
+  font-style: italic;
+  font-family: "radnika-medium";
+}
+</style>

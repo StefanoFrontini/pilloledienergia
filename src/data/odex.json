@@ -1,0 +1,146 @@
+[
+    {
+        "Anno": "2000",
+        "Industria": "100",
+        "Trasporto": "100",
+        "Famiglie": "100",
+        "Terziario": "100",
+        "Totale": "100"
+    },
+    {
+        "Anno": "2001",
+        "Industria": "98",
+        "Trasporto": "100",
+        "Famiglie": "100",
+        "Terziario": "100",
+        "Totale": "100"
+    },
+    {
+        "Anno": "2002",
+        "Industria": "95",
+        "Trasporto": "99",
+        "Famiglie": "98",
+        "Terziario": "98",
+        "Totale": "98"
+    },
+    {
+        "Anno": "2003",
+        "Industria": "94",
+        "Trasporto": "99",
+        "Famiglie": "98",
+        "Terziario": "97",
+        "Totale": "97"
+    },
+    {
+        "Anno": "2004",
+        "Industria": "93",
+        "Trasporto": "98",
+        "Famiglie": "97",
+        "Terziario": "97",
+        "Totale": "96"
+    },
+    {
+        "Anno": "2005",
+        "Industria": "92",
+        "Trasporto": "97",
+        "Famiglie": "97",
+        "Terziario": "97",
+        "Totale": "95"
+    },
+    {
+        "Anno": "2006",
+        "Industria": "90",
+        "Trasporto": "94",
+        "Famiglie": "96",
+        "Terziario": "97",
+        "Totale": "94"
+    },
+    {
+        "Anno": "2007",
+        "Industria": "87",
+        "Trasporto": "92",
+        "Famiglie": "95",
+        "Terziario": "97",
+        "Totale": "92"
+    },
+    {
+        "Anno": "2008",
+        "Industria": "86",
+        "Trasporto": "91",
+        "Famiglie": "94",
+        "Terziario": "97",
+        "Totale": "91"
+    },
+    {
+        "Anno": "2009",
+        "Industria": "84",
+        "Trasporto": "90",
+        "Famiglie": "94",
+        "Terziario": "97",
+        "Totale": "91"
+    },
+    {
+        "Anno": "2010",
+        "Industria": "82",
+        "Trasporto": "89",
+        "Famiglie": "93",
+        "Terziario": "97",
+        "Totale": "90"
+    },
+    {
+        "Anno": "2011",
+        "Industria": "80",
+        "Trasporto": "88",
+        "Famiglie": "93",
+        "Terziario": "97",
+        "Totale": "88"
+    },
+    {
+        "Anno": "2012",
+        "Industria": "79",
+        "Trasporto": "88",
+        "Famiglie": "92",
+        "Terziario": "97",
+        "Totale": "88"
+    },
+    {
+        "Anno": "2013",
+        "Industria": "79",
+        "Trasporto": "87",
+        "Famiglie": "91",
+        "Terziario": "97",
+        "Totale": "87"
+    },
+    {
+        "Anno": "2014",
+        "Industria": "77",
+        "Trasporto": "86",
+        "Famiglie": "90",
+        "Terziario": "97",
+        "Totale": "86"
+    },
+    {
+        "Anno": "2015",
+        "Industria": "77",
+        "Trasporto": "86",
+        "Famiglie": "90",
+        "Terziario": "97",
+        "Totale": "86"
+    },
+    {
+        "Anno": "2016",
+        "Industria": "76",
+        "Trasporto": "81",
+        "Famiglie": "88",
+        "Terziario": "97",
+        "Totale": "83"
+    },
+    {
+        "Anno": "2017",
+        "Industria": "75",
+        "Trasporto": "79",
+        "Famiglie": "88",
+        "Terziario": "97",
+        "Totale": "83"
+    }
+]

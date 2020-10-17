@@ -1,0 +1,135 @@
+[
+    {
+        "Anno": "2000",
+        "Industria": "20.3",
+        "Residenziale e Terziario": "25.1",
+        "Termoelettrico": "22.8",
+        "Altro": "1.7"
+    },
+    {
+        "Anno": "2001",
+        "Industria": "20.3",
+        "Residenziale e Terziario": "26.1",
+        "Termoelettrico": "22.1",
+        "Altro": "1.8"
+    },
+    {
+        "Anno": "2002",
+        "Industria": "20.3",
+        "Residenziale e Terziario": "25.4",
+        "Termoelettrico": "22.6",
+        "Altro": "1.7"
+    },
+    {
+        "Anno": "2003",
+        "Industria": "20.7",
+        "Residenziale e Terziario": "28.7",
+        "Termoelettrico": "25.7",
+        "Altro": "1.7"
+    },
+    {
+        "Anno": "2004",
+        "Industria": "21",
+        "Residenziale e Terziario": "29.7",
+        "Termoelettrico": "27.1",
+        "Altro": "1.8"
+    },
+    {
+        "Anno": "2005",
+        "Industria": "20.6",
+        "Residenziale e Terziario": "32.2",
+        "Termoelettrico": "30.6",
+        "Altro": "1.9"
+    },
+    {
+        "Anno": "2006",
+        "Industria": "19.9",
+        "Residenziale e Terziario": "30.2",
+        "Termoelettrico": "31.5",
+        "Altro": "1.9"
+    },
+    {
+        "Anno": "2007",
+        "Industria": "19.2",
+        "Residenziale e Terziario": "28.2",
+        "Termoelettrico": "34.3",
+        "Altro": "1.7"
+    },
+    {
+        "Anno": "2008",
+        "Industria": "17.6",
+        "Residenziale e Terziario": "30.2",
+        "Termoelettrico": "33.9",
+        "Altro": "1.7"
+    },
+    {
+        "Anno": "2009",
+        "Industria": "14.5",
+        "Residenziale e Terziario": "31.6",
+        "Termoelettrico": "29",
+        "Altro": "1.6"
+    },
+    {
+        "Anno": "2010",
+        "Industria": "15.7",
+        "Residenziale e Terziario": "33.9",
+        "Termoelettrico": "30.1",
+        "Altro": "1.7"
+    },
+    {
+        "Anno": "2011",
+        "Industria": "15.5",
+        "Residenziale e Terziario": "30.8",
+        "Termoelettrico": "28.2",
+        "Altro": "1.6"
+    },
+    {
+        "Anno": "2012",
+        "Industria": "15",
+        "Residenziale e Terziario": "31",
+        "Termoelettrico": "25.3",
+        "Altro": "1.7"
+    },
+    {
+        "Anno": "2013",
+        "Industria": "14.8",
+        "Residenziale e Terziario": "31.1",
+        "Termoelettrico": "20.6",
+        "Altro": "1.7"
+    },
+    {
+        "Anno": "2014",
+        "Industria": "14.5",
+        "Residenziale e Terziario": "25.7",
+        "Termoelettrico": "17.9",
+        "Altro": "1.8"
+    },
+    {
+        "Anno": "2015",
+        "Industria": "14",
+        "Residenziale e Terziario": "29",
+        "Termoelettrico": "20.6",
+        "Altro": "2"
+    },
+    {
+        "Anno": "2016",
+        "Industria": "14.5",
+        "Residenziale e Terziario": "28.9",
+        "Termoelettrico": "23.4",
+        "Altro": "2"
+    },
+    {
+        "Anno": "2017",
+        "Industria": "15.3",
+        "Residenziale e Terziario": "29.2",
+        "Termoelettrico": "26.2",
+        "Altro": "2.1"
+    },
+    {
+        "Anno": "2018",
+        "Industria": "15.9",
+        "Residenziale e Terziario": "29.2",
+        "Termoelettrico": "23.3",
+        "Altro": "2"
+    }
+]

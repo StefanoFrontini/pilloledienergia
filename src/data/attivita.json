@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1",
+    "descrizione": "Agricola"
+  },
+  {
+    "id": "2",
+    "descrizione": "Estrattiva"
+  },
+  {
+    "id": "3",
+    "descrizione": "Artigianale"
+  },
+  {
+    "id": "4",
+    "descrizione": "Industriale"
+  },
+  {
+    "id": "5",
+    "descrizione": "Alberghiera"
+  },
+  {
+    "id": "6",
+    "descrizione": "Ristorazione"
+  },
+  {
+    "id": "7",
+    "descrizione": "Distribuzione commerciale"
+  },
+  {
+    "id": "8",
+    "descrizione": "Casa di cura"
+  },
+  {
+    "id": "9",
+    "descrizione": "Associazione sportiva dilettantistica senza fini di lucro"
+  },
+  {
+    "id": "10",
+    "descrizione": "Attività ricettive senza fini di lucro per assistenza dei disabili, degli orfani, degli anziani e degli indigenti"
+  },
+  {
+    "id": "11",
+    "descrizione": "Nessuna delle precedenti"
+  }
+]

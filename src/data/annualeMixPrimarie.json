@@ -1,0 +1,154 @@
+[
+    {
+        "Anno": "2000",
+        "Carbone": "12.9",
+        "Import elettrico": "9.8",
+        "Petrolio": "92.0",
+        "Gas naturale": "58.4",
+        "Rinnovabili": "12.9"
+    },
+    {
+        "Anno": "2001",
+        "Carbone": "13.7",
+        "Import elettrico": "10.6",
+        "Petrolio": "91.9",
+        "Gas naturale": "58.5",
+        "Rinnovabili": "14.0"
+    },
+    {
+        "Anno": "2002",
+        "Carbone": "14.2",
+        "Import elettrico": "11.1",
+        "Petrolio": "92.0",
+        "Gas naturale": "58.1",
+        "Rinnovabili": "12.6"
+    },
+    {
+        "Anno": "2003",
+        "Carbone": "15.3",
+        "Import elettrico": "11.2",
+        "Petrolio": "90.8",
+        "Gas naturale": "64.1",
+        "Rinnovabili": "13.0"
+    },
+    {
+        "Anno": "2004",
+        "Carbone": "17.1",
+        "Import elettrico": "10.0",
+        "Petrolio": "88.0",
+        "Gas naturale": "66.5",
+        "Rinnovabili": "14.9"
+    },
+    {
+        "Anno": "2005",
+        "Carbone": "17.0",
+        "Import elettrico": "10.8",
+        "Petrolio": "85.2",
+        "Gas naturale": "71.2",
+        "Rinnovabili": "13.5"
+    },
+    {
+        "Anno": "2006",
+        "Carbone": "17.2",
+        "Import elettrico": "9.9",
+        "Petrolio": "85.2",
+        "Gas naturale": "69.7",
+        "Rinnovabili": "14.2"
+    },
+    {
+        "Anno": "2007",
+        "Carbone": "17.2",
+        "Import elettrico": "10.2",
+        "Petrolio": "82.5",
+        "Gas naturale": "70.0",
+        "Rinnovabili": "14.3"
+    },
+    {
+        "Anno": "2008",
+        "Carbone": "16.7",
+        "Import elettrico": "8.8",
+        "Petrolio": "79.2",
+        "Gas naturale": "69.5",
+        "Rinnovabili": "17.0"
+    },
+    {
+        "Anno": "2009",
+        "Carbone": "13.1",
+        "Import elettrico": "9.9",
+        "Petrolio": "73.3",
+        "Gas naturale": "63.9",
+        "Rinnovabili": "20.2"
+    },
+    {
+        "Anno": "2010",
+        "Carbone": "14.9",
+        "Import elettrico": "9.7",
+        "Petrolio": "72.2",
+        "Gas naturale": "68.1",
+        "Rinnovabili": "22.9"
+    },
+    {
+        "Anno": "2011",
+        "Carbone": "16.6",
+        "Import elettrico": "10.1",
+        "Petrolio": "69.2",
+        "Gas naturale": "63.8",
+        "Rinnovabili": "24.6"
+    },
+    {
+        "Anno": "2012",
+        "Carbone": "16.6",
+        "Import elettrico": "9.5",
+        "Petrolio": "62.2",
+        "Gas naturale": "61.4",
+        "Rinnovabili": "26.6"
+    },
+    {
+        "Anno": "2013",
+        "Carbone": "14.2",
+        "Import elettrico": "9.3",
+        "Petrolio": "58.3",
+        "Gas naturale": "57.4",
+        "Rinnovabili": "33.8"
+    },
+    {
+        "Anno": "2014",
+        "Carbone": "13.7",
+        "Import elettrico": "9.6",
+        "Petrolio": "57.3",
+        "Gas naturale": "50.7",
+        "Rinnovabili": "34.7"
+    },
+    {
+        "Anno": "2015",
+        "Carbone": "13.1",
+        "Import elettrico": "10.2",
+        "Petrolio": "58.7",
+        "Gas naturale": "55.3",
+        "Rinnovabili": "32.6"
+    },
+    {
+        "Anno": "2016",
+        "Carbone": "11.4",
+        "Import elettrico": "8.1",
+        "Petrolio": "57.6",
+        "Gas naturale": "58.1",
+        "Rinnovabili": "32.1"
+    },
+    {
+        "Anno": "2017",
+        "Carbone": "10.4",
+        "Import elettrico": "8.3",
+        "Petrolio": "57.7",
+        "Gas naturale": "61.5",
+        "Rinnovabili": "31.7"
+    },
+    {
+        "Anno": "2018",
+        "Carbone": "9.2",
+        "Import elettrico": "9.7",
+        "Petrolio": "58.6",
+        "Gas naturale": "59.5",
+        "Rinnovabili": "35.3"
+    }
+]

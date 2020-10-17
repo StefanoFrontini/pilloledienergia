@@ -1,0 +1,14 @@
+*.log
+.cache
+.DS_Store
+src/.temp
+node_modules
+dist
+.env
+.env.*
+pilloledienergia_api
+
+# Local Netlify folder
+.netlify
+
+src/pages/check-up-energetico.vue

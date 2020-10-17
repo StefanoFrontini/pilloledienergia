@@ -1,0 +1,44 @@
+[
+    {
+        "pre": "fas",
+        "name": "bell-slash",
+        "title": "no costi nascosti",
+        "text": "Condizioni contrattuali trasparenti e senza sorprese."
+    },
+    {
+        "pre": "fas",
+        "name": "hammer",
+        "title": "solidità",
+        "text": "100 anni di storia,  1,7 mld di fatturato di cui 1,2 in Italia, no speculazioni di mercato. Centrali di produzione in Svizzera e Italia."
+    },
+    {
+        "pre": "fas",
+        "name": "user-tie",
+        "title": "consulente dedicato gratuito",
+        "text": "Consulenza continua e personalizzata sulle esigenze del tuo ristorante/hotel."
+    },
+    {
+        "pre": "fab",
+        "name": "envira",
+        "title": "sostenibilità",
+        "text": "Energia 100% rinnovabile con certificazione TUV SUD: uno strumento eccezionale per comunicare ai tuoi Clienti la sostenibilità del tuo ristorante/hotel. Parco di produzione in larga parte composto da centrali idroelettriche"
+    },
+    {
+        "pre": "fas",
+        "name": "clone",
+        "title": "fatturazione aggregata",
+        "text": "Ideale per ristoranti/hotel con più siti/contatori. I vantaggi di un'unica fattura ma senza perdere il dettaglio di ciascun punto di fornitura"
+    },
+    {
+        "pre": "fas",
+        "name": "charging-station",
+        "title": "mobilità elettrica",
+        "text": "Uno dei primi player in Italia. Convoglia il turismo green presso la tua struttura con gli strumenti di ricarica, la visibilità internazionale, il sistema di pagamento delle ricariche e il noleggio a lungo termine di auto elettriche."
+    },
+    {
+        "pre": "fas",
+        "name": "lightbulb",
+        "title": "efficienza energetica",
+        "text": "Relamping LED senza anticipo di capitale, termografia certificata ISO 9712 ai quadri elettrici, diagnosi energetiche."
+    }
+]

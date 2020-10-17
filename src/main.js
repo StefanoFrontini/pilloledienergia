@@ -1,0 +1,126 @@
+// This is the main.js file. Import global CSS and scripts here.
+// The Client API can be used here. Learn more: gridsome.org/docs/client-api
+
+import DefaultLayout from "~/layouts/Default.vue";
+import InfiniteLoading from "vue-infinite-loading";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import { config, library } from "@fortawesome/fontawesome-svg-core";
+import {
+  faFacebook,
+  faLinkedin,
+  faYoutube,
+  faPinterest,
+  faTwitter,
+  faEnvira,
+} from "@fortawesome/free-brands-svg-icons";
+import {
+  faPhone,
+  faEnvelope,
+  faChartLine,
+  faEyeSlash,
+  faSearchDollar,
+  faPhoneSlash,
+  faClipboardList,
+  faDollarSign,
+  faAssistiveListeningSystems,
+  faClock,
+  faBookReader,
+  faBellSlash,
+  faHammer,
+  faUserTie,
+  faChargingStation,
+  faLightbulb,
+  faClone,
+} from "@fortawesome/free-solid-svg-icons";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+
+config.autoAddCss = false;
+library.add(
+  faFacebook,
+  faLinkedin,
+  faYoutube,
+  faPinterest,
+  faPhone,
+  faEnvelope,
+  faTwitter,
+  faChartLine,
+  faEyeSlash,
+  faSearchDollar,
+  faPhoneSlash,
+  faClipboardList,
+  faDollarSign,
+  faAssistiveListeningSystems,
+  faClock,
+  faBookReader,
+  faBellSlash,
+  faHammer,
+  faUserTie,
+  faEnvira,
+  faChargingStation,
+  faLightbulb,
+  faClone
+);
+
+const SocialSharing = require("vue-social-sharing");
+
+export default function(Vue, { router, head, isClient }) {
+  // Set default layout as a global component
+  Vue.component("Layout", DefaultLayout),
+    Vue.component("font-awesome", FontAwesomeIcon),
+    (head.htmlAttrs = { lang: "it-IT" }),
+    head.link.push({
+      rel: "preconnect",
+      href: "https://www.youtube.com",
+    }),
+    head.link.push({
+      rel: "preconnect",
+      href: "https://www.google-analytics.com",
+      crossorigin: "anonymous",
+    }),
+    head.link.push({
+      rel: "preconnect",
+      href: "https://www.googletagmanager.com",
+    }),
+    head.link.push({
+      rel: "preconnect",
+      href: "https://stats.g.doubleclick.net",
+    }),
+    head.link.push({
+      rel: "preconnect",
+      href: "https://static.doubleclick.net",
+      crossorigin: "anonymous",
+    }),
+    head.link.push({
+      rel: "preconnect",
+      href: "https://i.ytimg.com",
+    }),
+    head.link.push({
+      rel: "preconnect",
+      href: "https://googleads.g.doubleclick.net",
+      crossorigin: "anonymous",
+    }),
+    head.link.push({
+      rel: "preconnect",
+      href: "https://yt3.ggpht.com",
+      crossorigin: "anonymous",
+    }),
+    Vue.use(SocialSharing),
+    Vue.use(InfiniteLoading),
+    Vue.directive("scrollanimation", {
+      // When the bound element is inserted into the DOM...
+      inserted: function(el) {
+        const animatedScrollObserver = new IntersectionObserver(
+          (entries, animatedScrollObserver) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("enter");
+                animatedScrollObserver.unobserve(entry.target);
+              }
+            });
+          }
+        );
+        el.classList.add("before-enter");
+        animatedScrollObserver.observe(el);
+      },
+    });
+}

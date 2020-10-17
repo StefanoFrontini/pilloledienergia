@@ -1,0 +1,242 @@
+[
+    {
+        "Anno": "2004",
+        "Serie": "Peak",
+        "Price": "76.45"
+    },
+    {
+        "Anno": "2005",
+        "Serie": "Peak",
+        "Price": "87.80"
+    },
+    {
+        "Anno": "2006",
+        "Serie": "Peak",
+        "Price": "108.73"
+    },
+    {
+        "Anno": "2007",
+        "Serie": "Peak",
+        "Price": "104.90"
+    },
+    {
+        "Anno": "2008",
+        "Serie": "Peak",
+        "Price": "114.38"
+    },
+    {
+        "Anno": "2009",
+        "Serie": "Peak",
+        "Price": "83.05"
+    },
+    {
+        "Anno": "2010",
+        "Serie": "Peak",
+        "Price": "76.77"
+    },
+    {
+        "Anno": "2011",
+        "Serie": "Peak",
+        "Price": "82.65"
+    },
+    {
+        "Anno": "2012",
+        "Serie": "Peak",
+        "Price": "86.27"
+    },
+    {
+        "Anno": "2013",
+        "Serie": "Peak",
+        "Price": "70.97"
+    },
+    {
+        "Anno": "2014",
+        "Serie": "Peak",
+        "Price": "59.52"
+    },
+    {
+        "Anno": "2015",
+        "Serie": "Peak",
+        "Price": "59.28"
+    },
+    {
+        "Anno": "2016",
+        "Serie": "Peak",
+        "Price": "48.34"
+    },
+    {
+        "Anno": "2017",
+        "Serie": "Peak",
+        "Price": "62.34"
+    },
+    {
+        "Anno": "2018",
+        "Serie": "Peak",
+        "Price": "68.46"
+    },
+    {
+        "Anno": "2019",
+        "Serie": "Peak",
+        "Price": "59.12"
+    },
+    {
+        "Anno": "2004",
+        "Serie": "OffPeak",
+        "Price": "38.17"
+    },
+    {
+        "Anno": "2005",
+        "Serie": "OffPeak",
+        "Price": "43.18"
+    },
+    {
+        "Anno": "2006",
+        "Serie": "OffPeak",
+        "Price": "57.06"
+    },
+    {
+        "Anno": "2007",
+        "Serie": "OffPeak",
+        "Price": "53.00"
+    },
+    {
+        "Anno": "2008",
+        "Serie": "OffPeak",
+        "Price": "72.53"
+    },
+    {
+        "Anno": "2009",
+        "Serie": "OffPeak",
+        "Price": "53.41"
+    },
+    {
+        "Anno": "2010",
+        "Serie": "OffPeak",
+        "Price": "57.34"
+    },
+    {
+        "Anno": "2011",
+        "Serie": "OffPeak",
+        "Price": "66.71"
+    },
+    {
+        "Anno": "2012",
+        "Serie": "OffPeak",
+        "Price": "69.78"
+    },
+    {
+        "Anno": "2013",
+        "Serie": "OffPeak",
+        "Price": "58.75"
+    },
+    {
+        "Anno": "2014",
+        "Serie": "OffPeak",
+        "Price": "48.18"
+    },
+    {
+        "Anno": "2015",
+        "Serie": "OffPeak",
+        "Price": "48.58"
+    },
+    {
+        "Anno": "2016",
+        "Serie": "OffPeak",
+        "Price": "39.80"
+    },
+    {
+        "Anno": "2017",
+        "Serie": "OffPeak",
+        "Price": "49.58"
+    },
+    {
+        "Anno": "2018",
+        "Serie": "OffPeak",
+        "Price": "57.52"
+    },
+    {
+        "Anno": "2019",
+        "Serie": "OffPeak",
+        "Price": "48.72"
+    },
+    {
+        "Anno": "2004",
+        "Serie": "Media",
+        "Price": "51.60"
+    },
+    {
+        "Anno": "2005",
+        "Serie": "Media",
+        "Price": "58.59"
+    },
+    {
+        "Anno": "2006",
+        "Serie": "Media",
+        "Price": "74.75"
+    },
+    {
+        "Anno": "2007",
+        "Serie": "Media",
+        "Price": "70.99"
+    },
+    {
+        "Anno": "2008",
+        "Serie": "Media",
+        "Price": "86.99"
+    },
+    {
+        "Anno": "2009",
+        "Serie": "Media",
+        "Price": "63.72"
+    },
+    {
+        "Anno": "2010",
+        "Serie": "Media",
+        "Price": "64.12"
+    },
+    {
+        "Anno": "2011",
+        "Serie": "Media",
+        "Price": "72.23"
+    },
+    {
+        "Anno": "2012",
+        "Serie": "Media",
+        "Price": "75.48"
+    },
+    {
+        "Anno": "2013",
+        "Serie": "Media",
+        "Price": "62.99"
+    },
+    {
+        "Anno": "2014",
+        "Serie": "Media",
+        "Price": "52.08"
+    },
+    {
+        "Anno": "2015",
+        "Serie": "Media",
+        "Price": "52.31"
+    },
+    {
+        "Anno": "2016",
+        "Serie": "Media",
+        "Price": "42.75"
+    },
+    {
+        "Anno": "2017",
+        "Serie": "Media",
+        "Price": "53.95"
+    },
+    {
+        "Anno": "2018",
+        "Serie": "Media",
+        "Price": "61.31"
+    },
+    {
+        "Anno": "2019",
+        "Serie": "Media",
+        "Price": "52.32"
+    }
+] 

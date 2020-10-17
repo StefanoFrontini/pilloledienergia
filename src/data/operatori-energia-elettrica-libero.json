@@ -1,0 +1,82 @@
+[
+    {
+        "Gruppo": "Enel",
+        "Energia": "56463"
+    },
+    {
+        "Gruppo": "Edison",
+        "Energia": "13760"
+    },
+    {
+        "Gruppo": "Axpo",
+        "Energia": "11063"
+    },
+    {
+        "Gruppo": "Eni",
+        "Energia": "10465"
+    },
+    {
+        "Gruppo": "A2A",
+        "Energia": "9929"
+    },
+    {
+        "Gruppo": "Hera",
+        "Energia": "9594"
+    },
+    {
+        "Gruppo": "Green Network",
+        "Energia": "7407"
+    },
+    {
+        "Gruppo": "E.ON",
+        "Energia": "7099"
+    },
+    {
+        "Gruppo": "Duferco",
+        "Energia": "5970"
+    },
+    {
+        "Gruppo": "Iren",
+        "Energia": "5935"
+    },
+    {
+        "Gruppo": "Alperia",
+        "Energia": "4879"
+    },
+    {
+        "Gruppo": "EGEA",
+        "Energia": "4555"
+    },
+    {
+        "Gruppo": "Repower",
+        "Energia": "4086"
+    },
+    {
+        "Gruppo": "CVA",
+        "Energia": "4059"
+    },
+    {
+        "Gruppo": "Engie",
+        "Energia": "4017"
+    },
+    {
+        "Gruppo": "Acea",
+        "Energia": "3953"
+    },
+    {
+        "Gruppo": "Dolomiti Energia",
+        "Energia": "3512"
+    },
+    {
+        "Gruppo": "Sorgenia",
+        "Energia": "3058"
+    },
+    {
+        "Gruppo": "Agsm Verona",
+        "Energia": "2946"
+    },
+    {
+        "Gruppo": "Nova Coop S.C.",
+        "Energia": "2790"
+    }
+]
