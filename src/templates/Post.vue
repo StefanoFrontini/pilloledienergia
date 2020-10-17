@@ -114,7 +114,7 @@ export default {
           property: "article:published_time",
           content: `${this.$page.post.created_at}`,
         },
-        { property: "og:image", content: `${this.ogImageUrl}` },
+        { property: "og:image", content: `${this.ogImageUrl()}` },
 
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: `${this.$page.post.title}` },
