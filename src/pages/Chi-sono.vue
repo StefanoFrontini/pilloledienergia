@@ -10,7 +10,7 @@
           <div class="foto-wrapper">
             <div class="foto">
               <g-image
-                src="~/assets/stefano-frontini.png"
+                src="~/assets/stefano-frontini.jpg"
                 width="150"
                 height="150"
                 alt="stefano frontini"
