@@ -32,6 +32,51 @@ module.exports = {
       },
     },
     {
+      use: "gridsome-plugin-pwa",
+      options: {
+        // Service Worker Options
+        disableServiceWorker: false,
+        serviceWorkerPath: "service-worker.js",
+        cachedFileTypes: "js,json,css,html,png,jpg,jpeg,svg,gif",
+        disableTemplatedUrls: false, // Optional
+
+        // Manifest Options (https://developer.mozilla.org/en-US/docs/Web/Manifest)
+        manifestPath: "manifest.json",
+        title: "Pillole di Energia",
+        startUrl: "/",
+        display: "standalone",
+        statusBarStyle: "default",
+        themeColor: "#000000",
+        backgroundColor: "#000000",
+        icon: "./src/assets/icon.png",
+        shortName: "PdE", // Optional
+        description: "Consulente energetico", // Optional
+        categories: [""], // Optional
+        lang: "it-IT", // Optional
+        dir: "auto", // Optional
+        maskableIcon: true, // Optional
+        screenshots: [
+          // Optional
+          {
+            src: "./src/assets/icon.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+        ],
+        gcmSenderId: undefined, // Optional
+
+        // Standard Meta Tags
+        svgFavicon: "favicon.svg", // Optional. Requires favicon.ico fallback
+
+        // Microsoft Windows Meta Tags
+        msTileColor: "#666600", // Optional
+
+        // Apple MacOS Meta Tags
+        appleMaskIcon: "favicon.svg", // Optional
+        appleMaskIconColor: "#666600", // Optional
+      },
+    },
+    /* {
       use: "gridsome-plugin-service-worker",
       options: {
         options: {
@@ -53,7 +98,7 @@ module.exports = {
         theme_color: "#000000",
         lang: "it",
       },
-    },
+    }, */
     {
       use: "@gridsome/plugin-sitemap",
       options: {

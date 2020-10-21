@@ -1,6 +1,6 @@
 <template>
   <div class="page-socials">
-    <h5>Condividi:</h5>
+    <p class="grassetto">Condividi:</p>
     <div class="social">
       <social-sharing
         :url="postUrl"
@@ -52,8 +52,8 @@
 
 <static-query>
 query {
-  metadata {    
-    siteUrl    
+  metadata {
+    siteUrl
   }
 }
 </static-query>
@@ -81,7 +81,7 @@ export default {
 }
 
 .social {
-  margin-top: 1em;
+  margin-top: 0.8em;
   margin-left: 3em;
 }
 </style>
