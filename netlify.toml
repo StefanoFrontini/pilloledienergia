@@ -5,8 +5,6 @@
 [[plugins]]
 package = "netlify-plugin-image-optim"
 
-[[plugins]]
-package = "netlify-plugin-a11y"
 
 [[plugins]]
   package = "netlify-plugin-gridsome-cache"
