@@ -88,7 +88,7 @@ import { select, selectAll } from "d3-selection";
 import { timeParse, timeFormatDefaultLocale } from "d3-time-format";
 import { transition } from "d3-transition";
 
-import _ from "lodash";
+import map from "lodash/map";
 
 export default {
   props: {
@@ -172,7 +172,7 @@ export default {
         .padding(0.1);
     },
     chartData() {
-      return _.map(this.dataset, (d) => {
+      return map(this.dataset, (d) => {
         return {
           x: this.xScale(d[this.xKey]),
           y: this.yScale(+d[this.yKey]),

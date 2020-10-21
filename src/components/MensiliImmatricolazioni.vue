@@ -88,7 +88,7 @@ import { select, selectAll } from "d3-selection";
 import { timeParse, timeFormatDefaultLocale } from "d3-time-format";
 import locale from "@/data/locale.json";
 
-import _ from "lodash";
+import map from "lodash/map";
 
 export default {
   props: {
@@ -181,7 +181,7 @@ export default {
       return timeParse("%Y, %m");
     },
     chartData() {
-      return _.map(this.data, (d) => {
+      return map(this.data, (d) => {
         return {
           x: this.xScale(this.parseTime(d[this.xKey])),
           y1: this.yScale(+d[this.y1Key]),

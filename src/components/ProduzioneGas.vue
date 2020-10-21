@@ -77,7 +77,7 @@ import { axisLeft, axisBottom } from "d3-axis";
 import { select, selectAll } from "d3-selection";
 import { timeParse, timeFormatDefaultLocale } from "d3-time-format";
 
-import _ from "lodash";
+import map from "lodash/map";
 
 export default {
   name: "ProduzioneGas",
@@ -160,7 +160,7 @@ export default {
       return timeParse("%Y");
     },
     chartData() {
-      return _.map(this.data, (d) => {
+      return map(this.data, (d) => {
         return {
           x: this.xScale(this.parseTime(d[this.xKey])),
           y1: this.yScale(+d[this.y1Key]),
