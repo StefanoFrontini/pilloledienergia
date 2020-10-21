@@ -19,7 +19,10 @@ module.exports = {
   siteDescription:
     "Il vero risparmio nella bolletta della luce e del gas? Assistenza da parte di un bravo consulente e una società di fornitura seria, innovativa e solida",
   siteUrl: "https://pilloledienergia.com",
-  icon: "src/favicon.png",
+  icon: {
+    favicon: "./src/favicon.png",
+    touchicon: "./src/favicon.png",
+  },
 
   plugins: [
     "gridsome-plugin-webpack-size",
