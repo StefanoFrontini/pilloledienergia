@@ -66,13 +66,13 @@ module.exports = {
         gcmSenderId: undefined, // Optional
 
         // Standard Meta Tags
-        svgFavicon: "favicon.png", // Optional. Requires favicon.ico fallback
+        //svgFavicon: "favicon.png", // Optional. Requires favicon.ico fallback
 
         // Microsoft Windows Meta Tags
         msTileColor: "#666600", // Optional
 
         // Apple MacOS Meta Tags
-        appleMaskIcon: "favicon.png", // Optional
+        //appleMaskIcon: "favicon.png", // Optional
         appleMaskIconColor: "#666600", // Optional
       },
     },
