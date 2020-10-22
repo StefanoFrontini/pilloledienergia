@@ -68,6 +68,14 @@ export default function(Vue, { router, head, isClient }) {
   Vue.component("Layout", DefaultLayout),
     Vue.component("font-awesome", FontAwesomeIcon),
     (head.htmlAttrs = { lang: "it-IT" }),
+    head.link.push({
+      rel: "apple-touch-icon",
+      href: "/assets/img/icon-96.png",
+    }),
+    head.meta.push({
+      name: "apple-mobile-web-app-status-bar",
+      content: "#000000",
+    }),
     Vue.use(SocialSharing),
     Vue.use(InfiniteLoading),
     Vue.directive("scrollanimation", {
