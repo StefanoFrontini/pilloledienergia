@@ -115,6 +115,8 @@ export default {
 </script>
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
 @font-face {
   font-family: "radnika-medium";
@@ -126,22 +128,14 @@ export default {
 
 html,
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "GFS Didot", serif;
   margin: 0;
   padding: 0;
-  line-height: 1.5;
+  line-height: 1.2;
   box-sizing: border-box;
   color: #1b1b1b;
   overflow-x: hidden;
   position: relative;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "radnika-medium";
 }
 
 ::selection {
@@ -167,7 +161,7 @@ a:hover {
 }
 
 .grassetto {
-  font-family: "radnika-medium";
+  font-family: "GFS Didot", serif;
 }
 
 blockquote::before {
@@ -179,7 +173,7 @@ blockquote {
   border-left: 0.3em solid $primaryColor;
   padding: 0 15px;
   font-style: italic;
-  font-family: "radnika-medium";
+
   quotes: "\201C""\201D""\2018""\2019";
 }
 
@@ -248,12 +242,9 @@ blockquote::after {
 
 .nav__link {
   text-decoration: none;
-  letter-spacing: 3px;
-  font-weight: bold;
+
   text-transform: uppercase;
-  font-size: 0.6em;
-  color: white;
-  font-family: "radnika-medium";
+  font-size: 0.8em;
 }
 
 .footer-a {
@@ -347,6 +338,7 @@ blockquote::after {
     font-size: 0.8em;
   }
   .nav__link {
+    font-family: "radnika-medium", sans-serif;
     color: #1b1b1b;
   }
   .header-b {

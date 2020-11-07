@@ -90,7 +90,6 @@
           />
         </div>
       </div>
-      <Newsletter />
     </div>
   </Layout>
 </template>
@@ -114,7 +113,6 @@ import MensilePUNData from "@/data/mensilePUN.json";
 import AnnualePUNData from "@/data/annualePUN.json";
 import MensileGASData from "@/data/mensileGAS.json";
 
-import Newsletter from "~/components/Newsletter.vue";
 import SocialSharing from "~/components/SocialSharing.vue";
 
 export default {
@@ -122,7 +120,6 @@ export default {
     AnnualePUN,
     MensilePUN,
     MensileGas,
-    Newsletter,
     SocialSharing,
   },
   metaInfo() {

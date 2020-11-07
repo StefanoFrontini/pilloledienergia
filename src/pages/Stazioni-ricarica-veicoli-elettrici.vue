@@ -19,7 +19,6 @@
             opportunità della mobilità elettrica.
           </p>
         </div>
-        <Newsletter />
       </div>
     </div>
   </Layout>
@@ -36,12 +35,8 @@ query {
 </static-query>
 
 <script>
-import Newsletter from "~/components/Newsletter.vue";
-
 export default {
-  components: {
-    Newsletter,
-  },
+  components: {},
   metaInfo() {
     return {
       title: "Stazioni di ricarica per veicoli elettrici | Pillole di Energia",

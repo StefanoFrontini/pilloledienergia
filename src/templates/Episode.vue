@@ -3,16 +3,23 @@
     <div class="post-container">
       <div class="page">
         <p class="date">{{ $page.episode.created_at }}</p>
-        <h1 class="title">{{ $page.episode.title }}</h1>  
+        <h1 class="title">{{ $page.episode.title }}</h1>
         <div class="content">
           <VueRemarkContent />
         </div>
-        <SocialSharing :title="this.$page.episode.title" :description="this.$page.episode.description" :url="this.$page.episode.path"  />
-        <h5 class="torna">Torna a: <span><g-link to="/episodi">Impara qualcosa di nuovo sull'energia</g-link></span></h5>
-        <div class="section">
-          <Newsletter />
-        </div>
-        
+        <SocialSharing
+          :title="this.$page.episode.title"
+          :description="this.$page.episode.description"
+          :url="this.$page.episode.path"
+        />
+        <h5 class="torna">
+          Torna a:
+          <span
+            ><g-link to="/episodi"
+              >Impara qualcosa di nuovo sull'energia</g-link
+            ></span
+          >
+        </h5>
       </div>
     </div>
   </Layout>
@@ -23,13 +30,13 @@
 query Episode($id: ID!) {
   episode(id: $id){
     title
-    author    
+    author
     path
     cover
     alt
     created_at (format: "D MMMM YYYY", locale: "it")
-    description    
-  }  
+    description
+  }
 }
 
 
@@ -47,42 +54,50 @@ query {
 
 <script>
 import SocialSharing from "~/components/SocialSharing.vue";
-import Newsletter from "~/components/Newsletter.vue";
+
 export default {
   components: {
     SocialSharing,
-    Newsletter
   },
   data() {
     return {
-      formData: {},         
+      formData: {},
     };
   },
-  metaInfo () {
+  metaInfo() {
     return {
       title: `${this.$page.episode.title}`,
-      titleTemplate: '%s',
+      titleTemplate: "%s",
       meta: [
         {
-          key: 'description',
-          name: 'description',
+          key: "description",
+          name: "description",
           content: `${this.$page.episode.description}`,
         },
 
-        { property: "og:type", content: 'article' },
+        { property: "og:type", content: "article" },
         { property: "og:title", content: `${this.$page.episode.title}` },
-        { property: "og:description", content: `${this.$page.episode.description}` },
+        {
+          property: "og:description",
+          content: `${this.$page.episode.description}`,
+        },
         { property: "og:url", content: `${this.postUrl}` },
-        { property: "article:published_time", content: `${this.$page.episode.created_at}` },
+        {
+          property: "article:published_time",
+          content: `${this.$page.episode.created_at}`,
+        },
         { property: "og:image", content: `${this.ogImageUrl}` },
 
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: `${this.$page.episode.title}` },
-        { name: "twitter:description", content: `${this.$page.episode.description}` },        
+        {
+          name: "twitter:description",
+          content: `${this.$page.episode.description}`,
+        },
         { name: "twitter:creator", content: `${this.$page.episode.author}` },
         { name: "twitter:image", content: `${this.ogImageUrl}` },
       ],
-    }
+    };
   },
   methods: {
     encode(data) {
@@ -110,24 +125,16 @@ export default {
       return `${this.$static.metadata.siteUrl}/logo-pillole-di-energia.png`;
     },
     postUrl() {
-      let siteUrl = this.$static.metadata.siteUrl
-      let postPath = this.$page.episode.path
+      let siteUrl = this.$static.metadata.siteUrl;
+      let postPath = this.$page.episode.path;
 
-      return `${siteUrl}${postPath}`
-
-  }
+      return `${siteUrl}${postPath}`;
+    },
   },
-  
-  
 };
 </script>
 
 <style scoped>
-
-
-
-
-
 .post-container {
   display: flex;
   justify-content: center;
@@ -139,7 +146,7 @@ export default {
   max-width: 700px;
 }
 
-.date{
+.date {
   text-align: center;
   font-size: 0.5em;
 }
@@ -166,7 +173,6 @@ export default {
   margin-left: 0.5em;
 }
 
-
 @media (min-width: 930px) {
   .page {
     width: 80%;
@@ -177,6 +183,5 @@ export default {
   .zoom {
     font-size: 16px;
   }
-  
 }
 </style>

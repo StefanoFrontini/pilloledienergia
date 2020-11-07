@@ -3,17 +3,21 @@
     <div class="post-container">
       <div class="page">
         <p class="date">{{ $page.infografica.created_at }}</p>
-        <h1 class="title">{{ $page.infografica.title }}</h1> 
+        <h1 class="title">{{ $page.infografica.title }}</h1>
         <div class="content">
           <VueRemarkContent />
         </div>
-         <SocialSharing :title="this.$page.infografica.title" :description="this.$page.infografica.description" :url="this.$page.infografica.path"  />
-         <h5 class="title">Torna a: <span><g-link to="/energia-in-numeri">L'energia in numeri</g-link></span></h5>
-        <div class="section">
-          <Newsletter />
-          
-        </div>
-        
+        <SocialSharing
+          :title="this.$page.infografica.title"
+          :description="this.$page.infografica.description"
+          :url="this.$page.infografica.path"
+        />
+        <h5 class="title">
+          Torna a:
+          <span
+            ><g-link to="/energia-in-numeri">L'energia in numeri</g-link></span
+          >
+        </h5>
       </div>
     </div>
   </Layout>
@@ -24,11 +28,11 @@
 query Infografica($id: ID!) {
   infografica(id: $id){
     title
-    author    
+    author
     path
     created_at (format: "D MMMM YYYY", locale: "it")
-    description    
-  }  
+    description
+  }
 }
 
 
@@ -46,42 +50,53 @@ query {
 
 <script>
 import SocialSharing from "~/components/SocialSharing.vue";
-import Newsletter from "~/components/Newsletter.vue";
+
 export default {
   components: {
     SocialSharing,
-    Newsletter
   },
   data() {
     return {
-      formData: {},         
+      formData: {},
     };
   },
-  metaInfo () {
+  metaInfo() {
     return {
       title: `${this.$page.infografica.title}`,
-      titleTemplate: '%s',
+      titleTemplate: "%s",
       meta: [
         {
-          key: 'description',
-          name: 'description',
+          key: "description",
+          name: "description",
           content: `${this.$page.infografica.description}`,
         },
 
-        { property: "og:type", content: 'article' },
+        { property: "og:type", content: "article" },
         { property: "og:title", content: `${this.$page.infografica.title}` },
-        { property: "og:description", content: `${this.$page.infografica.description}` },
+        {
+          property: "og:description",
+          content: `${this.$page.infografica.description}`,
+        },
         { property: "og:url", content: `${this.postUrl}` },
-        { property: "article:published_time", content: `${this.$page.infografica.created_at}` },
+        {
+          property: "article:published_time",
+          content: `${this.$page.infografica.created_at}`,
+        },
         { property: "og:image", content: `${this.ogImageUrl}` },
 
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: `${this.$page.infografica.title}` },
-        { name: "twitter:description", content: `${this.$page.infografica.description}` },        
-        { name: "twitter:creator", content: `${this.$page.infografica.author}` },
+        {
+          name: "twitter:description",
+          content: `${this.$page.infografica.description}`,
+        },
+        {
+          name: "twitter:creator",
+          content: `${this.$page.infografica.author}`,
+        },
         { name: "twitter:image", content: `${this.ogImageUrl}` },
       ],
-    }
+    };
   },
   methods: {
     encode(data) {
@@ -109,24 +124,16 @@ export default {
       return `${this.$static.metadata.siteUrl}/logo-pillole-di-energia.png`;
     },
     postUrl() {
-      let siteUrl = this.$static.metadata.siteUrl
-      let postPath = this.$page.infografica.path
+      let siteUrl = this.$static.metadata.siteUrl;
+      let postPath = this.$page.infografica.path;
 
-      return `${siteUrl}${postPath}`
-
-  }
+      return `${siteUrl}${postPath}`;
+    },
   },
-  
-  
 };
 </script>
 
 <style scoped>
-
-
-
-
-
 .post-container {
   display: flex;
   justify-content: center;
@@ -138,16 +145,14 @@ export default {
   max-width: 700px;
 }
 
-.date{
+.date {
   text-align: center;
   font-size: 0.5em;
-  
 }
 
 .date {
   text-transform: uppercase;
   margin-bottom: -1em;
-  
 }
 
 .title {
@@ -156,14 +161,13 @@ export default {
   font-size: 1.5em;
 }
 
-.title span{
+.title span {
   margin-left: 1em;
 }
 
 .content {
   text-align: left;
 }
-
 
 @media (min-width: 930px) {
   .page {
@@ -175,6 +179,5 @@ export default {
   .zoom {
     font-size: 16px;
   }
-  
 }
 </style>

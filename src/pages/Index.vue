@@ -1,23 +1,68 @@
 <template>
   <Layout>
     <div class="question">
-      <div class="question-text-wrapper">
-        <div class="question-text">
-          <h1>
-            Quali sono i pericoli, i problemi e le opportunità legate alle
-            forniture di energia elettrica e gas del mio ristorante/hotel?
-          </h1>
-        </div>
+      <transition name="fade" mode="out-in">
+        <div
+          class="question-text-wrapper"
+          :style="`background-image: url(${images[first]})`"
+          :key="images[first]"
+        ></div>
+      </transition>
+
+      <div
+        class="question-text"
+        :class="firstImage ? 'question-text-true' : ''"
+      >
+        <p style="margin-bottom: -0.5em;">
+          In un ristorante<br />
+          la scelta<br />
+          delle materie prime<br />conta.
+        </p>
+        <p style="margin-bottom: 0.5em;">
+          <strong>Come quella dell’energia.</strong>
+        </p>
+        <p style="font-size: 0.5em;">
+          <strong style="color: green; "> Stefano Frontini </strong><br />
+
+          <strong>consulente energetico per ristoranti e hotel</strong>
+        </p>
+      </div>
+      <div
+        class="question-text"
+        :class="!firstImage ? 'question-text-true' : ''"
+      >
+        <p style="margin-bottom: -0.5em;">
+          In un hotel<br />
+          l’offerta<br />
+          del servizio<br />conta.
+        </p>
+        <p style="margin-bottom: 0.5em;">
+          <strong>Come quella dell’energia.</strong>
+        </p>
+        <p style="font-size: 0.5em;">
+          <strong style="color: green; "> Stefano Frontini </strong><br />
+
+          <strong>consulente energetico per ristoranti e hotel</strong>
+        </p>
       </div>
     </div>
     <div class="desktop">
-      <div class="section">
-        <div class="carousel">
-          <h2 class="titolo titolo-benefici">
-            Scoprilo nelle pillole di energia
-          </h2>
-          <Pillole />
-        </div>
+      <div class="pericoli">
+        <p>
+          Quali sono i <span>pericoli</span>, i <span>problemi</span> e le
+          <span>opportunità</span><br />
+
+          legate alle forniture di <strong>energia elettrica</strong> e
+          <strong>gas</strong> per il tuo ristorante/hotel?
+        </p>
+
+        <p>
+          <i
+            ><strong>Scoprilo in queste </strong>
+            <span>pillole di energia</span></i
+          >
+        </p>
+        <Pillole2 />
       </div>
 
       <div class="section">
@@ -293,10 +338,6 @@
           </div>
         </div>
       </div>
-
-      <div class="section">
-        <Newsletter />
-      </div>
     </div>
   </Layout>
 </template>
@@ -394,13 +435,14 @@ query {
 import PostCard from "~/components/PostCard.vue";
 import EpisodeCard from "~/components/EpisodeCard.vue";
 import InfograficaCard from "~/components/InfograficaCard.vue";
-import Newsletter from "~/components/Newsletter.vue";
-import Pillole from "~/components/Pillole.vue";
+
+import Pillole2 from "~/components/Pillole2.vue";
 import InstagramCardStefano from "~/components/InstagramCardStefano.vue";
 import InstagramCardRepower from "~/components/InstagramCardRepower.vue";
 import VantaggiConsulenteCard from "~/components/VantaggiConsulenteCard.vue";
 import VantaggiRepowerCard from "~/components/VantaggiRepowerCard.vue";
-
+import { Glide, GlideSlide } from "vue-glide-js";
+import "vue-glide-js/dist/vue-glide.css";
 //import ateco from "@/data/ateco.json";
 
 export default {
@@ -408,12 +450,22 @@ export default {
     PostCard,
     EpisodeCard,
     InfograficaCard,
-    Newsletter,
-    Pillole,
+    Pillole2,
     InstagramCardStefano,
     InstagramCardRepower,
     VantaggiConsulenteCard,
     VantaggiRepowerCard,
+    [Glide.name]: Glide,
+    [GlideSlide.name]: GlideSlide,
+  },
+  data() {
+    return {
+      firstImage: true,
+      images: [
+        require("../assets/chef-donna-che-cucina-piatto-vegetariano.jpeg"),
+        require("../assets/hotel.jpeg"),
+      ],
+    };
   },
   metaInfo() {
     return {
@@ -441,16 +493,52 @@ export default {
       ],
     };
   },
+  methods: {
+    changeSlide() {
+      this.firstImage = !this.firstImage;
+    },
+  },
 
   computed: {
     ogImageUrl() {
       return `${this.$static.metadata.siteUrl}/logo-pillole-di-energia.png`;
     },
+    first() {
+      if (this.firstImage) {
+        return 0;
+      } else return 1;
+    },
+  },
+  mounted() {
+    let intervalTime = 5000;
+    let slideInterval;
+    slideInterval = setInterval(this.changeSlide, intervalTime);
   },
 };
 </script>
 
 <style scoped lang="scss">
+.fade-enter-active {
+  transition: opacity 0.4s ease-in-out;
+}
+
+.fade-leave-active {
+  transition: opacity 0s ease-in-out;
+}
+
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+.pericoli p {
+  text-align: center;
+  font-size: 2em;
+  span {
+    color: $primaryColor;
+    font-weight: bold;
+  }
+}
+
 .desktop {
   max-width: 1200px;
   margin: 0 auto;
@@ -515,7 +603,7 @@ export default {
   background-position: center center;
   position: relative;
   z-index: 1;
-  opacity: 1;
+  transition: all 3s ease;
   min-height: 350px;
 }
 
@@ -544,7 +632,19 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("~@/assets/cuoco-chef.jpg");
+  color: white;
+  background-size: cover;
+  height: 70vh;
+  position: relative;
+  min-height: 250px;
+  background-position: center bottom;
+}
+
+.question-text-wrapper-second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("~@/assets/hotel.jpeg");
   color: white;
   background-size: cover;
   height: 70vh;
@@ -553,13 +653,35 @@ export default {
   opacity: 1;
   min-height: 250px;
   background-position: center bottom;
+  transition: all 3s ease;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in 1 forwards;
 }
 
 .question-text {
-  font-size: 1em;
-  color: white;
-  position: relative;
+  font-size: 1.1em;
+  color: black;
+  position: absolute;
   padding: 1em;
+  text-align: center;
+  left: -600px;
+  top: 0;
+  opacity: 0;
+}
+
+.question-text-true {
+  opacity: 1;
+  transform: translateX(600px);
+  transition: all 0.7s ease-in-out 0.3s;
 }
 
 .question-text-wrapper::before {
@@ -570,7 +692,7 @@ export default {
   right: 0;
   background-color: black;
   position: absolute;
-  opacity: 0.4;
+  opacity: 0;
   z-index: -1;
 }
 
@@ -645,7 +767,6 @@ export default {
 }
 
 a.button {
-  font-family: "radnika-medium";
   background: $primaryColor;
   padding: 0.4em;
   text-align: center;
@@ -724,7 +845,6 @@ a.button {
   position: relative;
 
   display: inline-block;
-  font-family: "radnika-medium";
 }
 
 .chiama::before {
@@ -774,10 +894,6 @@ a.button {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-}
-
-.carousel {
-  margin-top: 2em;
 }
 
 .blog-content-wrapper {

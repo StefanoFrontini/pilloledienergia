@@ -36,10 +36,6 @@
         <h5 class="torna">
           Torna a: <span><g-link to="/blog">Blog</g-link></span>
         </h5>
-
-        <div class="section">
-          <Newsletter />
-        </div>
       </div>
     </div>
   </Layout>
@@ -80,11 +76,10 @@ query {
 
 <script>
 import SocialSharing from "~/components/SocialSharing.vue";
-import Newsletter from "~/components/Newsletter.vue";
+
 export default {
   components: {
     SocialSharing,
-    Newsletter,
   },
   data() {
     return {

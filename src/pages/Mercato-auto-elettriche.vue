@@ -61,7 +61,6 @@
           />
         </div>
       </div>
-      <Newsletter />
     </div>
   </Layout>
 </template>
@@ -83,14 +82,14 @@ import AutoElettricheData from "@/data/mensile-auto-elettriche.json";
 import CumulatoAutoElettricheData from "@/data/cumulato-auto-elettriche.json";
 import MensileImmatricolazioniData from "@/data/mensileImmatricolazioni.json";
 import MensileImmatricolazioni from "../components/MensiliImmatricolazioni.vue";
-import Newsletter from "~/components/Newsletter.vue";
+
 import SocialSharing from "~/components/SocialSharing.vue";
 
 export default {
   components: {
     AutoElettriche,
     MensileImmatricolazioni,
-    Newsletter,
+
     SocialSharing,
     CumulatoAutoElettriche,
   },
