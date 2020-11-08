@@ -136,10 +136,6 @@
             </p>
           </div>
         </div>
-
-        <div class="section">
-          <Newsletter />
-        </div>
       </div>
     </div>
   </Layout>
@@ -156,12 +152,8 @@ query {
 </static-query>
 
 <script>
-import Newsletter from "~/components/Newsletter.vue";
-
 export default {
-  components: {
-    Newsletter,
-  },
+  components: {},
   metaInfo() {
     return {
       title: "Chi sono | Pillole di Energia",

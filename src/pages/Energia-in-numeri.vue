@@ -1,19 +1,15 @@
 <template>
   <Layout>
-    
     <h1 class="blog-title">Energia in numeri</h1>
     <div class="post-wrapper">
       <div class="post">
-    <InfograficaCard
-      v-for="edge in $page.infografiche.edges"
-      :key="edge.node.id"
-      :infografica="edge.node"
-    />
+        <InfograficaCard
+          v-for="edge in $page.infografiche.edges"
+          :key="edge.node.id"
+          :infografica="edge.node"
+        />
+      </div>
     </div>
-    
-    </div>
-    <Newsletter />
-   
   </Layout>
 </template>
 
@@ -25,15 +21,15 @@ query {
       node{
         id
         title
-        description 
+        description
         path
         created_at (format: "D MMMM YYYY", locale: "it")
         author
       }
     }
-    
+
   }
-  
+
 }
 
 
@@ -41,17 +37,15 @@ query {
 
 <script>
 import InfograficaCard from "~/components/InfograficaCard.vue";
-import Newsletter from "~/components/Newsletter.vue";
 
 export default {
   components: {
     InfograficaCard,
-    Newsletter
   },
 
   metaInfo: {
     title: "Energia in numeri | Pillole di Energia",
-    titleTemplate: '%s',
+    titleTemplate: "%s",
   },
 };
 </script>
@@ -62,17 +56,15 @@ export default {
   font-size: 1.5em;
 }
 
-.post-wrapper{
+.post-wrapper {
   display: flex;
   justify-content: center;
 }
 
-.post{  
+.post {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-
-
 </style>

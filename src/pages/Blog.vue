@@ -11,7 +11,6 @@
           />
         </div>
       </div>
-      <Newsletter />
     </div>
   </Layout>
 </template>
@@ -32,9 +31,9 @@ query {
         author
       }
     }
-    
+
   }
-  
+
 }
 
 
@@ -42,12 +41,10 @@ query {
 
 <script>
 import PostCard from "~/components/PostCard.vue";
-import Newsletter from "~/components/Newsletter.vue";
 
 export default {
   components: {
     PostCard,
-    Newsletter,
   },
 
   metaInfo: {
@@ -58,7 +55,6 @@ export default {
 </script>
 
 <style scoped>
-
 .page-blog {
   margin: 0 auto;
   max-width: 1200px;

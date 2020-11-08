@@ -3,15 +3,13 @@
     <h1 class="blog-title">Episodi</h1>
     <div class="post-wrapper">
       <div class="post">
-    <EpisodeCard
-      v-for="edge in $page.episodes.edges"
-      :key="edge.node.id"
-      :episode="edge.node"
-    />
+        <EpisodeCard
+          v-for="edge in $page.episodes.edges"
+          :key="edge.node.id"
+          :episode="edge.node"
+        />
+      </div>
     </div>
-    
-    </div>
-    <Newsletter />
   </Layout>
 </template>
 
@@ -31,9 +29,9 @@ query {
         author
       }
     }
-    
+
   }
-  
+
 }
 
 
@@ -46,12 +44,11 @@ import Newsletter from "~/components/Newsletter.vue";
 export default {
   components: {
     EpisodeCard,
-    Newsletter
   },
 
   metaInfo: {
     title: "Episodi | Pillole di Energia",
-    titleTemplate: '%s',
+    titleTemplate: "%s",
   },
 };
 </script>
@@ -62,13 +59,12 @@ export default {
   font-size: 1.5em;
 }
 
-.post-wrapper{
+.post-wrapper {
   display: flex;
   justify-content: center;
-  
 }
 
-.post{  
+.post {
   width: 60%;
 }
 </style>

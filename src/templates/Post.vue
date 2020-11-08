@@ -36,10 +36,6 @@
         <h5 class="torna">
           Torna a: <span><g-link to="/blog">Blog</g-link></span>
         </h5>
-
-        <div class="section">
-          <Newsletter />
-        </div>
       </div>
     </div>
   </Layout>
@@ -80,11 +76,10 @@ query {
 
 <script>
 import SocialSharing from "~/components/SocialSharing.vue";
-import Newsletter from "~/components/Newsletter.vue";
+
 export default {
   components: {
     SocialSharing,
-    Newsletter,
   },
   data() {
     return {
@@ -127,27 +122,7 @@ export default {
       ],
     };
   },
-  methods: {
-    encode(data) {
-      return Object.keys(data)
-        .map(
-          (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-        )
-        .join("&");
-    },
-    handleSubmit(e) {
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: this.encode({
-          "form-name": e.target.getAttribute("name"),
-          ...this.formData,
-        }),
-      })
-        .then(() => this.$router.push("/success"))
-        .catch((error) => alert(error));
-    },
-  },
+
   computed: {
     ogImageUrl() {
       return (

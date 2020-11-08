@@ -31,8 +31,6 @@
           description="Testimonianze"
           url="testimonianze"
         />
-
-        <Newsletter />
       </div>
     </div>
   </Layout>
@@ -49,12 +47,10 @@ query {
 </static-query>
 
 <script>
-import Newsletter from "~/components/Newsletter.vue";
 import SocialSharing from "~/components/SocialSharing.vue";
 
 export default {
   components: {
-    Newsletter,
     SocialSharing,
   },
   metaInfo() {

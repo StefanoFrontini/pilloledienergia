@@ -34,9 +34,7 @@
             <g-link class="nav__link" to="/mercato-auto-elettriche"
               >Auto Elettriche</g-link
             >
-            <g-link class="nav__link" to="/stazioni-ricarica-veicoli-elettrici/"
-              >Stazioni</g-link
-            >
+
             <g-link class="nav__link" to="/episodi">Impara</g-link>
             <g-link class="nav__link" to="/analisi-iva-accise-agevolate"
               >Check-up iva accise</g-link
@@ -60,7 +58,7 @@
         <div class="footer-b">
           <div class="contact">
             <p>
-              <strong>STEFANO FRONTINI</strong>
+              STEFANO FRONTINI
               <br />
               SEDE LEGALE via B. Eustachi 50 - 20129 Milano
               <br />
@@ -115,6 +113,7 @@ export default {
 </script>
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap");
 
 @font-face {
   font-family: "radnika-medium";
@@ -126,22 +125,23 @@ export default {
 
 html,
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "GFS Didot", serif;
   margin: 0;
   padding: 0;
-  line-height: 1.5;
+  line-height: 1.2;
   box-sizing: border-box;
   color: #1b1b1b;
   overflow-x: hidden;
   position: relative;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "radnika-medium";
+  font-family: "radnika-medium", sans-serif;
 }
 
 ::selection {
@@ -166,8 +166,12 @@ a:hover {
   padding: 0 5px;
 }
 
+.radnika {
+  font-family: "radnika-medium", sans-serif;
+}
+
 .grassetto {
-  font-family: "radnika-medium";
+  font-weight: bold;
 }
 
 blockquote::before {
@@ -178,8 +182,9 @@ blockquote::before {
 blockquote {
   border-left: 0.3em solid $primaryColor;
   padding: 0 15px;
+  font-family: "radnika-medium", sans-serif;
   font-style: italic;
-  font-family: "radnika-medium";
+
   quotes: "\201C""\201D""\2018""\2019";
 }
 
@@ -248,12 +253,9 @@ blockquote::after {
 
 .nav__link {
   text-decoration: none;
-  letter-spacing: 3px;
-  font-weight: bold;
+  font-family: "radnika-medium", sans-serif;
   text-transform: uppercase;
-  font-size: 0.6em;
-  color: white;
-  font-family: "radnika-medium";
+  font-size: 0.8em;
 }
 
 .footer-a {
