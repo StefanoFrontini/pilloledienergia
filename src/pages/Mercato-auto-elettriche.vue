@@ -46,19 +46,31 @@
             </li>
           </ul>
 
-          <div class="call">
-            <p>
-              <g-link to="/contatti/">Contattami</g-link> per avere a fianco del
-              tuo ristorante/hotel una persona che ti aiuta a cogliere tutte le
-              opportunità della mobilità elettrica.
-            </p>
-          </div>
-
           <SocialSharing
             title="Andamento mercato auto elettriche"
             description="Andamento mercato auto elettriche in Italia"
             url="mobilita-elettrica"
           />
+        </div>
+      </div>
+
+      <div class="page-contatti">
+        <h2>
+          Quante stazioni di ricarica ci sono vicino al mio ristorante/hotel?
+        </h2>
+        <iframe
+          src="https://map.openchargemap.io/?mode=embedded"
+          allow="geolocation"
+          frameborder="0"
+          width="100%"
+          height="500px"
+        ></iframe>
+        <div class="call">
+          <p>
+            <g-link to="/contatti/">Contattami</g-link> per avere a fianco del
+            tuo ristorante/hotel una persona che ti aiuta a cogliere tutte le
+            opportunità della mobilità elettrica.
+          </p>
         </div>
       </div>
     </div>
@@ -185,6 +197,10 @@ export default {
   border-left: 0.3em solid $primaryColor;
   padding: 0 15px;
   font-style: italic;
-  font-family: "radnika-medium";
+  font-family: "radnika-medium", sans-serif;
+}
+
+.page-contatti {
+  text-align: center;
 }
 </style>

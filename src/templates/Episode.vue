@@ -99,27 +99,7 @@ export default {
       ],
     };
   },
-  methods: {
-    encode(data) {
-      return Object.keys(data)
-        .map(
-          (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-        )
-        .join("&");
-    },
-    handleSubmit(e) {
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: this.encode({
-          "form-name": e.target.getAttribute("name"),
-          ...this.formData,
-        }),
-      })
-        .then(() => this.$router.push("/success"))
-        .catch((error) => alert(error));
-    },
-  },
+
   computed: {
     ogImageUrl() {
       return `${this.$static.metadata.siteUrl}/logo-pillole-di-energia.png`;

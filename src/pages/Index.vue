@@ -8,43 +8,39 @@
           :key="images[first]"
         ></div>
       </transition>
+      <transition name="slide">
+        <div v-if="firstImage" class="question-text" :key="images[first]">
+          <p style="margin-bottom: -0.5em;">
+            In un ristorante<br />
+            la scelta<br />
+            delle materie prime<br />conta.
+          </p>
+          <p style="margin-bottom: 0.5em;">
+            <strong>Come quella dell’energia.</strong>
+          </p>
+          <p style="font-size: 0.5em;">
+            <strong style="color: green; "> Stefano Frontini </strong><br />
 
-      <div
-        class="question-text"
-        :class="firstImage ? 'question-text-true' : ''"
-      >
-        <p style="margin-bottom: -0.5em;">
-          In un ristorante<br />
-          la scelta<br />
-          delle materie prime<br />conta.
-        </p>
-        <p style="margin-bottom: 0.5em;">
-          <strong>Come quella dell’energia.</strong>
-        </p>
-        <p style="font-size: 0.5em;">
-          <strong style="color: green; "> Stefano Frontini </strong><br />
+            <strong>consulente energetico per ristoranti e hotel</strong>
+          </p>
+        </div>
 
-          <strong>consulente energetico per ristoranti e hotel</strong>
-        </p>
-      </div>
-      <div
-        class="question-text"
-        :class="!firstImage ? 'question-text-true' : ''"
-      >
-        <p style="margin-bottom: -0.5em;">
-          In un hotel<br />
-          l’offerta<br />
-          del servizio<br />conta.
-        </p>
-        <p style="margin-bottom: 0.5em;">
-          <strong>Come quella dell’energia.</strong>
-        </p>
-        <p style="font-size: 0.5em;">
-          <strong style="color: green; "> Stefano Frontini </strong><br />
+        <div v-else class="question-text" :key="images[first]">
+          <p style="margin-bottom: -0.5em;">
+            In un hotel<br />
+            l’offerta<br />
+            del servizio<br />conta.
+          </p>
+          <p style="margin-bottom: 0.5em;">
+            <strong>Come quella dell’energia.</strong>
+          </p>
+          <p style="font-size: 0.5em;">
+            <strong style="color: green; "> Stefano Frontini </strong><br />
 
-          <strong>consulente energetico per ristoranti e hotel</strong>
-        </p>
-      </div>
+            <strong>consulente energetico per ristoranti e hotel</strong>
+          </p>
+        </div>
+      </transition>
     </div>
     <div class="desktop">
       <div class="pericoli">
@@ -129,31 +125,6 @@
 
       <div class="box-container">
         <InstagramCardRepower />
-      </div>
-
-      <div class="section">
-        <div class="testimonianze">
-          <h2 class="titolo">
-            Testimonianze
-          </h2>
-
-          <div class="testimonianze-wrapper">
-            <p class="grassetto">
-              Ristorante <a href="https://lacolubrina.it/">La Colubrina</a> di
-              Milano
-            </p>
-            <iframe
-              title="Video testimonianza Ristorante La Colubrina"
-              width="560"
-              height="315"
-              data-src="https://www.youtube.com/embed/wvBmXA-YFuc"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/wvBmXA-YFuc?autoplay=1><img src=https://img.youtube.com/vi/wvBmXA-YFuc/hqdefault.jpg alt='Video testimonianza Ristorante La Colubrina'><span>▶</span></a>"
-            ></iframe>
-          </div>
-        </div>
       </div>
 
       <div class="section">
@@ -283,7 +254,7 @@
               <p>Quante colonnine ci sono vicino al mio ristorante/hotel?</p>
               <p>
                 Scoprilo nella sezione
-                <g-link class="button" to="/stazioni-ricarica-veicoli-elettrici"
+                <g-link class="button" to="/mercato-auto-elettriche"
                   >STAZIONI DI RICARICA</g-link
                 >
               </p>
@@ -294,7 +265,7 @@
 
       <div class="section">
         <div class="blog">
-          <h2 class="titolo titolo-blog">Ultime dal blog</h2>
+          <h2 class="titolo titolo-blog">Ultimissime dal blog</h2>
           <div class="blog-content-wrapper">
             <div class="blog-content">
               <PostCard
@@ -345,7 +316,7 @@
 <page-query>
 
 query {
-  posts: allPost(sort:{by:"created_at", order: DESC}, filter: { published: { eq: true }}, limit: 3) {
+  posts: allPost(sort:{by:"created_at", order: DESC}, filter: { published: { eq: true }}, limit: 1) {
     edges{
       node{
         id
@@ -360,7 +331,7 @@ query {
     }
 
   }
-  episodes: allEpisode(sort:{by:"created_at", order: DESC}, filter: { published: { eq: true }}, limit: 3) {
+  episodes: allEpisode(sort:{by:"created_at", order: DESC}, filter: { published: { eq: true }}, limit: 1) {
     edges{
       node{
         id
@@ -523,16 +494,31 @@ export default {
 }
 
 .fade-leave-active {
-  transition: opacity 0s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
 }
 
-.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+.fade-enter,
+.fade-leave-to {
   opacity: 0;
+}
+
+.slide-enter-active {
+  transition: transform 0.4s ease-in-out 0.3s, opacity 1.5s ease-in-out;
+}
+
+.slide-leave-active {
+  transition: transform 0.4s ease-in-out 0.3s, opacity 0.6s ease-in-out;
+}
+
+.slide-enter,
+.slide-leave-to {
+  opacity: 0;
+  transform: translateX(-600px);
 }
 
 .pericoli p {
   text-align: center;
-  font-size: 2em;
+  font-size: 1.2em;
   span {
     color: $primaryColor;
     font-weight: bold;
@@ -640,60 +626,14 @@ export default {
   background-position: center bottom;
 }
 
-.question-text-wrapper-second {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url("~@/assets/hotel.jpeg");
-  color: white;
-  background-size: cover;
-  height: 70vh;
-  position: relative;
-  z-index: -2;
-  opacity: 1;
-  min-height: 250px;
-  background-position: center bottom;
-  transition: all 3s ease;
-}
-
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
-}
-
-.fade-in {
-  opacity: 0;
-  animation: fadeIn 0.5s ease-in 1 forwards;
-}
-
 .question-text {
-  font-size: 1.1em;
+  font-size: 1.2em;
   color: black;
   position: absolute;
   padding: 1em;
   text-align: center;
-  left: -600px;
-  top: 0;
-  opacity: 0;
-}
-
-.question-text-true {
-  opacity: 1;
-  transform: translateX(600px);
-  transition: all 0.7s ease-in-out 0.3s;
-}
-
-.question-text-wrapper::before {
-  content: "";
-  top: 0;
-  bottom: 0;
   left: 0;
-  right: 0;
-  background-color: black;
-  position: absolute;
-  opacity: 0;
-  z-index: -1;
+  top: 0;
 }
 
 .soluzione-text-wrapper {
@@ -882,18 +822,10 @@ a.button {
 .question,
 .soluzione,
 .me,
-.testimonianze,
 .vantaggi-repower {
   width: 100%;
   position: relative;
   display: inline-block;
-}
-
-.testimonianze-wrapper {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
 }
 
 .blog-content-wrapper {
@@ -925,7 +857,7 @@ a.button {
 
 @media (min-width: 550px) {
   .question {
-    height: 90vh;
+    height: 100vh;
     min-height: 250px;
     background-position: center center;
   }
@@ -938,6 +870,12 @@ a.button {
   }
   .desktop {
     margin-top: -5em;
+  }
+}
+
+@media (min-width: 650px) {
+  .question {
+    height: 90vh;
   }
 }
 
@@ -994,9 +932,9 @@ a.button {
     height: 30vh;
   }
   .question {
-    height: 50vh;
+    height: 53vh;
     min-height: 250px;
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   .foto::before {
@@ -1020,7 +958,7 @@ a.button {
 @media (min-width: 800px) {
   .question {
     height: 70vh;
-    font-size: 1em;
+    font-size: 1.2em;
   }
   .desktop {
     margin-top: 0em;
@@ -1029,7 +967,6 @@ a.button {
 
 @media (min-width: 1000px) {
   .question {
-    height: 70vh;
     font-size: 2em;
     min-height: 525px;
   }
@@ -1044,6 +981,9 @@ a.button {
     font-size: 2em;
   }
   .check-up-iva-text {
+    font-size: 2em;
+  }
+  .pericoli p {
     font-size: 2em;
   }
 }
@@ -1080,7 +1020,6 @@ a.button {
     height: 280px;
   }
   .question {
-    height: 60vh;
     min-height: 700px;
   }
 
@@ -1090,9 +1029,6 @@ a.button {
 }
 
 @media (min-width: 1300px) {
-  .question {
-    height: 70vh;
-  }
   .foto {
     margin-top: 2.5em;
   }

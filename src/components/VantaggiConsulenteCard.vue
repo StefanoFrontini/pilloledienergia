@@ -78,11 +78,11 @@ export default {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 0.8em;
-  font-family: "radnika-medium";
+  font-family: "radnika-medium", sans-serif;
 }
 
 a.button {
-  font-family: "radnika-medium";
+  font-family: "radnika-medium", sans-serif;
   background: $primaryColor;
   padding: 0.4em;
   text-align: center;
