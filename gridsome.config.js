@@ -15,7 +15,7 @@ function addStyleResource(rule) {
 }
 
 module.exports = {
-  siteName: "Consulente energetico per ristoranti e hotel",
+  siteName: "Stefano Frontini consulente energetico per ristoranti e hotel",
   siteDescription:
     "Il vero risparmio nella bolletta della luce e del gas? Assistenza da parte di un bravo consulente e una società di fornitura seria, innovativa e solida",
   siteUrl: "https://pilloledienergia.com",

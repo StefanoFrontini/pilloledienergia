@@ -20,7 +20,7 @@
         </div>
         <div>
           <label class="tel" for="tel">Telefono</label>
-          <input type="tel" name="tel" v-model="formData.telephone" />
+          <input type="tel" name="tel" v-model="formData.tel" />
         </div>
         <div>
           <label class="email" for="email">Email</label>
@@ -66,7 +66,7 @@
 export default {
   data() {
     return {
-      formData: { email: "", telephone: "" },
+      formData: { email: "", tel: "" },
       messages: [],
     };
   },
@@ -81,7 +81,7 @@ export default {
     handleSubmit(e) {
       this.messages = [];
 
-      if (this.formData.email == "" && this.formData.telephone == "") {
+      if (this.formData.email == "" && this.formData.tel == "") {
         this.messages.push(
           "E' necessario inserire il numero di telefono o un indirizzo email!"
         );
@@ -91,7 +91,7 @@ export default {
         this.messages.push("E' necessario dare il consenso all'uso dei dati!");
       }
       if (
-        (this.formData.email !== "" || this.formData.telephone !== "") &&
+        (this.formData.email !== "" || this.formData.tel !== "") &&
         this.formData.consenso == true
       ) {
         fetch("/", {
@@ -126,7 +126,7 @@ export default {
 .email,
 .message,
 .tel {
-  font-family: "radnika-medium";
+  font-family: "radnika-medium", sans-serif;
   font-weight: bold;
   display: block;
   margin-top: 1.2em;

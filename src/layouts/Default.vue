@@ -29,6 +29,9 @@
             <g-link class="nav__link" to="/testimonianze/"
               >Testimonianze</g-link
             >
+            <g-link class="nav__link" to="/check-up-energetico/"
+              >Check up energetico</g-link
+            >
             <g-link class="nav__link" to="/blog/">Blog</g-link>
             <g-link class="nav__link" to="/mercato">Mercato</g-link>
             <g-link class="nav__link" to="/mercato-auto-elettriche"

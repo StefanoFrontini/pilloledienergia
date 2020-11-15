@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="question">
-      <transition name="fade" mode="out-in">
+      <transition appear name="fade" mode="out-in">
         <div
           class="question-text-wrapper"
           :style="`background-image: url(${images[first]})`"
