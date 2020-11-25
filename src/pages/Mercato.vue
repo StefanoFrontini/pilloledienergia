@@ -124,7 +124,7 @@ export default {
   },
   metaInfo() {
     return {
-      title: "Andamento mercati energetici italiani",
+      title: "Andamento mercati energetici italiani | Pillole di Energia",
       titleTemplate: "%s",
       meta: [
         {
@@ -145,7 +145,7 @@ export default {
         },
         {
           property: "og:url",
-          content: `${this.$static.metadata.siteUrl}/mercato`,
+          content: `${this.$static.metadata.siteUrl}/mercato/`,
         },
         { property: "og:image", content: `${this.ogImageUrl}` },
 
@@ -161,7 +161,7 @@ export default {
         },
         {
           name: "twitter:site",
-          content: `${this.$static.metadata.siteUrl}/mercato`,
+          content: `${this.$static.metadata.siteUrl}/mercato/`,
         },
         { name: "twitter:creator", content: "Stefano Frontini" },
         { name: "twitter:image", content: `${this.ogImageUrl}` },

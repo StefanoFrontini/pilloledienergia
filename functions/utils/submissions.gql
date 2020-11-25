@@ -1,0 +1,24 @@
+type Submission {
+  created: String
+  form: String
+  nome: String
+  email: String
+  domanda1: String
+  domanda2: String
+  domanda3: String
+  domanda4: String
+  domanda5: String
+  domanda6: String
+  domanda7: String
+  domanda8: String
+  domanda9: String
+  domanda10: String
+  numerosi: String
+  numerono: String
+  iva: String
+  accise: String
+}
+
+type Query {
+  allSubmissions: [Submission!]!
+}

@@ -4,7 +4,11 @@
       <transition appear name="fade" mode="out-in">
         <div
           class="question-text-wrapper"
-          :style="`background-image: url(${images[first]})`"
+          :style="
+            `background-image: url(${images[first]}); background-position: ${
+              imagesPosition[first]
+            }`
+          "
           :key="images[first]"
         ></div>
       </transition>
@@ -76,12 +80,12 @@
               </p>
               <p>
                 Il <span class="grassetto">VERO RISPARMIO</span> nella bolletta
-                della luce e del gas? L'assistenza continua da parte di un
+                della luce e del gas? L’assistenza continua da parte di un
                 <span class="grassetto"
-                  >BRAVO CONSULENTE ENERGETICO SPECIALIZZATO</span
+                  >CONSULENTE ENERGETICO SPECIALIZZATO</span
                 >
                 e una società di fornitura
-                <span class="grassetto">SERIA, INNOVATIVA e SOLIDA</span>.
+                <span class="grassetto">SERIA, INNOVATIVA e TRASPARENTE</span>.
               </p>
             </div>
           </div>
@@ -130,17 +134,17 @@
       <div class="section">
         <div class="check-up-energetico">
           <h2 class="titolo titolo-check-up-energetico">
-            Check-up energetico di base gratuito
+            Check-up energetico gratuito
           </h2>
           <div class="check-up-energetico-text-wrapper">
             <div class="check-up-energetico-text">
               <p>
-                Sei sicuro di gestire con il massimo dell'efficienza le
+                Sei sicuro di gestire con il massimo dell’efficienza le
                 forniture di energia del tuo ristorante/hotel?
               </p>
               <p>
-                <a class="button" href="/check-up-energetico.pdf" download
-                  >SCARICA IL CHECK-UP DI BASE</a
+                <a class="button" href="/check-up-energetico/"
+                  >ESEGUI IL CHECK-UP ENERGETICO GRATUITO</a
                 >
               </p>
               <p>oppure</p>
@@ -162,7 +166,7 @@
           <div class="check-up-iva-text-wrapper">
             <div class="check-up-iva-text">
               <p>
-                Sei sicuro che l'IVA e le accise della bolletta della luce e del
+                Sei sicuro che l’IVA e le accise della bolletta della luce e del
                 gas del tuo ristorante/hotel siano applicate in maniera
                 corretta?
               </p>
@@ -225,7 +229,7 @@
           <h2 class="titolo titolo-mercato">Mercati energetici</h2>
           <div class="mercato-wrapper">
             <div class="mercato-text">
-              <p>Qual è l'andamento dei mercati energetici italiani?</p>
+              <p>Qual è l’andamento dei mercati energetici italiani?</p>
               <p>
                 Scoprilo nella sezione
                 <g-link class="button" to="/mercato">MERCATI ENERGETICI</g-link>
@@ -243,7 +247,7 @@
           <div class="mercato-auto-elettriche-wrapper">
             <div class="mercato-text">
               <p>
-                Qual è l'andamento del mercato italiano delle auto elettriche?
+                Qual è l’andamento del mercato italiano delle auto elettriche?
               </p>
               <p>
                 Scoprilo nella sezione
@@ -281,7 +285,7 @@
       <div class="section">
         <div class="episodi">
           <h2 class="titolo titolo-episodi">
-            Impara qualcosa di nuovo sull'energia
+            Impara qualcosa di nuovo sull’energia
           </h2>
           <div class="blog-content-wrapper">
             <div class="blog-content">
@@ -297,7 +301,7 @@
 
       <div class="section">
         <div class="infografiche">
-          <h2 class="titolo titolo-infografiche">L'energia in numeri</h2>
+          <h2 class="titolo titolo-infografiche">L’energia in numeri</h2>
           <div class="blog-content-wrapper">
             <div class="blog-content">
               <InfograficaCard
@@ -436,6 +440,7 @@ export default {
         require("../assets/chef-donna-che-cucina-piatto-vegetariano.jpeg"),
         require("../assets/hotel.jpeg"),
       ],
+      imagesPosition: ["center bottom", "top center"],
     };
   },
   metaInfo() {
