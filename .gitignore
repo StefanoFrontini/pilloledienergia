@@ -11,4 +11,3 @@ pilloledienergia_api
 # Local Netlify folder
 .netlify
 
-src/pages/check-up-energetico.vue

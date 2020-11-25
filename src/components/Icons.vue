@@ -28,12 +28,12 @@
           <font-awesome :icon="['fab', 'youtube']"
         /></a>
         <a
-          href="https://www.pinterest.it/pilloledienergia/pins/"
-          aria-label="pinterest"
+          href="https://www.instagram.com/pilloledienergia/?hl=it"
+          aria-label="instagram"
           target="_blank"
           rel="noopener"
         >
-          <font-awesome :icon="['fab', 'pinterest']"
+          <font-awesome :icon="['fab', 'instagram']"
         /></a>
       </div>
     </div>

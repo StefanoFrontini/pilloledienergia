@@ -29,18 +29,21 @@
             <g-link class="nav__link" to="/testimonianze/"
               >Testimonianze</g-link
             >
+            <g-link class="nav__link" to="/check-up-energetico/"
+              >Check-up energetico</g-link
+            >
             <g-link class="nav__link" to="/blog/">Blog</g-link>
             <g-link class="nav__link" to="/mercato">Mercato</g-link>
-            <g-link class="nav__link" to="/mercato-auto-elettriche"
+            <g-link class="nav__link" to="/mercato-auto-elettriche/"
               >Auto Elettriche</g-link
             >
 
             <g-link class="nav__link" to="/episodi">Impara</g-link>
-            <g-link class="nav__link" to="/analisi-iva-accise-agevolate"
+            <g-link class="nav__link" to="/analisi-iva-accise-agevolate/"
               >Check-up iva accise</g-link
             >
-            <g-link class="nav__link" to="/energia-in-numeri">Numeri</g-link>
-            <g-link class="nav__link" to="/contatti">Contatti</g-link>
+            <g-link class="nav__link" to="/energia-in-numeri/">Numeri</g-link>
+            <g-link class="nav__link" to="/contatti/">Contatti</g-link>
           </nav>
           <div class="burger" @click="toggleMenu">
             <div class="line"></div>
@@ -58,24 +61,25 @@
         <div class="footer-b">
           <div class="contact">
             <p>
-              STEFANO FRONTINI
-              <br />
-              SEDE LEGALE via B. Eustachi 50 - 20129 Milano
-              <br />
-              P.IVA 10196830961
-              <br />
-              EMAIL stefano.frontini@con.repower.com
-              <br />
-              PEC stefanofrontini75@pec.net
-              <br />
+              <span class="pill"
+                >pillole di energia © {{ new Date().getFullYear() }}</span
+              >
+              <br /><strong
+                >Stefano Frontini consulente energetico per ristoranti e
+                hotel</strong
+              ><br />
+              <a href="https://www.pilloledienergia.com/"
+                >www.pilloledienergia.com</a
+              ><br />
+              <a href="mailto:stefano.frontini@con.repower.com"
+                >stefano.frontini@con.repower.com</a
+              ><br />
+              cell: 335.103.03.01
             </p>
             <p>
               I tuoi dati sono al sicuro. Leggi l'<g-link to="/privacy"
                 >informativa privacy</g-link
               >.
-            </p>
-            <p class="pillole">
-              pillole di energia © {{ new Date().getFullYear() }}.
             </p>
           </div>
         </div>
@@ -272,14 +276,19 @@ blockquote::after {
 }
 
 .contact {
-  font-size: 0.7em;
+  text-align: center;
+  a {
+    color: white;
+  }
+  a:hover {
+    color: $primaryColor;
+  }
 }
 
-.pillole {
-  letter-spacing: 3px;
-  font-weight: bold;
+.pill {
   text-transform: uppercase;
-  font-size: 0.7em;
+  color: $primaryColor;
+  font-size: 0.8em;
 }
 
 .burger {

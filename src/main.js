@@ -9,7 +9,7 @@ import {
   faFacebook,
   faLinkedin,
   faYoutube,
-  faPinterest,
+  faInstagram,
   faTwitter,
   faEnvira,
 } from "@fortawesome/free-brands-svg-icons";
@@ -41,7 +41,7 @@ library.add(
   faFacebook,
   faLinkedin,
   faYoutube,
-  faPinterest,
+  faInstagram,
   faPhone,
   faEnvelope,
   faTwitter,
