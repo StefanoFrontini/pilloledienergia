@@ -642,23 +642,38 @@ export default {
       }
     },
 
-    encode(data) {
+    /* encode(data) {
       return Object.keys(data)
         .map(
           (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
         )
         .join("&");
-    },
-    handleSubmit(e) {
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: this.encode({
+    }, */
+    async handleSubmit(e) {
+      try {
+        const response = await axios.post(
+          "/.netlify/functions/submissions",
+          this.formData
+        );
+        this.serverResponse = response.data.message;
+
+        /* {
+
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: JSON.stringify(this.formData),
+          this.encode({
           "form-name": e.target.getAttribute("name"),
           ...this.formData,
         }),
-      })
-        /* const axiosConfig = {
+        }); */
+      } catch (error) {
+        this.serverResponse =
+          "Ops...c'è stato un errore.<br /> Contattami all'indirizzo email:<br /> stefano.frontini@con.repower.com<br /> per avere il risultato del check-up";
+      } finally {
+        this.message = "Elaboro i dati...";
+      }
+
+      /* const axiosConfig = {
         header: { "Content-Type": "application/x-www-form-urlencoded" },
       };
       axios
@@ -670,14 +685,14 @@ export default {
           }),
           axiosConfig
         ) */
-        .then((response) => {
+      /*    .then((response) => {
           this.serverResponse = response.data.message;
         })
         .catch((error) => {
           this.serverResponse =
-            "Ops...c'è stato un errore.<br /> Contattami all'indirizzo email:<br /> stefano.frontini@con.repower<br /> per avere il risultato del check-up";
+            "Ops...c'è stato un errore.<br /> Contattami all'indirizzo email:<br /> stefano.frontini@con.repower.com<br /> per avere il risultato del check-up";
         })
-        .then((this.message = "Elaboro i dati..."));
+        .then((this.message = "Elaboro i dati...")); */
 
       //console.log("formdata:", this.formData);
       /* this.$router.push("/grazie-mille");

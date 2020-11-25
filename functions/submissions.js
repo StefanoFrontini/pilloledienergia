@@ -15,8 +15,8 @@ const { sufficiente } = require("./utils/sufficiente.js");
 const { buono } = require("./utils/buono.js"); */
 
 exports.handler = async (event) => {
-  const payload = JSON.parse(event.body).payload;
-  console.log(`Payload: ${JSON.stringify(payload)}`);
+  const payload = JSON.parse(event.body);
+  //console.log(`Payload: ${JSON.stringify(payload)}`);
   const {
     form,
     email,
@@ -35,7 +35,7 @@ exports.handler = async (event) => {
     numerono,
     iva,
     accise,
-  } = payload.data;
+  } = payload;
 
   const buono = `
 <!doctype html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head><title></title><!--[if !mso]><!-- --><meta http-equiv="X-UA-Compatible" content="IE=edge"><!--<![endif]--><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style type="text/css">#outlook a { padding:0; }
@@ -163,7 +163,7 @@ td.full-width-mobile { width: auto !important; }
     accise,
   };
 
-  const CREATE_LINK = `mutation($created: String, $form: String, $email: String, $nome: String, $domanda1: String, $domanda2: String, $domanda3: String, $domanda4: String, $domanda5: String, $domanda6: String, $domanda7: String, $domanda8: String, $domanda9: String, $domanda10: String, $numerosi: String, $numerono: String, $iva: String, $accise: String) {
+  const CREATE_LINK = `mutation($created: String, $form: String, $email: String, $nome: String, $domanda1: String, $domanda2: String, $domanda3: String, $domanda4: String, $domanda5: String, $domanda6: String, $domanda7: String, $domanda8: String, $domanda9: String, $domanda10: String, $numerosi: Int, $numerono: Int, $iva: Boolean, $accise: Boolean) {
     createSubmission(data: {created:$created, form:$form, nome:$nome, email:$email, domanda1:$domanda1,domanda2:$domanda2,domanda3:$domanda3,domanda4:$domanda4,domanda5:$domanda5,domanda6:$domanda6,domanda7:$domanda7,domanda8:$domanda8,domanda9:$domanda9,domanda10:$domanda10, numerosi:$numerosi, numerono:$numerono, iva:$iva, accise:$accise }){
       created,
       form,
@@ -205,6 +205,7 @@ td.full-width-mobile { width: auto !important; }
     const info = await transporter.sendMail({
       from: '"Stefano Frontini" <info@pilloledienergia.com>',
       to: email,
+      bcc: "stefano.frontini@con.repower.com",
       subject: `Il tuo report è pronto ${nome}!`,
       html: risultatoCheckup(numerosi, buono, sufficiente, insufficiente),
     });

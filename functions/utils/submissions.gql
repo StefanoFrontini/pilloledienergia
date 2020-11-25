@@ -13,10 +13,10 @@ type Submission {
   domanda8: String
   domanda9: String
   domanda10: String
-  numerosi: String
-  numerono: String
-  iva: String
-  accise: String
+  numerosi: Int
+  numerono: Int
+  iva: Boolean
+  accise: Boolean
 }
 
 type Query {
