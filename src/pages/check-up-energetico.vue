@@ -665,7 +665,7 @@ export default {
       };
       axios
         .post(
-          location.href,
+          "/",
           this.encode({
             "form-name": e.target.getAttribute("name"),
             ...this.formData,
@@ -1046,7 +1046,7 @@ export default {
   .foot {
     width: 100%;
     position: absolute;
-    bottom: 25%;
+    bottom: 30%;
     font-size: 0.5em;
 
     .pill {
@@ -1561,6 +1561,9 @@ export default {
       p {
         font-size: 1.3em;
       }
+    }
+    .foot {
+      bottom: 29%;
     }
   }
   .progressbar li {
