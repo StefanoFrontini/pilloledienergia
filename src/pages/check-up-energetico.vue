@@ -83,7 +83,6 @@
           @submit.prevent="handleSubmit"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
-          enctype="application/x-www-form-urlencoded"
         >
           <input type="hidden" name="form-name" value="contact" />
           <p hidden>
@@ -486,14 +485,6 @@
           </div>
 
           <br />
-
-          <div class="result" hidden>
-            <p>Passo: {{ passo }}</p>
-            <p>
-              Il numero di si è {{ formData.numerosi }}, il numero di no è
-              {{ formData.numerono }}
-            </p>
-          </div>
         </form>
       </div>
     </div>
@@ -652,15 +643,22 @@ export default {
     },
 
     encode(data) {
-      const formData = new FormData();
-
-      for (const key of Object.keys(data)) {
-        formData.append(key, data[key]);
-      }
-      return formData;
+      return Object.keys(data)
+        .map(
+          (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+        )
+        .join("&");
     },
     handleSubmit(e) {
-      const axiosConfig = {
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: this.encode({
+          "form-name": e.target.getAttribute("name"),
+          ...this.formData,
+        }),
+      })
+        /* const axiosConfig = {
         header: { "Content-Type": "application/x-www-form-urlencoded" },
       };
       axios
@@ -671,7 +669,7 @@ export default {
             ...this.formData,
           }),
           axiosConfig
-        )
+        ) */
         .then((response) => {
           this.serverResponse = response.data.message;
         })
