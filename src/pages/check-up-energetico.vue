@@ -655,6 +655,7 @@ export default {
           "/.netlify/functions/submissions",
           this.formData
         );
+        this.message = "Elaboro i dati...";
         this.serverResponse = response.data.message;
 
         /* {
@@ -669,8 +670,6 @@ export default {
       } catch (error) {
         this.serverResponse =
           "Ops...c'è stato un errore.<br /> Contattami all'indirizzo email:<br /> stefano.frontini@con.repower.com<br /> per avere il risultato del check-up";
-      } finally {
-        this.message = "Elaboro i dati...";
       }
 
       /* const axiosConfig = {
