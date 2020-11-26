@@ -77,7 +77,7 @@ export default {
         },
         {
           property: "og:url",
-          content: `${this.$static.metadata.siteUrl}/mercato`,
+          content: `${this.$static.metadata.siteUrl}/testimonianze/`,
         },
         { property: "og:image", content: `${this.ogImageUrl}` },
 

@@ -33,12 +33,12 @@
               >Check-up energetico</g-link
             >
             <g-link class="nav__link" to="/blog/">Blog</g-link>
-            <g-link class="nav__link" to="/mercato">Mercato</g-link>
+            <g-link class="nav__link" to="/mercato/">Mercato</g-link>
             <g-link class="nav__link" to="/mercato-auto-elettriche/"
               >Auto Elettriche</g-link
             >
 
-            <g-link class="nav__link" to="/episodi">Impara</g-link>
+            <g-link class="nav__link" to="/episodi/">Impara</g-link>
             <g-link class="nav__link" to="/analisi-iva-accise-agevolate/"
               >Check-up iva accise</g-link
             >

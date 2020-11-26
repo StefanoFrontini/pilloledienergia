@@ -295,24 +295,25 @@ export default {
   metaInfo() {
     return {
       title:
-        "Analisi iva e accise agevolate bolletta luce e gas | Pillole di Energia",
+        "Check-up iva e accise agevolate bolletta luce e gas | Pillole di Energia",
       titleTemplate: "%s",
       meta: [
         {
           key: "description",
           name: "description",
           content:
-            "Sei sicuro che le tasse della bolletta della luce e del gas della tua azienda siano applicate in maniera corretta?",
+            "Non perdere l’occasione di risparmiare fino al 30% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
         },
         { property: "og:type", content: "website" },
         {
           property: "og:title",
-          content: "Analisi iva e accise agevolate bolletta luce e gas",
+          content:
+            "Non perdere l’occasione di risparmiare fino al 30% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
         },
         {
           property: "og:description",
           content:
-            "Sei sicuro che le tasse della bolletta della luce e del gas della tua azienda siano applicate in maniera corretta?",
+            "Non perdere l’occasione di risparmiare fino al 30% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
         },
         {
           property: "og:url",
@@ -325,12 +326,13 @@ export default {
         { name: "twitter:card", content: "summary_large_image" },
         {
           name: "twitter:title",
-          content: "Analisi iva e accise agevolate bolletta luce e gas",
+          content:
+            "Non perdere l’occasione di risparmiare fino al 30% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
         },
         {
           name: "twitter:description",
           content:
-            "Sei sicuro che le tasse della bolletta della luce e del gas della tua azienda siano applicate in maniera corretta?",
+            "Non perdere l’occasione di risparmiare fino al 30% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
         },
         {
           name: "twitter:site",

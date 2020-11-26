@@ -107,7 +107,7 @@ export default {
   },
   metaInfo() {
     return {
-      title: "Andamento mercato auto elettriche in Italia | Pillole di Energia",
+      title: "Mobilità elettrica | Pillole di Energia",
       titleTemplate: "%s",
       meta: [
         {

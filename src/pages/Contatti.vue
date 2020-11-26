@@ -2,8 +2,8 @@
   <Layout>
     <div class="page-container">
       <div class="page-contatti">
-        <h1>Contatti</h1>        
-          <Contact />                  
+        <h1>Contatti</h1>
+        <Contact />
       </div>
     </div>
   </Layout>
@@ -34,16 +34,19 @@ export default {
         {
           key: "description",
           name: "description",
-          content: "Contattami per ricevere un check-up energetico completo",
+          content:
+            "Contattami per ricevere un check-up energetico gratuito che può farti risparmiare fino al 30% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
         },
         { property: "og:type", content: "website" },
         {
           property: "og:title",
-          content: "Contattami per ricevere un check-up energetico completo",
+          content:
+            "Contattami per ricevere un check-up energetico gratuito che può farti risparmiare fino al 30% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
         },
         {
           property: "og:description",
-          content: "Contattami per ricevere un check-up energetico completo",
+          content:
+            "Contattami per ricevere un check-up energetico gratuito che può farti risparmiare fino al 30% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
         },
         {
           property: "og:url",
@@ -54,11 +57,13 @@ export default {
         { name: "twitter:card", content: "summary_large_image" },
         {
           name: "twitter:title",
-          content: "Contattami per ricevere un check-up energetico completo",
+          content:
+            "Contattami per ricevere un check-up energetico gratuito che può farti risparmiare fino al 30% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
         },
         {
           name: "twitter:description",
-          content: "Contattami per ricevere un check-up energetico completo",
+          content:
+            "Contattami per ricevere un check-up energetico gratuito che può farti risparmiare fino al 30% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
         },
         {
           name: "twitter:site",
@@ -90,5 +95,4 @@ export default {
   align-items: center;
   flex-direction: column;
 }
-
 </style>

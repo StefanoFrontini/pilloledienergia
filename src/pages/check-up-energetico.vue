@@ -650,12 +650,13 @@ export default {
         .join("&");
     }, */
     async handleSubmit(e) {
+      this.message = "Elaboro i dati...";
       try {
         const response = await axios.post(
           "/.netlify/functions/submissions",
           this.formData
         );
-        this.message = "Elaboro i dati...";
+
         this.serverResponse = response.data.message;
 
         /* {
