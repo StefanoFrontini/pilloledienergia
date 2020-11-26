@@ -1057,8 +1057,8 @@ export default {
   .foot {
     width: 100%;
     position: absolute;
-    top: 56%;
-    font-size: 0.5em;
+    top: 53.5%;
+    font-size: 0.7em;
 
     .pill {
       text-transform: uppercase;
@@ -1207,7 +1207,7 @@ export default {
       }
     }
     .foot {
-      font-size: 0.6em;
+      font-size: 0.8em;
     }
   }
 }
@@ -1277,7 +1277,7 @@ export default {
       }
     }
     .foot {
-      font-size: 0.7em;
+      font-size: 0.9em;
     }
   }
 }
@@ -1633,6 +1633,7 @@ export default {
       }
     }
     .foot {
+      top: 58%;
       font-size: 1.2em;
     }
   }
@@ -1728,6 +1729,12 @@ export default {
   }
   .progressbar li {
     width: 10%;
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input[type="text"] {
+    font-size: 16px;
   }
 }
 </style>
