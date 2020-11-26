@@ -61,7 +61,7 @@
         <div class="footer-b">
           <div class="contact">
             <p>
-              <span class="pill"
+              <span class="footer-logo"
                 >pillole di energia © {{ new Date().getFullYear() }}</span
               >
               <br /><strong
@@ -147,12 +147,12 @@ h6 {
   font-family: "radnika-medium", sans-serif;
 }
 
-::selection {
-  background: $primaryColor; /* WebKit/Blink Browsers */
-}
-::-moz-selection {
-  background: $primaryColor; /* Gecko Browsers */
-}
+//::selection {
+//  background: $primaryColor; /* WebKit/Blink Browsers */
+//}
+//::-moz-selection {
+//  background: $primaryColor; /* Gecko Browsers */
+//}
 
 a {
   text-decoration: none;
@@ -273,6 +273,7 @@ blockquote::after {
   justify-content: center;
   background-color: #1b1b1b;
   color: white;
+  font-size: 0.8em;
 }
 
 .contact {
@@ -285,7 +286,7 @@ blockquote::after {
   }
 }
 
-.pill {
+.footer-logo {
   text-transform: uppercase;
   color: $primaryColor;
   font-size: 0.8em;
@@ -337,6 +338,12 @@ blockquote::after {
   .navbar {
     height: 62vh;
     top: 38vh;
+  }
+}
+
+@media (min-width: 1000px) {
+  .footer-b {
+    font-size: 1em;
   }
 }
 
