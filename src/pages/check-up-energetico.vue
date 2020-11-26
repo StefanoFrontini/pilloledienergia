@@ -800,7 +800,7 @@ export default {
     transform: translate(-50%, 0);
 
     top: 15%;
-    font-size: 0.8em;
+    font-size: 0.75em;
     line-height: 1.2em;
     span {
       font-weight: bold;
@@ -813,7 +813,7 @@ export default {
     font-size: 0.5em;
     position: absolute;
     width: 90%;
-    top: 47%;
+    top: 45%;
     left: 5%;
   }
   .domande .response p {
@@ -989,7 +989,7 @@ export default {
 
   .si {
     position: absolute;
-    top: 38.5%;
+    top: 37.5%;
     left: 57%;
     button {
       background-color: rgba(0, 0, 0, 0);
@@ -1003,7 +1003,7 @@ export default {
   }
   .no {
     position: absolute;
-    top: 38.5%;
+    top: 37.5%;
     left: 31%;
     button {
       background-color: rgba(0, 0, 0, 0);
@@ -1018,8 +1018,8 @@ export default {
   .fascettaArancione {
     position: absolute;
     top: 19%;
-    left: 1.5%;
-    width: 10%;
+    left: -4%;
+    width: 15%;
     p {
       font-size: 0.5em;
       transform: rotate(315deg);
@@ -1030,9 +1030,9 @@ export default {
   }
   .fascettaRossa {
     position: absolute;
-    top: 20%;
-    left: -6%;
-    width: 17%;
+    top: 19%;
+    left: -8%;
+    width: 20%;
     p {
       font-size: 0.5em;
       transform: rotate(315deg);
@@ -1057,7 +1057,7 @@ export default {
   .foot {
     width: 100%;
     position: absolute;
-    bottom: 30%;
+    top: 56%;
     font-size: 0.5em;
 
     .pill {
@@ -1200,11 +1200,14 @@ export default {
     }
     .fascettaBlu {
       top: 18%;
-      left: -11%;
+      left: -12%;
 
       p {
-        font-size: 0.7em;
+        font-size: 0.6em;
       }
+    }
+    .foot {
+      font-size: 0.6em;
     }
   }
 }
@@ -1257,8 +1260,8 @@ export default {
       }
     }
     .fascettaRossa {
-      width: 20%;
-      left: -7%;
+      width: 25%;
+      left: -12%;
       top: 18%;
 
       p {
@@ -1270,8 +1273,65 @@ export default {
       left: -11%;
 
       p {
-        font-size: 0.8em;
+        font-size: 0.7em;
       }
+    }
+    .foot {
+      font-size: 0.7em;
+    }
+  }
+}
+@media (min-width: 500px) {
+  .cartolina-wrapper {
+    .domande p {
+      width: 80%;
+      font-size: 1em;
+    }
+    .domande small {
+      font-size: 0.7em;
+
+      top: 48%;
+    }
+    .nome {
+      top: 33%;
+      .content-name {
+        font-size: 0.7em;
+      }
+    }
+
+    .mail {
+      top: 33%;
+
+      .content-mail {
+        font-size: 0.6em;
+      }
+      input:focus + .label-mail .content-mail,
+      input:valid + .label-mail .content-mail {
+        font-size: 0.6em;
+      }
+    }
+    .si {
+      top: 38.5%;
+
+      button {
+        font-size: 2em;
+      }
+    }
+    .no {
+      top: 38.5%;
+
+      button {
+        font-size: 2em;
+      }
+    }
+    .start {
+      button {
+        font-size: 1.6em;
+      }
+    }
+    .foot {
+      top: 54%;
+      font-size: 1em;
     }
   }
 }
@@ -1353,10 +1413,17 @@ export default {
         font-size: 0.9em;
       }
     }
+    .foot {
+      top: 56%;
+      font-size: 1em;
+    }
   }
 }
 @media (min-width: 650px) {
   .cartolina-wrapper {
+    h1 {
+      font-size: 1.5em;
+    }
     .domande p {
       font-size: 1.5em;
     }
@@ -1371,6 +1438,32 @@ export default {
       top: 4%;
       left: 42%;
       z-index: 10;
+    }
+    .nome {
+      top: 35%;
+      .content-name {
+        font-size: 0.8em;
+      }
+      input:focus + .label-name .content-name,
+      input:valid + .label-name .content-name {
+        font-size: 0.8em;
+      }
+    }
+
+    .mail {
+      top: 35%;
+      .content-mail {
+        font-size: 0.8em;
+      }
+      input:focus + .label-mail .content-mail,
+      input:valid + .label-mail .content-mail {
+        font-size: 0.8em;
+      }
+    }
+    .start {
+      button {
+        font-size: 2.5em;
+      }
     }
 
     .si {
@@ -1407,6 +1500,10 @@ export default {
       p {
         font-size: 1em;
       }
+    }
+    .foot {
+      top: 58%;
+      font-size: 1em;
     }
   }
 }
@@ -1488,6 +1585,7 @@ export default {
     }
     .foot {
       font-size: 1em;
+      top: 59%;
     }
   }
 }
@@ -1519,7 +1617,7 @@ export default {
       }
     }
     .fascettaRossa {
-      left: -10%;
+      left: -15%;
       top: 19%;
 
       p {
@@ -1532,6 +1630,57 @@ export default {
 
       p {
         font-size: 1.3em;
+      }
+    }
+    .foot {
+      font-size: 1.2em;
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .cartolina-wrapper {
+    .nome {
+      top: 37%;
+      .content-name {
+        font-size: 1em;
+      }
+    }
+
+    .mail {
+      top: 37%;
+
+      .content-mail {
+        font-size: 1em;
+      }
+      input:focus + .label-mail .content-mail,
+      input:valid + .label-mail .content-mail {
+        font-size: 1em;
+      }
+    }
+    .fascettaArancione {
+      top: 18%;
+      left: -6%;
+      width: 17%;
+      p {
+        font-size: 1.5em;
+      }
+    }
+    .fascettaRossa {
+      width: 25%;
+      left: -15%;
+      top: 19%;
+
+      p {
+        font-size: 1.5em;
+      }
+    }
+    .fascettaBlu {
+      top: 18%;
+      left: -14%;
+
+      p {
+        font-size: 1.5em;
       }
     }
   }
@@ -1574,7 +1723,7 @@ export default {
       }
     }
     .foot {
-      bottom: 29%;
+      top: 57%;
     }
   }
   .progressbar li {
