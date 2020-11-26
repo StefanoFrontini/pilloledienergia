@@ -145,7 +145,7 @@ export default {
         { property: "og:type", content: "website" },
         {
           property: "og:title",
-          content: "Cos’è un consulente energetico specializzato?",
+          content: "Chi sono | Pillole di Energia",
         },
         {
           property: "og:description",
@@ -160,7 +160,7 @@ export default {
         { name: "twitter:card", content: "summary_large_image" },
         {
           name: "twitter:title",
-          content: "Cos’è un consulente energetico specializzato?",
+          content: "Chi sono | Pillole di Energia",
         },
         {
           name: "twitter:description",

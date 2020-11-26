@@ -67,7 +67,7 @@ export default {
         },
         {
           name: "twitter:site",
-          content: `${this.$static.metadata.siteUrl}/contatti`,
+          content: `${this.$static.metadata.siteUrl}/contatti/`,
         },
         { name: "twitter:creator", content: "Stefano Frontini" },
         { name: "twitter:image", content: `${this.ogImageUrl}` },

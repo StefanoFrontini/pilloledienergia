@@ -521,8 +521,7 @@ export default {
         {
           key: "og:title",
           property: "og:title",
-          content:
-            "Non perdere l’occasione di risparmiare fino al 30% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
+          content: "Check-up energetico gratuito | Pillole di Energia",
         },
         {
           key: "og:description",
@@ -540,8 +539,7 @@ export default {
         { name: "twitter:card", content: "summary_large_image" },
         {
           name: "twitter:title",
-          content:
-            "Non perdere l’occasione di risparmiare fino al 30% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
+          content: "Check-up energetico gratuito | Pillole di Energia",
         },
         {
           name: "twitter:description",

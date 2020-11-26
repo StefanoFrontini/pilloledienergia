@@ -308,7 +308,7 @@ export default {
         {
           property: "og:title",
           content:
-            "Non perdere l’occasione di risparmiare fino al 30% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
+            "Check-up iva e accise agevolate bolletta luce e gas | Pillole di Energia",
         },
         {
           property: "og:description",
@@ -327,7 +327,7 @@ export default {
         {
           name: "twitter:title",
           content:
-            "Non perdere l’occasione di risparmiare fino al 30% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
+            "Check-up iva e accise agevolate bolletta luce e gas | Pillole di Energia",
         },
         {
           name: "twitter:description",
@@ -338,7 +338,7 @@ export default {
           name: "twitter:site",
           content: `${
             this.$static.metadata.siteUrl
-          }/analisi-iva-accise-agevolate`,
+          }/analisi-iva-accise-agevolate/`,
         },
         { name: "twitter:creator", content: "Stefano Frontini" },
         { name: "twitter:image", content: `${this.ogImageUrl}` },

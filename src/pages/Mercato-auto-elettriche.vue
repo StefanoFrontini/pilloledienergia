@@ -118,7 +118,7 @@ export default {
         { property: "og:type", content: "website" },
         {
           property: "og:title",
-          content: "Andamento mercato auto elettriche in Italia",
+          content: "Mobilità elettrica | Pillole di Energia",
         },
         {
           property: "og:description",
@@ -133,7 +133,7 @@ export default {
         { name: "twitter:card", content: "summary_large_image" },
         {
           name: "twitter:title",
-          content: "Andamento mercato auto elettriche",
+          content: "Mobilità elettrica | Pillole di Energia",
         },
         {
           name: "twitter:description",
@@ -141,7 +141,7 @@ export default {
         },
         {
           name: "twitter:site",
-          content: `${this.$static.metadata.siteUrl}/mobilita-elettrica`,
+          content: `${this.$static.metadata.siteUrl}/mercato-auto-elettriche/`,
         },
         { name: "twitter:creator", content: "Stefano Frontini" },
         { name: "twitter:image", content: `${this.ogImageUrl}` },
