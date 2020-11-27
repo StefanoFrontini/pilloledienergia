@@ -90,16 +90,16 @@
           </p>
           <div class="cartolina-container">
             <div class="cartolina-wrapper">
-              <g-image
-                class="logo"
-                src="~/assets/logo-pillole-di-energia.svg"
-                alt="logo pillole di energia"
-                width="100"
-              />
-              <h1 v-if="passo < 11">CHECK-UP ENERGETICO GRATUITO</h1>
               <div class="domande">
                 <transition appear name="fade" mode="out-in">
-                  <div v-if="passo === 0" :key="passo">
+                  <div v-if="passo === 0" :key="passo" class="step">
+                    <g-image
+                      class="logo"
+                      src="~/assets/logo-pillole-di-energia.svg"
+                      alt="logo pillole di energia"
+                      width="100"
+                    />
+                    <h1>CHECK-UP ENERGETICO GRATUITO</h1>
                     <g-image class="img" src="~/assets/check-up.jpeg" alt="" />
                     <p>
                       Compila i campi e inizia <strong>SUBITO</strong><br />il
@@ -107,9 +107,7 @@
                       <strong>GRATUITO</strong>,<br />riceverai il risultato via
                       mail!
                     </p>
-                    <div class="start">
-                      <button @click.prevent="next()">start*</button>
-                    </div>
+                    <div class="start" @click.prevent="next()">start*</div>
                     <div class="nome">
                       <input
                         type="text"
@@ -147,9 +145,44 @@
                         Inserisci un indirizzo email valido!
                       </p>
                     </div>
+                    <div class="foot">
+                      <p>
+                        <span class="pill"
+                          >pillole di energia ©
+                          {{ new Date().getFullYear() }}</span
+                        >
+                        <br /><strong
+                          >Stefano Frontini consulente energetico per ristoranti
+                          e hotel</strong
+                        ><br />
+                        <a href="https://www.pilloledienergia.com/"
+                          >www.pilloledienergia.com</a
+                        ><br />
+                        <a href="mailto:stefano.frontini@con.repower.com"
+                          >stefano.frontini@con.repower.com</a
+                        ><br />
+                        <a href="tel:+393351030301">cell: 335.103.03.01</a>
+                      </p>
+                    </div>
+                    <div class="usoDati">
+                      <p>
+                        *Cliccando su <strong>start</strong> dai il consenso
+                        all'uso dei dati. <br />I tuoi dati sono al sicuro.
+                        Leggi l'<g-link to="/privacy"
+                          >informativa privacy</g-link
+                        >.
+                      </p>
+                    </div>
                   </div>
 
-                  <div v-if="passo === 1" :key="passo + 2">
+                  <div v-if="passo === 1" :key="passo + 2" class="step">
+                    <g-image
+                      class="logo"
+                      src="~/assets/logo-pillole-di-energia.svg"
+                      alt="logo pillole di energia"
+                      width="100"
+                    />
+                    <h1>CHECK-UP ENERGETICO GRATUITO</h1>
                     <g-image
                       class="img"
                       src="~/assets/fascetta-arancione.jpg"
@@ -162,18 +195,40 @@
                       e le <strong>condizioni economiche</strong> di rinnovo?
                     </p>
 
-                    <div class="si">
-                      <button @click.prevent="si">SI</button>
-                    </div>
-                    <div class="no">
-                      <button @click.prevent="no">NO</button>
-                    </div>
+                    <div class="si" @click.prevent="si">SI</div>
+                    <div class="no" @click.prevent="no">NO</div>
                     <div class="fascettaArancione">
                       <p>forniture<br />trasparenti</p>
                     </div>
+                    <div class="foot">
+                      <p>
+                        <span class="pill"
+                          >pillole di energia ©
+                          {{ new Date().getFullYear() }}</span
+                        >
+                        <br /><strong
+                          >Stefano Frontini consulente energetico per ristoranti
+                          e hotel</strong
+                        ><br />
+                        <a href="https://www.pilloledienergia.com/"
+                          >www.pilloledienergia.com</a
+                        ><br />
+                        <a href="mailto:stefano.frontini@con.repower.com"
+                          >stefano.frontini@con.repower.com</a
+                        ><br />
+                        <a href="tel:+393351030301">cell: 335.103.03.01</a>
+                      </p>
+                    </div>
                   </div>
 
-                  <div v-if="passo === 2" :key="passo + 3">
+                  <div v-if="passo === 2" :key="passo + 3" class="step">
+                    <g-image
+                      class="logo"
+                      src="~/assets/logo-pillole-di-energia.svg"
+                      alt="logo pillole di energia"
+                      width="100"
+                    />
+                    <h1>CHECK-UP ENERGETICO GRATUITO</h1>
                     <g-image
                       class="img"
                       src="~/assets/fascetta-rossa.jpg"
@@ -187,18 +242,40 @@
                       kWh/Smc, oneri e tasse?
                     </p>
 
-                    <div class="si">
-                      <button @click.prevent="si">SI</button>
-                    </div>
-                    <div class="no">
-                      <button @click.prevent="no">NO</button>
-                    </div>
+                    <div class="si" @click.prevent="si">SI</div>
+                    <div class="no" @click.prevent="no">NO</div>
                     <div class="fascettaRossa">
                       <p>come evitare<br />costi extra</p>
                     </div>
+                    <div class="foot">
+                      <p>
+                        <span class="pill"
+                          >pillole di energia ©
+                          {{ new Date().getFullYear() }}</span
+                        >
+                        <br /><strong
+                          >Stefano Frontini consulente energetico per ristoranti
+                          e hotel</strong
+                        ><br />
+                        <a href="https://www.pilloledienergia.com/"
+                          >www.pilloledienergia.com</a
+                        ><br />
+                        <a href="mailto:stefano.frontini@con.repower.com"
+                          >stefano.frontini@con.repower.com</a
+                        ><br />
+                        <a href="tel:+393351030301">cell: 335.103.03.01</a>
+                      </p>
+                    </div>
                   </div>
 
-                  <div v-if="passo === 3" :key="passo + 4">
+                  <div v-if="passo === 3" :key="passo + 4" class="step">
+                    <g-image
+                      class="logo"
+                      src="~/assets/logo-pillole-di-energia.svg"
+                      alt="logo pillole di energia"
+                      width="100"
+                    />
+                    <h1>CHECK-UP ENERGETICO GRATUITO</h1>
                     <g-image
                       class="img"
                       src="~/assets/fascetta-rossa.jpg"
@@ -212,18 +289,40 @@
                       elettrica?
                     </p>
 
-                    <div class="si">
-                      <button @click.prevent="si">SI</button>
-                    </div>
-                    <div class="no">
-                      <button @click.prevent="no">NO</button>
-                    </div>
+                    <div class="si" @click.prevent="si">SI</div>
+                    <div class="no" @click.prevent="no">NO</div>
                     <div class="fascettaRossa">
                       <p>come evitare<br />costi extra</p>
                     </div>
+                    <div class="foot">
+                      <p>
+                        <span class="pill"
+                          >pillole di energia ©
+                          {{ new Date().getFullYear() }}</span
+                        >
+                        <br /><strong
+                          >Stefano Frontini consulente energetico per ristoranti
+                          e hotel</strong
+                        ><br />
+                        <a href="https://www.pilloledienergia.com/"
+                          >www.pilloledienergia.com</a
+                        ><br />
+                        <a href="mailto:stefano.frontini@con.repower.com"
+                          >stefano.frontini@con.repower.com</a
+                        ><br />
+                        <a href="tel:+393351030301">cell: 335.103.03.01</a>
+                      </p>
+                    </div>
                   </div>
 
-                  <div v-if="passo === 4" :key="passo + 5">
+                  <div v-if="passo === 4" :key="passo + 5" class="step">
+                    <g-image
+                      class="logo"
+                      src="~/assets/logo-pillole-di-energia.svg"
+                      alt="logo pillole di energia"
+                      width="100"
+                    />
+                    <h1>CHECK-UP ENERGETICO GRATUITO</h1>
                     <g-image
                       class="img"
                       src="~/assets/fascetta-rossa.jpg"
@@ -236,12 +335,8 @@
                       per l’ <strong>energia reattiva</strong>*?
                     </p>
 
-                    <div class="si">
-                      <button @click.prevent="si">SI</button>
-                    </div>
-                    <div class="no">
-                      <button @click.prevent="no">NO</button>
-                    </div>
+                    <div class="si" @click.prevent="si">SI</div>
+                    <div class="no" @click.prevent="no">NO</div>
                     <div class="fascettaRossa">
                       <p>come evitare<br />costi extra</p>
                     </div>
@@ -256,9 +351,35 @@
                         evitare di pagare tale penale.</strong
                       >
                     </small>
+                    <div class="foot">
+                      <p>
+                        <span class="pill"
+                          >pillole di energia ©
+                          {{ new Date().getFullYear() }}</span
+                        >
+                        <br /><strong
+                          >Stefano Frontini consulente energetico per ristoranti
+                          e hotel</strong
+                        ><br />
+                        <a href="https://www.pilloledienergia.com/"
+                          >www.pilloledienergia.com</a
+                        ><br />
+                        <a href="mailto:stefano.frontini@con.repower.com"
+                          >stefano.frontini@con.repower.com</a
+                        ><br />
+                        <a href="tel:+393351030301">cell: 335.103.03.01</a>
+                      </p>
+                    </div>
                   </div>
 
-                  <div v-if="passo === 5" :key="passo + 6">
+                  <div v-if="passo === 5" :key="passo + 6" class="step">
+                    <g-image
+                      class="logo"
+                      src="~/assets/logo-pillole-di-energia.svg"
+                      alt="logo pillole di energia"
+                      width="100"
+                    />
+                    <h1>CHECK-UP ENERGETICO GRATUITO</h1>
                     <g-image
                       class="img"
                       src="~/assets/fascetta-gialla.jpeg"
@@ -272,18 +393,40 @@
                       di stime o dalla lettura <strong>effettiva</strong>?
                     </p>
 
-                    <div class="si">
-                      <button @click.prevent="si">SI</button>
-                    </div>
-                    <div class="no">
-                      <button @click.prevent="no">NO</button>
-                    </div>
+                    <div class="si" @click.prevent="si">SI</div>
+                    <div class="no" @click.prevent="no">NO</div>
                     <div class="fascettaRossa">
                       <p>evitare<br />conguagli</p>
                     </div>
+                    <div class="foot">
+                      <p>
+                        <span class="pill"
+                          >pillole di energia ©
+                          {{ new Date().getFullYear() }}</span
+                        >
+                        <br /><strong
+                          >Stefano Frontini consulente energetico per ristoranti
+                          e hotel</strong
+                        ><br />
+                        <a href="https://www.pilloledienergia.com/"
+                          >www.pilloledienergia.com</a
+                        ><br />
+                        <a href="mailto:stefano.frontini@con.repower.com"
+                          >stefano.frontini@con.repower.com</a
+                        ><br />
+                        <a href="tel:+393351030301">cell: 335.103.03.01</a>
+                      </p>
+                    </div>
                   </div>
 
-                  <div v-if="passo === 6" :key="passo + 7">
+                  <div v-if="passo === 6" :key="passo + 7" class="step">
+                    <g-image
+                      class="logo"
+                      src="~/assets/logo-pillole-di-energia.svg"
+                      alt="logo pillole di energia"
+                      width="100"
+                    />
+                    <h1>CHECK-UP ENERGETICO GRATUITO</h1>
                     <g-image
                       class="img"
                       src="~/assets/fascetta-arancione.jpg"
@@ -301,18 +444,40 @@
                       >
                     </p>
 
-                    <div class="si">
-                      <button @click.prevent="si">SI</button>
-                    </div>
-                    <div class="no">
-                      <button @click.prevent="no">NO</button>
-                    </div>
+                    <div class="si" @click.prevent="si">SI</div>
+                    <div class="no" @click.prevent="no">NO</div>
                     <div class="fascettaArancione">
                       <p>forniture<br />trasparenti</p>
                     </div>
+                    <div class="foot">
+                      <p>
+                        <span class="pill"
+                          >pillole di energia ©
+                          {{ new Date().getFullYear() }}</span
+                        >
+                        <br /><strong
+                          >Stefano Frontini consulente energetico per ristoranti
+                          e hotel</strong
+                        ><br />
+                        <a href="https://www.pilloledienergia.com/"
+                          >www.pilloledienergia.com</a
+                        ><br />
+                        <a href="mailto:stefano.frontini@con.repower.com"
+                          >stefano.frontini@con.repower.com</a
+                        ><br />
+                        <a href="tel:+393351030301">cell: 335.103.03.01</a>
+                      </p>
+                    </div>
                   </div>
 
-                  <div v-if="passo === 7" :key="passo + 8">
+                  <div v-if="passo === 7" :key="passo + 8" class="step">
+                    <g-image
+                      class="logo"
+                      src="~/assets/logo-pillole-di-energia.svg"
+                      alt="logo pillole di energia"
+                      width="100"
+                    />
+                    <h1>CHECK-UP ENERGETICO GRATUITO</h1>
                     <g-image
                       class="img"
                       src="~/assets/fascetta-rossa.jpg"
@@ -325,18 +490,40 @@
                       accise?
                     </p>
 
-                    <div class="si">
-                      <button @click.prevent="si">SI</button>
-                    </div>
-                    <div class="no">
-                      <button @click.prevent="no">NO</button>
-                    </div>
+                    <div class="si" @click.prevent="si">SI</div>
+                    <div class="no" @click.prevent="no">NO</div>
                     <div class="fascettaRossa">
                       <p>come evitare<br />costi extra</p>
                     </div>
+                    <div class="foot">
+                      <p>
+                        <span class="pill"
+                          >pillole di energia ©
+                          {{ new Date().getFullYear() }}</span
+                        >
+                        <br /><strong
+                          >Stefano Frontini consulente energetico per ristoranti
+                          e hotel</strong
+                        ><br />
+                        <a href="https://www.pilloledienergia.com/"
+                          >www.pilloledienergia.com</a
+                        ><br />
+                        <a href="mailto:stefano.frontini@con.repower.com"
+                          >stefano.frontini@con.repower.com</a
+                        ><br />
+                        <a href="tel:+393351030301">cell: 335.103.03.01</a>
+                      </p>
+                    </div>
                   </div>
 
-                  <div v-if="passo === 8" :key="passo + 9">
+                  <div v-if="passo === 8" :key="passo + 9" class="step">
+                    <g-image
+                      class="logo"
+                      src="~/assets/logo-pillole-di-energia.svg"
+                      alt="logo pillole di energia"
+                      width="100"
+                    />
+                    <h1>CHECK-UP ENERGETICO GRATUITO</h1>
                     <g-image
                       class="img"
                       src="~/assets/fascetta-blu.jpeg"
@@ -349,18 +536,21 @@
                       <strong>call center</strong>?
                     </p>
 
-                    <div class="si">
-                      <button @click.prevent="si">SI</button>
-                    </div>
-                    <div class="no">
-                      <button @click.prevent="no">NO</button>
-                    </div>
+                    <div class="si" @click.prevent="si">SI</div>
+                    <div class="no" @click.prevent="no">NO</div>
                     <div class="fascettaBlu">
                       <p>come evitare<br />di perdere tempo</p>
                     </div>
                   </div>
 
-                  <div v-if="passo === 9" :key="passo + 10">
+                  <div v-if="passo === 9" :key="passo + 10" class="step">
+                    <g-image
+                      class="logo"
+                      src="~/assets/logo-pillole-di-energia.svg"
+                      alt="logo pillole di energia"
+                      width="100"
+                    />
+                    <h1>CHECK-UP ENERGETICO GRATUITO</h1>
                     <g-image
                       class="img"
                       src="~/assets/fascetta-blu.jpeg"
@@ -375,18 +565,40 @@
                       >
                     </p>
 
-                    <div class="si">
-                      <button @click.prevent="si">SI</button>
-                    </div>
-                    <div class="no">
-                      <button @click.prevent="no">NO</button>
-                    </div>
+                    <div class="si" @click.prevent="si">SI</div>
+                    <div class="no" @click.prevent="no">NO</div>
                     <div class="fascettaBlu">
                       <p>come evitare<br />di perdere tempo</p>
                     </div>
+                    <div class="foot">
+                      <p>
+                        <span class="pill"
+                          >pillole di energia ©
+                          {{ new Date().getFullYear() }}</span
+                        >
+                        <br /><strong
+                          >Stefano Frontini consulente energetico per ristoranti
+                          e hotel</strong
+                        ><br />
+                        <a href="https://www.pilloledienergia.com/"
+                          >www.pilloledienergia.com</a
+                        ><br />
+                        <a href="mailto:stefano.frontini@con.repower.com"
+                          >stefano.frontini@con.repower.com</a
+                        ><br />
+                        <a href="tel:+393351030301">cell: 335.103.03.01</a>
+                      </p>
+                    </div>
                   </div>
 
-                  <div v-if="passo === 10" :key="passo + 11">
+                  <div v-if="passo === 10" :key="passo + 11" class="step">
+                    <g-image
+                      class="logo"
+                      src="~/assets/logo-pillole-di-energia.svg"
+                      alt="logo pillole di energia"
+                      width="100"
+                    />
+                    <h1>CHECK-UP ENERGETICO GRATUITO</h1>
                     <g-image
                       class="img"
                       src="~/assets/fascetta-verde.jpeg"
@@ -399,31 +611,50 @@
                       <strong>elettrica sostenibile</strong>?
                     </p>
 
-                    <div class="si">
-                      <button @click.prevent="si">
-                        SI</button
-                      ><br />
-                      <input
-                        type="submit"
-                        ref="submitInputSi"
-                        style="display:none"
-                      />
+                    <div class="si" @click.prevent="si">
+                      SI
                     </div>
-                    <div class="no">
-                      <button @click.prevent="no">
-                        NO</button
-                      ><br />
-                      <input
-                        type="submit"
-                        ref="submitInputNo"
-                        style="display:none"
-                      />
+
+                    <input
+                      type="submit"
+                      ref="submitInputSi"
+                      style="display:none"
+                    />
+
+                    <div class="no" @click.prevent="no">
+                      NO
                     </div>
+
+                    <input
+                      type="submit"
+                      ref="submitInputNo"
+                      style="display:none"
+                    />
+
                     <div class="fascettaBlu">
                       <p>verde dentro<br />belli fuori</p>
                     </div>
+                    <div class="foot">
+                      <p>
+                        <span class="pill"
+                          >pillole di energia ©
+                          {{ new Date().getFullYear() }}</span
+                        >
+                        <br /><strong
+                          >Stefano Frontini consulente energetico per ristoranti
+                          e hotel</strong
+                        ><br />
+                        <a href="https://www.pilloledienergia.com/"
+                          >www.pilloledienergia.com</a
+                        ><br />
+                        <a href="mailto:stefano.frontini@con.repower.com"
+                          >stefano.frontini@con.repower.com</a
+                        ><br />
+                        <a href="tel:+393351030301">cell: 335.103.03.01</a>
+                      </p>
+                    </div>
                   </div>
-                  <div v-if="passo === 11" :key="passo + 10">
+                  <div v-if="passo === 11" :key="passo + 12" class="step">
                     <g-image
                       class="img"
                       src="~/assets/fondi-grigi.jpg"
@@ -438,48 +669,28 @@
                       <p v-html="serverResponse"></p>
                     </div>
                     <p hidden>{{ ste }}</p>
-                    <div class="si">
-                      <input
-                        type="submit"
-                        ref="submitInputSi"
-                        style="display:none"
-                      />
-                    </div>
-                    <div class="no">
-                      <input
-                        type="submit"
-                        ref="submitInputNo"
-                        style="display:none"
-                      />
+
+                    <div class="footGrigio">
+                      <p>
+                        <span class="pill"
+                          >pillole di energia ©
+                          {{ new Date().getFullYear() }}</span
+                        >
+                        <br /><strong
+                          >Stefano Frontini consulente energetico per ristoranti
+                          e hotel</strong
+                        ><br />
+                        <a href="https://www.pilloledienergia.com/"
+                          >www.pilloledienergia.com</a
+                        ><br />
+                        <a href="mailto:stefano.frontini@con.repower.com"
+                          >stefano.frontini@con.repower.com</a
+                        ><br />
+                        <a href="tel:+393351030301">cell: 335.103.03.01</a>
+                      </p>
                     </div>
                   </div>
                 </transition>
-              </div>
-
-              <div class="foot">
-                <p>
-                  <span class="pill"
-                    >pillole di energia © {{ new Date().getFullYear() }}</span
-                  >
-                  <br /><strong
-                    >Stefano Frontini consulente energetico per ristoranti e
-                    hotel</strong
-                  ><br />
-                  <a href="https://www.pilloledienergia.com/"
-                    >www.pilloledienergia.com</a
-                  ><br />
-                  <a href="mailto:stefano.frontini@con.repower.com"
-                    >stefano.frontini@con.repower.com</a
-                  ><br />
-                  cell: 335.103.03.01
-                </p>
-                <p v-if="passo === 0">
-                  *Cliccando su <strong>start</strong> dai il consenso all'uso
-                  dei dati. <br />I tuoi dati sono al sicuro. Leggi l'<g-link
-                    to="/privacy"
-                    >informativa privacy</g-link
-                  >.
-                </p>
               </div>
             </div>
           </div>
@@ -768,9 +979,12 @@ export default {
 }
 .cartolina-wrapper {
   width: 100%;
-  position: relative;
+
   max-width: 900px;
   text-align: center;
+  .step {
+    position: relative;
+  }
 
   .img {
     width: 100%;
@@ -788,7 +1002,7 @@ export default {
   h1 {
     width: 100%;
     position: absolute;
-    top: 1%;
+    top: 0%;
     z-index: 10;
     font-size: 1em;
   }
@@ -799,7 +1013,7 @@ export default {
     left: 50%;
     transform: translate(-50%, 0);
 
-    top: 15%;
+    top: 16%;
     font-size: 0.75em;
     line-height: 1.2em;
     span {
@@ -847,8 +1061,10 @@ export default {
       border: none;
       outline: none;
       background-color: rgba(0, 0, 0, 0);
+      //background: transparent;
       text-align: center;
     }
+
     label {
       position: absolute;
       bottom: 0px;
@@ -973,47 +1189,40 @@ export default {
   .start {
     position: absolute;
     top: 38%;
-    left: 73.5%;
-    button {
-      background-color: rgba(0, 0, 0, 0);
-      border: none;
-      cursor: pointer;
-      color: white;
-      font-size: 1em;
-      font-style: italic;
-      font-family: "GFS Didot", serif;
-      font-weight: bold;
-      outline: none;
-    }
+    left: 74%;
+
+    cursor: pointer;
+    color: white;
+    font-size: 1.2em;
+    font-style: italic;
+    font-family: "GFS Didot", serif;
+    font-weight: bold;
+    outline: none;
   }
 
   .si {
     position: absolute;
     top: 37.5%;
-    left: 57%;
-    button {
-      background-color: rgba(0, 0, 0, 0);
-      border: none;
-      cursor: pointer;
-      color: white;
-      font-size: 1.5em;
-      font-weight: bold;
-      outline: none;
-    }
+    left: 58%;
+    font-family: "radnika-medium", sans-serif;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+    outline: none;
   }
   .no {
     position: absolute;
     top: 37.5%;
-    left: 31%;
-    button {
-      background-color: rgba(0, 0, 0, 0);
-      border: none;
-      cursor: pointer;
-      color: white;
-      font-size: 1.5em;
-      font-weight: bold;
-      outline: none;
-    }
+    left: 32%;
+    font-family: "radnika-medium", sans-serif;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+    outline: none;
   }
   .fascettaArancione {
     position: absolute;
@@ -1057,14 +1266,13 @@ export default {
   .foot {
     width: 100%;
     position: absolute;
-    top: 53.5%;
-    font-size: 0.7em;
+    top: 55%;
+    font-size: 0.8em;
 
     .pill {
       text-transform: uppercase;
       color: $primaryColor;
       font-size: 0.8em;
-      font-weight: bold;
     }
     a {
       color: black;
@@ -1072,6 +1280,36 @@ export default {
     a:hover {
       color: $primaryColor;
     }
+    p strong {
+      color: black;
+    }
+  }
+  .footGrigio {
+    width: 100%;
+    position: absolute;
+    top: 55%;
+    font-size: 0.7em;
+
+    .pill {
+      text-transform: uppercase;
+      color: $primaryColor;
+      font-size: 0.8em;
+    }
+    a {
+      color: black;
+    }
+    a:hover {
+      color: $primaryColor;
+    }
+    p strong {
+      color: black;
+    }
+  }
+  .usoDati {
+    position: absolute;
+    width: 100%;
+
+    top: 70%;
   }
 }
 
@@ -1177,9 +1415,17 @@ export default {
       }
     }
     .start {
-      button {
-        font-size: 1.2em;
-      }
+      top: 38%;
+      left: 74%;
+      font-size: 1.4em;
+    }
+    .si {
+      top: 38%;
+      font-size: 2em;
+    }
+    .no {
+      top: 38%;
+      font-size: 2em;
     }
     .fascettaArancione {
       top: 18%;
@@ -1233,23 +1479,16 @@ export default {
       }
     }
     .si {
-      top: 38.5%;
-
-      button {
-        font-size: 2em;
-      }
+      top: 38%;
+      font-size: 2.2em;
     }
     .no {
-      top: 38.5%;
-
-      button {
-        font-size: 2em;
-      }
+      top: 38%;
+      font-size: 2.2em;
     }
     .start {
-      button {
-        font-size: 1.4em;
-      }
+      left: 75%;
+      font-size: 1.4em;
     }
     .fascettaArancione {
       top: 18%;
@@ -1313,24 +1552,21 @@ export default {
     .si {
       top: 38.5%;
 
-      button {
-        font-size: 2em;
-      }
+      font-size: 2em;
     }
     .no {
       top: 38.5%;
 
-      button {
-        font-size: 2em;
-      }
+      font-size: 2em;
     }
     .start {
-      button {
-        font-size: 1.6em;
-      }
+      font-size: 2em;
+
+      left: 75%;
     }
     .foot {
       top: 54%;
+
       font-size: 1em;
     }
   }
@@ -1379,16 +1615,12 @@ export default {
     .si {
       top: 38%;
 
-      button {
-        font-size: 3em;
-      }
+      font-size: 3em;
     }
     .no {
       top: 38%;
 
-      button {
-        font-size: 3em;
-      }
+      font-size: 3em;
     }
     .fascettaArancione {
       left: -4%;
@@ -1398,7 +1630,7 @@ export default {
       }
     }
     .fascettaRossa {
-      left: -10%;
+      left: -14%;
       top: 19%;
 
       p {
@@ -1414,8 +1646,8 @@ export default {
       }
     }
     .foot {
-      top: 56%;
-      font-size: 1em;
+      top: 55%;
+      font-size: 0.9em;
     }
   }
 }
@@ -1461,24 +1693,18 @@ export default {
       }
     }
     .start {
-      button {
-        font-size: 2.5em;
-      }
+      font-size: 2.5em;
     }
 
     .si {
       top: 38%;
 
-      button {
-        font-size: 3.5em;
-      }
+      font-size: 3.5em;
     }
     .no {
       top: 38%;
 
-      button {
-        font-size: 3.5em;
-      }
+      font-size: 3.5em;
     }
     .fascettaArancione {
       p {
@@ -1502,8 +1728,8 @@ export default {
       }
     }
     .foot {
-      top: 58%;
-      font-size: 1em;
+      top: 55%;
+      font-size: 0.9em;
     }
   }
 }
@@ -1543,21 +1769,16 @@ export default {
     .si {
       top: 38%;
 
-      button {
-        font-size: 4em;
-      }
+      font-size: 4em;
     }
     .no {
       top: 38%;
 
-      button {
-        font-size: 4em;
-      }
+      font-size: 4em;
     }
     .start {
-      button {
-        font-size: 3em;
-      }
+      left: 74%;
+      font-size: 3em;
     }
     .fascettaArancione {
       top: 19%;
@@ -1568,7 +1789,7 @@ export default {
       }
     }
     .fascettaRossa {
-      left: -10%;
+      left: -14%;
       top: 19%;
 
       p {
@@ -1585,7 +1806,7 @@ export default {
     }
     .foot {
       font-size: 1em;
-      top: 59%;
+      top: 54%;
     }
   }
 }
@@ -1599,14 +1820,10 @@ export default {
       font-size: 1em;
     }
     .si {
-      button {
-        font-size: 4.5em;
-      }
+      font-size: 4.5em;
     }
     .no {
-      button {
-        font-size: 4.5em;
-      }
+      font-size: 4.5em;
     }
     .fascettaArancione {
       top: 19%;
@@ -1633,8 +1850,8 @@ export default {
       }
     }
     .foot {
-      top: 58%;
-      font-size: 1.2em;
+      top: 55%;
+      font-size: 0.8em;
     }
   }
 }
@@ -1684,6 +1901,9 @@ export default {
         font-size: 1.5em;
       }
     }
+    .start {
+      font-size: 3.3em;
+    }
   }
 }
 
@@ -1699,14 +1919,10 @@ export default {
       top: 48%;
     }
     .si {
-      button {
-        font-size: 4.5em;
-      }
+      font-size: 4.3em;
     }
     .no {
-      button {
-        font-size: 4.5em;
-      }
+      font-size: 4.3em;
     }
     .fascettaArancione {
       p {
@@ -1724,7 +1940,10 @@ export default {
       }
     }
     .foot {
-      top: 57%;
+      top: 55%;
+    }
+    .start {
+      font-size: 3em;
     }
   }
   .progressbar li {

@@ -163,6 +163,16 @@ a:hover {
   color: #ffad3b;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset !important;
+  -webkit-box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+  background-clip: content-box !important;
+}
+
 .nav__link.active--exact.active {
   border-left: 0.2em solid $primaryColor;
   color: $primaryColor;
