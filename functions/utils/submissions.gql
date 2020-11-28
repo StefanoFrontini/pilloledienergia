@@ -13,8 +13,7 @@ type Submission {
   domanda8: String
   domanda9: String
   domanda10: String
-  numerosi: Int
-  numerono: Int
+  punteggio: Int
   iva: Boolean
   accise: Boolean
 }

@@ -129,11 +129,53 @@ table.full-width-mobile { width: 100% !important; }
 td.full-width-mobile { width: auto !important; }
 }</style></head><body style="background-color:#f0f0f0;"><div style="background-color:#f0f0f0;"><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="background:white;background-color:white;Margin:0px auto;max-width:600px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:white;background-color:white;width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;vertical-align:top;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]--><div class="mj-column-per-100 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"><tr><td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"><tbody><tr><td style="width:550px;"><img height="auto" src="https://res.cloudinary.com/stefano75/image/upload/v1606126533/3_RISULTATI_suff_cfewzl.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;" width="550"></td></tr></tbody></table></td></tr></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="background:white;background-color:white;Margin:0px auto;max-width:600px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:white;background-color:white;width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;vertical-align:top;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:400px;" ><![endif]--><div class="mj-column-px-400 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"><tr><td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;"><div style="font-family:sans-serif;font-size:13px;line-height:16px;text-align:left;color:#000000;"><strong><i>Ciao ${nome}</i>,<br>complimenti</strong> per aver dedicato del tempo all'analisi delle tue forniture.</div></td></tr><tr><td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;"><div style="font-family:sans-serif;font-size:13px;line-height:16px;text-align:left;color:#000000;">Questo breve <span style="color:#f78411">check-up</span> è solo l'inizio di un percorso per arrivare ad ottimizzare al massimo i tuoi costi e cosa altrettanto importante il tuo tempo. <strong>Non perdere l'occasione</strong> di sapere grazie a un'analisi approfondita e personalizzata - <span style="color:#f78411">gratuita e senza impegno</span> - come arrivare a raggiungere questo importante risultato per la tua attività.</div></td></tr><tr><td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"><tbody><tr><td style="width:130px;"><a href="mailto:stefano.frontini@con.repower.com" target="_blank"><img height="auto" src="https://res.cloudinary.com/stefano75/image/upload/v1606256864/contattami_cgzkpc.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;" width="130"></a></td></tr></tbody></table></td></tr><tr><td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;"><div style="font-family:sans-serif;font-size:13px;line-height:16px;text-align:left;color:#000000;">Mi chiamo Stefano Frontini e da 15 anni sono un <strong>consulente</strong> energetico specializzato in <strong>Ristoranti</strong> e <strong>Hotel</strong>.<br>Cos'è un <span style="color:#f78411">consulente energetico specializzato</span>?</div></td></tr><tr><td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"><tbody><tr><td style="width:130px;"><a href="https://www.pilloledienergia.com/chi-sono/" target="_blank"><img height="auto" src="https://res.cloudinary.com/stefano75/image/upload/v1606257014/scopri-di-piu%CC%80_qznaio.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;" width="130"></a></td></tr></tbody></table></td></tr><tr><td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;"><div style="font-family:sans-serif;font-size:13px;line-height:16px;text-align:left;color:#000000;">Forse non sai che sono sempre più numerosi i <strong>Ristoranti</strong> e gli <strong>Hotel</strong> che scelgono di avere un consulente energetico esclusivo.</div></td></tr><tr><td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;"><div style="font-family:sans-serif;font-size:13px;line-height:16px;text-align:left;color:#000000;">Una persona specializzata che segue costantemente l'andamento dei loro consumi e che gli propone le migliori opportunità sul mercato luce e gas, un <span style="color:#f78411">servizio</span> che io offro <span style="color:#f78411">completamente gratuito</span>.</div></td></tr></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="background:white;background-color:white;Margin:0px auto;max-width:600px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:white;background-color:white;width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;vertical-align:top;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]--><div class="mj-column-per-100 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tr><td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;"><div style="font-family:sans-serif;font-size:10px;line-height:16px;text-align:center;color:#525252;"><span style="color: #f78411;">PILLOLE DI ENERGIA &copy; 2020</span><br><strong>Stefano Frontini consulente energetico per ristoranti e hotel</strong><br><a href="https://www.pilloledienergia.com/">www.pilloledienergia.com</a><br><a href="mailto:stefano.frontini@con.repower.com">stefano.frontini@con.repower.com</a><br>cell: 335.103.03.01</div></td></tr><tr><td align="center" style="font-size:0px;padding:0;word-break:break-word;"><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" ><tr><td><![endif]--><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;"><tr><td style="padding:4px;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#3b5998;border-radius:3px;width:30px;"><tr><td style="font-size:0;height:30px;vertical-align:middle;width:30px;"><a href="https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/stefanofrontiniconsulenteenergetico" target="_blank"><img height="30" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/facebook.png" style="border-radius:3px;" width="30"></a></td></tr></table></td></tr></table><!--[if mso | IE]></td><td><![endif]--><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;"><tr><td style="padding:4px;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#EB3323;border-radius:3px;width:30px;"><tr><td style="font-size:0;height:30px;vertical-align:middle;width:30px;"><a href="https://www.youtube.com/channel/UCR-O1aNnCvdtANr8Yf7h_RQ" target="_blank"><img height="30" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/youtube.png" style="border-radius:3px;" width="30"></a></td></tr></table></td></tr></table><!--[if mso | IE]></td><td><![endif]--><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;"><tr><td style="padding:4px;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#3f729b;border-radius:3px;width:30px;"><tr><td style="font-size:0;height:30px;vertical-align:middle;width:30px;"><a href="https://www.instagram.com/pilloledienergia/?hl=it" target="_blank"><img height="30" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/instagram.png" style="border-radius:3px;" width="30"></a></td></tr></table></td></tr></table><!--[if mso | IE]></td><td><![endif]--><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;"><tr><td style="padding:4px;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#0077b5;border-radius:3px;width:30px;"><tr><td style="font-size:0;height:30px;vertical-align:middle;width:30px;"><a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.linkedin.com/in/stefano-frontini/&title=&summary=&source=" target="_blank"><img height="30" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png" style="border-radius:3px;" width="30"></a></td></tr></table></td></tr></table><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></div></body></html>
 `;
+  const domande = [
+    domanda1,
+    domanda2,
+    domanda3,
+    domanda4,
+    domanda5,
+    domanda6,
+    domanda7,
+    domanda8,
+    domanda9,
+    domanda10,
+  ];
 
-  const risultatoCheckup = (numsi, b, s, i) => {
-    if (+numsi < 6) {
+  console.log("domande", domande);
+
+  function calcolaPunteggio(elem, index) {
+    if (index === 7) {
+      if (elem === "no") {
+        return 1;
+      } else {
+        return 0;
+      }
+    } else {
+      if (elem === "si") {
+        return 1;
+      } else {
+        return 0;
+      }
+    }
+  }
+
+  const punteggio = domande.map(calcolaPunteggio);
+
+  console.log("punteggio", punteggio);
+
+  function getSum(total, num) {
+    return total + num;
+  }
+
+  const punteggioTotale = punteggio.reduce(getSum, 0);
+
+  console.log("punteggioTotale", punteggioTotale);
+
+  const risultatoCheckup = (score, b, s, i) => {
+    if (+score < 6) {
       return i;
-    } else if (+numsi < 9 && +numsi > 5) {
+    } else if (+score < 9 && +score > 5) {
       return s;
     } else {
       return b;
@@ -157,14 +199,13 @@ td.full-width-mobile { width: auto !important; }
     domanda8,
     domanda9,
     domanda10,
-    numerosi,
-    numerono,
+    punteggioTotale,
     iva,
     accise,
   };
 
-  const CREATE_LINK = `mutation($created: String, $form: String, $email: String, $nome: String, $domanda1: String, $domanda2: String, $domanda3: String, $domanda4: String, $domanda5: String, $domanda6: String, $domanda7: String, $domanda8: String, $domanda9: String, $domanda10: String, $numerosi: Int, $numerono: Int, $iva: Boolean, $accise: Boolean) {
-    createSubmission(data: {created:$created, form:$form, nome:$nome, email:$email, domanda1:$domanda1,domanda2:$domanda2,domanda3:$domanda3,domanda4:$domanda4,domanda5:$domanda5,domanda6:$domanda6,domanda7:$domanda7,domanda8:$domanda8,domanda9:$domanda9,domanda10:$domanda10, numerosi:$numerosi, numerono:$numerono, iva:$iva, accise:$accise }){
+  const CREATE_LINK = `mutation($created: String, $form: String, $email: String, $nome: String, $domanda1: String, $domanda2: String, $domanda3: String, $domanda4: String, $domanda5: String, $domanda6: String, $domanda7: String, $domanda8: String, $domanda9: String, $domanda10: String, $punteggioTotale: Int, $iva: Boolean, $accise: Boolean) {
+    createSubmission(data: {created:$created, form:$form, nome:$nome, email:$email, domanda1:$domanda1,domanda2:$domanda2,domanda3:$domanda3,domanda4:$domanda4,domanda5:$domanda5,domanda6:$domanda6,domanda7:$domanda7,domanda8:$domanda8,domanda9:$domanda9,domanda10:$domanda10, punteggio:$punteggioTotale, iva:$iva, accise:$accise }){
       created,
       form,
       email,
@@ -179,8 +220,7 @@ td.full-width-mobile { width: auto !important; }
       domanda8,
       domanda9,
       domanda10,
-      numerosi,
-      numerono,
+      punteggio,
       iva,
       accise
     }
@@ -207,14 +247,19 @@ td.full-width-mobile { width: auto !important; }
       to: email,
       bcc: "stefano.frontini@con.repower.com",
       subject: `Il tuo report è pronto ${nome}!`,
-      html: risultatoCheckup(numerosi, buono, sufficiente, insufficiente),
+      html: risultatoCheckup(
+        punteggioTotale,
+        buono,
+        sufficiente,
+        insufficiente
+      ),
     });
     console.log(`Report with Id: ${info.messageId} sent to: ${email}`);
 
     return {
       statusCode: 200,
       body: JSON.stringify({
-        message: `Il risultato è stato inviato all'indirizzo email:<br /> ${email} !`,
+        message: `Corri a scoprire i risultati all'indirizzo email:<br /> ${email} !`,
       }),
     };
   } catch (err) {
