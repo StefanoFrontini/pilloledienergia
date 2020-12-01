@@ -99,7 +99,9 @@
                       alt="logo pillole di energia"
                       width="100"
                     />
-                    <h1>CHECK-UP ENERGETICO GRATUITO</h1>
+                    <h1>
+                      CHECK-UP ENERGETICO GRATUITO<br />per ristoranti e hotel
+                    </h1>
                     <g-image class="img" src="~/assets/check-up.jpeg" alt="" />
                     <p>
                       Compila i campi e inizia <strong>SUBITO</strong><br />il
@@ -598,7 +600,9 @@
                       alt="logo pillole di energia"
                       width="100"
                     />
-                    <h1>CHECK-UP ENERGETICO GRATUITO</h1>
+                    <h1>
+                      CHECK-UP ENERGETICO GRATUITO
+                    </h1>
                     <g-image
                       class="img"
                       src="~/assets/fascetta-verde.jpeg"
@@ -783,8 +787,6 @@ export default {
         domanda8: "",
         domanda9: "",
         domanda10: "",
-        numerosi: 0,
-        numerono: 0,
         iva: false,
         accise: false,
       },
@@ -836,7 +838,6 @@ export default {
       } else {
         const tick = `domanda${this.passo}`;
         this.formData[tick] = "si";
-        this.formData.numerosi++;
         this.passo++;
       }
     },
@@ -846,7 +847,6 @@ export default {
       } else {
         const tick = `domanda${this.passo}`;
         this.formData[tick] = "no";
-        this.formData.numerono++;
         this.passo++;
       }
     },
@@ -1002,9 +1002,9 @@ export default {
   h1 {
     width: 100%;
     position: absolute;
-    top: 0%;
+    top: -0.5%;
     z-index: 10;
-    font-size: 1em;
+    font-size: 0.7em;
   }
 
   .domande p {
@@ -1400,6 +1400,9 @@ export default {
       left: 37%;
       z-index: 10;
     }
+    h1 {
+      top: 0%;
+    }
     .nome {
       top: 30%;
     }
@@ -1530,6 +1533,17 @@ export default {
       font-size: 0.7em;
 
       top: 48%;
+    }
+    h1 {
+      top: 0%;
+
+      font-size: 1em;
+    }
+    .logo {
+      width: 150px;
+
+      top: 4%;
+      left: 37%;
     }
     .nome {
       top: 33%;
@@ -1667,9 +1681,8 @@ export default {
     .logo {
       //width: 100%;
 
-      top: 4%;
-      left: 42%;
-      z-index: 10;
+      top: 6%;
+      left: 39%;
     }
     .nome {
       top: 35%;
@@ -1911,6 +1924,9 @@ export default {
   .cartolina-wrapper {
     h1 {
       font-size: 2em;
+    }
+    .logo {
+      top: 7%;
     }
     .domande p {
       font-size: 1.8em;

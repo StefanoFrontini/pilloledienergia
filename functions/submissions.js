@@ -10,10 +10,6 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-/* const { insufficiente } = require("./utils/insufficiente.js");
-const { sufficiente } = require("./utils/sufficiente.js");
-const { buono } = require("./utils/buono.js"); */
-
 exports.handler = async (event) => {
   const payload = JSON.parse(event.body);
   //console.log(`Payload: ${JSON.stringify(payload)}`);
@@ -31,8 +27,6 @@ exports.handler = async (event) => {
     domanda8,
     domanda9,
     domanda10,
-    numerosi,
-    numerono,
     iva,
     accise,
   } = payload;
@@ -259,7 +253,7 @@ td.full-width-mobile { width: auto !important; }
     return {
       statusCode: 200,
       body: JSON.stringify({
-        message: `Corri a scoprire i risultati all'indirizzo email:<br /> ${email} !`,
+        message: `Corri a scoprire i risultati all'indirizzo email:<br /> ${email} !<br />(guarda anche nella posta indesiderata)`,
       }),
     };
   } catch (err) {

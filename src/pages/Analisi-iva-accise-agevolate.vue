@@ -399,7 +399,7 @@ export default {
     },
     handleSubmit(e) {
       this.messages = [];
-      console.log(this.formData.email, this.atecoCheck, this.formData.accise);
+      //console.log(this.formData.email, this.atecoCheck, this.formData.accise);
       const mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
       if (!this.formData.email.match(mailFormat)) {
         this.messages.push("E' necessario inserire un indirizzo email valido!");
