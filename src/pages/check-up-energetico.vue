@@ -184,7 +184,9 @@
                       alt="logo pillole di energia"
                       width="100"
                     />
-                    <h1>CHECK-UP ENERGETICO GRATUITO</h1>
+                    <h1>
+                      CHECK-UP ENERGETICO GRATUITO<br />per ristoranti e hotel
+                    </h1>
                     <g-image
                       class="img"
                       src="~/assets/fascetta-arancione.jpg"
@@ -230,7 +232,9 @@
                       alt="logo pillole di energia"
                       width="100"
                     />
-                    <h1>CHECK-UP ENERGETICO GRATUITO</h1>
+                    <h1>
+                      CHECK-UP ENERGETICO GRATUITO<br />per ristoranti e hotel
+                    </h1>
                     <g-image
                       class="img"
                       src="~/assets/fascetta-rossa.jpg"
@@ -277,7 +281,9 @@
                       alt="logo pillole di energia"
                       width="100"
                     />
-                    <h1>CHECK-UP ENERGETICO GRATUITO</h1>
+                    <h1>
+                      CHECK-UP ENERGETICO GRATUITO<br />per ristoranti e hotel
+                    </h1>
                     <g-image
                       class="img"
                       src="~/assets/fascetta-rossa.jpg"
@@ -324,7 +330,9 @@
                       alt="logo pillole di energia"
                       width="100"
                     />
-                    <h1>CHECK-UP ENERGETICO GRATUITO</h1>
+                    <h1>
+                      CHECK-UP ENERGETICO GRATUITO<br />per ristoranti e hotel
+                    </h1>
                     <g-image
                       class="img"
                       src="~/assets/fascetta-rossa.jpg"
@@ -381,7 +389,9 @@
                       alt="logo pillole di energia"
                       width="100"
                     />
-                    <h1>CHECK-UP ENERGETICO GRATUITO</h1>
+                    <h1>
+                      CHECK-UP ENERGETICO GRATUITO<br />per ristoranti e hotel
+                    </h1>
                     <g-image
                       class="img"
                       src="~/assets/fascetta-gialla.jpeg"
@@ -428,7 +438,9 @@
                       alt="logo pillole di energia"
                       width="100"
                     />
-                    <h1>CHECK-UP ENERGETICO GRATUITO</h1>
+                    <h1>
+                      CHECK-UP ENERGETICO GRATUITO<br />per ristoranti e hotel
+                    </h1>
                     <g-image
                       class="img"
                       src="~/assets/fascetta-arancione.jpg"
@@ -479,7 +491,9 @@
                       alt="logo pillole di energia"
                       width="100"
                     />
-                    <h1>CHECK-UP ENERGETICO GRATUITO</h1>
+                    <h1>
+                      CHECK-UP ENERGETICO GRATUITO<br />per ristoranti e hotel
+                    </h1>
                     <g-image
                       class="img"
                       src="~/assets/fascetta-rossa.jpg"
@@ -525,7 +539,9 @@
                       alt="logo pillole di energia"
                       width="100"
                     />
-                    <h1>CHECK-UP ENERGETICO GRATUITO</h1>
+                    <h1>
+                      CHECK-UP ENERGETICO GRATUITO<br />per ristoranti e hotel
+                    </h1>
                     <g-image
                       class="img"
                       src="~/assets/fascetta-blu.jpeg"
@@ -552,7 +568,9 @@
                       alt="logo pillole di energia"
                       width="100"
                     />
-                    <h1>CHECK-UP ENERGETICO GRATUITO</h1>
+                    <h1>
+                      CHECK-UP ENERGETICO GRATUITO<br />per ristoranti e hotel
+                    </h1>
                     <g-image
                       class="img"
                       src="~/assets/fascetta-blu.jpeg"
@@ -601,7 +619,7 @@
                       width="100"
                     />
                     <h1>
-                      CHECK-UP ENERGETICO GRATUITO
+                      CHECK-UP ENERGETICO GRATUITO<br />per ristoranti e hotel
                     </h1>
                     <g-image
                       class="img"
