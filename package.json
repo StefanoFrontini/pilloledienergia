@@ -11,7 +11,7 @@
     "@gridsome/plugin-sitemap": "^0.2.3",
     "@gridsome/vue-remark": "^0.1.10",
     "axios": "^0.21.0",
-    "d3-array": "^2.8.0",
+    "d3-array": "^2.9.0",
     "d3-axis": "^1.0.12",
     "d3-scale": "^3.2.3",
     "d3-selection": "^1.4.2",

@@ -64,8 +64,62 @@
         </p>
         <Pillole2 />
       </div>
+      <div class="section">
+        <div style="width: 100%;">
+          <div class="consulente">
+            <p>
+              <strong>Chi è il consulente energetico?</strong>
+            </p>
+          </div>
+          <div class="benefici">
+            <div>
+              <p><strong>Risparmia fino al 25%</strong></p>
+              <p>
+                Tramite la consulenza e l’assistenza gratuita<br />
+                che solo io ti posso dare.<br />
+                <a href="/report-periodico.pdf" download
+                  >Scarica il report periodico.</a
+                >
+              </p>
+            </div>
+            <div>
+              <p><strong>Dimentica il call center</strong></p>
+              <p>
+                Sono io il tuo referente per qualsiasi problema<br />
+                o esigenza.
+              </p>
+            </div>
+            <div>
+              <p><strong>Nessun costo nascosto</strong></p>
+              <p>Condizioni contrattuali trasparenti. Nel tempo.</p>
+            </div>
+          </div>
+          <div class="pulsante" style="display: flex; justify-content: center;">
+            <g-link to="/chi-sono/"
+              ><g-image
+                src="~/assets/pulsante.png"
+                alt="scopri di più"
+                width="200px"
+              ></g-image
+            ></g-link>
+          </div>
+        </div>
+      </div>
 
       <div class="section">
+        <Check-up />
+      </div>
+
+      <div class="section">
+        <div class="consulente">
+          <p>
+            <strong>I’ve got Repower!</strong>
+          </p>
+          <Repower />
+        </div>
+      </div>
+
+      <!-- <div class="section">
         <div class="soluzione">
           <h2 class="titolo titolo-soluzione">
             Soluzione
@@ -298,8 +352,8 @@
           </div>
         </div>
       </div>
-
-      <div class="section">
+ -->
+      <!-- <div class="section">
         <div class="infografiche">
           <h2 class="titolo titolo-infografiche">L’energia in numeri</h2>
           <div class="blog-content-wrapper">
@@ -312,7 +366,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </Layout>
 </template>
@@ -407,31 +461,37 @@ query {
 </static-query>
 
 <script>
-import PostCard from "~/components/PostCard.vue";
+/* import PostCard from "~/components/PostCard.vue";
 import EpisodeCard from "~/components/EpisodeCard.vue";
 import InfograficaCard from "~/components/InfograficaCard.vue";
-
-import Pillole2 from "~/components/Pillole2.vue";
 import InstagramCardStefano from "~/components/InstagramCardStefano.vue";
 import InstagramCardRepower from "~/components/InstagramCardRepower.vue";
 import VantaggiConsulenteCard from "~/components/VantaggiConsulenteCard.vue";
-import VantaggiRepowerCard from "~/components/VantaggiRepowerCard.vue";
+import VantaggiRepowerCard from "~/components/VantaggiRepowerCard.vue"; */
 import { Glide, GlideSlide } from "vue-glide-js";
 import "vue-glide-js/dist/vue-glide.css";
+
+import Pillole2 from "~/components/Pillole2.vue";
+import CheckUp from "~/components/Check-up-component.vue";
+import Repower from "~/components/Repower.vue";
+
 //import ateco from "@/data/ateco.json";
 
 export default {
   components: {
-    PostCard,
+    /* PostCard,
     EpisodeCard,
     InfograficaCard,
-    Pillole2,
+
     InstagramCardStefano,
     InstagramCardRepower,
     VantaggiConsulenteCard,
-    VantaggiRepowerCard,
+    VantaggiRepowerCard, */
+    Pillole2,
     [Glide.name]: Glide,
     [GlideSlide.name]: GlideSlide,
+    CheckUp,
+    Repower,
   },
   data() {
     return {
@@ -521,12 +581,67 @@ export default {
   transform: translateX(-600px);
 }
 
+.section {
+  display: flex;
+  justify-content: center;
+  background: #ededed;
+  padding-top: 2em;
+
+  .pulsante a {
+    color: white;
+    position: relative;
+  }
+  .pulsante a:after {
+    content: "Guarda l’intervista su Radio LiveSocial";
+    position: absolute;
+    left: 25%;
+    top: 28%;
+    font-weight: bold;
+    width: 80%;
+    font-size: 0.8em;
+  }
+}
+
 .pericoli p {
   text-align: center;
   font-size: 1.2em;
   span {
     color: $primaryColor;
     font-weight: bold;
+  }
+}
+
+.benefici {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  p strong {
+    font-size: 2em;
+  }
+}
+
+.consulente {
+  text-align: center;
+  font-weight: bold;
+
+  strong {
+    border-left: 0.2em solid $primaryColor;
+    border-right: 0.2em solid $primaryColor;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background: #ededed;
+    font-size: 2em;
+  }
+  button {
+    background: rgb(235, 74, 16);
+    outline: none;
+    border: none;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    width: 80%;
   }
 }
 
@@ -809,11 +924,6 @@ a.button {
   font-size: 1em;
 }
 
-.section {
-  display: flex;
-  justify-content: center;
-}
-
 .carousel,
 .check-up-energetico,
 .check-up-iva,
@@ -1017,7 +1127,7 @@ a.button {
   }
 
   .section {
-    margin-bottom: 2em;
+    background-color: #ededed;
   }
 
   .foto-mercato {
