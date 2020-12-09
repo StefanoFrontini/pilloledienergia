@@ -22,17 +22,19 @@ import data from "~/data/consumiPrimari.json"
 import EfficienzaEnergetica from "~/components/EfficienzaEnergetica.vue"
 import data_efficienza from "~/data/odex.json"
 
+import CheckUp from "~/components/Check-up-component.vue"
+
 <AnnualeConsumiPrimari title="Andamento dei consumi energetici primari in Italia" xKey="Anno"
-            y1Key="Mtep"                       
+            y1Key="Mtep"
             :data="data"
             />
 
-<EfficienzaEnergetica title="Andamento dell'efficienza energetica" xKey="Anno" 
+<EfficienzaEnergetica title="Andamento dell'efficienza energetica" xKey="Anno"
             y1Key="Industria"
             y2Key="Trasporto"
             y3Key="Famiglie"
             y4Key="Terziario"
-            y5Key="Totale"            
+            y5Key="Totale"
              :data="data_efficienza"/>
 
 I grafici illustrano rispettivamente:
@@ -50,5 +52,4 @@ I dati sono presi da [Ministero dello Sviluppo Economico - bilancio energetico n
 - Mtep = milioni di tep;
 - L'energia primaria è l'energia presente in natura e quindi non derivante dalla trasformazione di altra forma di energia.
 
-> <g-link to="/contatti">Contattami</g-link> per eseguire un check-up energetico gratuito completo del tuo ristorante/hotel.</br>
-<a href="/check-up-energetico.pdf" download>SCARICA IL CHECK-UP DI BASE</a>
+<CheckUp />

@@ -1,0 +1,93 @@
+<mjml>
+  <mj-body background-color="#f0f0f0" color="#55575d" font-family="Arial, sans-serif" >
+
+    <mj-section background-color="white">
+
+
+  <mj-column>
+    <mj-image width="600px"
+              src="https://res.cloudinary.com/stefano75/image/upload/v1606126533/3_RISULTATI_suff_cfewzl.jpg" />
+  </mj-column>
+
+
+
+</mj-section>
+
+
+  <mj-section background-color="white" >
+        <mj-column width="400px" >
+
+          <mj-text font-family="sans-serif" line-height="16px"
+
+
+                   ><strong><i>Ciao ${nome}</i>,<br /> complimenti</strong> per aver dedicato del tempo all’analisi delle tue forniture.</mj-text>
+
+            <mj-text font-family="sans-serif" line-height="16px">
+                Questo breve
+                <strong><span style="color:#f78411"> check-up</span></strong> è solo l’inizio di un percorso per arrivare ad ottimizzare al massimo i tuoi costi e cosa altrettanto importante il tuo tempo. <strong>Non perdere l’occasione</strong> di sapere grazie a un’analisi approfondita e personalizzata - <strong><span style="color:#f78411">gratuita e senza impegno</span></strong> - come arrivare a raggiungere questo importante risultato per la tua attività.
+          </mj-text>
+          <mj-image src="https://res.cloudinary.com/stefano75/image/upload/v1606256864/contattami_cgzkpc.jpg" href="mailto:stefano.frontini@con.repower.com" width="130px"
+
+  ></mj-image>
+
+
+          <mj-text font-family="sans-serif" line-height="16px">
+                Mi chiamo Stefano Frontini e da 15 anni sono un <strong>consulente</strong> energetico specializzato in <strong>Ristoranti</strong> e <strong>Hotel</strong>.<br />Cos’è un
+                <strong><span style="color:#f78411"> consulente energetico specializzato</span></strong>?
+          </mj-text>
+          <mj-image src="https://res.cloudinary.com/stefano75/image/upload/v1606257014/scopri-di-piu%CC%80_qznaio.jpg" href="https://www.pilloledienergia.com/chi-sono/" width="130px"></mj-image>
+          <mj-text font-family="sans-serif" line-height="16px">
+                Forse non sai che sono sempre più numerosi i <strong>Ristoranti</strong> e gli <strong>Hotel</strong> che scelgono di avere un consulente energetico esclusivo.
+
+          </mj-text>
+
+          <mj-text font-family="sans-serif" line-height="16px">
+                Una persona specializzata che segue costantemente l’andamento dei loro consumi e che gli propone le migliori opportunità sul mercato luce e gas, un
+                <strong><span style="color:#f78411"> servizio</span></strong> che io offro <strong><span style="color:#f78411"> completamente gratuito</span></strong>.
+          </mj-text>
+
+
+    </mj-column>
+  </mj-section>
+
+
+
+
+
+
+  <mj-section background-color="white" >
+        <mj-column width="100%" padding="0">
+
+          <mj-text color="#525252" font-size="10px" align="center" line-height="16px" font-family="sans-serif">
+          <span style="color: #f78411;">PILLOLE DI ENERGIA &copy; 2020</span><br />
+            <strong>Stefano Frontini consulente energetico per ristoranti e hotel</strong><br />
+            <a href="https://www.pilloledienergia.com/">www.pilloledienergia.com</a>
+            <br />
+            <a href="mailto:stefano.frontini@con.repower.com"
+                      >stefano.frontini@con.repower.com</a
+                    ><br />cell: 335.103.03.01
+          </mj-text>
+          <mj-social font-size="15px" icon-size="30px" mode="horizontal" padding="0" align="center" >
+            <mj-social-element name="facebook" href="https://www.facebook.com/stefanofrontiniconsulenteenergetico" >
+            </mj-social-element>
+            <mj-social-element name="youtube" href="https://www.youtube.com/channel/UCR-O1aNnCvdtANr8Yf7h_RQ">
+            </mj-social-element>
+            <mj-social-element name="instagram" href="https://www.instagram.com/pilloledienergia/?hl=it">
+            </mj-social-element>
+            <mj-social-element name="linkedin" href="https://www.linkedin.com/in/stefano-frontini/">
+            </mj-social-element>
+          </mj-social>
+
+
+
+        </mj-column>
+      </mj-section>
+
+
+
+
+
+
+
+  </mj-body>
+</mjml>

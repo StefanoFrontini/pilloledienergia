@@ -22,8 +22,10 @@ import data from "~/data/annualeConsumiEnergiaElettrica.json"
 import annualeConsumiEnergiaElettricaSettore from "~/components/annualeConsumiEnergiaElettricaSettore.vue"
 import data_settore from "~/data/annualeConsumiEnergiaElettricaSettore.json"
 
+import CheckUp from "~/components/Check-up-component.vue"
+
 <annualeConsumiEnergiaElettrica title="Andamento storico dei consumi di energia elettrica in Italia" xKey="Anno"
-            y1Key="TWh"                       
+            y1Key="TWh"
             :data="data"
             />
 
@@ -37,7 +39,7 @@ I dati sono presi da [Terna Spa.](https://www.terna.it/it)
             y1Key="Agricoltura"
             y2Key="Industria"
             y3Key="Terziario"
-            y4Key="Domestico"                                 
+            y4Key="Domestico"
             :data="data_settore"
             />
 
@@ -48,5 +50,4 @@ I dati sono presi da [Terna Spa.](https://www.terna.it/it)
 - I consumi del terziario crescono stabilmente;
 - 1 Terawattora (TWh) = 1 000 000 000 Kilowattora (kWh).
 
-> <g-link to="/contatti">Contattami</g-link> per eseguire un check-up energetico gratuito completo del tuo ristorante/hotel.</br>
-<a href="/check-up-energetico.pdf" download>SCARICA IL CHECK-UP DI BASE</a>
+<CheckUp />

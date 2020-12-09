@@ -22,13 +22,15 @@ import data from "~/data/operatori-energia-elettrica-libero.json"
 import OperatoriEnergiaBT from "~/components/OperatoriEnergiaBT.vue"
 import dataBT from "~/data/operatori-energia-bt.json"
 
+import CheckUp from "~/components/Check-up-component.vue"
+
 <OperatoriEnergiaLibero title="Primi venti gruppi di vendita di energia elettrica al mercato libero nel 2019" xKey="Gruppo"
-            yKey="Energia"                       
+            yKey="Energia"
             :data="data"
             />
 
 <OperatoriEnergiaBT title="Vendite di energia alla piccola e media impresa (non domestici BT)" xKey="Gruppo"
-            yKey="BT"                       
+            yKey="BT"
             :data="dataBT"
             />
 
@@ -41,4 +43,4 @@ I dati sono presi dall'[ARERA - Indagine annuale sui settori regolati](https://w
 
 - 1 GWh = 1 milione di kWh;
 
-> <g-link to="/contatti">Contattami</g-link> per eseguire un check-up energetico gratuito completo del tuo ristorante/hotel.</br> > <a href="/check-up-energetico.pdf" download>SCARICA IL CHECK-UP DI BASE</a>
+<CheckUp />

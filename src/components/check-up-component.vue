@@ -786,27 +786,7 @@ export default {
         font-weight: bold;
       }
     }
-    .foot {
-      width: 100%;
-      position: absolute;
-      top: 55%;
-      font-size: 0.8em;
 
-      .pill {
-        text-transform: uppercase;
-        color: $primaryColor;
-        font-size: 0.8em;
-      }
-      a {
-        color: black;
-      }
-      a:hover {
-        color: $primaryColor;
-      }
-      p strong {
-        color: black;
-      }
-    }
     .footGrigio {
       width: 100%;
       position: absolute;
@@ -965,9 +945,7 @@ export default {
           font-size: 0.6em;
         }
       }
-      .foot {
-        font-size: 0.8em;
-      }
+
       .usoDati {
         top: 80%;
         font-size: 0.8em;
@@ -1038,9 +1016,7 @@ export default {
           font-size: 0.7em;
         }
       }
-      .foot {
-        font-size: 0.9em;
-      }
+
       .usoDati {
         top: 78%;
       }
@@ -1092,11 +1068,6 @@ export default {
         font-size: 2em;
 
         left: 75%;
-      }
-      .foot {
-        top: 54%;
-
-        font-size: 1em;
       }
     }
   }
@@ -1177,10 +1148,7 @@ export default {
           font-size: 0.9em;
         }
       }
-      .foot {
-        top: 55%;
-        font-size: 0.9em;
-      }
+
       .usoDati {
         top: 83%;
         font-size: 0.7em;
@@ -1247,10 +1215,7 @@ export default {
           font-size: 1em;
         }
       }
-      .foot {
-        top: 55%;
-        font-size: 0.9em;
-      }
+
       .usoDati {
         top: 84%;
         font-size: 0.8em;
@@ -1263,6 +1228,7 @@ export default {
   .cartolina-wrapper {
     .step {
       min-height: 462px;
+      min-width: 768px;
       p {
         font-size: 1.7em;
       }
@@ -1330,10 +1296,7 @@ export default {
           font-size: 1.2em;
         }
       }
-      .foot {
-        font-size: 1em;
-        top: 54%;
-      }
+
       .usoDati {
         top: 78%;
         font-size: 0.7em;
@@ -1375,10 +1338,7 @@ export default {
           font-size: 1.3em;
         }
       }
-      .foot {
-        top: 55%;
-        font-size: 0.8em;
-      }
+
       .usoDati {
         top: 84%;
         font-size: 0.7em;
@@ -1391,6 +1351,7 @@ export default {
   .cartolina-wrapper {
     .step {
       min-height: 504px;
+      min-width: 843px;
       .nome {
         top: 51%;
         .content-name {
@@ -1444,6 +1405,8 @@ export default {
 @media (min-width: 1300px) {
   .cartolina-wrapper {
     .step {
+      min-height: 499px;
+      min-width: 843px;
       .nome {
         top: 51%;
         .content-name {
@@ -1489,11 +1452,12 @@ export default {
           font-size: 1.3em;
         }
       }
-      .foot {
-        top: 55%;
-      }
+
       .start {
         font-size: 3em;
+      }
+      .usoDati {
+        top: 83%;
       }
     }
   }

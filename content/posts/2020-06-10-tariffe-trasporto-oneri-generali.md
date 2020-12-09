@@ -18,6 +18,8 @@ cover: ./images/cinque-lampadine.jpg
 alt: cinque lampadine
 ---
 
+import CheckUp from "~/components/Check-up-component.vue"
+
 Oggi ho fatto visita ad un potenziale Cliente e mi ha chiesto quali fossero le tariffe applicate da Repower per ciò che riguarda quella parte della bolletta relativa alla spesa per il trasporto dell’energia elettrica e la gestione del contatore e alla spesa relativa agli oneri di sistema.
 
 Un competitor gli aveva proposto degli sconti su queste tariffe rispetto al suo attuale fornitore e voleva avere maggior dettagli sulla proposta Repower.
@@ -27,5 +29,4 @@ Gli ho risposto che le tariffe che determinano la spesa per il trasporto e degli
 
 Per avere maggiori dettagli ho consigliato al Cliente di chiamare lo [Sportello per il Consumatore](http://www.sportelloperilconsumatore.it/) al numero verde 800 166 654, il servizio gratuito dell’Autorità per l’Energia che assiste i consumatori di elettricità, gas e servizi idrici a far valere i propri diritti.
 
-> <g-link to="/contatti">Contattami</g-link> per eseguire un check-up energetico gratuito completo del tuo ristorante/hotel.<br>
-<a href="/check-up-energetico.pdf" download>SCARICA IL CHECK-UP DI BASE</a>
+<CheckUp />

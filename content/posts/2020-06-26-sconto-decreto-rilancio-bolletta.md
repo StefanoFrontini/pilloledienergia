@@ -18,6 +18,8 @@ cover: ./images/tre-lampadine-appese.jpg
 alt: tre lampadine appese
 ---
 
+import CheckUp from "~/components/Check-up-component.vue"
+
 Oggi ho fatto i conti di quanto impatta lo sconto previsto dal DL Rilancio sulla fattura di energia elettrica di 4 miei Clienti.
 
 Il DL Rilancio ha infatti stanziato 600 milioni di euro per la riduzione della spesa sostenuta dalle utenze elettriche e l'ARERA ha dato attuazione pratica al provvedimento governativo con la [delibera 190/2020/R/eel](https://www.arera.it/it/docs/20/190-20e.htm).
@@ -44,7 +46,4 @@ Ecco i risultati dell'analisi:
 
   <span class="grassetto">Valore dello sconto: 75€</span> (25€/mese).
 
-
-
-> <g-link to="/contatti">Contattami</g-link> per eseguire un check-up energetico gratuito completo del tuo ristorante/hotel.<br>
-<a href="/check-up-energetico.pdf" download>SCARICA IL CHECK-UP DI BASE</a>
+<CheckUp />

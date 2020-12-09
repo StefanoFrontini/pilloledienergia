@@ -13,10 +13,12 @@ published: true
 
 tags: ['energia elettrica']
 
-cover: 
+cover:
 ---
+
 import AnnualeMixElettrico from "~/components/AnnualeMixElettrico.vue"
 import data from "~/data/annualeMixElettrico.json"
+import CheckUp from "~/components/Check-up-component.vue"
 
 <AnnualeMixElettrico title="Andamento delle fonti di produzione di energia elettrica in Italia" xKey="anno"
             y1Key="gas"
@@ -26,16 +28,13 @@ import data from "~/data/annualeMixElettrico.json"
             y5Key="altro termo"
             y6Key="import" :data="data"/>
 
-
-Il grafico illustra l'andamento annuale delle fonti di produzione di energia elettrica in Italia dal 2000 al 2018.  <br />
+Il grafico illustra l'andamento annuale delle fonti di produzione di energia elettrica in Italia dal 2000 al 2018. <br />
 I dati sono presi dalla [relazione annuale dell'Autorità di Regolazione per Energia Reti e Ambiente (ARERA).](https://www.arera.it/it/relaz_ann/19/19.htm)
 
-* Nel periodo 2000 - 2018 la quota delle fonti rinnovabili sul totale delle fonti energetiche utilizzate in Italia per la produzione di energia elettrica sale dal 16% al 34%;
-* La quota del petrolio scende dal 27% al 1%;
-* Il gas naturale continua ad essere la prima fonte con una quota pari al 39%;
-* Il gas naturale bilancia le fluttuazioni dei consumi e delle rinnovabili;
-* 1 Terawattora (TWh) = 1 000 000 000 Kilowattora (kWh).
+- Nel periodo 2000 - 2018 la quota delle fonti rinnovabili sul totale delle fonti energetiche utilizzate in Italia per la produzione di energia elettrica sale dal 16% al 34%;
+- La quota del petrolio scende dal 27% al 1%;
+- Il gas naturale continua ad essere la prima fonte con una quota pari al 39%;
+- Il gas naturale bilancia le fluttuazioni dei consumi e delle rinnovabili;
+- 1 Terawattora (TWh) = 1 000 000 000 Kilowattora (kWh).
 
-> <g-link to="/contatti">Contattami</g-link> per eseguire un check-up energetico gratuito completo del tuo ristorante/hotel.</br>
-<a href="/check-up-energetico.pdf" download>SCARICA IL CHECK-UP DI BASE</a>
-
+<CheckUp />

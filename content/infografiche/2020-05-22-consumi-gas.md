@@ -22,8 +22,10 @@ import data from "~/data/annualeConsumiGas.json"
 import annualeConsumiGasSettore from "~/components/annualeConsumiGasSettore.vue"
 import data_settore from "~/data/annualeConsumiGasSettore.json"
 
+import CheckUp from "~/components/Check-up-component.vue"
+
 <annualeConsumiGas title="Andamento storico dei consumi di gas naturale in Italia" xKey="Anno"
-            y1Key="Miliardi di metri cubi"                       
+            y1Key="Miliardi di metri cubi"
             :data="data"
             />
 
@@ -32,11 +34,11 @@ I dati sono presi dal [Ministero dello Sviluppo Economico - bilancio energetico 
 
 - I consumi di gas naturale italiani hanno subìto una forte contrazione dai massimi del 2008 e solo dal 2015 hanno ripreso a salire.
 
-<annualeConsumiGasSettore title="Andamento storico dei consumi di gas naturale in Italia per settore" xKey="Anno"            
+<annualeConsumiGasSettore title="Andamento storico dei consumi di gas naturale in Italia per settore" xKey="Anno"
             y1Key="Industria"
             y2Key="Residenziale e Terziario"
             y3Key="Termoelettrico"
-            y4Key="Altro"                                 
+            y4Key="Altro"
             :data="data_settore"
             />
 
@@ -46,5 +48,4 @@ I dati sono presi da [Ministero dello Sviluppo Economico - bilancio energetico n
 - Termoelettrico e Industria i settori più colpiti dalla crisi del 2008;
 - Il Terziario e Residenziale diventa il primo settore per consumi di gas naturale superando l'Industria.
 
-> <g-link to="/contatti">Contattami</g-link> per eseguire un check-up energetico gratuito completo del tuo ristorante/hotel.</br>
-<a href="/check-up-energetico.pdf" download>SCARICA IL CHECK-UP DI BASE</a>
+<CheckUp />

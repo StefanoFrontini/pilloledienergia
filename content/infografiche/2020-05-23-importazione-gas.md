@@ -25,17 +25,17 @@ import data_dipendenza from "~/data/gradoDipendenzaGas.json"
 import ProvenienzaGas from "~/components/ProvenienzaGas.vue"
 import data_provenienza from "~/data/provenienzaGas.json"
 
+import CheckUp from "~/components/Check-up-component.vue"
+
 <ProduzioneGas title="Andamento storico della produzione di gas naturale in Italia" xKey="Anno"
-            y1Key="Miliardi di mc"                       
+            y1Key="Miliardi di mc"
             :data="data"
             />
 
-
-<GradoDipendenzaGas title="Grado di dipendenza dall'estero - importazioni/consumi - %" xKey="Anno"            
-            y1Key="Grado di dipendenza dall'estero"                       
+<GradoDipendenzaGas title="Grado di dipendenza dall'estero - importazioni/consumi - %" xKey="Anno"
+            y1Key="Grado di dipendenza dall'estero"
             :data="data_dipendenza"
             />
-
 
 <ProvenienzaGas title="Importazioni italiane di gas per provenienza" xKey="Anno"
             y1Key="Algeria"
@@ -46,19 +46,15 @@ import data_provenienza from "~/data/provenienzaGas.json"
             y6Key="Qatar"
             y7Key="Altri" :data="data_provenienza"/>
 
-
-
 I grafici illustrano rispettivamente:
-* l'andamento annuale della produzione di gas naturale in Italia dal 2000 al 2018; 
-* l'andamento delle importazioni rapportati ai consumi di gas naturale in Italia dal 2000 al 2017;
-* Le importazioni di gas per provenienza.
+
+- l'andamento annuale della produzione di gas naturale in Italia dal 2000 al 2018;
+- l'andamento delle importazioni rapportati ai consumi di gas naturale in Italia dal 2000 al 2017;
+- Le importazioni di gas per provenienza.
 
 I dati sono presi da [Ministero dello Sviluppo Economico - bilancio energetico nazionale](https://dgsaie.mise.gov.it/ben.php) e dall'ARERA.
 
-* La produzione nazionale di gas naturale si riduce in misura maggiore rispetto al calo dei consumi. Il grado di dipendenza dall'estero pertanto aumenta e arriva al 93% nel 2017;
-* Aumentano le importazioni dalla Russia.
+- La produzione nazionale di gas naturale si riduce in misura maggiore rispetto al calo dei consumi. Il grado di dipendenza dall'estero pertanto aumenta e arriva al 93% nel 2017;
+- Aumentano le importazioni dalla Russia.
 
-> <g-link to="/contatti">Contattami</g-link> per eseguire un check-up energetico gratuito completo del tuo ristorante/hotel.</br>
-<a href="/check-up-energetico.pdf" download>SCARICA IL CHECK-UP DI BASE</a>
-
-      
+<CheckUp />

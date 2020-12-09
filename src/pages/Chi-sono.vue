@@ -3,7 +3,7 @@
     <div class="chi-sono-wrapper">
       <div class="chi-sono">
         <div class="section">
-          <h2 class="title">Chi sono</h2>
+          <p class="title"><strong>Chi sono</strong></p>
           <p>
             Guarda questa intervista per capire come un consulente energetico
             specializzato può aiutare il tuo ristorante/hotel.
@@ -14,7 +14,7 @@
               title="La mia attività raccontata a Live Social Radio"
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/6w-0ySPz3ks"
+              src="https://www.youtube.com/embed/6w-0ySPz3ks?enablejsapi=1"
               srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/6w-0ySPz3ks?autoplay=1><img src=https://img.youtube.com/vi/6w-0ySPz3ks/hqdefault.jpg alt='La mia attività raccontata a Live Social Radio'><span>▶</span></a>"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -61,7 +61,7 @@
           </div> -->
         </div>
         <div class="section">
-          <h2 class="title">Chi è il consulente energetico?</h2>
+          <p class="title"><strong>Chi è il consulente energetico?</strong></p>
           <p>
             E’ un professionista che ti mette a disposizione la sua competenza
             sui mercati all’ingrosso dell’energia elettrica e gas, sulle voci
@@ -69,7 +69,7 @@
             generare un <strong>vero risparmio</strong> nel tempo in termini
             economici, di tempo e di frustrazioni evitate.
           </p>
-          <p>
+          <p class="domanda">
             <strong>
               Come faccio a far risparmiare i miei Clienti fino al 25% sulle
               loro forniture di energia elettrica e gas?
@@ -86,11 +86,11 @@
             Guarda un fac-simile dei <strong>report</strong> che rilascio ai
             miei Clienti periodicamente:
           </p>
-          <div style="display: flex; justify-content: center;">
+          <div class="report">
             <a href="/report-periodico.pdf" download
               ><g-image
-                src="~/assets/scopri-di-più.jpeg"
-                alt="scopri di più"
+                src="~/assets/pulsante.png"
+                alt="scarica il report periodico"
                 width="150px"
               ></g-image
             ></a>
@@ -118,7 +118,7 @@
             Repower che mi paga per aiutarti a gestire al meglio - ogni giorno -
             la parte energetica del tuo ristorante/hotel.
           </p>
-          <p><strong>Perché ho scelto Repower?</strong></p>
+          <p class="domanda"><strong>Perché ho scelto Repower?</strong></p>
           <p>
             Perché a differenza di molte altre utility è un’azienda trasparente
             dal punto di vista dei contratti che propone,
@@ -131,21 +131,26 @@
             anticipo di capitale, termografie certificate ISO 9712, analisi
             fonometrica al circuito dell’aria compressa.
           </p>
+
+          <InstagramCardStefano />
+
           <p>
             Perché è un’azienda innovativa e sta investendo molto sulla
             <strong>sostenibilità</strong>: con le soluzioni Repower infatti
             riesco a ridurre l’impatto ambientale della tua struttura tramite
             energia 100% verde certificata TUV e a renderla pronta per
-            accogliere il crescente turismo che si muove in
+            accogliere il crescente turismo green che si muove in
             <strong>auto elettrica</strong>.
           </p>
+          <InstagramCardRepower />
+
           <p>
             Perché è <strong>un’azienda solida</strong> (origine svizzera, è
             nata 100 anni fa quando ha costruito la prima centrale idroelettrica
             per alimentare il trenino rosso del Bernina) e lavora solo in ambito
             business.
           </p>
-          <p><strong>Testimonianza</strong></p>
+          <p class="domanda"><strong>Testimonianza</strong></p>
           <p>
             Guarda la testimonianza di Franca e Consuelo del ristornate La
             colubrina di Milano per capire cosa io e Repower possiamo fare per
@@ -157,14 +162,14 @@
               title="La mia attività raccontata a Live Social Radio"
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/wvBmXA-YFuc"
+              src="https://www.youtube.com/embed/wvBmXA-YFuc?enablejsapi=1"
               srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/wvBmXA-YFuc?autoplay=1><img src=https://img.youtube.com/vi/wvBmXA-YFuc/hqdefault.jpg alt='Video testimonianza Ristorante La Colubrina'><span>▶</span></a>"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
           </div>
-          <p><strong>Check up energetico su misura</strong></p>
+          <p class="domanda"><strong>Check up energetico su misura</strong></p>
           <p>
             Se ti sei mai chiesto perché ti arrivano fatture elevate nonostante
             il tuo ristorante/hotel sia chiuso in questo momento di emergenza,
@@ -224,7 +229,7 @@
           </p>
         </div> -->
         <div class="section">
-          <h2 class="title">Grottammare</h2>
+          <p class="title"><strong>Grottammare</strong></p>
           <p>
             Quando ho un po’ di tempo torno a
             <a href="http://www.comune.grottammare.ap.it/">Grottammare</a>
@@ -255,8 +260,14 @@ query {
 </static-query>
 
 <script>
+import InstagramCardStefano from "~/components/InstagramCardStefano.vue";
+import InstagramCardRepower from "~/components/InstagramCardRepower.vue";
+
 export default {
-  components: {},
+  components: {
+    InstagramCardStefano,
+    InstagramCardRepower,
+  },
   metaInfo() {
     return {
       title: "Chi sono | Pillole di Energia",
@@ -305,6 +316,22 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.title {
+  text-align: center;
+  strong {
+    border-left: 0.2em solid $primaryColor;
+    border-right: 0.2em solid $primaryColor;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+
+    font-size: 2em;
+  }
+}
+
+.domanda {
+  font-size: 1.2em;
+}
+
 .img {
   width: 100%;
   //height: 200px;
@@ -327,7 +354,7 @@ export default {
 }
 .g-image {
   width: 100%;
-  height: 100%;
+  height: 90%;
   object-fit: cover;
 }
 
@@ -348,6 +375,24 @@ export default {
 
 .section {
   position: relative;
+  .report {
+    display: flex;
+    justify-content: center;
+  }
+
+  .report a {
+    color: white;
+    position: relative;
+  }
+  .report a:after {
+    content: "Scarica il report";
+    position: absolute;
+    left: 28%;
+    top: 28%;
+    font-weight: bold;
+    width: 80%;
+    font-size: 0.8em;
+  }
 }
 
 .foto-wrapper {
@@ -373,7 +418,7 @@ export default {
   z-index: -2;
 }
 
-.title::before {
+/* .title::before {
   content: " ";
   position: absolute;
   left: -18px;
@@ -393,7 +438,7 @@ export default {
   width: 8px;
   background-color: $primaryColor;
   z-index: -3;
-}
+} */
 
 .intervista {
   display: flex;
@@ -407,7 +452,7 @@ export default {
   height: 200px;
 }
 
-.bni {
+/* .bni {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -416,7 +461,7 @@ export default {
 .myguitarsongs {
   display: flex;
   justify-content: center;
-}
+} */
 
 .chi-sono-wrapper {
   display: flex;

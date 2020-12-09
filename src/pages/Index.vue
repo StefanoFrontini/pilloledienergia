@@ -91,10 +91,12 @@
             </div>
             <div>
               <p><strong>Nessun costo nascosto</strong></p>
-              <p>Condizioni contrattuali trasparenti. Nel tempo.</p>
+              <p>
+                Condizioni contrattuali trasparenti e a mercato.<br />Nel tempo.
+              </p>
             </div>
           </div>
-          <div class="pulsante" style="display: flex; justify-content: center;">
+          <div class="pulsante">
             <g-link to="/chi-sono/"
               ><g-image
                 src="~/assets/pulsante.png"
@@ -586,6 +588,10 @@ export default {
   justify-content: center;
   background: #ededed;
   padding-top: 2em;
+  .pulsante {
+    display: flex;
+    justify-content: center;
+  }
 
   .pulsante a {
     color: white;
@@ -632,16 +638,6 @@ export default {
     padding-right: 0.5em;
     background: #ededed;
     font-size: 2em;
-  }
-  button {
-    background: rgb(235, 74, 16);
-    outline: none;
-    border: none;
-    font-size: 2em;
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-    width: 80%;
   }
 }
 

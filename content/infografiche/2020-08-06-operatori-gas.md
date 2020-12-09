@@ -19,8 +19,10 @@ cover:
 import OperatoriGas from "~/components/OperatoriGas.vue"
 import data from "~/data/operatori-gas.json"
 
+import CheckUp from "~/components/Check-up-component.vue"
+
 <OperatoriGas title="Primi venti gruppi per vendite di gas naturale al mercato finale nel 2019" xKey="Gruppo"
-            yKey="Mmc"                       
+            yKey="Mmc"
             :data="data"
             />
 
@@ -30,4 +32,4 @@ I dati sono presi dall'[ARERA - Indagine annuale sui settori regolati](https://w
 
 - 1 Mmc = 1 milione di metri cubi;
 
-> <g-link to="/contatti">Contattami</g-link> per eseguire un check-up energetico gratuito completo del tuo ristorante/hotel.</br> > <a href="/check-up-energetico.pdf" download>SCARICA IL CHECK-UP DI BASE</a>
+<CheckUp />
