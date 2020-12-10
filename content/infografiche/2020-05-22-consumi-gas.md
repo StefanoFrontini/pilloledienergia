@@ -21,6 +21,7 @@ import data from "~/data/annualeConsumiGas.json"
 
 import annualeConsumiGasSettore from "~/components/annualeConsumiGasSettore.vue"
 import data_settore from "~/data/annualeConsumiGasSettore.json"
+import CheckUp from "~/components/CheckUpComponent.vue";
 
 <annualeConsumiGas title="Andamento storico dei consumi di gas naturale in Italia" xKey="Anno"
             y1Key="Miliardi di metri cubi"
@@ -45,3 +46,5 @@ I dati sono presi da [Ministero dello Sviluppo Economico - bilancio energetico n
 
 - Termoelettrico e Industria i settori più colpiti dalla crisi del 2008;
 - Il Terziario e Residenziale diventa il primo settore per consumi di gas naturale superando l'Industria.
+
+<CheckUp />

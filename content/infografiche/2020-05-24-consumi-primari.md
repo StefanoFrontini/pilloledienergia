@@ -22,6 +22,8 @@ import data from "~/data/consumiPrimari.json"
 import EfficienzaEnergetica from "~/components/EfficienzaEnergetica.vue"
 import data_efficienza from "~/data/odex.json"
 
+import CheckUp from "~/components/CheckUpComponent.vue";
+
 <AnnualeConsumiPrimari title="Andamento dei consumi energetici primari in Italia" xKey="Anno"
             y1Key="Mtep"
             :data="data"
@@ -49,3 +51,5 @@ I dati sono presi da [Ministero dello Sviluppo Economico - bilancio energetico n
 - Il tep rappresenta la quantità di energia rilasciata dalla combustione di una tonnellata di petrolio grezzo;
 - Mtep = milioni di tep;
 - L'energia primaria è l'energia presente in natura e quindi non derivante dalla trasformazione di altra forma di energia.
+
+<CheckUp />

@@ -18,6 +18,7 @@ cover:
 
 import AnnualeMixElettrico from "~/components/AnnualeMixElettrico.vue"
 import data from "~/data/annualeMixElettrico.json"
+import CheckUp from "~/components/CheckUpComponent.vue";
 
 <AnnualeMixElettrico title="Andamento delle fonti di produzione di energia elettrica in Italia" xKey="anno"
             y1Key="gas"
@@ -35,3 +36,5 @@ I dati sono presi dalla [relazione annuale dell'Autorità di Regolazione per Ene
 - Il gas naturale continua ad essere la prima fonte con una quota pari al 39%;
 - Il gas naturale bilancia le fluttuazioni dei consumi e delle rinnovabili;
 - 1 Terawattora (TWh) = 1 000 000 000 Kilowattora (kWh).
+
+<CheckUp />
