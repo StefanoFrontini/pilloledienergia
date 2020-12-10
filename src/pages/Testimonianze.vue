@@ -7,23 +7,23 @@
           Ristorante <a href="https://lacolubrina.it/">La Colubrina</a> di
           Milano
         </h3>
+        <div class="img">
+          <g-image src="~/assets/grigio.png" alt="fondo grigio" />
 
-        <iframe
-          title="Video testimonianza Ristorante La Colubrina"
-          width="100%"
-          height="315"
-          data-src="https://www.youtube.com/embed/wvBmXA-YFuc?enablejsapi=1"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/wvBmXA-YFuc?autoplay=1><img src=https://img.youtube.com/vi/wvBmXA-YFuc/hqdefault.jpg alt='Video testimonianza Ristorante La Colubrina'><span>▶</span></a>"
-        ></iframe>
+          <iframe
+            title="Video testimonianza Ristorante La Colubrina"
+            width="100%"
+            height="315"
+            data-src="https://www.youtube.com/embed/wvBmXA-YFuc?enablejsapi=1"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/wvBmXA-YFuc?autoplay=1><img src=https://img.youtube.com/vi/wvBmXA-YFuc/hqdefault.jpg alt='Video testimonianza Ristorante La Colubrina'><span>▶</span></a>"
+          ></iframe>
+        </div>
 
         <div class="call">
-          <p>
-            <g-link to="/contatti/">Contattami</g-link> per fare un check-up
-            energetico gratuito del tuo ristorante/hotel.
-          </p>
+          <CheckUp />
         </div>
 
         <SocialSharing
@@ -48,10 +48,12 @@ query {
 
 <script>
 import SocialSharing from "~/components/SocialSharing.vue";
+import CheckUp from "~/components/Check-up-component.vue";
 
 export default {
   components: {
     SocialSharing,
+    CheckUp,
   },
   metaInfo() {
     return {
@@ -109,21 +111,73 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.page-testimonianze-wrapper {
+.img {
+  width: 100%;
+  //height: 200px;
+
+  cursor: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+
+  iframe {
+    width: 90%;
+    height: 75%;
+    margin: 0 auto;
+    position: absolute;
+    top: 10%;
+    border: 10px solid white;
+  }
+  .g-image {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+  }
+}
+
+.page-testimonianze-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .page-testimonianze {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   max-width: 900px;
 }
 
 .call {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 2em;
   margin-top: 2em;

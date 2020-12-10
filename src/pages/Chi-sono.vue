@@ -9,7 +9,7 @@
             specializzato può aiutare il tuo ristorante/hotel.
           </p>
           <div class="img">
-            <g-image src="~/assets/grigio.png" alt="" />
+            <g-image src="~/assets/grigio.png" alt="fondo grigio" />
             <iframe
               title="La mia attività raccontata a Live Social Radio"
               width="560"
@@ -64,10 +64,12 @@
           <p class="title"><strong>Chi è il consulente energetico?</strong></p>
           <p>
             E’ un professionista che ti mette a disposizione la sua competenza
-            sui mercati all’ingrosso dell’energia elettrica e gas, sulle voci
-            presenti in fattura e sul sistema energetico in generale in modo da
-            generare un <strong>vero risparmio</strong> nel tempo in termini
-            economici, di tempo e di frustrazioni evitate.
+            sui
+            <g-link to="/mercato/"
+              >mercati all’ingrosso dell’energia elettrica e gas</g-link
+            >, sulle voci presenti in fattura e sul sistema energetico in
+            generale in modo da generare un <strong>vero risparmio</strong> nel
+            tempo in termini economici, di tempo e di frustrazioni evitate.
           </p>
           <p class="domanda">
             <strong>
@@ -77,10 +79,11 @@
           </p>
           <p>
             <strong>Consulenza</strong> sulla corretta applicazione di tutte le
-            voci in fattura (ad. es IVA e accise), miglioramento delle abitudini
-            di consumo dell’energia, eliminazione delle penali per energia
-            reattiva ed extra-costi, monitoraggio della normativa e dei
-            contributi che potresti ricevere.
+            voci in fattura (ad es.
+            <g-link to="/analisi-iva-accise-agevolate/">IVA e accise</g-link>),
+            miglioramento delle abitudini di consumo dell’energia, eliminazione
+            delle penali per energia reattiva ed extra-costi, monitoraggio della
+            normativa e dei contributi che potresti ricevere.
           </p>
           <p>
             Guarda un fac-simile dei <strong>report</strong> che rilascio ai
@@ -102,7 +105,20 @@
             consulenza alle principali utility italiane e successivamente ho
             lavorato presso Repower come esperto di normativa di settore. Ad
             ottobre 2020 sono diventato – tra i primi in Italia –
-            <strong>Utility Manager certificato</strong> UNI 11782:2020.
+            <strong
+              ><g-link to="/episodi/utility-manager/"
+                >Utility Manager</g-link
+              ></strong
+            >
+            <strong
+              ><a
+                target="_blank"
+                href="https://services.accredia.it/fpsearch/accredia_professionalmask_remote.jsp?ID_LINK=1749&area=310"
+              >
+                (vedi il certificato)</a
+              ></strong
+            >
+            UNI 11782:2020.
           </p>
           <p>
             A differenza di venditori porta a porta/call center il cui unico
@@ -118,7 +134,14 @@
             Repower che mi paga per aiutarti a gestire al meglio - ogni giorno -
             la parte energetica del tuo ristorante/hotel.
           </p>
-          <p class="domanda"><strong>Perché ho scelto Repower?</strong></p>
+          <p class="domanda">
+            <strong
+              >Perché ho scelto
+              <a target="_blank" href="https://www.repower.com/it/"
+                >Repower?
+              </a></strong
+            >
+          </p>
           <p>
             Perché a differenza di molte altre utility è un’azienda trasparente
             dal punto di vista dei contratti che propone,
@@ -140,7 +163,11 @@
             riesco a ridurre l’impatto ambientale della tua struttura tramite
             energia 100% verde certificata TUV e a renderla pronta per
             accogliere il crescente turismo green che si muove in
-            <strong>auto elettrica</strong>.
+            <strong
+              ><g-link to="/mercato-auto-elettriche/"
+                >auto elettrica</g-link
+              ></strong
+            >.
           </p>
           <InstagramCardRepower />
 
@@ -152,8 +179,8 @@
           </p>
           <p class="domanda"><strong>Testimonianza</strong></p>
           <p>
-            Guarda la testimonianza di Franca e Consuelo del ristornate La
-            colubrina di Milano per capire cosa io e Repower possiamo fare per
+            Guarda la testimonianza di Franca e Consuelo del ristorante La
+            Colubrina di Milano per capire cosa io e Repower possiamo fare per
             la tua struttura:
           </p>
           <div class="img">
@@ -180,7 +207,7 @@
             settore, se vuoi ridurre i consumi energetici, se vuoi rendere la
             tua struttura più sostenibile
             <strong>prenota un check-up energetico gratuito</strong>: un’ora in
-            azienda per ricevere una consulenza su misura.
+            videoconferenza per ricevere una consulenza su misura.
           </p>
         </div>
         <!-- <div class="section">
@@ -324,7 +351,7 @@ export default {
     padding-left: 0.5em;
     padding-right: 0.5em;
 
-    font-size: 2em;
+    font-size: 1.2em;
   }
 }
 
@@ -337,9 +364,18 @@ export default {
   //height: 200px;
 
   cursor: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   position: relative;
 
@@ -359,7 +395,11 @@ export default {
 }
 
 .call {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 2em;
   margin-top: 2em;
@@ -376,7 +416,11 @@ export default {
 .section {
   position: relative;
   .report {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
 
@@ -396,7 +440,11 @@ export default {
 }
 
 .foto-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -441,7 +489,11 @@ export default {
 } */
 
 .intervista {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 3em;
   margin-top: 2em;
@@ -464,7 +516,11 @@ export default {
 } */
 
 .chi-sono-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -472,7 +528,20 @@ export default {
   width: 88%;
 }
 
+@media (min-width: 370px) {
+  .title {
+    strong {
+      font-size: 1.4em;
+    }
+  }
+}
+
 @media (min-width: 750px) {
+  .title {
+    strong {
+      font-size: 2em;
+    }
+  }
   .chi-sono {
     width: 80%;
   }

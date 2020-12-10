@@ -178,7 +178,11 @@ export default {
 
 <style scoped lang="scss">
 .chart-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 .chart {
@@ -187,7 +191,11 @@ export default {
 }
 
 .title-mercato {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -201,7 +209,11 @@ export default {
 }
 
 .call {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 2em;
   margin-top: 2em;

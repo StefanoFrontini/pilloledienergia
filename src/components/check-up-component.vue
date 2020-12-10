@@ -144,8 +144,8 @@
                   <div class="usoDati">
                     <p>
                       *Cliccando su <strong>start</strong> dai il consenso
-                      all'uso dei dati. <br />I tuoi dati sono al sicuro. Leggi
-                      l'<g-link to="/privacy">informativa privacy</g-link>.
+                      all'uso dei dati. I tuoi dati sono al sicuro. Leggi
+                      l'<g-link to="/privacy">informativa</g-link>.
                     </p>
                   </div>
                 </div>
@@ -505,8 +505,14 @@ export default {
 }
 
 .cartolina-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 .cartolina-wrapper {
@@ -535,6 +541,8 @@ export default {
       position: absolute;
       width: 100%;
       left: 50%;
+      -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
       transform: translate(-50%, 0);
 
       top: 9%;
@@ -572,9 +580,18 @@ export default {
       position: absolute;
       top: 28%;
       left: 6.5%;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
       flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
       justify-content: space-between;
       overflow: hidden;
       font-size: 1.3em;
@@ -606,25 +623,35 @@ export default {
         height: 100%;
         width: 100%;
         border-bottom: 3px solid $primaryColor;
+        -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
         transform: translateX(-100%);
       }
       .content-name {
         position: absolute;
         bottom: 5px;
         left: 35%;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
         transition: all 0.3s ease;
         font-weight: bold;
         font-size: 0.5em;
       }
       input:focus + .label-name .content-name,
       input:valid + .label-name .content-name {
+        -webkit-transform: translateY(-120%);
+        -ms-transform: translateY(-120%);
         transform: translateY(-120%);
         font-size: 0.5em;
         color: $primaryColor;
       }
       input:focus + .label-name::after,
       input:valid + .label-name:after {
+        -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
         transform: translateX(0%);
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
         transition: all 0.3s ease;
       }
     }
@@ -634,9 +661,18 @@ export default {
       position: absolute;
       top: 28%;
       left: 38.5%;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
       flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
       justify-content: space-between;
       overflow: hidden;
       font-size: 1.3em;
@@ -666,12 +702,16 @@ export default {
         height: 100%;
         width: 100%;
         border-bottom: 3px solid $primaryColor;
+        -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
         transform: translateX(-100%);
       }
       .content-mail {
         position: absolute;
         bottom: 5px;
         left: 7%;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
         transition: all 0.3s ease;
         font-weight: bold;
         font-size: 0.4em;
@@ -679,13 +719,19 @@ export default {
 
       input:focus + .label-mail .content-mail,
       input:valid + .label-mail .content-mail {
+        -webkit-transform: translateY(-140%);
+        -ms-transform: translateY(-140%);
         transform: translateY(-140%);
         font-size: 0.4em;
         color: $primaryColor;
       }
       input:focus + .label-mail::after,
       input:valid + .label-mail:after {
+        -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
         transform: translateX(0%);
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
         transition: all 0.3s ease;
       }
     }
@@ -754,6 +800,8 @@ export default {
       width: 15%;
       p {
         font-size: 0.5em;
+        -webkit-transform: rotate(315deg);
+        -ms-transform: rotate(315deg);
         transform: rotate(315deg);
         line-height: 0.8em;
         color: white;
@@ -767,6 +815,8 @@ export default {
       width: 20%;
       p {
         font-size: 0.5em;
+        -webkit-transform: rotate(315deg);
+        -ms-transform: rotate(315deg);
         transform: rotate(315deg);
         line-height: 0.8em;
         color: white;
@@ -780,6 +830,8 @@ export default {
       width: 25%;
       p {
         font-size: 0.5em;
+        -webkit-transform: rotate(315deg);
+        -ms-transform: rotate(315deg);
         transform: rotate(315deg);
         line-height: 0.8em;
         color: white;
@@ -812,8 +864,8 @@ export default {
       position: absolute;
       width: 100%;
 
-      top: 79%;
-      font-size: 0.7em;
+      top: 80%;
+      font-size: 0.6em;
     }
   }
 }
@@ -826,7 +878,10 @@ export default {
 
 .progressbar {
   counter-reset: step;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
@@ -879,8 +934,15 @@ export default {
 }
 
 .root {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -1018,7 +1080,8 @@ export default {
       }
 
       .usoDati {
-        top: 78%;
+        font-size: 0.7em;
+        top: 80%;
       }
     }
   }
@@ -1150,7 +1213,7 @@ export default {
       }
 
       .usoDati {
-        top: 83%;
+        top: 84%;
         font-size: 0.7em;
       }
     }
@@ -1298,7 +1361,7 @@ export default {
       }
 
       .usoDati {
-        top: 78%;
+        top: 80%;
         font-size: 0.7em;
       }
     }
