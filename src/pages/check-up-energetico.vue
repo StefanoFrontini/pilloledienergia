@@ -748,7 +748,7 @@ export default {
           property: "description",
           name: "description",
           content:
-            "Non perdere l’occasione di risparmiare fino al 30% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
+            "Non perdere l’occasione di risparmiare fino al 25% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
         },
         { key: "og:type", property: "og:type", content: "website" },
         {
@@ -760,7 +760,7 @@ export default {
           key: "og:description",
           property: "og:description",
           content:
-            "Non perdere l’occasione di risparmiare fino al 30% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
+            "Non perdere l’occasione di risparmiare fino al 25% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
         },
         {
           key: "og:url",
@@ -777,7 +777,7 @@ export default {
         {
           name: "twitter:description",
           content:
-            "Non perdere l’occasione di risparmiare fino al 30% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
+            "Non perdere l’occasione di risparmiare fino al 25% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
         },
         {
           name: "twitter:site",

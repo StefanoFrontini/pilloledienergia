@@ -3,17 +3,18 @@
     <div class="chi-sono-wrapper">
       <div class="chi-sono">
         <div class="section">
-          <h2 class="title">Chi sono</h2>
+          <p class="title"><strong>Chi sono</strong></p>
           <p>
             Guarda questa intervista per capire come un consulente energetico
             specializzato può aiutare il tuo ristorante/hotel.
           </p>
-          <div class="intervista">
+          <div class="img">
+            <g-image src="~/assets/grigio.png" alt="fondo grigio" />
             <iframe
               title="La mia attività raccontata a Live Social Radio"
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/6w-0ySPz3ks"
+              src="https://www.youtube.com/embed/6w-0ySPz3ks?enablejsapi=1"
               srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/6w-0ySPz3ks?autoplay=1><img src=https://img.youtube.com/vi/6w-0ySPz3ks/hqdefault.jpg alt='La mia attività raccontata a Live Social Radio'><span>▶</span></a>"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -58,6 +59,156 @@
               di fornitura e ad essere più sostenibili.
             </p>
           </div> -->
+        </div>
+        <div class="section">
+          <p class="title"><strong>Chi è il consulente energetico?</strong></p>
+          <p>
+            E’ un professionista che ti mette a disposizione la sua competenza
+            sui
+            <g-link to="/mercato/"
+              >mercati all’ingrosso dell’energia elettrica e gas</g-link
+            >, sulle voci presenti in fattura e sul sistema energetico in
+            generale in modo da generare un <strong>vero risparmio</strong> nel
+            tempo in termini economici, di tempo e di frustrazioni evitate.
+          </p>
+          <p class="domanda">
+            <strong>
+              Come faccio a far risparmiare i miei Clienti fino al 25% sulle
+              loro forniture di energia elettrica e gas?
+            </strong>
+          </p>
+          <p>
+            <strong>Consulenza</strong> sulla corretta applicazione di tutte le
+            voci in fattura (ad es.
+            <g-link to="/analisi-iva-accise-agevolate/">IVA e accise</g-link>),
+            miglioramento delle abitudini di consumo dell’energia, eliminazione
+            delle penali per energia reattiva ed extra-costi, monitoraggio della
+            normativa e dei contributi che potresti ricevere.
+          </p>
+          <p>
+            Guarda un fac-simile dei <strong>report</strong> che rilascio ai
+            miei Clienti periodicamente:
+          </p>
+          <div class="report">
+            <a href="/report-periodico.pdf" download
+              ><g-image
+                src="~/assets/pulsante.png"
+                alt="scarica il report periodico"
+                width="150px"
+              ></g-image
+            ></a>
+          </div>
+          <p>
+            Io lavoro nel mondo dell’energia <strong>da più di 15 anni</strong>.
+            Ho iniziato come analista dei mercati dell’energia elettrica e del
+            gas presso una società (REF-E) che offre i suoi servizi di
+            consulenza alle principali utility italiane e successivamente ho
+            lavorato presso Repower come esperto di normativa di settore. Ad
+            ottobre 2020 sono diventato – tra i primi in Italia –
+            <strong
+              ><g-link to="/episodi/utility-manager/"
+                >Utility Manager</g-link
+              ></strong
+            >
+            <strong
+              ><a
+                target="_blank"
+                href="https://services.accredia.it/fpsearch/accredia_professionalmask_remote.jsp?ID_LINK=1749&area=310"
+              >
+                (vedi il certificato)</a
+              ></strong
+            >
+            UNI 11782:2020.
+          </p>
+          <p>
+            A differenza di venditori porta a porta/call center il cui unico
+            obiettivo è la firma di un contratto a caso e poi spariscono,
+            <strong>io ti seguo in maniera continua</strong> durante il periodo
+            di fornitura: per qualsiasi esigenza potrai rivolgerti a me, senza
+            passare per un call center.
+          </p>
+          <p>
+            A differenza di consorzi/broker che danno assistenza a pagamento e a
+            cui molte volte si sommano le frequenti provvigioni per cambio di
+            fornitore <strong>la mia assistenza è gratuita</strong>: è infatti
+            Repower che mi paga per aiutarti a gestire al meglio - ogni giorno -
+            la parte energetica del tuo ristorante/hotel.
+          </p>
+          <p class="domanda">
+            <strong
+              >Perché ho scelto
+              <a target="_blank" href="https://www.repower.com/it/"
+                >Repower?
+              </a></strong
+            >
+          </p>
+          <p>
+            Perché a differenza di molte altre utility è un’azienda trasparente
+            dal punto di vista dei contratti che propone,
+            <strong>senza costi nascosti e aggiuntivi</strong> tra le clausole
+            contrattuali.
+          </p>
+          <p>
+            Perché è un’azienda che mi permette di farti risparmiare ancora di
+            più <strong>riducendo i tuoi consumi</strong>: relamping a LED senza
+            anticipo di capitale, termografie certificate ISO 9712, analisi
+            fonometrica al circuito dell’aria compressa.
+          </p>
+
+          <InstagramCardStefano />
+
+          <p>
+            Perché è un’azienda innovativa e sta investendo molto sulla
+            <strong>sostenibilità</strong>: con le soluzioni Repower infatti
+            riesco a ridurre l’impatto ambientale della tua struttura tramite
+            energia 100% verde certificata TUV e a renderla pronta per
+            accogliere il crescente turismo green che si muove in
+            <strong
+              ><g-link to="/mercato-auto-elettriche/"
+                >auto elettrica</g-link
+              ></strong
+            >.
+          </p>
+          <InstagramCardRepower />
+
+          <p>
+            Perché è <strong>un’azienda solida</strong> (origine svizzera, è
+            nata 100 anni fa quando ha costruito la prima centrale idroelettrica
+            per alimentare il trenino rosso del Bernina) e lavora solo in ambito
+            business.
+          </p>
+          <p class="domanda"><strong>Testimonianza</strong></p>
+          <p>
+            Guarda la testimonianza di Franca e Consuelo del ristorante La
+            Colubrina di Milano per capire cosa io e Repower possiamo fare per
+            la tua struttura:
+          </p>
+          <div class="img">
+            <g-image src="~/assets/grigio.png" alt="" />
+            <iframe
+              title="La mia attività raccontata a Live Social Radio"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/wvBmXA-YFuc?enablejsapi=1"
+              srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/wvBmXA-YFuc?autoplay=1><img src=https://img.youtube.com/vi/wvBmXA-YFuc/hqdefault.jpg alt='Video testimonianza Ristorante La Colubrina'><span>▶</span></a>"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <p class="domanda"><strong>Check up energetico su misura</strong></p>
+          <p>
+            Se ti sei mai chiesto perché ti arrivano fatture elevate nonostante
+            il tuo ristorante/hotel sia chiuso in questo momento di emergenza,
+            se stai pagando extra-oneri o extra-tasse, se il prezzo dell’energia
+            elettrica sia competitivo o meno e se lo sarà dopo il rinnovo
+            contrattuale automatico, se sei stufo di rivolgerti ad un call
+            center, se vuoi essere aggiornato su tutte le opportunità del
+            settore, se vuoi ridurre i consumi energetici, se vuoi rendere la
+            tua struttura più sostenibile
+            <strong>prenota un check-up energetico gratuito</strong>: un’ora in
+            videoconferenza per ricevere una consulenza su misura.
+          </p>
         </div>
         <!-- <div class="section">
           <h2 class="title">BNI</h2>
@@ -105,18 +256,19 @@
           </p>
         </div> -->
         <div class="section">
-          <h2 class="title">Grottammare</h2>
+          <p class="title"><strong>Grottammare</strong></p>
           <p>
             Quando ho un po’ di tempo torno a
             <a href="http://www.comune.grottammare.ap.it/">Grottammare</a>
             nelle Marche: tra mare, sole e colline.
           </p>
-          <div class="grottammare">
+          <div class="img">
+            <g-image src="~/assets/grigio.png" alt="" />
             <g-image
               src="~/assets/grottammare.jpg"
-              style="object-fit: cover; width:100%; height: 100%"
+              style="position: absolute; top: 5%;width:90%;height: 80%;border: 10px solid white;"
               alt="grottammare"
-            ></g-image>
+            />
           </div>
         </div>
       </div>
@@ -135,8 +287,14 @@ query {
 </static-query>
 
 <script>
+import InstagramCardStefano from "~/components/InstagramCardStefano.vue";
+import InstagramCardRepower from "~/components/InstagramCardRepower.vue";
+
 export default {
-  components: {},
+  components: {
+    InstagramCardStefano,
+    InstagramCardRepower,
+  },
   metaInfo() {
     return {
       title: "Chi sono | Pillole di Energia",
@@ -185,8 +343,63 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.call {
+.title {
+  text-align: center;
+  strong {
+    border-left: 0.2em solid $primaryColor;
+    border-right: 0.2em solid $primaryColor;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+
+    font-size: 1.2em;
+  }
+}
+
+.domanda {
+  font-size: 1.2em;
+}
+
+.img {
+  width: 100%;
+  //height: 200px;
+
+  cursor: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+
+  iframe {
+    width: 90%;
+    height: 85%;
+    margin: 0 auto;
+    position: absolute;
+    top: 5%;
+    border: 10px solid white;
+  }
+}
+.g-image {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+
+.call {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 2em;
   margin-top: 2em;
@@ -202,10 +415,36 @@ export default {
 
 .section {
   position: relative;
+  .report {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .report a {
+    color: white;
+    position: relative;
+  }
+  .report a:after {
+    content: "Scarica il report";
+    position: absolute;
+    left: 28%;
+    top: 28%;
+    font-weight: bold;
+    width: 80%;
+    font-size: 0.8em;
+  }
 }
 
 .foto-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -227,7 +466,7 @@ export default {
   z-index: -2;
 }
 
-.title::before {
+/* .title::before {
   content: " ";
   position: absolute;
   left: -18px;
@@ -247,10 +486,14 @@ export default {
   width: 8px;
   background-color: $primaryColor;
   z-index: -3;
-}
+} */
 
 .intervista {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 3em;
   margin-top: 2em;
@@ -261,7 +504,7 @@ export default {
   height: 200px;
 }
 
-.bni {
+/* .bni {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -270,10 +513,14 @@ export default {
 .myguitarsongs {
   display: flex;
   justify-content: center;
-}
+} */
 
 .chi-sono-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -281,7 +528,20 @@ export default {
   width: 88%;
 }
 
+@media (min-width: 370px) {
+  .title {
+    strong {
+      font-size: 1.4em;
+    }
+  }
+}
+
 @media (min-width: 750px) {
+  .title {
+    strong {
+      font-size: 2em;
+    }
+  }
   .chi-sono {
     width: 80%;
   }

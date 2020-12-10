@@ -64,8 +64,64 @@
         </p>
         <Pillole2 />
       </div>
+      <div class="section">
+        <div style="width: 100%;">
+          <div class="consulente">
+            <p>
+              <strong>Chi è il consulente energetico?</strong>
+            </p>
+          </div>
+          <div class="benefici">
+            <div>
+              <p><strong>Risparmia fino al 25%</strong></p>
+              <p>
+                Tramite la consulenza e l’assistenza gratuita<br />
+                che solo io ti posso dare.<br />
+                <a href="/report-periodico.pdf" download
+                  >Scarica il report periodico.</a
+                >
+              </p>
+            </div>
+            <div>
+              <p><strong>Dimentica il call center</strong></p>
+              <p>
+                Sono io il tuo referente per qualsiasi problema<br />
+                o esigenza.
+              </p>
+            </div>
+            <div>
+              <p><strong>Nessun costo nascosto</strong></p>
+              <p>
+                Condizioni contrattuali trasparenti e a mercato.<br />Nel tempo.
+              </p>
+            </div>
+          </div>
+          <div class="pulsante">
+            <g-link to="/chi-sono/"
+              ><g-image
+                src="~/assets/pulsante-lungo.png"
+                alt="scopri di più"
+                width="300"
+              ></g-image
+            ></g-link>
+          </div>
+        </div>
+      </div>
 
       <div class="section">
+        <Check-up />
+      </div>
+
+      <div class="section">
+        <div class="consulente">
+          <p>
+            <strong>I’ve got Repower!</strong>
+          </p>
+          <Repower />
+        </div>
+      </div>
+
+      <!-- <div class="section">
         <div class="soluzione">
           <h2 class="titolo titolo-soluzione">
             Soluzione
@@ -298,8 +354,8 @@
           </div>
         </div>
       </div>
-
-      <div class="section">
+ -->
+      <!-- <div class="section">
         <div class="infografiche">
           <h2 class="titolo titolo-infografiche">L’energia in numeri</h2>
           <div class="blog-content-wrapper">
@@ -312,7 +368,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </Layout>
 </template>
@@ -407,31 +463,37 @@ query {
 </static-query>
 
 <script>
-import PostCard from "~/components/PostCard.vue";
+/* import PostCard from "~/components/PostCard.vue";
 import EpisodeCard from "~/components/EpisodeCard.vue";
 import InfograficaCard from "~/components/InfograficaCard.vue";
-
-import Pillole2 from "~/components/Pillole2.vue";
 import InstagramCardStefano from "~/components/InstagramCardStefano.vue";
 import InstagramCardRepower from "~/components/InstagramCardRepower.vue";
 import VantaggiConsulenteCard from "~/components/VantaggiConsulenteCard.vue";
-import VantaggiRepowerCard from "~/components/VantaggiRepowerCard.vue";
+import VantaggiRepowerCard from "~/components/VantaggiRepowerCard.vue"; */
 import { Glide, GlideSlide } from "vue-glide-js";
 import "vue-glide-js/dist/vue-glide.css";
+
+import Pillole2 from "~/components/Pillole2.vue";
+import CheckUp from "~/components/CheckUpComponent.vue";
+import Repower from "~/components/Repower.vue";
+
 //import ateco from "@/data/ateco.json";
 
 export default {
   components: {
-    PostCard,
+    /* PostCard,
     EpisodeCard,
     InfograficaCard,
-    Pillole2,
+
     InstagramCardStefano,
     InstagramCardRepower,
     VantaggiConsulenteCard,
-    VantaggiRepowerCard,
+    VantaggiRepowerCard, */
+    Pillole2,
     [Glide.name]: Glide,
     [GlideSlide.name]: GlideSlide,
+    CheckUp,
+    Repower,
   },
   data() {
     return {
@@ -495,10 +557,14 @@ export default {
 
 <style scoped lang="scss">
 .fade-enter-active {
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
   transition: opacity 0.4s ease-in-out;
 }
 
 .fade-leave-active {
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
   transition: opacity 0.4s ease-in-out;
 }
 
@@ -508,17 +574,60 @@ export default {
 }
 
 .slide-enter-active {
+  -webkit-transition: opacity 1.5s ease-in-out,
+    -webkit-transform 0.4s ease-in-out 0.3s;
+  transition: opacity 1.5s ease-in-out, -webkit-transform 0.4s ease-in-out 0.3s;
+  -o-transition: transform 0.4s ease-in-out 0.3s, opacity 1.5s ease-in-out;
   transition: transform 0.4s ease-in-out 0.3s, opacity 1.5s ease-in-out;
+  transition: transform 0.4s ease-in-out 0.3s, opacity 1.5s ease-in-out,
+    -webkit-transform 0.4s ease-in-out 0.3s;
 }
 
 .slide-leave-active {
+  -webkit-transition: opacity 0.6s ease-in-out,
+    -webkit-transform 0.4s ease-in-out 0.3s;
+  transition: opacity 0.6s ease-in-out, -webkit-transform 0.4s ease-in-out 0.3s;
+  -o-transition: transform 0.4s ease-in-out 0.3s, opacity 0.6s ease-in-out;
   transition: transform 0.4s ease-in-out 0.3s, opacity 0.6s ease-in-out;
+  transition: transform 0.4s ease-in-out 0.3s, opacity 0.6s ease-in-out,
+    -webkit-transform 0.4s ease-in-out 0.3s;
 }
 
 .slide-enter,
 .slide-leave-to {
   opacity: 0;
+  -webkit-transform: translateX(-600px);
+  -ms-transform: translateX(-600px);
   transform: translateX(-600px);
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: #ededed;
+  padding-top: 2em;
+  .pulsante {
+    display: flex;
+    justify-content: center;
+  }
+
+  .pulsante a {
+    color: white;
+    position: relative;
+  }
+  .pulsante a:after {
+    content: "Guarda l’intervista su Radio LiveSocial";
+    position: absolute;
+    left: 22%;
+    top: 36%;
+    font-weight: bold;
+    width: 90%;
+    font-size: 0.8em;
+  }
 }
 
 .pericoli p {
@@ -527,6 +636,31 @@ export default {
   span {
     color: $primaryColor;
     font-weight: bold;
+  }
+}
+
+.benefici {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+
+  p strong {
+    font-size: 1.3em;
+  }
+}
+
+.consulente {
+  text-align: center;
+  font-weight: bold;
+
+  strong {
+    border-left: 0.2em solid $primaryColor;
+    border-right: 0.2em solid $primaryColor;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background: #ededed;
+    font-size: 1.3em;
   }
 }
 
@@ -549,7 +683,7 @@ export default {
   width: 90%;
 }
 
-.check-up-energetico-text-wrapper {
+/* .check-up-energetico-text-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -561,9 +695,9 @@ export default {
   z-index: 1;
   opacity: 1;
   min-height: 350px;
-}
+} */
 
-.check-up-energetico-text-wrapper::before {
+/* .check-up-energetico-text-wrapper::before {
   content: "";
   top: 0;
   bottom: 0;
@@ -582,9 +716,9 @@ export default {
   padding: 1em;
   text-align: center;
   z-index: -1;
-}
+} */
 
-.check-up-iva-text-wrapper {
+/* .check-up-iva-text-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -617,7 +751,7 @@ export default {
   padding: 1em;
   text-align: center;
   z-index: -1;
-}
+} */
 
 .question-text-wrapper {
   display: flex;
@@ -674,7 +808,7 @@ export default {
   position: relative;
   padding: 1em;
 }
-
+/*
 .mercato-wrapper {
   display: flex;
   justify-content: center;
@@ -695,9 +829,9 @@ export default {
   padding: 1em;
   z-index: -1;
   text-align: center;
-}
+} */
 
-.mercato-auto-elettriche-wrapper {
+/* .mercato-auto-elettriche-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -709,7 +843,7 @@ export default {
   z-index: 0;
   opacity: 1;
   min-height: 150px;
-}
+} */
 
 a.button {
   background: $primaryColor;
@@ -727,10 +861,10 @@ a.button {
   background-color: #ffad3b;
 }
 
-.iva {
+/* .iva {
   display: block;
-}
-
+} */
+/*
 .mercato-wrapper::before,
 .mercato-auto-elettriche-wrapper::before {
   content: "";
@@ -742,9 +876,9 @@ a.button {
   position: absolute;
   opacity: 0.4;
   z-index: -2;
-}
+} */
 
-.title-home {
+/* .title-home {
   position: relative;
   z-index: -1;
 }
@@ -757,8 +891,8 @@ a.button {
 .titolo-episodi,
 .titolo-infografiche {
   margin-bottom: 2em;
-}
-
+} */
+/*
 .usp {
   margin-top: -2em;
 }
@@ -784,8 +918,8 @@ a.button {
   width: 140px;
   background-color: $primaryColor;
   z-index: -2;
-}
-
+} */
+/*
 .chiama {
   position: relative;
 
@@ -807,14 +941,9 @@ a.button {
 }
 .cta-b p {
   font-size: 1em;
-}
+} */
 
-.section {
-  display: flex;
-  justify-content: center;
-}
-
-.carousel,
+/* .carousel,
 .check-up-energetico,
 .check-up-iva,
 .repower,
@@ -823,30 +952,30 @@ a.button {
 .mercato-auto-elettriche,
 .blog,
 .episodi,
-.infografiche,
-.question,
-.soluzione,
+.infografiche, */
+.question
+/* .soluzione,
 .me,
-.vantaggi-repower {
+.vantaggi-repower */ {
   width: 100%;
   position: relative;
   display: inline-block;
 }
 
-.blog-content-wrapper {
+/* .blog-content-wrapper {
   display: flex;
   justify-content: center;
 }
 
 .blog-content {
   width: 90%;
-}
+} */
 
-.box-container {
+/* .box-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
+} */
 
 @media (min-width: 300px) {
   .soluzione-text-wrapper {
@@ -855,12 +984,34 @@ a.button {
 }
 
 @media (min-width: 370px) {
+  .benefici {
+    p strong {
+      font-size: 1.5em;
+    }
+  }
+
+  .consulente {
+    strong {
+      font-size: 1.5em;
+    }
+  }
   .mercato-auto-elettriche-wrapper {
     height: 60vh;
   }
 }
 
 @media (min-width: 550px) {
+  .benefici {
+    p strong {
+      font-size: 2em;
+    }
+  }
+
+  .consulente {
+    strong {
+      font-size: 2em;
+    }
+  }
   .question {
     height: 100vh;
     min-height: 250px;
@@ -1017,7 +1168,7 @@ a.button {
   }
 
   .section {
-    margin-bottom: 2em;
+    background-color: #ededed;
   }
 
   .foto-mercato {
@@ -1030,6 +1181,11 @@ a.button {
 
   .foto-mercato {
     width: 50%;
+  }
+  .section {
+    .pulsante a:after {
+      left: 18%;
+    }
   }
 }
 

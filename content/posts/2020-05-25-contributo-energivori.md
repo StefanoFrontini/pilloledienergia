@@ -18,8 +18,8 @@ cover: ./images/stabilimento-industriale.jpeg
 alt: stabilimento industriale
 ---
 
-Un mio Cliente la cui bolletta della luce è di 600'000 €/anno ha ricevuto un contributo di circa 140'000€. Analizzando i consumi annuali di energia elettrica degli ultimi 3 anni e alcuni dati di bilancio ho scoperto che aveva diritto al contributo che lo Stato assegna alle cosiddette imprese energivore così come definite dal D.M. 21 dicembre 2017. La domanda per ottenere il contributo va presentata tramite il [Portale della Cassa per i servizi energetici e ambientali (CSEA) ](https://www.csea.it/)  <span class="grassetto">entro 45gg dall’apertura del Portale</span>.
+import CheckUp from "~/components/CheckUpComponent.vue";
 
-> <g-link to="/contatti">Contattami</g-link> ora per avere un check-up gratuito completo e per avere tutta la documentazione pronta non appena il Portale aprirà.
-<br>
-<a href="/check-up-energetico.pdf" download>SCARICA IL CHECK-UP DI BASE</a>
+Un mio Cliente la cui bolletta della luce è di 600'000 €/anno ha ricevuto un contributo di circa 140'000€. Analizzando i consumi annuali di energia elettrica degli ultimi 3 anni e alcuni dati di bilancio ho scoperto che aveva diritto al contributo che lo Stato assegna alle cosiddette imprese energivore così come definite dal D.M. 21 dicembre 2017. La domanda per ottenere il contributo va presentata tramite il [Portale della Cassa per i servizi energetici e ambientali (CSEA) ](https://www.csea.it/) <span class="grassetto">entro 45gg dall’apertura del Portale</span>.
+
+<CheckUp />

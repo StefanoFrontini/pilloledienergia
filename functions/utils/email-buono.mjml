@@ -20,11 +20,11 @@
           <mj-text font-family="sans-serif" line-height="16px"
 
 
-                   ><strong><i>Ciao ${nome}</i>,<br /> complimenti</strong> per aver dedicato del tempo all'analisi delle tue forniture.</mj-text>
+                   ><strong><i>Ciao ${nome}</i>,<br /> complimenti</strong> per aver dedicato del tempo all’analisi delle tue forniture.</mj-text>
 
             <mj-text font-family="sans-serif" line-height="16px">
                 Questo breve
-                <span style="color:#f78411"> check-up</span> è solo l'inizio di un percorso per arrivare ad ottimizzare al massimo i tuoi costi e cosa altrettanto importante il tuo tempo. <strong>Non perdere l'occasione</strong> di sapere grazie a un'analisi approfondita e personalizzata - <span style="color:#f78411">gratuita e senza impegno</span> - come arrivare a raggiungere questo importante risultato per la tua attività.
+                <strong><span style="color:#f78411"> check-up</span></strong> è solo l’inizio di un percorso per arrivare ad ottimizzare al massimo i tuoi costi e cosa altrettanto importante il tuo tempo. <strong>Non perdere l’occasione</strong> di sapere grazie a un’analisi approfondita e personalizzata - <strong><span style="color:#f78411">gratuita e senza impegno</span></strong> - come arrivare a raggiungere questo importante risultato per la tua attività.
           </mj-text>
           <mj-image src="https://res.cloudinary.com/stefano75/image/upload/v1606256864/contattami_cgzkpc.jpg" href="mailto:stefano.frontini@con.repower.com" width="130px"
 
@@ -32,8 +32,8 @@
 
 
           <mj-text font-family="sans-serif" line-height="16px">
-                Mi chiamo Stefano Frontini e da 15 anni sono un <strong>consulente</strong> energetico specializzato in <strong>Ristoranti</strong> e <strong>Hotel</strong>.<br />Cos'è un
-                <span style="color:#f78411"> consulente energetico specializzato</span>?
+                Mi chiamo Stefano Frontini e da 15 anni sono un <strong>consulente</strong> energetico specializzato in <strong>Ristoranti</strong> e <strong>Hotel</strong>.<br />Cos’è un
+                <strong><span style="color:#f78411"> consulente energetico specializzato</span></strong>?
           </mj-text>
           <mj-image src="https://res.cloudinary.com/stefano75/image/upload/v1606257014/scopri-di-piu%CC%80_qznaio.jpg" href="https://www.pilloledienergia.com/chi-sono/" width="130px"></mj-image>
           <mj-text font-family="sans-serif" line-height="16px">
@@ -42,8 +42,8 @@
           </mj-text>
 
           <mj-text font-family="sans-serif" line-height="16px">
-                Una persona specializzata che segue costantemente l'andamento dei loro consumi e che gli propone le migliori opportunità sul mercato luce e gas, un
-                <span style="color:#f78411"> servizio</span> che io offro <span style="color:#f78411"> completamente gratuito</span>.
+                Una persona specializzata che segue costantemente l’andamento dei loro consumi e che gli propone le migliori opportunità sul mercato luce e gas, un
+                <strong><span style="color:#f78411"> servizio</span></strong> che io offro <strong><span style="color:#f78411"> completamente gratuito</span></strong>.
           </mj-text>
 
 

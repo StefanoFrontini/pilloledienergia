@@ -73,14 +73,7 @@
             </li>
           </ul>
           <div class="call">
-            <p>
-              <g-link to="/contatti">Contattami</g-link> per eseguire un
-              check-up energetico gratuito completo del tuo ristorante/hotel.
-              <br />
-              <a href="/check-up-energetico.pdf" download
-                >SCARICA IL CHECK-UP DI BASE</a
-              >
-            </p>
+            <CheckUp />
           </div>
 
           <SocialSharing
@@ -114,6 +107,7 @@ import AnnualePUNData from "@/data/annualePUN.json";
 import MensileGASData from "@/data/mensileGAS.json";
 
 import SocialSharing from "~/components/SocialSharing.vue";
+import CheckUp from "~/components/CheckUpComponent.vue";
 
 export default {
   components: {
@@ -121,6 +115,7 @@ export default {
     MensilePUN,
     MensileGas,
     SocialSharing,
+    CheckUp,
   },
   metaInfo() {
     return {
@@ -183,7 +178,11 @@ export default {
 
 <style scoped lang="scss">
 .chart-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 .chart {
@@ -192,7 +191,11 @@ export default {
 }
 
 .title-mercato {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -206,7 +209,11 @@ export default {
 }
 
 .call {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 2em;
   margin-top: 2em;
