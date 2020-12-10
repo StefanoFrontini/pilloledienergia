@@ -22,8 +22,6 @@ import data from "~/data/annualeConsumiEnergiaElettrica.json"
 import annualeConsumiEnergiaElettricaSettore from "~/components/annualeConsumiEnergiaElettricaSettore.vue"
 import data_settore from "~/data/annualeConsumiEnergiaElettricaSettore.json"
 
-import CheckUp from "~/components/Check-up-component.vue"
-
 <annualeConsumiEnergiaElettrica title="Andamento storico dei consumi di energia elettrica in Italia" xKey="Anno"
             y1Key="TWh"
             :data="data"
@@ -49,5 +47,3 @@ I dati sono presi da [Terna Spa.](https://www.terna.it/it)
 - I consumi di energia elettrica dell'industria hanno subìto una forte contrazione;
 - I consumi del terziario crescono stabilmente;
 - 1 Terawattora (TWh) = 1 000 000 000 Kilowattora (kWh).
-
-<CheckUp />

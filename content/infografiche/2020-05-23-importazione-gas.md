@@ -25,8 +25,6 @@ import data_dipendenza from "~/data/gradoDipendenzaGas.json"
 import ProvenienzaGas from "~/components/ProvenienzaGas.vue"
 import data_provenienza from "~/data/provenienzaGas.json"
 
-import CheckUp from "~/components/Check-up-component.vue"
-
 <ProduzioneGas title="Andamento storico della produzione di gas naturale in Italia" xKey="Anno"
             y1Key="Miliardi di mc"
             :data="data"
@@ -56,5 +54,3 @@ I dati sono presi da [Ministero dello Sviluppo Economico - bilancio energetico n
 
 - La produzione nazionale di gas naturale si riduce in misura maggiore rispetto al calo dei consumi. Il grado di dipendenza dall'estero pertanto aumenta e arriva al 93% nel 2017;
 - Aumentano le importazioni dalla Russia.
-
-<CheckUp />

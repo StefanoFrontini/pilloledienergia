@@ -18,7 +18,6 @@ cover:
 
 import AnnualeMixPrimarie from "~/components/AnnualeMixPrimarie.vue"
 import data from "~/data/annualeMixPrimarie.json"
-import CheckUp from "~/components/Check-up-component.vue"
 
 <AnnualeMixPrimarie title="Andamento storico delle fonti energetiche primarie in Italia" xKey="Anno"
             y1Key="Carbone"
@@ -41,5 +40,3 @@ I dati sono presi dalla [bilancio energetico nazionale del Ministero dello Svilu
 - Il tep rappresenta la quantità di energia rilasciata dalla combustione di una tonnellata di petrolio grezzo.
 - Mtep = milioni di tep
 - L'energia primaria è l'energia presente in natura e quindi non derivante dalla trasformazione di altra forma di energia
-
-<CheckUp />

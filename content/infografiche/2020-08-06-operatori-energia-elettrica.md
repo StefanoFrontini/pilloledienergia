@@ -22,8 +22,6 @@ import data from "~/data/operatori-energia-elettrica-libero.json"
 import OperatoriEnergiaBT from "~/components/OperatoriEnergiaBT.vue"
 import dataBT from "~/data/operatori-energia-bt.json"
 
-import CheckUp from "~/components/Check-up-component.vue"
-
 <OperatoriEnergiaLibero title="Primi venti gruppi di vendita di energia elettrica al mercato libero nel 2019" xKey="Gruppo"
             yKey="Energia"
             :data="data"
@@ -42,5 +40,3 @@ I grafici illustrano rispettivamente:
 I dati sono presi dall'[ARERA - Indagine annuale sui settori regolati](https://www.arera.it/it/relaz_ann/20/20.htm). L'indagine è stata pubblicata a luglio 2020.
 
 - 1 GWh = 1 milione di kWh;
-
-<CheckUp />

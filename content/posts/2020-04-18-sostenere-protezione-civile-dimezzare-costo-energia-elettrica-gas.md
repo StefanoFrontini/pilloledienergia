@@ -18,8 +18,6 @@ cover: ./images/persone-indossano-mascherina.jpg
 alt: persone indossano mascherina
 ---
 
-import CheckUp from "~/components/Check-up-component.vue"
-
 <p></p>
 <iframe title="Un’opportunità per sostenere la Protezione Civile e dimezzare il costo delle forniture di energia elettrica e gas della tua azienda" style="object-fit: cover; width:100%; height:315px;" src="https://www.youtube.com/embed/XyYBUeUrago?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
 srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/XyYBUeUrago?autoplay=1><img src=https://img.youtube.com/vi/XyYBUeUrago/hqdefault.jpg alt='Un’opportunità per sostenere la Protezione Civile e dimezzare il costo delle forniture di energia elettrica e gas della tua azienda'><span>▶</span></a>"
@@ -34,5 +32,3 @@ srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,sp
 <g-image src="~/assets/andamento-mensile-gennaio-2019-marzo-2020-prezzo-gas-naturale.png" style="object-fit: cover; width:100%; height: 100%"   alt="Andamento mensile gennaio 2019 marzo 2020 prezzo gas naturale"></g-image>
 
 - Repower ha appena lanciato sul mercato una nuova offerta di energia elettrica che prevede che una **parte dei proventi verranno devoluti alla Protezione Civile**. Per i primi 12 mesi il Cliente versa alla Protezione Civile, tramite Repower, un contributo proporzionale ai suoi consumi annuali al quale si aggiunge un contributo Repower di pari importo. Tu mi dirai, se il contributo è basato sui consumi che maturano di mese in mese i soldi arriveranno alla Protezione Civile tra un anno ad emergenza finita. In realtà per dare un aiuto subito, Repower anticiperà alla Protezione Civile sia il contributo Cliente sia il contributo Repower, calcolato sulla base della previsione dei consumi dei primi 12 mesi, alla firma del contratto di fornitura.
-
-<CheckUp />

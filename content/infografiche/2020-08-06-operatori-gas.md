@@ -19,8 +19,6 @@ cover:
 import OperatoriGas from "~/components/OperatoriGas.vue"
 import data from "~/data/operatori-gas.json"
 
-import CheckUp from "~/components/Check-up-component.vue"
-
 <OperatoriGas title="Primi venti gruppi per vendite di gas naturale al mercato finale nel 2019" xKey="Gruppo"
             yKey="Mmc"
             :data="data"
@@ -31,5 +29,3 @@ Il grafico illustra i primi venti gruppi per vendite di gas naturale al mercato 
 I dati sono presi dall'[ARERA - Indagine annuale sui settori regolati](https://www.arera.it/it/relaz_ann/20/20.htm). L'indagine è stata pubblicata a luglio 2020.
 
 - 1 Mmc = 1 milione di metri cubi;
-
-<CheckUp />
