@@ -474,7 +474,7 @@ import { Glide, GlideSlide } from "vue-glide-js";
 import "vue-glide-js/dist/vue-glide.css";
 
 import Pillole2 from "~/components/Pillole2.vue";
-import CheckUp from "~/components/Check-up-component.vue";
+import CheckUp from "~/components/CheckUpComponent.vue";
 import Repower from "~/components/Repower.vue";
 
 //import ateco from "@/data/ateco.json";
