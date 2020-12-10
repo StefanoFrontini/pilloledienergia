@@ -48,7 +48,7 @@ query {
 
 <script>
 import SocialSharing from "~/components/SocialSharing.vue";
-import CheckUp from "~/components/Check-up-component.vue";
+import CheckUp from "~/components/CheckUpComponent.vue";
 
 export default {
   components: {
