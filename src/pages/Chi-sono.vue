@@ -112,8 +112,8 @@
             >
             <strong
               ><a
-                target="_blank"
-                href="https://services.accredia.it/fpsearch/accredia_professionalmask_remote.jsp?ID_LINK=1749&area=310"
+                href="/certificato-utility-manager-stefano-frontini.pdf"
+                download
               >
                 (vedi il certificato)</a
               ></strong
