@@ -7,13 +7,13 @@
       <div class="chart-container">
         <div class="chart">
           <AutoElettriche
-            title="Immatricolazioni auto elettriche per marca e modello: Ottobre 2020"
+            title="Immatricolazioni auto elettriche per marca e modello: Novembre 2020"
             xKey="Modello"
             yKey="Immatricolazioni"
             :data="AutoElettricheData"
           />
           <CumulatoAutoElettriche
-            title="Immatricolazioni auto elettriche per marca e modello: Gennaio - Ottobre 2020"
+            title="Immatricolazioni auto elettriche per marca e modello: Gennaio - Novembre 2020"
             xKey="Modello"
             yKey="Immatricolazioni"
             :data="CumulatoAutoElettricheData"
@@ -28,11 +28,11 @@
           <ul>
             <li>
               Il numero di immatricolazioni di auto elettriche in Italia a
-              Ottobre 2020 distinte per marca e modello;
+              Novembre 2020 distinte per marca e modello;
             </li>
             <li>
               Il numero di immatricolazioni in Italia nel periodo gennaio -
-              Ottobre 2020 distinte per marca e modello;
+              Novembre 2020 distinte per marca e modello;
             </li>
             <li>
               L'andamento mensile delle immatricolazioni di auto elettriche in
