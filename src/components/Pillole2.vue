@@ -405,8 +405,8 @@ export default {
   -webkit-transform: translate(-50%, -50%);
   border-left: 0.5em solid $primaryColor;
   border-right: 0.5em solid $primaryColor;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
+  /* padding-left: 1.5em;
+  padding-right: 1.5em; */
   margin-top: 0em;
 
   width: 95%;
@@ -425,6 +425,7 @@ export default {
   height: 40px;
   border-radius: 100%;
   cursor: pointer;
+  margin: 0.2em;
 }
 
 ::v-deep .glide__bullet + .glide__bullet {
