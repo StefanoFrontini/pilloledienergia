@@ -1122,6 +1122,9 @@ a.button {
 }
 
 @media (min-width: 1000px) {
+  .question-text-wrapper {
+    min-height: 525px;
+  }
   .question {
     font-size: 2em;
     min-height: 525px;
@@ -1174,6 +1177,9 @@ a.button {
   .foto-mercato {
     width: 100%;
     height: 280px;
+  }
+  .question-text-wrapper {
+    min-height: 700px;
   }
   .question {
     min-height: 700px;
