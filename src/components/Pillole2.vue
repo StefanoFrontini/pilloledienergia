@@ -217,7 +217,7 @@
         </div>
       </vue-glide-slide>
 
-      <vue-glide-slide>
+      <!-- <vue-glide-slide>
         <div class="img">
           <g-image
             src="~/assets/grigio.png"
@@ -235,14 +235,14 @@
               luce?</strong
             >
 
-            <!-- <br />Penali per l’immissione in rete di energia reattiva possono
+             <br />Penali per l’immissione in rete di energia reattiva possono
             avere un impatto economico rilevante. Il loro monitoraggio è
-            essenziale per una fornitura efficiente. -->
+            essenziale per una fornitura efficiente.
           </p>
         </div>
-      </vue-glide-slide>
+      </vue-glide-slide> -->
 
-      <vue-glide-slide>
+      <!-- <vue-glide-slide>
         <div class="img">
           <g-image
             src="~/assets/grigio.png"
@@ -260,11 +260,11 @@
               mercato?</strong
             >
 
-            <!-- <br />Molti fornitori inseriscono costi aggiuntivi il secondo anno.
-            Io controllo che ciò non avvenga. -->
+            <br />Molti fornitori inseriscono costi aggiuntivi il secondo anno.
+            Io controllo che ciò non avvenga.
           </p>
         </div>
-      </vue-glide-slide>
+      </vue-glide-slide> -->
 
       <vue-glide-slide>
         <div class="img">
@@ -425,7 +425,7 @@ export default {
   height: 44px;
   border-radius: 100%;
   cursor: pointer;
-  margin: 0.2em;
+  margin: 8px;
 }
 
 ::v-deep .glide__bullet + .glide__bullet {
