@@ -129,9 +129,7 @@
                       autocomplete="off"
                     />
                     <label class="label-mail" for="email"
-                      ><span class="content-mail"
-                        >indirizzo @ valido</span
-                      ></label
+                      ><span class="content-mail">indirizzo @</span></label
                     >
                   </div>
 
@@ -635,14 +633,14 @@ export default {
         -o-transition: all 0.3s ease;
         transition: all 0.3s ease;
         font-weight: bold;
-        font-size: 0.5em;
+        font-size: 0.6em;
       }
       input:focus + .label-name .content-name,
       input:valid + .label-name .content-name {
         -webkit-transform: translateY(-120%);
         -ms-transform: translateY(-120%);
         transform: translateY(-120%);
-        font-size: 0.5em;
+        font-size: 0.6em;
         color: $primaryColor;
       }
       input:focus + .label-name::after,
@@ -714,7 +712,7 @@ export default {
         -o-transition: all 0.3s ease;
         transition: all 0.3s ease;
         font-weight: bold;
-        font-size: 0.4em;
+        font-size: 0.6em;
       }
 
       input:focus + .label-mail .content-mail,
@@ -722,7 +720,7 @@ export default {
         -webkit-transform: translateY(-140%);
         -ms-transform: translateY(-140%);
         transform: translateY(-140%);
-        font-size: 0.4em;
+        font-size: 0.6em;
         color: $primaryColor;
       }
       input:focus + .label-mail::after,
@@ -956,17 +954,24 @@ export default {
       min-height: 228px;
       .nome {
         top: 33%;
+        .content-name {
+          font-size: 0.7em;
+        }
+        input:focus + .label-name .content-name,
+        input:valid + .label-name .content-name {
+          font-size: 0.7em;
+        }
       }
 
       .mail {
         top: 33%;
 
         .content-mail {
-          font-size: 0.45em;
+          font-size: 0.7em;
         }
         input:focus + .label-mail .content-mail,
         input:valid + .label-mail .content-mail {
-          font-size: 0.45em;
+          font-size: 0.7em;
         }
       }
       .start {
@@ -1040,16 +1045,23 @@ export default {
       }
       .nome {
         top: 36%;
+        .content-name {
+          font-size: 0.8em;
+        }
+        input:focus + .label-name .content-name,
+        input:valid + .label-name .content-name {
+          font-size: 0.8em;
+        }
       }
 
       .mail {
         top: 36%;
         .content-mail {
-          font-size: 0.5em;
+          font-size: 0.8em;
         }
         input:focus + .label-mail .content-mail,
         input:valid + .label-mail .content-mail {
-          font-size: 0.5em;
+          font-size: 0.8em;
         }
       }
       .si {
@@ -1113,7 +1125,11 @@ export default {
       .nome {
         top: 36%;
         .content-name {
-          font-size: 0.7em;
+          font-size: 0.9em;
+        }
+        input:focus + .label-name .content-name,
+        input:valid + .label-name .content-name {
+          font-size: 0.9em;
         }
       }
 
@@ -1121,11 +1137,11 @@ export default {
         top: 33%;
 
         .content-mail {
-          font-size: 0.6em;
+          font-size: 0.9em;
         }
         input:focus + .label-mail .content-mail,
         input:valid + .label-mail .content-mail {
-          font-size: 0.6em;
+          font-size: 0.9em;
         }
       }
       .si {
@@ -1170,24 +1186,10 @@ export default {
         width: 24%;
         left: 6%;
         top: 42%;
-        .content-name {
-          font-size: 0.7em;
-        }
-        input:focus + .label-name .content-name,
-        input:valid + .label-name .content-name {
-          font-size: 0.7em;
-        }
       }
 
       .mail {
         top: 42%;
-        .content-mail {
-          font-size: 0.7em;
-        }
-        input:focus + .label-mail .content-mail,
-        input:valid + .label-mail .content-mail {
-          font-size: 0.7em;
-        }
       }
       .si {
         top: 52%;
@@ -1236,22 +1238,22 @@ export default {
       .nome {
         top: 45%;
         .content-name {
-          font-size: 0.8em;
+          font-size: 1.1em;
         }
         input:focus + .label-name .content-name,
         input:valid + .label-name .content-name {
-          font-size: 0.8em;
+          font-size: 1.1em;
         }
       }
 
       .mail {
         top: 45%;
         .content-mail {
-          font-size: 0.8em;
+          font-size: 1.1em;
         }
         input:focus + .label-mail .content-mail,
         input:valid + .label-mail .content-mail {
-          font-size: 0.8em;
+          font-size: 1.1em;
         }
       }
       .start {
@@ -1312,11 +1314,11 @@ export default {
       .nome {
         top: 48%;
         .content-name {
-          font-size: 1em;
+          font-size: 1.3em;
         }
         input:focus + .label-name .content-name,
         input:valid + .label-name .content-name {
-          font-size: 1em;
+          font-size: 1.3em;
         }
       }
 
@@ -1325,11 +1327,14 @@ export default {
         width: 24%;
         left: 38%;
         .content-mail {
-          font-size: 1em;
+          font-size: 1.3em;
         }
         input:focus + .label-mail .content-mail,
         input:valid + .label-mail .content-mail {
-          font-size: 1em;
+          font-size: 1.3em;
+          -webkit-transform: translateY(-110%);
+          -ms-transform: translateY(-110%);
+          transform: translateY(-110%);
         }
       }
       .si {
@@ -1429,7 +1434,14 @@ export default {
       .nome {
         top: 51%;
         .content-name {
-          font-size: 1.1em;
+          font-size: 1.5em;
+        }
+        input:focus + .label-name .content-name,
+        input:valid + .label-name .content-name {
+          font-size: 1.5em;
+          -webkit-transform: translateY(-90%);
+          -ms-transform: translateY(-90%);
+          transform: translateY(-90%);
         }
       }
 
@@ -1437,11 +1449,14 @@ export default {
         top: 51%;
 
         .content-mail {
-          font-size: 1.1em;
+          font-size: 1.5em;
         }
         input:focus + .label-mail .content-mail,
         input:valid + .label-mail .content-mail {
-          font-size: 1.1em;
+          font-size: 1.5em;
+          -webkit-transform: translateY(-90%);
+          -ms-transform: translateY(-90%);
+          transform: translateY(-90%);
         }
       }
       .fascettaArancione {
@@ -1484,7 +1499,14 @@ export default {
       .nome {
         top: 51%;
         .content-name {
-          font-size: 1em;
+          font-size: 1.6em;
+        }
+        input:focus + .label-name .content-name,
+        input:valid + .label-name .content-name {
+          font-size: 1.6em;
+          -webkit-transform: translateY(-60%);
+          -ms-transform: translateY(-60%);
+          transform: translateY(-60%);
         }
       }
 
@@ -1492,11 +1514,14 @@ export default {
         top: 51%;
 
         .content-mail {
-          font-size: 1em;
+          font-size: 1.6em;
         }
         input:focus + .label-mail .content-mail,
         input:valid + .label-mail .content-mail {
-          font-size: 1em;
+          font-size: 1.6em;
+          -webkit-transform: translateY(-60%);
+          -ms-transform: translateY(-60%);
+          transform: translateY(-60%);
         }
       }
       .fa p {
