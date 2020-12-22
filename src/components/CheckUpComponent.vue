@@ -529,7 +529,7 @@ export default {
     .check {
       width: 100%;
       position: absolute;
-      top: 0%;
+      top: -2%;
       font-weight: bold;
     }
     /*   .g-image {
@@ -545,8 +545,8 @@ export default {
       -ms-transform: translate(-50%, 0);
       transform: translate(-50%, 0);
 
-      top: 9%;
-      font-size: 0.7em;
+      top: 7%;
+      font-size: 0.8em;
       line-height: 1.2em;
       span {
         font-weight: bold;
@@ -864,7 +864,7 @@ export default {
       position: absolute;
       width: 100%;
 
-      top: 77%;
+      top: 75%;
       font-size: 0.8em;
     }
   }
@@ -1009,7 +1009,7 @@ export default {
       }
 
       .usoDati {
-        top: 76%;
+        top: 74%;
         font-size: 0.8em;
       }
     }
@@ -1020,7 +1020,7 @@ export default {
   .cartolina-wrapper {
     .step {
       .usoDati {
-        top: 80%;
+        top: 78%;
         font-size: 0.8em;
       }
     }
@@ -1531,7 +1531,7 @@ export default {
         font-size: 3em;
       }
       .usoDati {
-        top: 82%;
+        top: 80%;
       }
     }
   }

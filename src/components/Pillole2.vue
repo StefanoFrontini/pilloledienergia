@@ -421,8 +421,8 @@ export default {
 
   border: 0;
   outline: none;
-  width: 20px;
-  height: 40px;
+  width: 22px;
+  height: 44px;
   border-radius: 100%;
   cursor: pointer;
   margin: 0.2em;
