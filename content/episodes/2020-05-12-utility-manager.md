@@ -16,8 +16,6 @@ cover: ./images/utility-manager.png
 alt: locandina evento diretta YouTube Utility Manager
 ---
 
-import CheckUp from "~/components/CheckUpComponent.vue";
-
 <p></p>
 <iframe title="Una nuova figura professionale: l'Utility Manager. Quali i vantaggi per la mia azienda?" style="object-fit: cover; width:100%; height:415px;" src="https://www.youtube.com/embed/i-QrerZbmIY?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p></p>
@@ -27,5 +25,3 @@ import CheckUp from "~/components/CheckUpComponent.vue";
 - Federico Bevilacqua - Presidente Assium - [Assium](https://assium.it/).
 
 Leggi il comunicato stampa [UNI - Ente di normazione italiano](https://www.uni.com/index.php?option=com_content&view=article&id=9302%3Ale-competenze-dell-utility-manager-pubblicata-la-norma&catid=171&Itemid=2612).
-
-<CheckUp />

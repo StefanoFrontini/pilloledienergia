@@ -109,7 +109,7 @@
       </div>
 
       <div class="section">
-        <Check-up />
+        <CheckUp />
       </div>
 
       <div class="section">
@@ -623,10 +623,10 @@ export default {
     content: "Guarda l’intervista su Radio LiveSocial";
     position: absolute;
     left: 22%;
-    top: 36%;
+    top: 25%;
     font-weight: bold;
-    width: 90%;
-    font-size: 0.8em;
+    width: 80%;
+    font-size: 1em;
   }
 }
 
@@ -1190,7 +1190,7 @@ a.button {
   }
   .section {
     .pulsante a:after {
-      left: 18%;
+      left: 22%;
     }
   }
 }

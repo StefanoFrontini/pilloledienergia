@@ -18,8 +18,6 @@ cover: ./images/astratto-lavagna-lampadina-gesso.jpg
 alt: astratto lavagna lampadina gesso
 ---
 
-import CheckUp from "~/components/CheckUpComponent.vue";
-
 <p></p>
 <iframe title="Consigli per gestire al meglio la fornitura luce e gas della tua azienda al tempo del Coronavirus" style="object-fit: cover; width:100%; height:315px;" src="https://www.youtube.com/embed/jXbU9IJtBmQ?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p></p>In questo periodo di emergenza voglio darti alcuni consigli per gestire al meglio la fornitura di energia elettrica e gas della tua azienda.
 
@@ -31,5 +29,3 @@ import CheckUp from "~/components/CheckUpComponent.vue";
   <g-image src="~/assets/andamento-mensile-gennaio-2019-marzo-2020-prezzo-gas-naturale.png" style="object-fit: cover; width:100%; height: 100%"   alt="Andamento mensile gennaio 2019 marzo 2020 prezzo gas naturale"></g-image>
 
 - L’Autorità per l’energia (ARERA) ha pubblicato due provvedimenti che riguardano l’emergenza coronavirus e che hanno impatto sulle aziende. Il primo riguarda **la sospensione delle bollette di luce e gas per gli 11 Comuni ex zona rossa di Lombardia e Veneto** ([delibera ARERA 75/2020/R/com](https://www.arera.it/it/docs/20/075-20.htm)) e il secondo **la sospensione dei distacchi per morosità** ([delibera ARERA 117/2020/R/com](https://www.arera.it/it/docs/20/117-20.htm)). Per quanto riguarda **il primo provvedimento** la sospensione opera fino al 30 aprile, comprese le fatture successive che contabilizzano i consumi fino ad aprile. E’ importante precisare che si tratta di una sospensione e non di un annullamento. Per cui in fase successiva, che partirà non prima di luglio 2020, il fornitore farà scattare il piano di rateizzazione per recuperare le somme dovute. La sospensione è automatica per cui non è necessario che tu faccia nulla. Tuttavia se non hai forti difficoltà finanziare ti consiglio di effettuare i pagamenti secondo le tue normali abitudini inviando una comunicazione scritta al tuo fornitore: in questo momento è importante anche un atto di solidarietà per fare in modo che le risorse vadano a chi effettivamente ne ha bisogno. Per quanto riguarda **il secondo provvedimento**, che riguarda: per l'elettricità tutti i clienti in bassa tensione e per il gas tutti i clienti con consumo non superiore a 200.000 Smc/anno, l’Autorità ha rimandato le procedure di sospensione delle forniture di energia elettrica e gas dal 10 marzo al 13 aprile 2020. Fino al 13 aprile pertanto se hai avuto un distacco per morosità la tua fornitura verrà riattivata e ogni procedura di sospensione avrà efficacia successivamente al 13 aprile.
-
-<CheckUp />

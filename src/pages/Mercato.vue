@@ -188,6 +188,12 @@ export default {
 .chart {
   width: 100%;
   max-width: 800px;
+  h3 {
+    padding: 1em;
+  }
+  p {
+    padding: 1em;
+  }
 }
 
 .title-mercato {
@@ -200,11 +206,12 @@ export default {
 }
 
 .title-mercato h1 {
+  padding: 1em;
   font-size: 1.5em;
 }
 
 .page-mercato {
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -215,8 +222,7 @@ export default {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-bottom: 2em;
-  margin-top: 2em;
+  padding-top: 2em;
 }
 
 .call p {

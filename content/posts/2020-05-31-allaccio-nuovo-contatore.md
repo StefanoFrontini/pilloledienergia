@@ -18,8 +18,6 @@ cover: ./images/contatori-energia-elettrica.jpg
 alt: contatori energia elettrica
 ---
 
-import CheckUp from "~/components/CheckUpComponent.vue";
-
 Ti racconto questa storia.
 
 Un potenziale Cliente viene da me e mi dice che sono <span class="grassetto">4 mesi</span> che prova ad allacciare un contatore enel della luce senza successo. Disperato mi chiede se posso aiutarlo in quanto non può più rimandare i lavori presso il suo capannone industriale.
@@ -46,5 +44,3 @@ Il Cliente in mattinata mi gira tutta la documentazione firmata e già entro ser
 
 Il Cliente accetta il preventivo e gli fisso un appuntamento con E-distribuzione <span class="grassetto">4 giorni</span> dopo.
 Il giorno stesso dell’appuntamento con E-distribuzione gli viene attivato il nuovo contatore enel della luce e finalmente riesce ad avere energia elettrica presso il suo capannone industriale.
-
-<CheckUp />

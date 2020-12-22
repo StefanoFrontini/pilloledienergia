@@ -18,8 +18,6 @@ cover: ./images/tribunale.jpg
 alt: tribunale
 ---
 
-import CheckUp from "~/components/CheckUpComponent.vue";
-
 <p></p>
 <iframe title="La tua azienda consumava più di 400'000 kWh/anno nel 2010/2011? Potresti aver diritto ad un rimborso di migliaia di euro" style="object-fit: cover; width:100%; height:315px;" src="https://www.youtube.com/embed/CfGwolf20MU?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
 srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/CfGwolf20MU?autoplay=1><img src=https://img.youtube.com/vi/CfGwolf20MU/hqdefault.jpg alt='La tua azienda consumava più di 400'000 kWh/anno nel 2010/2011? Potresti aver diritto ad un rimborso di migliaia di euro'><span>▶</span></a>"
@@ -36,5 +34,3 @@ Il rimborso si può calcolare in una media di circa 10 €/MWh. Ad es. per consu
 Per ottenere il rimborso hai bisogno di un legale esperto in disciplina fiscale, un commercialista e un esperto di energia.
 
 > Io e il mio team possiamo aiutarti ad ottenere il rimborso e ci riconoscerai una fee a rimborso ottenuto. <g-link to="/contatti">Contattami</g-link> e avrai una consulenza gratuita.
-
-<CheckUp />

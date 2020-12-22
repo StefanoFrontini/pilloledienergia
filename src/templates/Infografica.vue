@@ -7,6 +7,7 @@
         <div class="content">
           <VueRemarkContent />
         </div>
+        <CheckUp />
         <SocialSharing
           :title="this.$page.infografica.title"
           :description="this.$page.infografica.description"
@@ -50,10 +51,12 @@ query {
 
 <script>
 import SocialSharing from "~/components/SocialSharing.vue";
+import CheckUp from "~/components/CheckUpComponent.vue";
 
 export default {
   components: {
     SocialSharing,
+    CheckUp,
   },
   data() {
     return {
@@ -121,8 +124,8 @@ export default {
 
 .page {
   text-align: left;
-  width: 95%;
-  max-width: 700px;
+  width: 100%;
+  max-width: 900px;
 }
 
 .date {
@@ -147,12 +150,7 @@ export default {
 
 .content {
   text-align: left;
-}
-
-@media (min-width: 930px) {
-  .page {
-    width: 80%;
-  }
+  padding: 1em;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {

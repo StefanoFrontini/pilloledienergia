@@ -144,8 +144,8 @@
                   <div class="usoDati">
                     <p>
                       *Cliccando su <strong>start</strong> dai il consenso
-                      all'uso dei dati. I tuoi dati sono al sicuro. Leggi
-                      l'<g-link to="/privacy">informativa</g-link>.
+                      all’uso dei dati.<br />I tuoi dati sono al sicuro. Leggi
+                      l’<g-link to="/privacy">informativa</g-link>.
                     </p>
                   </div>
                 </div>
@@ -864,8 +864,8 @@ export default {
       position: absolute;
       width: 100%;
 
-      top: 80%;
-      font-size: 0.6em;
+      top: 77%;
+      font-size: 0.8em;
     }
   }
 }
@@ -1009,6 +1009,17 @@ export default {
       }
 
       .usoDati {
+        top: 76%;
+        font-size: 0.8em;
+      }
+    }
+  }
+}
+
+@media (min-width: 370px) {
+  .cartolina-wrapper {
+    .step {
+      .usoDati {
         top: 80%;
         font-size: 0.8em;
       }
@@ -1080,8 +1091,8 @@ export default {
       }
 
       .usoDati {
-        font-size: 0.7em;
-        top: 80%;
+        font-size: 0.8em;
+        top: 78%;
       }
     }
   }
@@ -1213,8 +1224,8 @@ export default {
       }
 
       .usoDati {
-        top: 84%;
-        font-size: 0.7em;
+        top: 82%;
+        font-size: 0.8em;
       }
     }
   }
@@ -1361,8 +1372,8 @@ export default {
       }
 
       .usoDati {
-        top: 80%;
-        font-size: 0.7em;
+        top: 78%;
+        font-size: 0.8em;
       }
     }
   }
@@ -1403,8 +1414,8 @@ export default {
       }
 
       .usoDati {
-        top: 84%;
-        font-size: 0.7em;
+        top: 82%;
+        font-size: 0.8em;
       }
     }
   }
@@ -1520,7 +1531,7 @@ export default {
         font-size: 3em;
       }
       .usoDati {
-        top: 83%;
+        top: 82%;
       }
     }
   }

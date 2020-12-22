@@ -7,6 +7,7 @@
         <div class="content">
           <VueRemarkContent />
         </div>
+        <CheckUp />
         <SocialSharing
           :title="this.$page.episode.title"
           :description="this.$page.episode.description"
@@ -54,10 +55,12 @@ query {
 
 <script>
 import SocialSharing from "~/components/SocialSharing.vue";
+import CheckUp from "~/components/CheckUpComponent.vue";
 
 export default {
   components: {
     SocialSharing,
+    CheckUp,
   },
   data() {
     return {
@@ -122,8 +125,8 @@ export default {
 
 .page {
   text-align: left;
-  width: 95%;
-  max-width: 700px;
+  width: 100%;
+  max-width: 900px;
 }
 
 .date {
@@ -140,9 +143,12 @@ export default {
   margin-bottom: 1em;
   text-align: left;
   font-size: 1.5em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 .content {
   text-align: left;
+  padding: 1em;
 }
 
 .torna {
@@ -151,12 +157,6 @@ export default {
 
 .torna span {
   margin-left: 0.5em;
-}
-
-@media (min-width: 930px) {
-  .page {
-    width: 80%;
-  }
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
