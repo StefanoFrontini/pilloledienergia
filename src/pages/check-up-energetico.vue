@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="root">
+    <!-- <div class="root">
       <div class="container-progressbar">
         <ul class="progressbar">
           <li
@@ -720,7 +720,8 @@
           <br />
         </form>
       </div>
-    </div>
+    </div> -->
+    <CheckUp />
   </Layout>
 </template>
 
@@ -736,8 +737,12 @@ query {
 
 <script>
 import axios from "axios";
+import CheckUp from "~/components/CheckUpComponent.vue";
 
 export default {
+  components: {
+    CheckUp,
+  },
   metaInfo() {
     return {
       title: "Check-up energetico gratuito | Pillole di Energia",

@@ -94,9 +94,9 @@
                 <div v-if="passo === 0" :key="passo">
                   <g-image src="~/assets/start2.png" alt="" />
                   <p class="check">
-                    CHECK-UP ENERGETICO GRATUITO
+                    CHECK-UP ENERGETICO GRATUITO<br />per ristoranti e hotel
                   </p>
-                  <p>
+                  <p class="domanda">
                     Compila i campi e inizia <strong>SUBITO</strong><br />il tuo
                     check-up energetico
                     <strong>GRATUITO</strong>,<br />riceverai il risultato via
@@ -150,7 +150,7 @@
 
                 <div v-if="passo === 1" :key="passo + 2">
                   <g-image src="~/assets/arancione.png" alt="" />
-                  <p>
+                  <p class="domanda">
                     <span>1° domanda</span><br />
                     Conosci la <strong>data di scadenza</strong> della tua
                     attuale offerta<br />
@@ -166,7 +166,7 @@
 
                 <div v-if="passo === 2" :key="passo + 3">
                   <g-image src="~/assets/rossa.png" alt="" />
-                  <p>
+                  <p class="domanda">
                     <span>2° domanda</span><br />
                     Sei consapevole che esistono
                     <strong>voci aggiuntive</strong>, a volte<br />
@@ -183,7 +183,7 @@
 
                 <div v-if="passo === 3" :key="passo + 4">
                   <g-image src="~/assets/rossa.png" alt="" />
-                  <p>
+                  <p class="domanda">
                     <span>3° domanda</span><br />
                     Sai quanto impatta sui costi
                     <strong>accendere</strong><br />nello stesso momento<br />
@@ -200,7 +200,7 @@
 
                 <div v-if="passo === 4" :key="passo + 5">
                   <g-image src="~/assets/rossa.png" alt="" />
-                  <p>
+                  <p class="domanda">
                     <span>4° domanda</span><br />
                     Ti sei mai accorto di pagare
                     <strong>penali</strong><br />
@@ -227,7 +227,7 @@
 
                 <div v-if="passo === 5" :key="passo + 6">
                   <g-image src="~/assets/gialla.png" alt="" />
-                  <p>
+                  <p class="domanda">
                     <span>5° domanda</span><br />
                     Sai se la
                     <strong>fatturazione</strong>
@@ -244,7 +244,7 @@
 
                 <div v-if="passo === 6" :key="passo + 7">
                   <g-image src="~/assets/arancione.png" alt="" />
-                  <p>
+                  <p class="domanda">
                     <span>6° domanda</span><br />
                     Quando hai acquistato la <strong>tua fornitura</strong
                     ><br />di energia elettrica e gas, conoscevi<br />
@@ -265,7 +265,7 @@
 
                 <div v-if="passo === 7" :key="passo + 8">
                   <g-image src="~/assets/rossa.png" alt="" />
-                  <p>
+                  <p class="domanda">
                     <span>7° domanda</span><br />
                     Sei stato informato che hai diritto a delle<br />
                     <strong>agevolazioni fiscali</strong> sull’IVA e le accise?
@@ -280,7 +280,7 @@
 
                 <div v-if="passo === 8" :key="passo + 9">
                   <g-image src="~/assets/blu.png" alt="" />
-                  <p>
+                  <p class="domanda">
                     <span>8° domanda</span><br />
                     Il tuo
                     <strong>referente</strong> è un
@@ -296,7 +296,7 @@
 
                 <div v-if="passo === 9" :key="passo + 10">
                   <g-image src="~/assets/blu.png" alt="" />
-                  <p>
+                  <p class="domanda">
                     <span>9° domanda</span><br />
                     Hai un
                     <strong>consulente</strong> personale
@@ -314,7 +314,7 @@
 
                 <div v-if="passo === 10" :key="passo + 11">
                   <g-image src="~/assets/verde.png" alt="" />
-                  <p>
+                  <p class="domanda">
                     <span>10° domanda</span><br />
                     Sai quali sono i vantaggi per il tuo ristorante/hotel<br />
                     se scegli una fornitura
@@ -527,11 +527,12 @@ export default {
     .check {
       width: 100%;
       position: absolute;
-      top: -2%;
+      top: -5%;
       font-weight: bold;
+      font-size: 0.8em;
     }
 
-    p {
+    .domanda {
       position: absolute;
       width: 100%;
       left: 50%;
@@ -539,8 +540,8 @@ export default {
       -ms-transform: translate(-50%, 0);
       transform: translate(-50%, 0);
 
-      top: 7%;
-      font-size: 0.8em;
+      top: 12%;
+      font-size: 0.7em;
       line-height: 1.2em;
       span {
         font-weight: bold;
@@ -789,11 +790,11 @@ export default {
     }
     .fascettaArancione {
       position: absolute;
-      top: 5%;
-      left: -8%;
+      top: 3%;
+      left: 0%;
       width: 15%;
       p {
-        font-size: 0.5em;
+        font-size: 0.6em;
         -webkit-transform: rotate(315deg);
         -ms-transform: rotate(315deg);
         transform: rotate(315deg);
@@ -805,10 +806,10 @@ export default {
     .fascettaRossa {
       position: absolute;
       top: 5%;
-      left: -12.5%;
+      left: -3%;
       width: 20%;
       p {
-        font-size: 0.5em;
+        font-size: 0.6em;
         -webkit-transform: rotate(315deg);
         -ms-transform: rotate(315deg);
         transform: rotate(315deg);
@@ -819,11 +820,11 @@ export default {
     }
     .fascettaBlu {
       position: absolute;
-      top: 5%;
-      left: -17%;
+      top: 4%;
+      left: -6%;
       width: 25%;
       p {
-        font-size: 0.5em;
+        font-size: 0.6em;
         -webkit-transform: rotate(315deg);
         -ms-transform: rotate(315deg);
         transform: rotate(315deg);
@@ -858,7 +859,7 @@ export default {
       position: absolute;
       width: 100%;
 
-      top: 75%;
+      top: 72%;
       font-size: 0.8em;
     }
   }
@@ -948,6 +949,13 @@ export default {
   .cartolina-wrapper {
     .step {
       min-height: 228px;
+      .check {
+        top: -3%;
+      }
+      .domanda {
+        top: 10%;
+        font-size: 0.8em;
+      }
       .nome {
         top: 33%;
         .content-name {
@@ -984,8 +992,8 @@ export default {
         font-size: 2em;
       }
       .fascettaArancione {
-        top: 4%;
-        left: -10%;
+        top: 3%;
+        left: -2%;
         width: 17%;
         p {
           font-size: 0.7em;
@@ -993,7 +1001,7 @@ export default {
       }
       .fascettaRossa {
         width: 20%;
-        left: -12.5%;
+        left: -3%;
         top: 4%;
 
         p {
@@ -1002,7 +1010,7 @@ export default {
       }
       .fascettaBlu {
         top: 4%;
-        left: -17%;
+        left: -5%;
 
         p {
           font-size: 0.6em;
@@ -1010,7 +1018,7 @@ export default {
       }
 
       .usoDati {
-        top: 74%;
+        top: 72%;
         font-size: 0.8em;
       }
     }
@@ -1020,8 +1028,11 @@ export default {
 @media (min-width: 370px) {
   .cartolina-wrapper {
     .step {
+      .domanda {
+        font-size: 0.9em;
+      }
       .usoDati {
-        top: 78%;
+        top: 75%;
         font-size: 0.8em;
       }
     }
@@ -1073,26 +1084,16 @@ export default {
         font-size: 1.5em;
       }
       .fascettaArancione {
-        top: 3%;
-        left: -10%;
-        width: 17%;
         p {
           font-size: 0.8em;
         }
       }
       .fascettaRossa {
-        width: 25%;
-        left: -17%;
-        top: 3%;
-
         p {
           font-size: 0.8em;
         }
       }
       .fascettaBlu {
-        top: 5%;
-        left: -18%;
-
         p {
           font-size: 0.7em;
         }
@@ -1170,6 +1171,14 @@ export default {
         font-size: 0.7em;
         top: 78%;
       }
+      .check {
+        top: -3%;
+        font-size: 1.2em;
+      }
+      .domanda {
+        top: 12%;
+        font-size: 1.2em;
+      }
       .response p {
         top: 5%;
         font-size: 1.2em;
@@ -1198,26 +1207,26 @@ export default {
         font-size: 3em;
       }
       .fascettaArancione {
-        left: -4%;
+        left: 0%;
         width: 15%;
         p {
-          font-size: 0.9em;
+          font-size: 1em;
         }
       }
       .fascettaRossa {
-        left: -14%;
-        top: 19%;
+        left: -3%;
+        top: 5%;
 
         p {
-          font-size: 0.9em;
+          font-size: 1em;
         }
       }
       .fascettaBlu {
-        top: 19%;
-        left: -15%;
+        top: 5%;
+        left: -6%;
 
         p {
-          font-size: 0.9em;
+          font-size: 1em;
         }
       }
 
@@ -1231,6 +1240,14 @@ export default {
 @media (min-width: 650px) {
   .cartolina-wrapper {
     .step {
+      .check {
+        top: -3%;
+        font-size: 1.5em;
+      }
+      .domanda {
+        top: 13%;
+        font-size: 1.5em;
+      }
       .nome {
         top: 45%;
         .content-name {
@@ -1272,16 +1289,16 @@ export default {
         }
       }
       .fascettaRossa {
-        left: -10%;
-        top: 19%;
+        left: -4%;
+        top: 8%;
 
         p {
           font-size: 1em;
         }
       }
       .fascettaBlu {
-        top: 19%;
-        left: -15%;
+        top: 6%;
+        left: -5%;
 
         p {
           font-size: 1em;
@@ -1289,8 +1306,8 @@ export default {
       }
 
       .usoDati {
-        top: 84%;
-        font-size: 0.8em;
+        top: 82%;
+        font-size: 1em;
       }
     }
   }
@@ -1348,16 +1365,16 @@ export default {
         font-size: 2.8em;
       }
       .fascettaArancione {
-        top: 5%;
-        left: -8%;
+        top: 4%;
+        left: 0%;
         width: 15%;
         p {
           font-size: 1.2em;
         }
       }
       .fascettaRossa {
-        left: -18%;
-        top: 5%;
+        left: -2%;
+        top: 4%;
 
         p {
           font-size: 1.2em;
@@ -1365,7 +1382,7 @@ export default {
       }
       .fascettaBlu {
         top: 5%;
-        left: -18%;
+        left: -4%;
 
         p {
           font-size: 1.2em;
@@ -1390,24 +1407,24 @@ export default {
         font-size: 4.5em;
       }
       .fascettaArancione {
-        top: 19%;
-        left: -5%;
+        top: 6%;
+        left: -2%;
 
         p {
           font-size: 1.3em;
         }
       }
       .fascettaRossa {
-        left: -15%;
-        top: 19%;
+        left: -4%;
+        top: 7%;
 
         p {
           font-size: 1.3em;
         }
       }
       .fascettaBlu {
-        top: 19%;
-        left: -15%;
+        top: 7%;
+        left: -6%;
 
         p {
           font-size: 1.3em;
@@ -1427,6 +1444,14 @@ export default {
     .step {
       min-height: 504px;
       min-width: 843px;
+      .check {
+        top: -3%;
+        font-size: 1.8em;
+      }
+      .domanda {
+        top: 13%;
+        font-size: 1.8em;
+      }
       .nome {
         top: 51%;
         .content-name {
@@ -1457,7 +1482,7 @@ export default {
       }
       .fascettaArancione {
         top: 4%;
-        left: -10%;
+        left: -2%;
         width: 17%;
         p {
           font-size: 1.5em;
@@ -1465,7 +1490,7 @@ export default {
       }
       .fascettaRossa {
         width: 25%;
-        left: -18%;
+        left: -5%;
         top: 4%;
 
         p {
@@ -1474,7 +1499,7 @@ export default {
       }
       .fascettaBlu {
         top: 4%;
-        left: -18%;
+        left: -5%;
 
         p {
           font-size: 1.5em;
