@@ -301,6 +301,9 @@ export default {
   justify-content: space-around;
   flex-wrap: wrap;
   text-align: center;
+  p {
+    font-size: 1em;
+  }
 
   p strong {
     font-size: 1.3em;

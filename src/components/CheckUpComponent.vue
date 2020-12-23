@@ -530,11 +530,7 @@ export default {
       top: -2%;
       font-weight: bold;
     }
-    /*   .g-image {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    } */
+
     p {
       position: absolute;
       width: 100%;
@@ -577,7 +573,7 @@ export default {
       width: 23%;
       position: absolute;
       top: 28%;
-      left: 6.5%;
+      left: 6%;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -628,7 +624,7 @@ export default {
       .content-name {
         position: absolute;
         bottom: 5px;
-        left: 35%;
+        left: 30%;
         -webkit-transition: all 0.3s ease;
         -o-transition: all 0.3s ease;
         transition: all 0.3s ease;

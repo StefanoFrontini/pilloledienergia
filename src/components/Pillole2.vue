@@ -21,8 +21,8 @@
           <p>
             <strong
               >Stai sfruttando tutte le opportunità che provengono dai mercati
-              energetici?</strong
-            >
+              energetici?
+            </strong>
             <!-- <br />Durante l'emergenza coranavirus i mercati sono crollati. Il
             tuo contratto di fornitura ti ha permesso di beneficiare di questa
             discesa? -->
@@ -358,14 +358,14 @@ export default {
     height: 60%;
     //margin: 0 auto;
     position: absolute;
-    top: 10%;
+    top: 6%;
     border: 10px solid white;
   }
-  p {
+  p strong {
     position: absolute;
     top: 67%;
     width: 90%;
-    font-size: 0.9em;
+    font-size: 1em;
     left: 5%;
   }
 
@@ -380,7 +380,7 @@ export default {
     position: absolute;
     top: 5%;
     width: 75%;
-    height: 70%;
+    height: 65%;
     border: 10px solid white;
   }
 }
@@ -389,10 +389,6 @@ export default {
   margin-top: 6em;
   width: 100%;
   background: #ededed;
-}
-
-.img-container {
-  height: 590px;
 }
 
 ::v-deep .glide__bullets {
@@ -464,20 +460,16 @@ button[data-glide-dir=">"]:hover {
   opacity: 1;
 } */
 
-@media (max-width: 600px) {
-  .img-container {
-    height: 182px;
-  }
-}
-
 @media (min-width: 370px) {
   .img {
     iframe {
       height: 65%;
     }
     p {
-      top: 70%;
-      font-size: 0.7em;
+      strong {
+        top: 70%;
+        font-size: 0.7em;
+      }
     }
   }
   ::v-deep .glide__bullets {
@@ -490,6 +482,13 @@ button[data-glide-dir=">"]:hover {
 }
 
 @media (min-width: 400px) {
+  .img {
+    p {
+      strong {
+        font-size: 1.2em;
+      }
+    }
+  }
   ::v-deep .glide__bullets {
     width: 90%;
   }
@@ -502,7 +501,9 @@ button[data-glide-dir=">"]:hover {
 @media (min-width: 550px) {
   .img {
     p {
-      font-size: 1.5em;
+      strong {
+        font-size: 1.5em;
+      }
     }
   }
   ::v-deep .glide__bullets {
@@ -513,7 +514,9 @@ button[data-glide-dir=">"]:hover {
 @media (min-width: 650px) {
   .img {
     p {
-      top: 73%;
+      strong {
+        top: 73%;
+      }
     }
   }
   ::v-deep .glide__bullets {
@@ -537,7 +540,9 @@ button[data-glide-dir=">"]:hover {
       top: 5%;
     }
     p {
-      top: 78%;
+      strong {
+        top: 78%;
+      }
     }
     .slideImage {
       width: 90%;
@@ -552,7 +557,9 @@ button[data-glide-dir=">"]:hover {
       height: 78%;
     }
     p {
-      top: 83%;
+      strong {
+        top: 83%;
+      }
     }
   }
   ::v-deep .glide__bullets {

@@ -1,7 +1,7 @@
 <template>
   <div ref="RepowerId">
     <div class="img">
-      <g-image src="~/assets/grigio.png" alt="" />
+      <g-image src="~/assets/grigio.png" alt="fondo grigio" />
       <iframe
         title="Spot della campagna pubblicitaria Repower 2019"
         width="100%"
@@ -70,20 +70,15 @@ export default {
     height: 80%;
     margin: 0 auto;
     position: absolute;
-    top: 13%;
+    top: 9%;
     border: 10px solid white;
-  }
-  p {
-    position: absolute;
-    top: 80%;
-    width: 75%;
   }
 }
 .g-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  margin-top: 3em;
+  margin-top: 1em;
   position: relative;
 }
 
