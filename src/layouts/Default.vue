@@ -147,12 +147,14 @@ h6 {
   font-family: "radnika-medium", sans-serif;
 }
 
-//::selection {
-//  background: $primaryColor; /* WebKit/Blink Browsers */
-//}
-//::-moz-selection {
-//  background: $primaryColor; /* Gecko Browsers */
-//}
+::selection {
+  background: $primaryColor; /* WebKit/Blink Browsers */
+  color: white;
+}
+::-moz-selection {
+  background: $primaryColor; /* Gecko Browsers */
+  color: white;
+}
 
 a {
   text-decoration: none;
@@ -223,7 +225,7 @@ blockquote::after {
 .text {
   text-align: center;
   color: white;
-  font-size: 0.8em;
+  font-size: 1em;
   margin: 0.1em;
 }
 
@@ -268,7 +270,7 @@ blockquote::after {
   text-decoration: none;
   font-family: "radnika-medium", sans-serif;
   text-transform: uppercase;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 .footer-a {
@@ -283,7 +285,7 @@ blockquote::after {
   justify-content: center;
   background-color: #1b1b1b;
   color: white;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 .contact {
@@ -299,7 +301,7 @@ blockquote::after {
 .footer-logo {
   text-transform: uppercase;
   color: $primaryColor;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 .burger {
@@ -328,6 +330,7 @@ blockquote::after {
   transition: transform 0.5s ease-in;
   justify-content: space-around;
   z-index: 10;
+  font-size: 0.9em;
 }
 .nav-active {
   transform: translateX(0%);
@@ -342,6 +345,12 @@ blockquote::after {
 .enter {
   opacity: 1;
   transform: translateY(0px);
+}
+
+@media (min-width: 370px) {
+  .navbar {
+    font-size: 1em;
+  }
 }
 
 @media (min-width: 550px) {

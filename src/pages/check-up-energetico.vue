@@ -97,7 +97,7 @@
                       class="logo"
                       src="~/assets/logo-pillole-di-energia.svg"
                       alt="logo pillole di energia"
-                      width="100"
+                      width="80"
                     />
                     <h1>
                       CHECK-UP ENERGETICO GRATUITO<br />per ristoranti e hotel
@@ -1015,7 +1015,6 @@ export default {
     position: absolute;
     top: 3%;
     left: 34%;
-    z-index: 10;
   }
   h1 {
     width: 100%;
@@ -1416,7 +1415,6 @@ export default {
       position: absolute;
       top: 4%;
       left: 37%;
-      z-index: 10;
     }
     h1 {
       top: 0%;
