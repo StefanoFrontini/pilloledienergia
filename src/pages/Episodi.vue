@@ -65,6 +65,8 @@ export default {
 }
 
 .post {
-  width: 60%;
+  width: 100%;
+  padding: 1em;
+  max-width: 900px;
 }
 </style>

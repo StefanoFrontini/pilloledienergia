@@ -16,8 +16,9 @@ cover: ./images/utility-manager.png
 alt: locandina evento diretta YouTube Utility Manager
 ---
 
-<p></p>
-<iframe title="Una nuova figura professionale: l'Utility Manager. Quali i vantaggi per la mia azienda?" style="object-fit: cover; width:100%; height:415px;" src="https://www.youtube.com/embed/i-QrerZbmIY?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>
+<iframe title="Una nuova figura professionale: l’Utility Manager. Quali i vantaggi per la mia azienda?" style=" width:100%; height:415px;" src="https://www.youtube.com/embed/i-QrerZbmIY?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 <p></p>
 
 #### Ospiti:

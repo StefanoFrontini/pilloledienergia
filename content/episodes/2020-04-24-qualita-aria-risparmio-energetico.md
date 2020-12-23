@@ -17,7 +17,7 @@ alt: locandina evento
 ---
 
 <p></p>
-<iframe title="Qualità dell'aria e risparmio energetico, come progettare gli ambienti di lavoro in tempi di coronavirus" style="object-fit: cover; width:100%; height:415px;" src="https://www.youtube.com/embed/KRgA4s8e9Ps?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="Qualità dell'aria e risparmio energetico, come progettare gli ambienti di lavoro in tempi di coronavirus" style="width:100%; height:415px;" src="https://www.youtube.com/embed/KRgA4s8e9Ps?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p></p>
 
 #### Ospiti:
