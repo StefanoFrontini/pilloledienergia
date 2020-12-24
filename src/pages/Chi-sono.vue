@@ -184,12 +184,12 @@
             la tua struttura:
           </p>
           <div class="img">
-            <g-image src="~/assets/grigio.png" alt="" />
+            <g-image src="~/assets/grigio.png" alt="fondo grigio" />
             <iframe
               title="La mia attività raccontata a Live Social Radio"
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/wvBmXA-YFuc?enablejsapi=1"
+              src="https://www.youtube.com/embed/wvBmXA-YFuc"
               srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/wvBmXA-YFuc?autoplay=1><img src=https://img.youtube.com/vi/wvBmXA-YFuc/hqdefault.jpg alt='Video testimonianza Ristorante La Colubrina'><span>▶</span></a>"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -263,7 +263,7 @@
             nelle Marche: tra mare, sole e colline.
           </p>
           <div class="img">
-            <g-image src="~/assets/grigio.png" alt="" />
+            <g-image src="~/assets/grigio.png" alt="fondo grigio" />
             <g-image
               src="~/assets/grottammare.jpg"
               style="position: absolute; top: 5%;width:90%;height: 80%;border: 10px solid white;"
