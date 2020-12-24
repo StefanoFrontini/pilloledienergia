@@ -65,13 +65,7 @@
           width="100%"
           height="500px"
         ></iframe>
-        <div class="call">
-          <p>
-            <g-link to="/contatti/">Contattami</g-link> per avere a fianco del
-            tuo ristorante/hotel una persona che ti aiuta a cogliere tutte le
-            opportunità della mobilità elettrica.
-          </p>
-        </div>
+        <CheckUp />
       </div>
     </div>
   </Layout>
@@ -96,12 +90,13 @@ import MensileImmatricolazioniData from "@/data/mensileImmatricolazioni.json";
 import MensileImmatricolazioni from "../components/MensiliImmatricolazioni.vue";
 
 import SocialSharing from "~/components/SocialSharing.vue";
+import CheckUp from "~/components/CheckUpComponent.vue";
 
 export default {
   components: {
     AutoElettriche,
     MensileImmatricolazioni,
-
+    CheckUp,
     SocialSharing,
     CumulatoAutoElettriche,
   },

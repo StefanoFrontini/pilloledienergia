@@ -137,7 +137,7 @@
           <p class="domanda">
             <strong
               >Perché ho scelto
-              <a target="_blank" href="https://www.repower.com/it/"
+              <a target="_blank" rel="noopener" href="https://www.repower.com/it/"
                 >Repower?
               </a></strong
             >
@@ -435,7 +435,7 @@ export default {
     top: 28%;
     font-weight: bold;
     width: 80%;
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 }
 
@@ -558,6 +558,15 @@ export default {
 @media (min-width: 1200px) {
   .chi-sono {
     width: 60%;
+  }
+  .section {
+
+  .report a:after {
+
+    left: 24%;
+
+    font-size: 0.9em;
+  }
   }
 }
 </style>

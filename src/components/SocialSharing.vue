@@ -11,7 +11,8 @@
         inline-template
       >
         <div>
-          <a href="">
+        <span class="back">
+
             <network network="facebook">
               <font-awesome
                 :icon="['fab', 'facebook']"
@@ -22,9 +23,10 @@
                 }"
               />
             </network>
-          </a>
+            </span>
 
-          <a href="">
+
+<span class="back">
             <network network="linkedin">
               <font-awesome
                 :icon="['fab', 'linkedin']"
@@ -35,15 +37,17 @@
                 }"
               />
             </network>
-          </a>
-          <a href="">
+            </span>
+
+<span class="back">
             <network network="twitter">
               <font-awesome
                 :icon="['fab', 'twitter']"
                 :style="{ cursor: 'pointer', 'font-size': '2em' }"
               />
             </network>
-          </a>
+            </span>
+
         </div>
       </social-sharing>
     </div>
@@ -74,7 +78,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .page-socials {
   display: flex;
   justify-content: center;
@@ -83,5 +87,15 @@ export default {
 .social {
   margin-top: 0.8em;
   margin-left: 3em;
+}
+
+::v-deep .back {
+
+  color: $primaryColor;
+}
+
+::v-deep .back:hover {
+
+  color: #ffad3b;
 }
 </style>

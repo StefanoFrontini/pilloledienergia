@@ -6,7 +6,7 @@
       </div>
       <div class="chart-container">
         <div class="chart">
-          <h3>Energia elettrica</h3>
+          <h2>Energia elettrica</h2>
           <MensilePUN
             title="Andamento mensile del prezzo all'ingrosso dell'energia elettrica (PUN)"
             xKey="Mese"
@@ -47,7 +47,7 @@
             <li>PUN = Prezzo Unico Nazionale.</li>
           </ul>
 
-          <h3>Gas naturale</h3>
+          <h2>Gas naturale</h2>
           <MensileGas
             title="Andamento mensile del prezzo all'ingrosso del gas naturale"
             xKey="Mese"
@@ -72,9 +72,9 @@
               GJ/Smc.
             </li>
           </ul>
-          <div class="call">
+
             <CheckUp />
-          </div>
+
 
           <SocialSharing
             title="Andamento dei mercati energetici italiani"
@@ -188,9 +188,7 @@ export default {
 .chart {
   width: 100%;
   max-width: 800px;
-  h3 {
-    padding: 1em;
-  }
+
   p {
     padding: 1em;
   }
@@ -205,31 +203,14 @@ export default {
   justify-content: center;
 }
 
-.title-mercato h1 {
-  padding: 1em;
-  font-size: 1.5em;
-}
+
 
 .page-mercato {
   width: 100%;
   margin: 0 auto;
 }
 
-.call {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding-top: 2em;
-}
 
-.call p {
-  width: 80%;
-  border-left: 0.3em solid $primaryColor;
-  padding: 0 15px;
-  font-style: italic;
-  font-family: "radnika-medium";
-}
+
+
 </style>
