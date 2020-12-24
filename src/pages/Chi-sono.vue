@@ -14,7 +14,7 @@
               title="La mia attività raccontata a Live Social Radio"
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/6w-0ySPz3ks"
+              data-src="https://www.youtube.com/embed/6w-0ySPz3ks?enablejsapi=1"
               srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/6w-0ySPz3ks?autoplay=1><img src=https://img.youtube.com/vi/6w-0ySPz3ks/hqdefault.jpg alt='La mia attività raccontata a Live Social Radio'><span>▶</span></a>"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -93,7 +93,7 @@
             <a href="/report-periodico.pdf" download
               ><g-image
                 src="~/assets/pulsante.png"
-                alt="scarica il report periodico"
+                alt="scarica il report periodico energia elettrica e gas"
                 width="150px"
               ></g-image
             ></a>
@@ -186,15 +186,15 @@
           <div class="img">
             <g-image src="~/assets/grigio.png" alt="fondo grigio" />
             <iframe
-              title="La mia attività raccontata a Live Social Radio"
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/wvBmXA-YFuc"
-              srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/wvBmXA-YFuc?autoplay=1><img src=https://img.youtube.com/vi/wvBmXA-YFuc/hqdefault.jpg alt='Video testimonianza Ristorante La Colubrina'><span>▶</span></a>"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            title="Video testimonianza Ristorante La Colubrina"
+            width="560"
+            height="315"
+            data-src="https://www.youtube.com/embed/wvBmXA-YFuc?enablejsapi=1"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/wvBmXA-YFuc?autoplay=1><img src=https://img.youtube.com/vi/wvBmXA-YFuc/hqdefault.jpg alt='Video testimonianza Ristorante La Colubrina'><span>▶</span></a>"
+          ></iframe>
           </div>
           <p class="domanda"><strong>Check up energetico su misura</strong></p>
           <p>
