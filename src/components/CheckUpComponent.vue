@@ -111,7 +111,7 @@
                       v-model="formData.nome"
                       autocomplete="off"
                     />
-                    <label for="name" class="label-name">
+                    <label for="name" id="name" class="label-name">
                       <span class="content-name">nome</span></label
                     >
                   </div>
@@ -128,7 +128,7 @@
                       required
                       autocomplete="off"
                     />
-                    <label class="label-mail" for="email"
+                    <label class="label-mail" id="email" for="email"
                       ><span class="content-mail">indirizzo @</span></label
                     >
                   </div>

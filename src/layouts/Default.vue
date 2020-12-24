@@ -17,7 +17,7 @@
       </div>
 
       <div class="ste">
-        <div class="header-b">
+        <header class="header-b">
           <g-link to="/"
             ><g-image
               src="~/assets/logo-pillole-di-energia.svg"
@@ -50,7 +50,7 @@
             <div class="line"></div>
             <div class="line"></div>
           </div>
-        </div>
+        </header>
       </div>
       <slot />
 
