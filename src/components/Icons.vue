@@ -1,6 +1,6 @@
 <template>
   <div class="icon-page">
-    <p class="grassetto">Ci vediamo sui social?</p>
+    <p><strong>Ci vediamo sui social?</strong></p>
     <div class="icon-wrapper">
       <div class="icons">
         <a

@@ -186,10 +186,10 @@ input:-webkit-autofill:active {
   font-weight: bold;
 }
 
-blockquote::before {
+/* blockquote::before {
   margin-right: 5px;
   font-size: 1.2em;
-}
+} */
 
 /* blockquote {
   border-left: 0.3em solid $primaryColor;

@@ -172,22 +172,8 @@ export default {
   max-width: 900px;
 }
 
-.call {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin-bottom: 2em;
-  margin-top: 2em;
+h2 {
+text-align: center;
 }
 
-.call p {
-  width: 80%;
-  border-left: 0.3em solid $primaryColor;
-  padding: 0 15px;
-  font-style: italic;
-  font-family: "radnika-medium";
-}
 </style>
