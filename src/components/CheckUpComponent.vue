@@ -107,11 +107,12 @@
                     <input
                       type="text"
                       name="name"
+                      id="name"
                       required
                       v-model="formData.nome"
                       autocomplete="off"
                     />
-                    <label for="name" id="name" class="label-name">
+                    <label for="name" class="label-name">
                       <span class="content-name">nome</span></label
                     >
                   </div>
@@ -124,11 +125,12 @@
                     <input
                       type="text"
                       name="email"
+                      id="email"
                       v-model="formData.email"
                       required
                       autocomplete="off"
                     />
-                    <label class="label-mail" id="email" for="email"
+                    <label class="label-mail"  for="email"
                       ><span class="content-mail">indirizzo @</span></label
                     >
                   </div>

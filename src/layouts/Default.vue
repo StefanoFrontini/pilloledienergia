@@ -181,9 +181,6 @@ input:-webkit-autofill:active {
   padding: 0 5px;
 }
 
-.radnika {
-  font-family: "radnika-medium", sans-serif;
-}
 
 .grassetto {
   font-weight: bold;
@@ -194,7 +191,7 @@ blockquote::before {
   font-size: 1.2em;
 }
 
-blockquote {
+/* blockquote {
   border-left: 0.3em solid $primaryColor;
   padding: 0 15px;
   font-family: "radnika-medium", sans-serif;
@@ -206,7 +203,7 @@ blockquote {
 blockquote::after {
   margin-left: 5px;
   font-size: 1.2em;
-}
+} */
 
 .container {
   display: flex;
