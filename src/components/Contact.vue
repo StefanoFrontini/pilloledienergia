@@ -16,21 +16,21 @@
       <div class="sender-info">
         <div>
           <label for="name" class="label">Nome</label>
-          <input type="text" name="name" v-model="formData.name" />
+          <input type="text" id ="name" name="name" v-model="formData.name" />
         </div>
         <div>
           <label class="tel" for="tel">Telefono</label>
-          <input type="tel" name="tel" v-model="formData.tel" />
+          <input type="tel" id ="tel" name="tel" v-model="formData.tel" />
         </div>
         <div>
           <label class="email" for="email">Email</label>
-          <input type="email" name="email" v-model="formData.email" />
+          <input type="email" id ="email" name="email" v-model="formData.email" />
         </div>
       </div>
 
       <div class="message-wrapper">
         <label class="message" for="message">Messaggio</label>
-        <textarea name="message" v-model="formData.message" rows="5"></textarea>
+        <textarea name="message" id ="message" v-model="formData.message" rows="5"></textarea>
       </div>
 
       <div>

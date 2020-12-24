@@ -59,6 +59,7 @@
           Quante stazioni di ricarica ci sono vicino al mio ristorante/hotel?
         </h2>
         <iframe
+        title="strumento per la ricerca delle infrstrutture di ricarica per auto elettriche"
           src="https://map.openchargemap.io/?mode=embedded"
           allow="geolocation"
           frameborder="0"

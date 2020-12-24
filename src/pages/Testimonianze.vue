@@ -3,10 +3,10 @@
     <div class="page-testimonianze-wrapper">
       <div class="page-testimonianze">
         <h1>Testimonianze</h1>
-        <h3>
+        <h2>
           Ristorante <a href="https://lacolubrina.it/">La Colubrina</a> di
           Milano
-        </h3>
+        </h2>
         <div class="img">
           <g-image src="~/assets/grigio.png" alt="fondo grigio" />
 
@@ -22,9 +22,9 @@
           ></iframe>
         </div>
 
-        <div class="call">
+
           <CheckUp />
-        </div>
+
 
         <SocialSharing
           title="Testimonianze"

@@ -1,13 +1,13 @@
 <template>
   <div class="page-numeri">
-    <p class="date">{{ infografica.created_at }}</p>  
-    <h3 class="title">{{ infografica.title }}</h3>        
+    <p class="date">{{ infografica.created_at }}</p>
+    <h2 class="title">{{ infografica.title }}</h2>
       <g-image v-if="infografica.cover" :src="infografica.cover" style="object-fit: cover; width:100%;" :alt="infografica.alt" />
-    
+
     <p class="description">{{ infografica.description }}</p>
     <div class="continua">
     <g-link :to="infografica.path">Continua...</g-link>
-    </div> 
+    </div>
   </div>
 </template>
 
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style scoped>
-.page-numeri {  
+.page-numeri {
   margin-bottom: 3em;
   width: 95%;
   max-width: 700px;
@@ -34,6 +34,7 @@ export default {
 .title {
   width: 100%;
   max-width: 700px;
+  font-size: 1.1em;
 
   margin-bottom: 1em;
   text-align: left;
