@@ -3,7 +3,7 @@
     <div class="layout">
       <div class="header-a">
         <div class="tablet">
-          <p class="text">Prenota una check-up gratuito completo</p>
+          <p class="text">Prenota un check-up gratuito completo</p>
           <div class="header-btn">
             <button class="btn">
               <a href="tel:+393351030301">CHIAMA ORA il 335 103 03 01</a>
@@ -180,7 +180,6 @@ input:-webkit-autofill:active {
   color: $primaryColor;
   padding: 0 5px;
 }
-
 
 .grassetto {
   font-weight: bold;

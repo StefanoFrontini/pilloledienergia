@@ -1,5 +1,23 @@
 <template>
   <div class="root">
+    <div class="description">
+      <p>
+        <strong class="title"
+          >CHECK-UP ENERGETICO GRATUITO<br /><span
+            >per ristoranti e hotel</span
+          ></strong
+        >
+      </p>
+      <p>
+        <strong>RISPARMIA</strong> fino al 25% sulle forniture di energia
+        elettrica e gas rispondendo a queste 10 domande!
+      </p>
+      <p>
+        Inserisci nome, indirizzo email e premi il pulsante
+        <strong>START</strong>!
+      </p>
+      <p>Riceverai il risultato via mail!</p>
+    </div>
     <div class="container-progressbar">
       <ul class="progressbar">
         <li
@@ -92,11 +110,12 @@
             <div class="step">
               <transition appear name="fade" mode="out-in">
                 <div v-if="passo === 0" :key="passo">
-                  <g-image src="~/assets/start2.png" alt="" />
-                  <p class="check">
-                    CHECK-UP ENERGETICO GRATUITO<br />per ristoranti e hotel
-                  </p>
-                  <p class="domanda">
+                  <g-image
+                    src="~/assets/start2.png"
+                    alt="campi per inserimento dati e pulsante start"
+                  />
+
+                  <p class="dati">
                     Compila i campi e inizia <strong>SUBITO</strong><br />il tuo
                     check-up energetico
                     <strong>GRATUITO</strong>,<br />riceverai il risultato via
@@ -130,7 +149,7 @@
                       required
                       autocomplete="off"
                     />
-                    <label class="label-mail"  for="email"
+                    <label class="label-mail" for="email"
                       ><span class="content-mail">indirizzo @</span></label
                     >
                   </div>
@@ -155,8 +174,8 @@
                   <p class="domanda">
                     <span>1° domanda</span><br />
                     Conosci la <strong>data di scadenza</strong> della tua
-                    attuale offerta<br />
-                    e le <strong>condizioni economiche</strong> di rinnovo?
+                    attuale<br />offerta e le
+                    <strong>condizioni economiche</strong> di rinnovo?
                   </p>
 
                   <div class="si" @click.prevent="si">SI</div>
@@ -171,9 +190,9 @@
                   <p class="domanda">
                     <span>2° domanda</span><br />
                     Sei consapevole che esistono
-                    <strong>voci aggiuntive</strong>, a volte<br />
-                    nascoste, <strong>che paghi</strong> oltre i consueti
-                    kWh/Smc, oneri e tasse?
+                    <strong>voci aggiuntive</strong>,<br />a volte nascoste,
+                    <strong>che paghi</strong><br />oltre i consueti kWh/Smc,
+                    oneri e tasse?
                   </p>
 
                   <div class="si" @click.prevent="si">SI</div>
@@ -504,6 +523,25 @@ export default {
   object-fit: cover;
 }
 
+.title {
+  font-size: 0.9em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 0.3em solid $primaryColor;
+  border-right: 0.3em solid $primaryColor;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
 .cartolina-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -533,6 +571,21 @@ export default {
       font-weight: bold;
       font-size: 0.8em;
     }
+    .dati {
+      position: absolute;
+      width: 100%;
+      left: 50%;
+      -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+      transform: translate(-50%, 0);
+
+      top: -2%;
+      font-size: 0.9em;
+      line-height: 1.2em;
+      span {
+        font-weight: bold;
+      }
+    }
 
     .domanda {
       position: absolute;
@@ -542,8 +595,8 @@ export default {
       -ms-transform: translate(-50%, 0);
       transform: translate(-50%, 0);
 
-      top: 12%;
-      font-size: 0.7em;
+      top: 3%;
+      font-size: 0.8em;
       line-height: 1.2em;
       span {
         font-weight: bold;
@@ -948,14 +1001,18 @@ export default {
 }
 
 @media (min-width: 350px) {
+  .title {
+    font-size: 1em;
+  }
   .cartolina-wrapper {
     .step {
       min-height: 228px;
-      .check {
-        top: -3%;
+
+      .dati {
+        font-size: 1em;
       }
       .domanda {
-        top: 10%;
+        top: 5%;
         font-size: 0.8em;
       }
       .nome {
@@ -1030,6 +1087,9 @@ export default {
 @media (min-width: 370px) {
   .cartolina-wrapper {
     .step {
+      .dati {
+        font-size: 1.1em;
+      }
       .domanda {
         font-size: 0.9em;
       }
@@ -1042,6 +1102,9 @@ export default {
 }
 
 @media (min-width: 400px) {
+  .title {
+    font-size: 1.2em;
+  }
   .cartolina-wrapper {
     .step {
       min-height: 251px;
@@ -1163,6 +1226,9 @@ export default {
 }
 
 @media (min-width: 550px) {
+  .title {
+    font-size: 1.6em;
+  }
   .cartolina-wrapper {
     .step {
       p {
@@ -1173,12 +1239,12 @@ export default {
         font-size: 0.7em;
         top: 78%;
       }
-      .check {
-        top: -3%;
-        font-size: 1.2em;
+
+      .dati {
+        font-size: 1.5em;
       }
       .domanda {
-        top: 12%;
+        top: 10%;
         font-size: 1.2em;
       }
       .response p {
@@ -1240,14 +1306,16 @@ export default {
   }
 }
 @media (min-width: 650px) {
+  .title {
+    font-size: 1.8em;
+  }
   .cartolina-wrapper {
     .step {
-      .check {
-        top: -3%;
-        font-size: 1.5em;
+      .dati {
+        font-size: 1.8em;
       }
       .domanda {
-        top: 13%;
+        top: 8%;
         font-size: 1.5em;
       }
       .nome {
@@ -1400,8 +1468,14 @@ export default {
 }
 
 @media (min-width: 800px) {
+  .title {
+    font-size: 2em;
+  }
   .cartolina-wrapper {
     .step {
+      .dati {
+        font-size: 2em;
+      }
       .si {
         font-size: 4.5em;
       }
@@ -1446,12 +1520,9 @@ export default {
     .step {
       min-height: 504px;
       min-width: 843px;
-      .check {
-        top: -3%;
-        font-size: 1.8em;
-      }
+
       .domanda {
-        top: 13%;
+        top: 6%;
         font-size: 1.8em;
       }
       .nome {
@@ -1519,6 +1590,10 @@ export default {
     .step {
       min-height: 499px;
       min-width: 843px;
+      .domanda {
+        top: 3%;
+        font-size: 1.8em;
+      }
       .nome {
         top: 51%;
         .content-name {

@@ -56,10 +56,10 @@
 
       <div class="page-contatti">
         <h2>
-          Quante stazioni di ricarica ci sono vicino al mio ristorante/hotel?
+          Quante stazioni di ricarica ci sono vicino al tuo ristorante/hotel?
         </h2>
         <iframe
-        title="strumento per la ricerca delle infrstrutture di ricarica per auto elettriche"
+          title="strumento per la ricerca delle infrstrutture di ricarica per auto elettriche"
           src="https://map.openchargemap.io/?mode=embedded"
           allow="geolocation"
           frameborder="0"

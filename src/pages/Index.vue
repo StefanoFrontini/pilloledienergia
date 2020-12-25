@@ -460,6 +460,11 @@ a.button {
   .pericoli p {
     font-size: 2em;
   }
+  .consulente {
+    strong {
+      font-size: 2.5em;
+    }
+  }
 }
 
 @media (min-width: 1200px) {

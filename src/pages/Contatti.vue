@@ -2,7 +2,7 @@
   <Layout>
     <div class="page-container">
       <div class="page-contatti">
-        <h1>Contatti</h1>
+        <h1>Contattami</h1>
         <Contact />
       </div>
     </div>
