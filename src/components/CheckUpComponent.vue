@@ -121,7 +121,9 @@
                     <strong>GRATUITO</strong>,<br />riceverai il risultato via
                     mail!
                   </p>
-                  <div class="start" @click.prevent="next()">start*</div>
+                  <a href="#">
+                    <div class="start" @click.prevent="next()">start*</div></a
+                  >
                   <div class="nome">
                     <input
                       type="text"
