@@ -66,6 +66,7 @@ library.add(
 );
 
 const SocialSharing = require("vue-social-sharing");
+const VueFbCustomerChat = require("vue-fb-customer-chat");
 
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
@@ -81,6 +82,11 @@ export default function(Vue, { router, head, isClient }) {
       content: "#000000",
     }),
     Vue.use(SocialSharing),
+    Vue.use(VueFbCustomerChat, {
+      page_id: 2357272271058671,
+      theme_color: "#f78411",
+      locale: "it_IT",
+    }),
     Vue.use(InfiniteLoading),
     Vue.directive("scrollanimation", {
       // When the bound element is inserted into the DOM...
