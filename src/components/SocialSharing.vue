@@ -11,43 +11,40 @@
         inline-template
       >
         <div>
-        <span class="back">
-
+          <span class="back">
             <network network="facebook">
               <font-awesome
                 :icon="['fab', 'facebook']"
                 :style="{
                   cursor: 'pointer',
                   'margin-right': '2em',
-                  'font-size': '2em',
+                  'font-size': '1.5em',
                 }"
               />
             </network>
-            </span>
+          </span>
 
-
-<span class="back">
+          <span class="back">
             <network network="linkedin">
               <font-awesome
                 :icon="['fab', 'linkedin']"
                 :style="{
                   cursor: 'pointer',
-                  'font-size': '2em',
+                  'font-size': '1.5em',
                   'margin-right': '2em',
                 }"
               />
             </network>
-            </span>
+          </span>
 
-<span class="back">
+          <span class="back">
             <network network="twitter">
               <font-awesome
                 :icon="['fab', 'twitter']"
-                :style="{ cursor: 'pointer', 'font-size': '2em' }"
+                :style="{ cursor: 'pointer', 'font-size': '1.5em' }"
               />
             </network>
-            </span>
-
+          </span>
         </div>
       </social-sharing>
     </div>
@@ -90,12 +87,10 @@ export default {
 }
 
 ::v-deep .back {
-
   color: $primaryColor;
 }
 
 ::v-deep .back:hover {
-
   color: #ffad3b;
 }
 </style>

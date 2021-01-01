@@ -5,7 +5,7 @@
         <div class="iva-accise-text-wrapper">
           <div class="iva-accise-text">
             <h1>
-              Sei sicuro che l'IVA e le accise della bolletta della luce e del
+              Sei sicuro che l’IVA e le accise della bolletta della luce e del
               gas del tuo ristorante/hotel siano applicate in maniera corretta?
             </h1>
           </div>
@@ -25,51 +25,32 @@
           Milano
         </h3>
 
-        <iframe
-          title="Video testimonianza Ristorante La Colubrina"
-          width="100%"
-          height="315"
-          data-src="https://www.youtube.com/embed/wvBmXA-YFuc"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/wvBmXA-YFuc?autoplay=1><img src=https://img.youtube.com/vi/wvBmXA-YFuc/hqdefault.jpg alt='Video testimonianza Ristorante La Colubrina'><span>▶</span></a>"
-        ></iframe>
+        <div class="img">
+          <g-image src="~/assets/grigio.png" alt="fondo grigio" />
+
+          <iframe
+            title="Video testimonianza Ristorante La Colubrina"
+            width="100%"
+            height="315"
+            data-src="https://www.youtube.com/embed/wvBmXA-YFuc?enablejsapi=1"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/wvBmXA-YFuc?autoplay=1><img src=https://img.youtube.com/vi/wvBmXA-YFuc/hqdefault.jpg alt='Video testimonianza Ristorante La Colubrina'><span>▶</span></a>"
+          ></iframe>
+        </div>
 
         <div class="compila">
           <p>
-            Compila i campi sottostanti per una veloce verifica che potrebbe
-            valere centinania se non migliaia di euro/anno!
+            <strong>
+              Compila i campi sottostanti per verificare se hai diritto all’IVA
+              o alle accise agevolate.<br />Potresti risparmiare centinaia se
+              non migliaia di euro all’anno!
+            </strong>
           </p>
         </div>
 
         <div>
-          Oltre a ricevere gratuitamente una mail con il risultato del check-up
-          riceverai una newsletter con:
-
-          <ul>
-            <li>
-              <p>
-                Tanti altri consigli per gestire al meglio le forniture di
-                energia elettrica e gas della tua azienda;
-              </p>
-            </li>
-            <li>
-              <p>
-                Informazioni sul mondo dell'energia, la sostenibilità e la
-                mobilità elettrica;
-              </p>
-            </li>
-            <li>
-              <p>
-                Eventi interessanti e occasioni in cui ci possiamo incontrare;
-              </p>
-            </li>
-            <li>
-              <p>Promozioni speciali.</p>
-            </li>
-          </ul>
-
           <div class="form-section">
             <form
               name="analisi"
@@ -302,7 +283,7 @@ export default {
           key: "description",
           name: "description",
           content:
-            "Non perdere l’occasione di risparmiare fino al 30% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
+            "Non perdere l’occasione di risparmiare fino al 25% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
         },
         { property: "og:type", content: "website" },
         {
@@ -313,7 +294,7 @@ export default {
         {
           property: "og:description",
           content:
-            "Non perdere l’occasione di risparmiare fino al 30% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
+            "Non perdere l’occasione di risparmiare fino al 25% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
         },
         {
           property: "og:url",
@@ -332,7 +313,7 @@ export default {
         {
           name: "twitter:description",
           content:
-            "Non perdere l’occasione di risparmiare fino al 30% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
+            "Non perdere l’occasione di risparmiare fino al 25% sulle forniture di energia elettrica e gas del tuo ristorante/hotel",
         },
         {
           name: "twitter:site",
@@ -349,8 +330,8 @@ export default {
     return {
       isActive: false,
       isActive2: false,
-      optionText: "Seleziona il codice ATECO",
-      optionText2: "Seleziona l'attività",
+      optionText: "Seleziona il codice ATECO in questo elenco",
+      optionText2: "Seleziona l’attività in questo elenco",
       attivitaList,
       formData: { iva: "Not checked", accise: "Not checked", email: "" },
       atecoCheck: "Not checked",
@@ -508,6 +489,41 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.img {
+  width: 100%;
+  //height: 200px;
+
+  cursor: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+
+  iframe {
+    width: 90%;
+    height: 75%;
+    margin: 0 auto;
+    position: absolute;
+    top: 10%;
+    border: 10px solid white;
+  }
+  .g-image {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+  }
+}
+
 .iva-accise-section {
   text-align: left;
   display: flex;
@@ -609,19 +625,18 @@ input[type="checkbox"] {
   font-size: 1.5em;
 }
 
-.compila p {
-  width: 80%;
-  border-left: 0.3em solid $primaryColor;
-  padding: 0 15px;
-  font-style: italic;
-  font-family: "radnika-medium";
-}
-
 .compila {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2em;
+  text-align: center;
+  font-family: "radnika-medium";
   margin-top: 2em;
+  strong {
+    border-left: 0.2em solid $primaryColor;
+    border-right: 0.2em solid $primaryColor;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+
+    font-size: 1.2em;
+  }
 }
 
 .privacy {
