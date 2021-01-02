@@ -81,9 +81,10 @@
             <strong>Consulenza</strong> sulla corretta applicazione di tutte le
             voci in fattura (ad es.
             <g-link to="/analisi-iva-accise-agevolate/">IVA e accise</g-link>),
-            miglioramento delle abitudini di consumo dell’energia, eliminazione
-            delle penali per energia reattiva ed extra-costi, monitoraggio della
-            normativa e dei contributi che potresti ricevere.
+            miglioramento delle abitudini di consumo dell’energia (monitoraggio
+            dei picchi di potenza), eliminazione delle penali per energia
+            reattiva ed extra-costi, monitoraggio della normativa e dei
+            contributi che potresti ricevere.
           </p>
           <p>
             Guarda un fac-simile dei <strong>report</strong> che rilascio ai
@@ -93,7 +94,7 @@
             <a href="/report-periodico.pdf" download
               ><g-image
                 src="~/assets/pulsante.png"
-                alt="scarica il report periodico energia elettrica e gas"
+                alt="report periodico energia elettrica e gas"
                 width="150px"
               ></g-image
             ></a>
@@ -101,10 +102,15 @@
           <p>
             Io lavoro nel mondo dell’energia <strong>da più di 15 anni</strong>.
             Ho iniziato come analista dei mercati dell’energia elettrica e del
-            gas presso una società (REF-E) che offre i suoi servizi di
-            consulenza alle principali utility italiane e successivamente ho
-            lavorato presso Repower come esperto di normativa di settore. Ad
-            ottobre 2020 sono diventato – tra i primi in Italia –
+            gas presso una società (<a
+              target="_blank"
+              rel="noopener"
+              href="https://www.ref-e.com/it"
+              >REF-E</a
+            >) che offre i suoi servizi di consulenza alle principali utility
+            italiane e successivamente ho lavorato presso Repower come esperto
+            di normativa di settore. Ad ottobre 2020 sono diventato – tra i
+            primi in Italia –
             <strong
               ><g-link to="/episodi/utility-manager/"
                 >Utility Manager</g-link
@@ -131,13 +137,16 @@
             A differenza di consorzi/broker che danno assistenza a pagamento e a
             cui molte volte si sommano le frequenti provvigioni per cambio di
             fornitore <strong>la mia assistenza è gratuita</strong>: è infatti
-            Repower che mi paga per aiutarti a gestire al meglio - ogni giorno -
-            la parte energetica del tuo ristorante/hotel.
+            Repower che mi paga per aiutarti a gestire al meglio - con la mia
+            consulenza - l’energia del tuo ristorante/hotel.
           </p>
           <p class="domanda">
             <strong
               >Perché ho scelto
-              <a target="_blank" rel="noopener" href="https://www.repower.com/it/"
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://www.repower.com/it/"
                 >Repower?
               </a></strong
             >
@@ -160,9 +169,10 @@
           <p>
             Perché è un’azienda innovativa e sta investendo molto sulla
             <strong>sostenibilità</strong>: con le soluzioni Repower infatti
-            riesco a ridurre l’impatto ambientale della tua struttura tramite
-            energia 100% verde certificata TUV e a renderla pronta per
-            accogliere il crescente turismo green che si muove in
+            riesco a ridurre l’impatto ambientale della tua struttura horeca
+            tramite energia 100% verde certificata TUV, a rilasciarti attestati
+            di sostenibilità energetica, e a renderla pronta per accogliere il
+            crescente turismo green che si muove in
             <strong
               ><g-link to="/mercato-auto-elettriche/"
                 >auto elettrica</g-link
@@ -174,29 +184,34 @@
           <p>
             Perché è <strong>un’azienda solida</strong> (origine svizzera, è
             nata 100 anni fa quando ha costruito la prima centrale idroelettrica
-            per alimentare il trenino rosso del Bernina) e lavora solo in ambito
-            business.
+            per alimentare il
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://www.trenino-rosso-bernina.it/it/"
+              >trenino rosso del Bernina</a
+            >) e lavora solo in ambito business.
           </p>
           <p class="domanda"><strong>Testimonianza</strong></p>
           <p>
             Guarda la testimonianza di Franca e Consuelo del ristorante La
             Colubrina di Milano per capire cosa io e Repower possiamo fare per
-            la tua struttura:
+            la tua struttura horeca:
           </p>
           <div class="img">
             <g-image src="~/assets/grigio.png" alt="fondo grigio" />
             <iframe
-            title="Video testimonianza Ristorante La Colubrina"
-            width="560"
-            height="315"
-            data-src="https://www.youtube.com/embed/wvBmXA-YFuc?enablejsapi=1"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/wvBmXA-YFuc?autoplay=1><img src=https://img.youtube.com/vi/wvBmXA-YFuc/hqdefault.jpg alt='Video testimonianza Ristorante La Colubrina'><span>▶</span></a>"
-          ></iframe>
+              title="Video testimonianza Ristorante La Colubrina"
+              width="560"
+              height="315"
+              data-src="https://www.youtube.com/embed/wvBmXA-YFuc?enablejsapi=1"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/wvBmXA-YFuc?autoplay=1><img src=https://img.youtube.com/vi/wvBmXA-YFuc/hqdefault.jpg alt='Video testimonianza Ristorante La Colubrina'><span>▶</span></a>"
+            ></iframe>
           </div>
-          <p class="domanda"><strong>Check up energetico su misura</strong></p>
+          <p class="domanda"><strong>Check-up energetico su misura</strong></p>
           <p>
             Se ti sei mai chiesto perché ti arrivano fatture elevate nonostante
             il tuo ristorante/hotel sia chiuso in questo momento di emergenza,
@@ -204,8 +219,9 @@
             elettrica sia competitivo o meno e se lo sarà dopo il rinnovo
             contrattuale automatico, se sei stufo di rivolgerti ad un call
             center, se vuoi essere aggiornato su tutte le opportunità del
-            settore, se vuoi ridurre i consumi energetici, se vuoi rendere la
-            tua struttura più sostenibile
+            settore, se vuoi ridurre i consumi energetici, se vuoi avere a
+            fianco un consulente che ti aiuta ad entrare nel mondo della
+            sostenibilità e della mobilità elettrica
             <strong>prenota un check-up energetico gratuito</strong>: un’ora in
             videoconferenza per ricevere una consulenza su misura.
           </p>
@@ -560,13 +576,11 @@ export default {
     width: 60%;
   }
   .section {
+    .report a:after {
+      left: 24%;
 
-  .report a:after {
-
-    left: 24%;
-
-    font-size: 0.9em;
-  }
+      font-size: 0.9em;
+    }
   }
 }
 </style>
