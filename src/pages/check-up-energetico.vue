@@ -722,6 +722,11 @@
       </div>
     </div> -->
     <CheckUp />
+    <SocialSharing
+      title="Check-up energetico gratuito"
+      description="Risparmia fino al 25% sulle forniture di energia elettrica e gas rispondendo a queste 10 domande!"
+      url="check-up-energetico"
+    />
   </Layout>
 </template>
 
@@ -738,10 +743,12 @@ query {
 <script>
 import axios from "axios";
 import CheckUp from "~/components/CheckUpComponent.vue";
+import SocialSharing from "~/components/SocialSharing.vue";
 
 export default {
   components: {
     CheckUp,
+    SocialSharing,
   },
   metaInfo() {
     return {
