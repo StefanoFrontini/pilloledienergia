@@ -75,7 +75,8 @@
             <div>
               <p><strong>Risparmia fino al 25%</strong></p>
               <p>
-                Tramite la consulenza e l’assistenza gratuita<br />
+                Tramite la consulenza e l’assistenza
+                <span class="grassetto">gratuita</span><br />
                 che solo io ti posso dare.<br />
                 <a href="/report-periodico.pdf" download
                   >Scarica il report periodico.</a
@@ -92,7 +93,8 @@
             <div>
               <p><strong>Nessun costo nascosto</strong></p>
               <p>
-                Condizioni contrattuali trasparenti e a mercato.<br />Nel tempo.
+                Condizioni contrattuali trasparenti e a
+                <g-link to="/mercato/">mercato</g-link>.<br />Nel tempo.
               </p>
             </div>
           </div>

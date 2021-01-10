@@ -1,11 +1,5 @@
 [
   {
-    "Mese": "2019, 11",
-    "Fascia alta": "58.27",
-    "Fascia bassa": "43.10",
-    "Media 24 ore": "48.16"
-  },
-  {
     "Mese": "2019, 12",
     "Fascia alta": "53.32",
     "Fascia bassa": "38.58",
@@ -76,5 +70,11 @@
     "Fascia alta": "57.69",
     "Fascia bassa": "43.93",
     "Media 24 ore": "48.75"
+  },
+  {
+    "Mese": "2020, 12",
+    "Fascia alta": "69.09",
+    "Fascia bassa": "46.87",
+    "Media 24 ore": "54.04"
   }
 ]

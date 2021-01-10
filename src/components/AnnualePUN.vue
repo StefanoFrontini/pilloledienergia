@@ -174,7 +174,7 @@ export default {
     svgWidth: 355,
     margin: {
       top: 100,
-      right: 10,
+      right: 18,
       bottom: 100,
       left: 35,
     },

@@ -1,98 +1,104 @@
 [
-    {
-        "Anno": "2004",
-        "Fascia alta": "76.45",
-        "Fascia bassa": "38.17",
-        "Media 24 ore": "51.60"
-    },
-    {
-        "Anno": "2005",
-        "Fascia alta": "87.80",
-        "Fascia bassa": "43.18",
-        "Media 24 ore": "58.59"
-    },
-    {
-        "Anno": "2006",
-        "Fascia alta": "108.73",
-        "Fascia bassa": "57.06",
-        "Media 24 ore": "74.75"
-    },
-    {
-        "Anno": "2007",
-        "Fascia alta": "104.90",
-        "Fascia bassa": "53.00",
-        "Media 24 ore": "70.99"
-    },
-    {
-        "Anno": "2008",
-        "Fascia alta": "114.38",
-        "Fascia bassa": "72.53",
-        "Media 24 ore": "86.99"
-    },
-    {
-        "Anno": "2009",
-        "Fascia alta": "83.05",
-        "Fascia bassa": "53.41",
-        "Media 24 ore": "63.72"
-    },
-    {
-        "Anno": "2010",
-        "Fascia alta": "76.77",
-        "Fascia bassa": "57.34",
-        "Media 24 ore": "64.12"
-    },
-    {
-        "Anno": "2011",
-        "Fascia alta": "82.65",
-        "Fascia bassa": "66.71",
-        "Media 24 ore": "72.23"
-    },
-    {
-        "Anno": "2012",
-        "Fascia alta": "86.27",
-        "Fascia bassa": "69.78",
-        "Media 24 ore": "75.48"
-    },
-    {
-        "Anno": "2013",
-        "Fascia alta": "70.97",
-        "Fascia bassa": "58.75",
-        "Media 24 ore": "62.99"
-    },
-    {
-        "Anno": "2014",
-        "Fascia alta": "59.52",
-        "Fascia bassa": "48.18",
-        "Media 24 ore": "52.08"
-    },
-    {
-        "Anno": "2015",
-        "Fascia alta": "59.28",
-        "Fascia bassa": "48.58",
-        "Media 24 ore": "52.31"
-    },
-    {
-        "Anno": "2016",
-        "Fascia alta": "48.34",
-        "Fascia bassa": "39.80",
-        "Media 24 ore": "42.75"
-    },
-    {
-        "Anno": "2017",
-        "Fascia alta": "62.34",
-        "Fascia bassa": "49.58",
-        "Media 24 ore": "53.95"
-    },
-    {
-        "Anno": "2018",
-        "Fascia alta": "68.46",
-        "Fascia bassa": "57.52",
-        "Media 24 ore": "61.31"
-    },
-    {
-        "Anno": "2019",
-        "Fascia alta": "59.12",
-        "Fascia bassa": "48.72",
-        "Media 24 ore": "52.32"
-    }
+  {
+    "Anno": "2004",
+    "Fascia alta": "76.45",
+    "Fascia bassa": "38.17",
+    "Media 24 ore": "51.60"
+  },
+  {
+    "Anno": "2005",
+    "Fascia alta": "87.80",
+    "Fascia bassa": "43.18",
+    "Media 24 ore": "58.59"
+  },
+  {
+    "Anno": "2006",
+    "Fascia alta": "108.73",
+    "Fascia bassa": "57.06",
+    "Media 24 ore": "74.75"
+  },
+  {
+    "Anno": "2007",
+    "Fascia alta": "104.90",
+    "Fascia bassa": "53.00",
+    "Media 24 ore": "70.99"
+  },
+  {
+    "Anno": "2008",
+    "Fascia alta": "114.38",
+    "Fascia bassa": "72.53",
+    "Media 24 ore": "86.99"
+  },
+  {
+    "Anno": "2009",
+    "Fascia alta": "83.05",
+    "Fascia bassa": "53.41",
+    "Media 24 ore": "63.72"
+  },
+  {
+    "Anno": "2010",
+    "Fascia alta": "76.77",
+    "Fascia bassa": "57.34",
+    "Media 24 ore": "64.12"
+  },
+  {
+    "Anno": "2011",
+    "Fascia alta": "82.65",
+    "Fascia bassa": "66.71",
+    "Media 24 ore": "72.23"
+  },
+  {
+    "Anno": "2012",
+    "Fascia alta": "86.27",
+    "Fascia bassa": "69.78",
+    "Media 24 ore": "75.48"
+  },
+  {
+    "Anno": "2013",
+    "Fascia alta": "70.97",
+    "Fascia bassa": "58.75",
+    "Media 24 ore": "62.99"
+  },
+  {
+    "Anno": "2014",
+    "Fascia alta": "59.52",
+    "Fascia bassa": "48.18",
+    "Media 24 ore": "52.08"
+  },
+  {
+    "Anno": "2015",
+    "Fascia alta": "59.28",
+    "Fascia bassa": "48.58",
+    "Media 24 ore": "52.31"
+  },
+  {
+    "Anno": "2016",
+    "Fascia alta": "48.34",
+    "Fascia bassa": "39.80",
+    "Media 24 ore": "42.75"
+  },
+  {
+    "Anno": "2017",
+    "Fascia alta": "62.34",
+    "Fascia bassa": "49.58",
+    "Media 24 ore": "53.95"
+  },
+  {
+    "Anno": "2018",
+    "Fascia alta": "68.46",
+    "Fascia bassa": "57.52",
+    "Media 24 ore": "61.31"
+  },
+  {
+    "Anno": "2019",
+    "Fascia alta": "59.12",
+    "Fascia bassa": "48.72",
+    "Media 24 ore": "52.32"
+  },
+  {
+    "Anno": "2020",
+    "Fascia alta": "45.07",
+    "Fascia bassa": "35.65",
+    "Media 24 ore": "38.92"
+  }
 ]
