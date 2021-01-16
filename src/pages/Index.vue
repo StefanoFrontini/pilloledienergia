@@ -22,7 +22,7 @@
           <p style="margin-bottom: 0.5em;">
             <strong>Come quella dell’energia.</strong>
           </p>
-          <p style="font-size: 0.5em;">
+          <p class="lavoro">
             <strong style="color: green; "> Stefano Frontini </strong><br />
 
             <strong>consulente energetico per ristoranti e hotel</strong>
@@ -38,7 +38,7 @@
           <p style="margin-bottom: 0.5em;">
             <strong>Come quella dell’energia.</strong>
           </p>
-          <p style="font-size: 0.5em;">
+          <p class="lavoro">
             <strong style="color: green; "> Stefano Frontini </strong><br />
 
             <strong>consulente energetico per ristoranti e hotel</strong>
@@ -260,6 +260,10 @@ export default {
   transform: translateX(-600px);
 }
 
+.lavoro {
+  font-size: 0.65em;
+}
+
 .section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -422,6 +426,9 @@ a.button {
 }
 
 @media (min-width: 750px) {
+  .lavoro {
+    font-size: 0.6em;
+  }
   .question {
     height: 53vh;
     min-height: 400px;
@@ -447,6 +454,9 @@ a.button {
 }
 
 @media (min-width: 1000px) {
+  .lavoro {
+    font-size: 0.5em;
+  }
   .question-text-wrapper {
     min-height: 525px;
   }
