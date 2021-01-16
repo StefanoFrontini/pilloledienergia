@@ -11,3 +11,4 @@ pilloledienergia_api
 # Local Netlify folder
 .netlify
 
+jsconfig.json

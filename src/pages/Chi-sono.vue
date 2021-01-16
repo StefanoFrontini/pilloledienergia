@@ -21,44 +21,6 @@
               allowfullscreen
             ></iframe>
           </div>
-          <!-- <p>
-            Dopo il Master in Economics dell'Università Bocconi di Milano, nel
-            2004 ho lavorato per
-            <a href="https://www.ref-e.com/it"
-              >REF-E, ricerca e consulenza per i mercati energetici</a
-            >. Oltre alla stesura di articoli per la newsletter
-            dell'Osservatorio Energia - mensile di analisi delle trasformazioni
-            del settore energetico in Italia e Europa - e per il Previsivo -
-            quadrimestrale di previsione dei prezzi della Borsa elettrica
-            italiana - ho svolto consulenze ad operatori del sistema elettrico
-            riguardanti l'evoluzione dei prezzi dell'energia elettrica,
-            dell'offerta termoelettrica, dei prezzi dei combustibili, dei
-            Certificati Verdi (per l'analisi dei quali ho sviluppato un modello
-            di previsione di lungo periodo) e l'impatto del sistema europeo dei
-            permessi di CO2 (emission trading) sui prezzi all'ingrosso
-            dell'energia elettrica. Insieme a M. Leonardi ho pubblicato sul
-            Quaderno di ricerca n. 23 dell'aprile 2006 di REF-E un articolo dal
-            titolo: "L'impatto dell'emission trading sul sistema elettrico
-            italiano".
-          </p>
-
-          <p>
-            Nel 2007 ho iniziato a lavorare per
-            <a href="https://www.repower.com/it/">Repower</a> come Responsabile
-            Affari Regolatori. Analizzavo i provvedimenti normativi riguardanti
-            il settore energetico al fine di individuare gli impatti sul
-            business della società. Inoltre, come esperto di normativa di
-            settore, davo supporto alla funzione Legale per i ricorsi della
-            società.
-          </p>
-          <div class="call">
-            <p>
-              Ora aiuto le strutture ricettive - in particolare ristoranti e
-              hotel - ad acquistare energia elettrica e gas sui mercati
-              energetici, ad assisterle in maniera continua durante il periodo
-              di fornitura e ad essere più sostenibili.
-            </p>
-          </div> -->
         </div>
         <div class="section">
           <p class="title"><strong>Chi è il consulente energetico?</strong></p>
@@ -211,7 +173,9 @@
               srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/wvBmXA-YFuc?autoplay=1><img src=https://img.youtube.com/vi/wvBmXA-YFuc/hqdefault.jpg alt='Video testimonianza Ristorante La Colubrina'><span>▶</span></a>"
             ></iframe>
           </div>
-          <p class="domanda"><strong>Check-up energetico su misura</strong></p>
+          <p class="domanda">
+            <strong>Check-up energetico gratuito su misura</strong>
+          </p>
           <p>
             Se ti sei mai chiesto perché ti arrivano fatture elevate nonostante
             il tuo ristorante/hotel sia chiuso in questo momento di emergenza,
@@ -225,52 +189,30 @@
             <strong>prenota un check-up energetico gratuito</strong>: un’ora in
             videoconferenza per ricevere una consulenza su misura.
           </p>
+          <div class="misura">
+            <p>
+              <strong>Analisi delle forniture</strong> di energia elettrica e
+              gas:<br />— extra-costi — oneri accessori — extra-tasse —
+              andamento mercati all’ingrosso di energia elettrica e gas —
+              vantaggi e svantaggi tipologie di contratto (fisso, variabile,
+              altro).
+            </p>
+            <p>
+              Analisi sulla
+              <strong>possibilità di ridurre i consumi</strong> energetici.
+            </p>
+            <p>
+              Analisi sulla possibilità di
+              <strong>ottenere certificazioni sulla sostenibilità</strong> della
+              struttura ricettiva e delle azioni da compiere per aumentare il
+              grado di sostenibilità.
+            </p>
+          </div>
+          <div class="page-contatti">
+            <Contact />
+          </div>
         </div>
-        <!-- <div class="section">
-          <h2 class="title">BNI</h2>
-          <h4>Amo lavorare in squadra.</h4>
-          <div class="bni">
-            <div class="img-container">
-              <g-image
-                src="~/assets/logo-bni.png"
-                style="object-fit: cover; width:100%; height: 100%"
-                alt="logo bni"
-              ></g-image>
-            </div>
-            <div class="img-container">
-              <g-image
-                src="~/assets/logo-bni-capitolo-buenos-aires.jpg"
-                style="object-fit: cover; width:100%; height: 100%"
-                alt="logo bni capitolo buenos aires"
-              ></g-image>
-            </div>
-          </div>
-          <p>
-            In <a href="http://bni-milanosudest.it/it/index">BNI</a> ho trovato
-            una squadra di professionisti e imprenditori che mi aiutano a
-            migliorare ogni giorno e che mi danno supporto per aiutare i miei
-            Clienti sempre più.
-          </p>
-        </div> -->
-        <!-- <div class="section">
-          <h2 class="title">My Guitar Songs</h2>
-          <h4>Amo ascoltare musica.</h4>
-          <div class="myguitarsongs">
-            <div class="img-container">
-              <g-image
-                src="~/assets/logo-myguitarsongs.png"
-                style="object-fit: cover; width:100%; height: 100%"
-                alt="logo my guitar songs"
-              ></g-image>
-            </div>
-          </div>
-          <p>
-            Mi piace anche suonare la chitarra e nel 2016 ho fondato
-            <a href="https://myguitarsongs.com/">My Guitar Songs</a>: una
-            community online dove è possibile pubblicare testi e accordi delle
-            proprie canzoni.
-          </p>
-        </div> -->
+
         <div class="section">
           <p class="title"><strong>Grottammare</strong></p>
           <p>
@@ -305,11 +247,13 @@ query {
 <script>
 import InstagramCardStefano from "~/components/InstagramCardStefano.vue";
 import InstagramCardRepower from "~/components/InstagramCardRepower.vue";
+import Contact from "../components/Contact.vue";
 
 export default {
   components: {
     InstagramCardStefano,
     InstagramCardRepower,
+    Contact,
   },
   metaInfo() {
     return {
@@ -359,6 +303,20 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.page-contatti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.misura {
+  text-align: center;
+  strong {
+    color: $primaryColor;
+  }
+}
+
 .title {
   text-align: center;
   strong {

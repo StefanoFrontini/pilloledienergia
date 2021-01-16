@@ -16,25 +16,35 @@
       <div class="sender-info">
         <div>
           <label for="name" class="label">Nome</label>
-          <input type="text" id ="name" name="name" v-model="formData.name" />
+          <input type="text" id="name" name="name" v-model="formData.name" />
         </div>
         <div>
           <label class="tel" for="tel">Telefono</label>
-          <input type="tel" id ="tel" name="tel" v-model="formData.tel" />
+          <input type="tel" id="tel" name="tel" v-model="formData.tel" />
         </div>
         <div>
           <label class="email" for="email">Email</label>
-          <input type="email" id ="email" name="email" v-model="formData.email" />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            v-model="formData.email"
+          />
         </div>
       </div>
 
       <div class="message-wrapper">
         <label class="message" for="message">Messaggio</label>
-        <textarea name="message" id ="message" v-model="formData.message" rows="5"></textarea>
+        <textarea
+          name="message"
+          id="message"
+          v-model="formData.message"
+          rows="5"
+        ></textarea>
       </div>
 
       <div>
-        <label class="consenso" for="consenso">Consenso all'uso dei dati</label>
+        <label class="consenso" for="consenso">Consenso all’uso dei dati</label>
         <div class="privacy">
           <input
             id="consenso"
@@ -44,7 +54,7 @@
             v-model="formData.consenso"
           />
           <p class="privacy-p">
-            I tuoi dati sono al sicuro (qui c'è l'<g-link to="/privacy"
+            I tuoi dati sono al sicuro (qui c'è l’<g-link to="/privacy"
               >informativa</g-link
             >)
           </p>
@@ -52,7 +62,7 @@
       </div>
 
       <div class="button-wrapper">
-        <button class="btn-contact" type="submit">INVIA</button>
+        <button class="btn-contact" type="submit">PRENOTA</button>
       </div>
       <br />
       <div v-for="(message, index) in messages" :key="index" class="error">
@@ -109,7 +119,7 @@ export default {
   },
   beforeMount() {
     this.formData.message =
-      "Vorrei essere contattato per eseguire un check-up energetico completo";
+      "Vorrei essere contattato per eseguire un check-up energetico gratuito su misura";
   },
 };
 </script>
@@ -161,23 +171,31 @@ textarea {
 .button-wrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
+  background: url(~@/assets/pulsante.png);
+  height: 150px;
+  width: 250px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  margin: 0 auto;
 }
 
 .btn-contact {
-  padding: 1em 0;
+  padding-left: 3rem;
   font-weight: bold;
-  width: 30%;
-  border-radius: 0.5em;
+  color: white;
+
   font-size: 1.3rem;
   cursor: pointer;
   border: none;
-  margin-top: 2em;
-  max-width: 200px;
-  background-color: #f78411;
+  height: 50px;
+
+  background: transparent;
 }
 
 .btn-contact:hover {
-  background-color: #ffad3b;
+  color: #ededed;
 }
 .error {
   color: red;
