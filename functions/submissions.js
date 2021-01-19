@@ -12,7 +12,7 @@ const transporter = nodemailer.createTransport({
 
 exports.handler = async (event) => {
   const payload = JSON.parse(event.body);
-  //console.log(`Payload: ${JSON.stringify(payload)}`);
+  console.log(`Payload: ${JSON.stringify(payload)}`);
   const {
     form,
     email,

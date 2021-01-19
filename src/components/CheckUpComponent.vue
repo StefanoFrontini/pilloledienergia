@@ -412,6 +412,8 @@
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
   data() {
     return {
@@ -498,6 +500,7 @@ export default {
 
         this.serverResponse = response.data.message;
       } catch (error) {
+        console.log(error);
         this.serverResponse =
           "Ops...c'è stato un errore.<br /> Contattami all'indirizzo email:<br /> stefano.frontini@con.repower.com<br /> per avere il risultato del check-up";
       }
