@@ -21,6 +21,7 @@
     "gridsome": "^0.7.23",
     "gridsome-plugin-gtm": "^0.1.1",
     "gridsome-plugin-pwa": "0.0.18",
+    "gridsome-plugin-robots-txt": "^1.0.2",
     "gridsome-plugin-webpack-size": "^1.0.2",
     "nodemailer": "^6.4.17",
     "vue": "^2.6.12",

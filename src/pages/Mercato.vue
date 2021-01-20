@@ -73,8 +73,7 @@
             </li>
           </ul>
 
-            <CheckUp />
-
+          <CheckUp />
 
           <SocialSharing
             title="Andamento dei mercati energetici italiani"
@@ -177,6 +176,13 @@ export default {
 </script>
 
 <style scoped lang="scss">
+h1 {
+  border-left: 0.2em solid $primaryColor;
+  border-right: 0.2em solid $primaryColor;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
 .chart-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -203,14 +209,8 @@ export default {
   justify-content: center;
 }
 
-
-
 .page-mercato {
   width: 100%;
   margin: 0 auto;
 }
-
-
-
-
 </style>

@@ -22,9 +22,7 @@
           ></iframe>
         </div>
 
-
-          <CheckUp />
-
+        <CheckUp />
 
         <SocialSharing
           title="Testimonianze"
@@ -170,10 +168,15 @@ export default {
   -ms-flex-align: center;
   align-items: center;
   max-width: 900px;
+  h1 {
+    border-left: 0.2em solid $primaryColor;
+    border-right: 0.2em solid $primaryColor;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
 }
 
 h2 {
-text-align: center;
+  text-align: center;
 }
-
 </style>

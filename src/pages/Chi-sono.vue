@@ -3,7 +3,7 @@
     <div class="chi-sono-wrapper">
       <div class="chi-sono">
         <div class="section">
-          <p class="title"><strong>Chi sono</strong></p>
+          <h1 class="title"><strong>Chi sono</strong></h1>
           <p>
             Guarda questa intervista per capire come un consulente energetico
             specializzato può aiutare il tuo ristorante/hotel.
@@ -327,6 +327,10 @@ export default {
 
     font-size: 1.2em;
   }
+}
+
+h1 {
+  font-size: 1.3em;
 }
 
 .domanda {

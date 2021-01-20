@@ -14,32 +14,32 @@
       </transition>
       <transition name="slide">
         <div v-if="firstImage" class="question-text" :key="images[first]">
-          <p style="margin-bottom: -0.5em;">
+          <p class="up">
             In un ristorante<br />
             la scelta<br />
             delle materie prime<br />conta.
           </p>
-          <p style="margin-bottom: 0.5em;">
+          <p class="down">
             <strong>Come quella dell’energia.</strong>
           </p>
           <p class="lavoro">
-            <strong style="color: green; "> Stefano Frontini </strong><br />
+            <span class="green"><strong> Stefano Frontini </strong></span><br />
 
             <strong>consulente energetico per ristoranti e hotel</strong>
           </p>
         </div>
 
         <div v-else class="question-text" :key="images[first]">
-          <p style="margin-bottom: -0.5em;">
+          <p class="up">
             In un hotel<br />
             l’offerta<br />
             del servizio<br />conta.
           </p>
-          <p style="margin-bottom: 0.5em;">
+          <p class="down">
             <strong>Come quella dell’energia.</strong>
           </p>
           <p class="lavoro">
-            <strong style="color: green; "> Stefano Frontini </strong><br />
+            <span class="green"><strong> Stefano Frontini </strong></span><br />
 
             <strong>consulente energetico per ristoranti e hotel</strong>
           </p>
@@ -48,24 +48,29 @@
     </div>
     <div class="desktop">
       <div class="pericoli">
-        <p>
-          Quali sono i <span>pericoli</span>, i <span>problemi</span> e le
-          <span>opportunità</span><br />
+        <h1>
+          Quali sono i <span><strong>pericoli</strong></span
+          >, i <span><strong>problemi</strong></span> e le
+          <span><strong>opportunità</strong></span
+          ><br />
 
           legate alle forniture di <strong>energia elettrica</strong> e
           <strong>gas</strong> per il tuo ristorante/hotel?
-        </p>
+        </h1>
 
-        <p>
-          <i
-            ><strong>Scoprilo in queste </strong>
-            <span>pillole di energia</span></i
-          >
-        </p>
-        <Pillole2 />
+        <main>
+          <div class="scopri">
+            <i
+              ><strong>Scoprilo in queste </strong>
+              <span><strong>pillole di energia</strong></span></i
+            >
+          </div>
+
+          <Pillole2 />
+        </main>
       </div>
-      <div class="section">
-        <div style="width: 100%;">
+      <section class="section">
+        <div class="consulente-wrapper">
           <div class="consulente">
             <p>
               <strong>Chi è il consulente energetico?</strong>
@@ -108,20 +113,20 @@
             ></g-link>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="section">
+      <section class="section">
         <CheckUp />
-      </div>
+      </section>
 
-      <div class="section">
+      <section class="section">
         <div class="consulente">
           <p>
             <strong>I’ve got Repower!</strong>
           </p>
           <Repower />
         </div>
-      </div>
+      </section>
     </div>
   </Layout>
 </template>
@@ -159,7 +164,7 @@ export default {
       firstImage: true,
       images: [
         require("../assets/chef-donna-che-cucina-piatto-vegetariano.jpeg"),
-        require("../assets/hotel.jpeg"),
+        require("../assets/donna-che-mostra-camera-hotel.jpeg"),
       ],
       imagesPosition: ["center bottom", "top center"],
     };
@@ -262,6 +267,9 @@ export default {
 
 .lavoro {
   font-size: 0.65em;
+  .green {
+    color: green;
+  }
 }
 
 .section {
@@ -293,12 +301,14 @@ export default {
   }
 }
 
-.pericoli p {
+.pericoli h1,
+.scopri {
   text-align: center;
   font-size: 1.2em;
+  font-weight: normal;
+  font-family: "GFS Didot", serif;
   span {
     color: $primaryColor;
-    font-weight: bold;
   }
 }
 
@@ -314,6 +324,10 @@ export default {
   p strong {
     font-size: 1.3em;
   }
+}
+
+.consulente-wrapper {
+  width: 100%;
 }
 
 .consulente {
@@ -355,6 +369,12 @@ export default {
   text-align: center;
   left: 0;
   top: 0;
+  .up {
+    margin-bottom: -0.5em;
+  }
+  .down {
+    margin-bottom: 0.5em;
+  }
 }
 
 a.button {
@@ -469,7 +489,8 @@ a.button {
     margin-top: 0em;
   }
 
-  .pericoli p {
+  .pericoli h1,
+  .scopri {
     font-size: 2em;
   }
   .consulente {

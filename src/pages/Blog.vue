@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="page-blog">
-      <h1 class="blog-title">Blog</h1>
+      <h1 class="blog-title"><span>Blog</span></h1>
       <div class="post-wrapper">
         <div class="post">
           <PostCard
@@ -54,7 +54,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .page-blog {
   margin: 0 auto;
   max-width: 1200px;
@@ -62,7 +62,13 @@ export default {
 
 .blog-title {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2em;
+  span {
+    border-left: 0.2em solid $primaryColor;
+    border-right: 0.2em solid $primaryColor;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
 }
 
 .post-wrapper {

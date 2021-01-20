@@ -26,6 +26,7 @@ module.exports = {
 
   plugins: [
     "gridsome-plugin-webpack-size",
+    "gridsome-plugin-robots-txt",
 
     /* {
       use: "gridsome-plugin-bundle-analyzer",
@@ -147,6 +148,17 @@ module.exports = {
         id: "GTM-T8T7VGP",
         enabled: true,
         debug: false,
+      },
+    },
+    {
+      use: "gridsome-plugin-robots-txt",
+      options: {
+        policy: [
+          {
+            userAgent: "*",
+            disallow: "/privacy",
+          },
+        ],
       },
     },
     {

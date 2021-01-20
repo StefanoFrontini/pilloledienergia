@@ -83,7 +83,14 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+h1 {
+  border-left: 0.2em solid $primaryColor;
+  border-right: 0.2em solid $primaryColor;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
 .page-container {
   display: flex;
   justify-content: center;

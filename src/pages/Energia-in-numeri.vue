@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1 class="blog-title">Energia in numeri</h1>
+    <h1 class="blog-title"><span>Energia in numeri</span></h1>
     <div class="post-wrapper">
       <div class="post">
         <InfograficaCard
@@ -50,10 +50,16 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .blog-title {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2em;
+  span {
+    border-left: 0.2em solid $primaryColor;
+    border-right: 0.2em solid $primaryColor;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
 }
 
 .post-wrapper {
