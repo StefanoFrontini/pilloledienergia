@@ -157,7 +157,7 @@ export default {
   text-align: left;
   margin-top: 2em;
   padding: 1em;
-  background: url("~@/assets/bottiglia-vetro-trasparente-con-polvere-bianca.jpg");
+
   background-size: cover;
   background-position: center center;
 }

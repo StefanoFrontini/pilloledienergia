@@ -106,7 +106,7 @@ import AnnualePUNData from "@/data/annualePUN.json";
 import MensileGASData from "@/data/mensileGAS.json";
 
 import SocialSharing from "~/components/SocialSharing.vue";
-import CheckUp from "~/components/CheckUpComponent.vue";
+import CheckUp from "~/components/CheckUpComponentP.vue";
 
 export default {
   components: {

@@ -1,13 +1,7 @@
 <template>
   <div class="root">
     <div class="description">
-      <p>
-        <strong class="title"
-          >CHECK-UP ENERGETICO GRATUITO<br /><span
-            >per ristoranti e hotel</span
-          ></strong
-        >
-      </p>
+      <CheckUpTitleP />
       <p>
         <strong>RISPARMIA</strong> fino al 25% sulle forniture di energia
         elettrica e gas rispondendo a queste 10 domande!
@@ -413,8 +407,12 @@
 
 <script>
 import axios from "axios";
+import CheckUpTitleP from "~/components/CheckUpTitleP.vue";
 
 export default {
+  components: {
+    CheckUpTitleP,
+  },
   data() {
     return {
       passo: 0,
@@ -526,17 +524,6 @@ export default {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.title {
-  font-size: 0.9em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-left: 0.3em solid $primaryColor;
-  border-right: 0.3em solid $primaryColor;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
 }
 
 .description {
@@ -1006,9 +993,6 @@ export default {
 }
 
 @media (min-width: 350px) {
-  .title {
-    font-size: 1em;
-  }
   .cartolina-wrapper {
     .step {
       min-height: 228px;
@@ -1107,9 +1091,6 @@ export default {
 }
 
 @media (min-width: 400px) {
-  .title {
-    font-size: 1.2em;
-  }
   .cartolina-wrapper {
     .step {
       min-height: 251px;
@@ -1231,9 +1212,6 @@ export default {
 }
 
 @media (min-width: 550px) {
-  .title {
-    font-size: 1.6em;
-  }
   .cartolina-wrapper {
     .step {
       p {
@@ -1311,9 +1289,6 @@ export default {
   }
 }
 @media (min-width: 650px) {
-  .title {
-    font-size: 1.8em;
-  }
   .cartolina-wrapper {
     .step {
       .dati {
@@ -1473,9 +1448,6 @@ export default {
 }
 
 @media (min-width: 800px) {
-  .title {
-    font-size: 2em;
-  }
   .cartolina-wrapper {
     .step {
       .dati {
