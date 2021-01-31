@@ -1,12 +1,17 @@
 <template>
   <div class="page">
     <p class="date">{{ post.created_at }}</p>
-      <h2 class="title">{{ post.title }}</h2>
-      <g-image v-if="post.cover" :src="post.cover" style="object-fit: cover; width:100%;" :alt="post.alt" />
+    <h2 class="title">{{ post.title }}</h2>
+    <g-image
+      v-if="post.cover"
+      :src="post.cover"
+      style="object-fit: cover; width:100%;"
+      :alt="post.alt"
+    />
     <p class="author">di {{ post.author }}</p>
     <p>{{ post.description }}</p>
     <div class="continua">
-    <g-link :to="post.path">Continua...</g-link>
+      <g-link :to="post.path">Continua...</g-link>
     </div>
   </div>
 </template>
@@ -33,19 +38,17 @@ export default {
 .title {
   width: 100%;
   max-width: 700px;
-  font-size: 1.1em;
+  font-size: 1.3em;
 
   margin-bottom: 1em;
 }
 
-
-
-.author{
-  text-align:center;
+.author {
+  text-align: center;
   font-size: 0.5em;
 }
 
-.continua{
+.continua {
   display: flex;
   justify-content: center;
 }

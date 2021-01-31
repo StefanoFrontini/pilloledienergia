@@ -426,7 +426,6 @@ a.button {
     }
   }
   .question {
-    height: 100vh;
     min-height: 350px;
     background-position: center center;
   }
@@ -435,13 +434,7 @@ a.button {
   }
 
   .desktop {
-    margin-top: -1em;
-  }
-}
-
-@media (min-width: 650px) {
-  .question {
-    height: 90vh;
+    margin-top: 0em;
   }
 }
 
@@ -452,7 +445,7 @@ a.button {
   .question {
     height: 53vh;
     min-height: 400px;
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
   .question-text-wrapper {
     min-height: 400px;
@@ -466,7 +459,6 @@ a.button {
 @media (min-width: 800px) {
   .question {
     height: 70vh;
-    font-size: 1.2em;
   }
   .desktop {
     margin-top: 0em;
@@ -506,10 +498,10 @@ a.button {
   }
 
   .question-text-wrapper {
-    min-height: 700px;
+    min-height: 900px;
   }
   .question {
-    min-height: 700px;
+    min-height: 900px;
   }
 
   .section {

@@ -9,6 +9,30 @@
             class="grigio"
           />
           <iframe
+            title="Come evitare aumenti sostanziali e imprevisti della tua bolletta?"
+            width="100%"
+            :height="`${heightYouTube}`"
+            data-src="https://www.youtube.com/embed/I1qag7MGb4M?enablejsapi=1"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/I1qag7MGb4M?autoplay=1><img src=https://img.youtube.com/vi/I1qag7MGb4M/hqdefault.jpg alt='Come evitare aumenti sostanziali e imprevisti della tua bolletta?'><span>▶</span></a>"
+          ></iframe>
+          <p>
+            <strong
+              >Come evitare aumenti sostanziali e imprevisti della tua bolletta?
+            </strong>
+          </p>
+        </div>
+      </vue-glide-slide>
+      <vue-glide-slide>
+        <div class="img">
+          <g-image
+            src="~/assets/grigio.png"
+            alt="fondo grigio"
+            class="grigio"
+          />
+          <iframe
             title="Un’opportunità per sostenere la Protezione Civile e dimezzare il costo delle forniture di energia elettrica e gas della tua azienda"
             width="100%"
             :height="`${heightYouTube}`"
@@ -23,9 +47,6 @@
               >Stai sfruttando tutte le opportunità che provengono dai mercati
               energetici?
             </strong>
-            <!-- <br />Durante l'emergenza coranavirus i mercati sono crollati. Il
-            tuo contratto di fornitura ti ha permesso di beneficiare di questa
-            discesa? -->
           </p>
         </div>
       </vue-glide-slide>
@@ -133,14 +154,11 @@
           ></iframe>
           <p>
             <strong>Stai sfruttando tutte le agevolazioni?</strong>
-
-            <!-- <br />Una recente sentenza della Corte di Cassazione permette di
-            recuperare le accise 2010-2011. Tu hai fatto domanda? -->
           </p>
         </div>
       </vue-glide-slide>
 
-      <vue-glide-slide>
+      <!--  <vue-glide-slide>
         <div class="img">
           <g-image
             src="~/assets/grigio.png"
@@ -156,13 +174,12 @@
           <p>
             <strong>Sei stufo di rivolgerti ad un call center?</strong>
 
-            <!-- <br />Con
-            i miei Clienti comunico a quattr’occhi o tramite cellulare/whatsapp. -->
+
           </p>
         </div>
-      </vue-glide-slide>
+      </vue-glide-slide> -->
 
-      <vue-glide-slide>
+      <!-- <vue-glide-slide>
         <div class="img">
           <g-image
             src="~/assets/grigio.png"
@@ -180,12 +197,10 @@
               fare una voltura?</strong
             >
 
-            <!-- <br />Un mio Cliente non riusciva a posare un nuovo contatore della
-            luce. Erano 4 mesi che ci provava. Sono riuscito ad attivare il
-            contatore in 4 giorni. -->
+
           </p>
         </div>
-      </vue-glide-slide>
+      </vue-glide-slide> -->
 
       <vue-glide-slide>
         <div class="img">
@@ -266,7 +281,7 @@
         </div>
       </vue-glide-slide> -->
 
-      <vue-glide-slide>
+      <!-- <vue-glide-slide>
         <div class="img">
           <g-image
             src="~/assets/grigio.png"
@@ -283,20 +298,9 @@
               >E’ possibile risparmiare ottimizzando le tue abitudini di
               consumo?</strong
             >
-
-            <!-- <br />Solo attraverso report periodici è possibile far emergere
-            quelle abitudini di consumo che impattano su alcune voci in fattura. -->
           </p>
         </div>
-      </vue-glide-slide>
-      <!-- <template slot="control">
-        <button data-glide-dir="<">
-          <font-awesome :icon="['fas', 'chevron-left']" />
-        </button>
-        <button data-glide-dir=">">
-          <font-awesome :icon="['fas', 'chevron-right']" />
-        </button>
-      </template> -->
+      </vue-glide-slide> -->
     </vue-glide>
   </div>
 </template>
@@ -417,11 +421,11 @@ export default {
 
   border: 0;
   outline: none;
-  width: 22px;
-  height: 44px;
+  width: 30px;
+  height: 60px;
   border-radius: 100%;
   cursor: pointer;
-  margin: 8px;
+  margin: 9px;
 }
 
 ::v-deep .glide__bullet + .glide__bullet {
@@ -476,8 +480,7 @@ button[data-glide-dir=">"]:hover {
     width: 95%;
   }
   ::v-deep .glide__bullet {
-    width: 25px;
-    height: 50px;
+    margin: 15px;
   }
 }
 
@@ -491,10 +494,6 @@ button[data-glide-dir=">"]:hover {
   }
   ::v-deep .glide__bullets {
     width: 90%;
-  }
-  ::v-deep .glide__bullet {
-    width: 25px;
-    height: 50px;
   }
 }
 
@@ -525,13 +524,20 @@ button[data-glide-dir=">"]:hover {
 }
 
 @media (min-width: 730px) {
-  ::v-deep .glide__bullet {
-    width: 30px;
-    height: 60px;
-  }
 }
 
 @media (min-width: 760px) {
+  .glide {
+    margin-top: 8em;
+  }
+  ::v-deep .glide__bullet {
+    width: 33px;
+    height: 66px;
+    margin: 20px;
+  }
+  ::v-deep .glide__bullets {
+    top: -4em;
+  }
   .img {
     width: 90%;
     iframe {
@@ -552,6 +558,10 @@ button[data-glide-dir=">"]:hover {
 }
 
 @media (min-width: 1000px) {
+  ::v-deep .glide__bullet {
+    width: 35px;
+    height: 70px;
+  }
   .img {
     iframe {
       height: 78%;
@@ -563,13 +573,13 @@ button[data-glide-dir=">"]:hover {
     }
   }
   ::v-deep .glide__bullets {
-    width: 40%;
+    width: 45%;
   }
 }
 
 @media (min-width: 1300px) {
   ::v-deep .glide__bullets {
-    width: 35%;
+    width: 40%;
   }
 }
 </style>

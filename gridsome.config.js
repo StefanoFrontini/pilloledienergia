@@ -54,7 +54,8 @@ module.exports = {
         backgroundColor: "#000000",
         icon: "./src/assets/icon.png",
         shortName: "PdE", // Optional
-        description: "Consulente energetico", // Optional
+        description:
+          "Stefano Frontini consulente energetico per ristoranti e hotel", // Optional
         categories: [""], // Optional
         lang: "it-IT", // Optional
         dir: "auto", // Optional
@@ -123,21 +124,9 @@ module.exports = {
         cacheTime: 600000, // default
         exclude: [],
         config: {
-          "/blog/*": {
-            changefreq: "monthly",
-            priority: 0.5,
-          },
-          "/mercato": {
+          "/mercato/": {
             changefreq: "monthly",
             priority: 0.7,
-          },
-          "/episodi/*": {
-            changefreq: "monthly",
-            priority: 0.5,
-          },
-          "/energia-in-numeri/*": {
-            changefreq: "monthly",
-            priority: 0.5,
           },
         },
       },
