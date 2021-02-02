@@ -147,7 +147,7 @@ export default {
     },
     yScale() {
       return scaleLinear()
-        .domain([0.06, this.dataMax])
+        .domain([0, this.dataMax])
         .range([this.innerHeight, 0])
         .nice();
     },
