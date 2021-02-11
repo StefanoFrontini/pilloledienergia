@@ -503,7 +503,7 @@ export default {
     color: white;
     font-size: 1.2em;
     font-style: italic;
-    font-family: "GFS Didot", serif;
+    font-family: serif;
     font-weight: bold;
     outline: none;
   }

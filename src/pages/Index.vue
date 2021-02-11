@@ -306,7 +306,7 @@ export default {
   text-align: center;
   font-size: 1.2em;
   font-weight: normal;
-  font-family: "GFS Didot", serif;
+  font-family: serif;
   span {
     color: $primaryColor;
   }

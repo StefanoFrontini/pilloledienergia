@@ -116,7 +116,7 @@ export default {
 };
 </script>
 <style lang="scss">
-@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap"); */
 
 @font-face {
   font-family: "radnika-medium";
@@ -128,7 +128,7 @@ export default {
 
 html,
 body {
-  font-family: "GFS Didot", serif;
+  font-family: serif;
   margin: 0;
   padding: 0;
   line-height: 1.2;
