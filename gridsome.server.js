@@ -5,23 +5,22 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+module.exports = function(api) {
+  api.loadSource(async (actions) => {
+    const data = require("./src/data/ateco.json");
+    const collection = actions.addCollection("Ateco");
 
-module.exports = function (api) {  
-  api.loadSource(async actions =>  {
-    const data = require('./src/data/ateco.json');
-    const collection = actions.addCollection('Ateco');
-
-    for (const item of data ) {
+    for (const item of data) {
       collection.addNode({
         codice: item.CODICE,
-        descrizione: item.DESCRIZIONE
-      })
+        descrizione: item.DESCRIZIONE,
+      });
     }
-    
-    // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
-  })
 
-  api.loadSource(async actions =>  {
+    // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
+  });
+
+  /*   api.loadSource(async actions =>  {
     const data = require('./src/data/vantaggiConsulente.json');
     const collection = actions.addCollection('vantaggiConsulente');
 
@@ -33,7 +32,7 @@ module.exports = function (api) {
         text: item.text
       })
     }
-    
+
   })
 
   api.loadSource(async actions =>  {
@@ -48,10 +47,10 @@ module.exports = function (api) {
         text: item.text
       })
     }
-    
-  })
+
+  }) */
 
   api.createPages(({ createPage }) => {
     // Use the Pages API here: https://gridsome.org/docs/pages-api/
-  })
-}
+  });
+};
