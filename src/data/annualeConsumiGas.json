@@ -1,86 +1,82 @@
 [
-    {
-        "Anno": "1997",
-        "Miliardi di metri cubi": "58"
-    },
-    {
-        "Anno": "1998",
-        "Miliardi di metri cubi": "63"
-    },
-    {
-        "Anno": "1999",
-        "Miliardi di metri cubi": "68"
-    },
-    {
-        "Anno": "2000",
-        "Miliardi di metri cubi": "71"
-    },
-    {
-        "Anno": "2001",
-        "Miliardi di metri cubi": "72"
-    },
-    {
-        "Anno": "2002",
-        "Miliardi di metri cubi": "71"
-    },
-    {
-        "Anno": "2003",
-        "Miliardi di metri cubi": "77"
-    },
-    {
-        "Anno": "2004",
-        "Miliardi di metri cubi": "81"
-    },
-    {
-        "Anno": "2005",
-        "Miliardi di metri cubi": "86"
-    },
-    {
-        "Anno": "2006",
-        "Miliardi di metri cubi": "84"
-    },
-    {
-        "Anno": "2007",
-        "Miliardi di metri cubi": "85"
-    },
-    {
-        "Anno": "2008",
-        "Miliardi di metri cubi": "85"
-    },
-    {
-        "Anno": "2009",
-        "Miliardi di metri cubi": "78"
-    },
-    {
-        "Anno": "2010",
-        "Miliardi di metri cubi": "83"
-    },
-    {
-        "Anno": "2011",
-        "Miliardi di metri cubi": "78"
-    },
-    {
-        "Anno": "2012",
-        "Miliardi di metri cubi": "75"
-    },
-    {
-        "Anno": "2013",
-        "Miliardi di metri cubi": "70"
-    },
-    {
-        "Anno": "2014",
-        "Miliardi di metri cubi": "62"
-    },
-    {
-        "Anno": "2015",
-        "Miliardi di metri cubi": "68"
-    },
-    {
-        "Anno": "2016",
-        "Miliardi di metri cubi": "71"
-    },
-    {
-        "Anno": "2017",
-        "Miliardi di metri cubi": "75"
-    }
+  {
+    "Anno": "2000",
+    "Miliardi di metri cubi": "70.9"
+  },
+  {
+    "Anno": "2001",
+    "Miliardi di metri cubi": "71.5"
+  },
+  {
+    "Anno": "2002",
+    "Miliardi di metri cubi": "71.0"
+  },
+  {
+    "Anno": "2003",
+    "Miliardi di metri cubi": "77.4"
+  },
+  {
+    "Anno": "2004",
+    "Miliardi di metri cubi": "80.6"
+  },
+  {
+    "Anno": "2005",
+    "Miliardi di metri cubi": "86.3"
+  },
+  {
+    "Anno": "2006",
+    "Miliardi di metri cubi": "84.5"
+  },
+  {
+    "Anno": "2007",
+    "Miliardi di metri cubi": "84.9"
+  },
+  {
+    "Anno": "2008",
+    "Miliardi di metri cubi": "84.9"
+  },
+  {
+    "Anno": "2009",
+    "Miliardi di metri cubi": "78.0"
+  },
+  {
+    "Anno": "2010",
+    "Miliardi di metri cubi": "83.1"
+  },
+  {
+    "Anno": "2011",
+    "Miliardi di metri cubi": "77.9"
+  },
+  {
+    "Anno": "2012",
+    "Miliardi di metri cubi": "74.9"
+  },
+  {
+    "Anno": "2013",
+    "Miliardi di metri cubi": "70.1"
+  },
+  {
+    "Anno": "2014",
+    "Miliardi di metri cubi": "61.9"
+  },
+  {
+    "Anno": "2015",
+    "Miliardi di metri cubi": "67.5"
+  },
+  {
+    "Anno": "2016",
+    "Miliardi di metri cubi": "70.9"
+  },
+  {
+    "Anno": "2017",
+    "Miliardi di metri cubi": "75.2"
+  },
+  {
+    "Anno": "2018",
+    "Miliardi di metri cubi": "72.7"
+  },
+  {
+    "Anno": "2019",
+    "Miliardi di metri cubi": "74.5"
+  }
 ]

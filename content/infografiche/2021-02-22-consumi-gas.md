@@ -7,7 +7,7 @@ description: Andamento storico dei consumi di gas naturale in Italia
 
 author: Stefano Frontini
 
-created_at: 2020-05-22 9:00:00
+created_at: 2021-02-22 19:00:00
 
 published: true
 
@@ -27,8 +27,9 @@ import data_settore from "~/data/annualeConsumiGasSettore.json"
             :data="data"
             />
 
-Il grafico illustra l'andamento annuale dei consumi di gas naturale in Italia dal 2000 al 2017. <br />
-I dati sono presi dal [Ministero dello Sviluppo Economico - bilancio energetico nazionale](https://dgsaie.mise.gov.it/ben.php)
+<strong>Aggiornamento dati 2019</strong>.<br />
+Il grafico illustra l'andamento annuale dei consumi di gas naturale in Italia dal 2000 al 2019. <br />
+I dati sono presi dal [Ministero dello Sviluppo Economico - bilancio energetico nazionale](https://dgsaie.mise.gov.it/ben.php).
 
 - I consumi di gas naturale italiani hanno subìto una forte contrazione dai massimi del 2008 e solo dal 2015 hanno ripreso a salire.
 
@@ -40,8 +41,9 @@ I dati sono presi dal [Ministero dello Sviluppo Economico - bilancio energetico 
             :data="data_settore"
             />
 
-Il grafico illustra l'andamento annuale dei consumi di gas naturale per settore in Italia dal 2000 al 2018. <br />
-I dati sono presi da [Ministero dello Sviluppo Economico - bilancio energetico nazionale](https://dgsaie.mise.gov.it/ben.php)
+Il grafico illustra l'andamento annuale dei consumi di gas naturale per settore in Italia dal 2000 al 2019. <br />
+I dati sono presi da [Ministero dello Sviluppo Economico - bilancio energetico nazionale](https://dgsaie.mise.gov.it/ben.php).
 
 - Termoelettrico e Industria i settori più colpiti dalla crisi del 2008;
-- Il Terziario e Residenziale diventa il primo settore per consumi di gas naturale superando l'Industria.
+- Il Terziario e Residenziale diventa il primo settore per consumi di gas naturale superando l'Industria;
+- Nel 2019 i maggiori consumi del termoelettrico sono dovuti alla generazione a gas che ha sostituito parte della generazione a carbone.
