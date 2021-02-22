@@ -7,7 +7,7 @@ description: Andamento storico dei consumi di energia elettrica in Italia
 
 author: Stefano Frontini
 
-created_at: 2020-05-21 19:00:00
+created_at: 2021-02-22 18:00:00
 
 published: true
 
@@ -27,11 +27,13 @@ import data_settore from "~/data/annualeConsumiEnergiaElettricaSettore.json"
             :data="data"
             />
 
-Il grafico illustra l'andamento annuale dei consumi di energia elettrica in Italia dal 2000 al 2018. <br />
+<strong>Aggiornamento dati 2019.</strong><br />
+Il grafico illustra l'andamento annuale dei consumi di energia elettrica in Italia dal 2000 al 2019. <br />
 I dati sono presi da [Terna Spa.](https://www.terna.it/it)
 
 - I consumi di energia elettrica italiani hanno subìto una contrazione dai massimi del 2008;
-- 1 Terawattora (TWh) = 1 000 000 000 Kilowattora (kWh).
+- 1 Terawattora (TWh) = 1 000 000 000 Kilowattora (kWh);
+- Consumi al netto delle perdite di rete.
 
 <annualeConsumiEnergiaElettricaSettore title="Andamento storico dei consumi di energia elettrica per settore in Italia" xKey="Anno"
             y1Key="Agricoltura"
@@ -41,9 +43,8 @@ I dati sono presi da [Terna Spa.](https://www.terna.it/it)
             :data="data_settore"
             />
 
-Il grafico illustra l'andamento annuale dei consumi di energia elettrica per settore in Italia dal 2000 al 2018. <br />
+Il grafico illustra l'andamento annuale dei consumi di energia elettrica per settore in Italia dal 2000 al 2019. <br />
 I dati sono presi da [Terna Spa.](https://www.terna.it/it)
 
 - I consumi di energia elettrica dell'industria hanno subìto una forte contrazione;
 - I consumi del terziario crescono stabilmente;
-- 1 Terawattora (TWh) = 1 000 000 000 Kilowattora (kWh).

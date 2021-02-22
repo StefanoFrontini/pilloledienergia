@@ -1,135 +1,142 @@
 [
-    {
-        "Anno": "2000",
-        "Agricoltura": "5",
-        "Industria": "148",
-        "Terziario": "65",
-        "Domestico": "61"
-    },
-    {
-        "Anno": "2001",
-        "Agricoltura": "5",
-        "Industria": "151",
-        "Terziario": "68",
-        "Domestico": "62"
-    },
-    {
-        "Anno": "2002",
-        "Agricoltura": "4.9",
-        "Industria": "151.3",
-        "Terziario": "71.8",
-        "Domestico": "63.0"
-    },
-    {
-        "Anno": "2003",
-        "Agricoltura": "5.2",
-        "Industria": "152.7",
-        "Terziario": "76.9",
-        "Domestico": "65.0"
-    },
-    {
-        "Anno": "2004",
-        "Agricoltura": "5.2",
-        "Industria": "153.2",
-        "Terziario": "79.6",
-        "Domestico": "66.6"
-    },
-    {
-        "Anno": "2005",
-        "Agricoltura": "5.4",
-        "Industria": "153.7",
-        "Terziario": "83.8",
-        "Domestico": "66.9"
-    },
-    {
-        "Anno": "2006",
-        "Agricoltura": "5.5",
-        "Industria": "156.2",
-        "Terziario": "88.3",
-        "Domestico": "67.6"
-    },
-    {
-        "Anno": "2007",
-        "Agricoltura": "5.7",
-        "Industria": "155.8",
-        "Terziario": "90.3",
-        "Domestico": "67.2"
-    },
-    {
-        "Anno": "2008",
-        "Agricoltura": "5.7",
-        "Industria": "151.4",
-        "Terziario": "93.6",
-        "Domestico": "68.4"
-    },
-    {
-        "Anno": "2009",
-        "Agricoltura": "5.6",
-        "Industria": "130.5",
-        "Terziario": "94.8",
-        "Domestico": "68.9"
-    },
-    {
-        "Anno": "2010",
-        "Agricoltura": "5.6",
-        "Industria": "138.4",
-        "Terziario": "96.3",
-        "Domestico": "69.6"
-    },
-    {
-        "Anno": "2011",
-        "Agricoltura": "5.9",
-        "Industria": "140.0",
-        "Terziario": "97.7",
-        "Domestico": "70.1"
-    },
-    {
-        "Anno": "2012",
-        "Agricoltura": "5.9",
-        "Industria": "130.8",
-        "Terziario": "101.0",
-        "Domestico": "69.5"
-    },
-    {
-        "Anno": "2013",
-        "Agricoltura": "5.7",
-        "Industria": "124.9",
-        "Terziario": "99.8",
-        "Domestico": "67.0"
-    },
-    {
-        "Anno": "2014",
-        "Agricoltura": "5.4",
-        "Industria": "122.5",
-        "Terziario": "99.0",
-        "Domestico": "64.3"
-    },
-    {
-        "Anno": "2015",
-        "Agricoltura": "5.7",
-        "Industria": "122.4",
-        "Terziario": "102.9",
-        "Domestico": "66.2"
-    },
-    {
-        "Anno": "2016",
-        "Agricoltura": "5.6",
-        "Industria": "122.7",
-        "Terziario": "102.9",
-        "Domestico": "64.3"
-    },
-    {
-        "Anno": "2017",
-        "Agricoltura": "6.0",
-        "Industria": "125.5",
-        "Terziario": "104.9",
-        "Domestico": "65.5"
-    },
-    {
-        "Anno": "2018",
-        "Agricoltura": "5.8",
-        "Industria": "126.4",
-        "Terziario": "106.0",
-        "Domestico": "65.1"
-    }
+  {
+    "Anno": "2000",
+    "Agricoltura": "5",
+    "Industria": "148",
+    "Terziario": "65",
+    "Domestico": "61"
+  },
+  {
+    "Anno": "2001",
+    "Agricoltura": "5",
+    "Industria": "151",
+    "Terziario": "68",
+    "Domestico": "62"
+  },
+  {
+    "Anno": "2002",
+    "Agricoltura": "4.9",
+    "Industria": "151.3",
+    "Terziario": "71.8",
+    "Domestico": "63.0"
+  },
+  {
+    "Anno": "2003",
+    "Agricoltura": "5.2",
+    "Industria": "152.7",
+    "Terziario": "76.9",
+    "Domestico": "65.0"
+  },
+  {
+    "Anno": "2004",
+    "Agricoltura": "5.2",
+    "Industria": "153.2",
+    "Terziario": "79.6",
+    "Domestico": "66.6"
+  },
+  {
+    "Anno": "2005",
+    "Agricoltura": "5.4",
+    "Industria": "153.7",
+    "Terziario": "83.8",
+    "Domestico": "66.9"
+  },
+  {
+    "Anno": "2006",
+    "Agricoltura": "5.5",
+    "Industria": "156.2",
+    "Terziario": "88.3",
+    "Domestico": "67.6"
+  },
+  {
+    "Anno": "2007",
+    "Agricoltura": "5.7",
+    "Industria": "155.8",
+    "Terziario": "90.3",
+    "Domestico": "67.2"
+  },
+  {
+    "Anno": "2008",
+    "Agricoltura": "5.7",
+    "Industria": "151.4",
+    "Terziario": "93.6",
+    "Domestico": "68.4"
+  },
+  {
+    "Anno": "2009",
+    "Agricoltura": "5.6",
+    "Industria": "130.5",
+    "Terziario": "94.8",
+    "Domestico": "68.9"
+  },
+  {
+    "Anno": "2010",
+    "Agricoltura": "5.6",
+    "Industria": "138.4",
+    "Terziario": "96.3",
+    "Domestico": "69.6"
+  },
+  {
+    "Anno": "2011",
+    "Agricoltura": "5.9",
+    "Industria": "140.0",
+    "Terziario": "97.7",
+    "Domestico": "70.1"
+  },
+  {
+    "Anno": "2012",
+    "Agricoltura": "5.9",
+    "Industria": "130.8",
+    "Terziario": "101.0",
+    "Domestico": "69.5"
+  },
+  {
+    "Anno": "2013",
+    "Agricoltura": "5.7",
+    "Industria": "124.9",
+    "Terziario": "99.8",
+    "Domestico": "67.0"
+  },
+  {
+    "Anno": "2014",
+    "Agricoltura": "5.4",
+    "Industria": "122.5",
+    "Terziario": "99.0",
+    "Domestico": "64.3"
+  },
+  {
+    "Anno": "2015",
+    "Agricoltura": "5.7",
+    "Industria": "122.4",
+    "Terziario": "102.9",
+    "Domestico": "66.2"
+  },
+  {
+    "Anno": "2016",
+    "Agricoltura": "5.6",
+    "Industria": "122.7",
+    "Terziario": "102.9",
+    "Domestico": "64.3"
+  },
+  {
+    "Anno": "2017",
+    "Agricoltura": "6.0",
+    "Industria": "125.5",
+    "Terziario": "104.9",
+    "Domestico": "65.5"
+  },
+  {
+    "Anno": "2018",
+    "Agricoltura": "5.8",
+    "Industria": "126.4",
+    "Terziario": "106.0",
+    "Domestico": "65.1"
+  },
+  {
+    "Anno": "2019",
+    "Agricoltura": "5.7",
+    "Industria": "123.9",
+    "Terziario": "106.1",
+    "Domestico": "65.7"
+  }
 ]
