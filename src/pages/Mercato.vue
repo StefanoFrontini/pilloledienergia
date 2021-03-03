@@ -65,10 +65,10 @@
                 >Gestore dei Mercati Energetici</a
               >, fanno riferimento al Mercato del Giorno Prima (MGP-GAS). I
               prezzi sono pubblicati dal GME in €/MWh e sono stati trasformati
-              in €/Smc moltiplicando per un coefficiente pari a 0,01058333;
+              in €/Smc moltiplicando per un coefficiente pari a 0,0107;
             </li>
             <li>
-              Il potere calorifico superiore (PCS) è assunto pari a 0,0381
+              Il potere calorifico superiore (PCS) è assunto pari a 0,03852
               GJ/Smc.
             </li>
           </ul>
