@@ -1,74 +1,82 @@
 [
-    {
-        "Anno": "2000",
-        "Grado di dipendenza dall'estero": "81"
-    },
-    {
-        "Anno": "2001",
-        "Grado di dipendenza dall'estero": "83"
-    },
-    {
-        "Anno": "2002",
-        "Grado di dipendenza dall'estero": "84"
-    },
-    {
-        "Anno": "2003",
-        "Grado di dipendenza dall'estero": "81"
-    },
-    {
-        "Anno": "2004",
-        "Grado di dipendenza dall'estero": "84"
-    },
-    {
-        "Anno": "2005",
-        "Grado di dipendenza dall'estero": "85"
-    },
-    {
-        "Anno": "2006",
-        "Grado di dipendenza dall'estero": "92"
-    },
-    {
-        "Anno": "2007",
-        "Grado di dipendenza dall'estero": "87"
-    },
-    {
-        "Anno": "2008",
-        "Grado di dipendenza dall'estero": "91"
-    },
-    {
-        "Anno": "2009",
-        "Grado di dipendenza dall'estero": "89"
-    },
-    {
-        "Anno": "2010",
-        "Grado di dipendenza dall'estero": "91"
-    },
-    {
-        "Anno": "2011",
-        "Grado di dipendenza dall'estero": "90"
-    },
-    {
-        "Anno": "2012",
-        "Grado di dipendenza dall'estero": "90"
-    },
-    {
-        "Anno": "2013",
-        "Grado di dipendenza dall'estero": "88"
-    },
-    {
-        "Anno": "2014",
-        "Grado di dipendenza dall'estero": "90"
-    },
-    {
-        "Anno": "2015",
-        "Grado di dipendenza dall'estero": "91"
-    },
-    {
-        "Anno": "2016",
-        "Grado di dipendenza dall'estero": "92"
-    },
-    {
-        "Anno": "2017",
-        "Grado di dipendenza dall'estero": "93"
-    }
+  {
+    "Anno": "2000",
+    "Grado di dipendenza dall'estero": "81"
+  },
+  {
+    "Anno": "2001",
+    "Grado di dipendenza dall'estero": "83"
+  },
+  {
+    "Anno": "2002",
+    "Grado di dipendenza dall'estero": "84"
+  },
+  {
+    "Anno": "2003",
+    "Grado di dipendenza dall'estero": "81"
+  },
+  {
+    "Anno": "2004",
+    "Grado di dipendenza dall'estero": "84"
+  },
+  {
+    "Anno": "2005",
+    "Grado di dipendenza dall'estero": "85"
+  },
+  {
+    "Anno": "2006",
+    "Grado di dipendenza dall'estero": "92"
+  },
+  {
+    "Anno": "2007",
+    "Grado di dipendenza dall'estero": "87"
+  },
+  {
+    "Anno": "2008",
+    "Grado di dipendenza dall'estero": "91"
+  },
+  {
+    "Anno": "2009",
+    "Grado di dipendenza dall'estero": "89"
+  },
+  {
+    "Anno": "2010",
+    "Grado di dipendenza dall'estero": "91"
+  },
+  {
+    "Anno": "2011",
+    "Grado di dipendenza dall'estero": "90"
+  },
+  {
+    "Anno": "2012",
+    "Grado di dipendenza dall'estero": "90"
+  },
+  {
+    "Anno": "2013",
+    "Grado di dipendenza dall'estero": "88"
+  },
+  {
+    "Anno": "2014",
+    "Grado di dipendenza dall'estero": "90"
+  },
+  {
+    "Anno": "2015",
+    "Grado di dipendenza dall'estero": "91"
+  },
+  {
+    "Anno": "2016",
+    "Grado di dipendenza dall'estero": "92"
+  },
+  {
+    "Anno": "2017",
+    "Grado di dipendenza dall'estero": "93"
+  },
+  {
+    "Anno": "2018",
+    "Grado di dipendenza dall'estero": "94"
+  },
+  {
+    "Anno": "2019",
+    "Grado di dipendenza dall'estero": "95"
+  }
 ]

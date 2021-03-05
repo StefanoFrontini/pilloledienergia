@@ -27,7 +27,7 @@ import data_settore from "~/data/annualeConsumiGasSettore.json"
             :data="data"
             />
 
-<strong>Aggiornamento dati 2019</strong>.<br />
+<strong>Aggiornamento con dati 2019</strong>.<br />
 Il grafico illustra l'andamento annuale dei consumi di gas naturale in Italia dal 2000 al 2019. <br />
 I dati sono presi dal [Ministero dello Sviluppo Economico - bilancio energetico nazionale](https://dgsaie.mise.gov.it/ben.php).
 
