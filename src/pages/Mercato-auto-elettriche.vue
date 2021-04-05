@@ -7,13 +7,13 @@
       <div class="chart-container">
         <div class="chart">
           <AutoElettriche
-            title="Immatricolazioni auto elettriche per marca e modello: febbraio 2021"
+            title="Immatricolazioni auto elettriche per marca e modello: marzo 2021"
             xKey="Modello"
             yKey="Immatricolazioni"
             :data="AutoElettricheData"
           />
           <CumulatoAutoElettriche
-            title="Immatricolazioni auto elettriche per marca e modello: gennaio - febbraio 2021"
+            title="Immatricolazioni auto elettriche per marca e modello: gennaio - marzo 2021"
             xKey="Modello"
             yKey="Immatricolazioni"
             :data="CumulatoAutoElettricheData"
@@ -27,15 +27,15 @@
           <p>I grafici illustrano rispettivamente:</p>
           <ul>
             <li>
-              Il numero di immatricolazioni di auto elettriche in Italia a
-              febbraio 2021 distinte per marca e modello;
+              Il numero di immatricolazioni di auto elettriche in Italia a marzo
+              2021 distinte per marca e modello;
             </li>
             <li>
-              Il numero di immatricolazioni in Italia nel periodo febbraio -
-              dicembre 2020 distinte per marca e modello;
+              Il numero di immatricolazioni in Italia nel periodo gennaio -
+              marzo 2021 distinte per marca e modello;
             </li>
             <li>
-              L'andamento mensile delle immatricolazioni di auto elettriche in
+              L’andamento mensile delle immatricolazioni di auto elettriche in
               Italia;
             </li>
             <li>
