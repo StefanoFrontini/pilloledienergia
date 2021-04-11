@@ -21,6 +21,25 @@
             srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/wvBmXA-YFuc?autoplay=1><img src=https://img.youtube.com/vi/wvBmXA-YFuc/hqdefault.jpg alt='Video testimonianza Ristorante La Colubrina'><span>▶</span></a>"
           ></iframe>
         </div>
+        <h2>
+          Gelaterie <a href="https://www.albertomarchetti.it/">Marchetti</a> di
+          Torino
+        </h2>
+        <div class="img2">
+          <g-image src="~/assets/grigio.png" alt="fondo grigio" />
+
+          <iframe
+            title="Video testimonianza Gelaterie Marchetti"
+            width="100%"
+            height="315"
+            src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FRepowerItalia%2Fvideos%2F1440682722996244%2F&show_text=false&width=476"
+            frameborder="0"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            allowfullscreen="true"
+            style="border:none;overflow:hidden"
+            scrolling="no"
+          ></iframe>
+        </div>
 
         <CheckUp />
 
@@ -139,7 +158,42 @@ export default {
   }
   .g-image {
     width: 100%;
-    height: 90%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.img2 {
+  width: 100%;
+  //height: 200px;
+
+  cursor: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+
+  iframe {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 7%;
+    border: 10px solid white;
+  }
+  .g-image {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
   }
 }
