@@ -26,12 +26,13 @@
           <p class="title"><strong>Chi è il consulente energetico?</strong></p>
           <p>
             E’ un professionista che ti mette a disposizione la sua competenza
-            sui
+            sui:
             <g-link to="/mercato/"
               >mercati all’ingrosso dell’energia elettrica e gas</g-link
-            >, sulle voci presenti in fattura e sul sistema energetico in
-            generale in modo da generare un <strong>vero risparmio</strong> nel
-            tempo in termini economici, di tempo e di frustrazioni evitate.
+            >; sui contratti di fornitura di energia elettrica e gas e sui
+            relativi costi; sul sistema energetico in generale in modo da
+            generare un <strong>vero risparmio</strong> nel tempo in termini
+            economici, di tempo e di frustrazioni evitate.
           </p>
           <p class="domanda">
             <strong>
@@ -43,10 +44,10 @@
             <strong>Consulenza</strong> sulla corretta applicazione di tutte le
             voci in fattura (ad es.
             <g-link to="/analisi-iva-accise-agevolate/">IVA e accise</g-link>),
-            miglioramento delle abitudini di consumo dell’energia (monitoraggio
-            dei picchi di potenza), eliminazione delle penali per energia
-            reattiva ed extra-costi, monitoraggio della normativa e dei
-            contributi che potresti ricevere.
+            sui costi nascosti, miglioramento delle abitudini di consumo
+            dell’energia (monitoraggio dei picchi di potenza), eliminazione
+            delle penali per energia reattiva ed extra-costi, monitoraggio della
+            normativa e dei contributi che potresti ricevere.
           </p>
           <p>
             Guarda un fac-simile dei <strong>report</strong> che rilascio ai
@@ -208,6 +209,38 @@
               grado di sostenibilità.
             </p>
           </div>
+          <p><strong>Risultati del check-up gratuito:</strong></p>
+          <ul>
+            <li>
+              Riduzione accise gas: risparmio di <strong>10.000€</strong> su
+              fattura gas;
+            </li>
+            <li>
+              Rimborso accise energia elettrica 2010-11:
+              <strong>60.000€</strong>;
+            </li>
+            <li>
+              Valutazione contratto di fornitura ee/gas:
+              <strong>60.000€/anno</strong> di costi nascosti;
+            </li>
+            <li>
+              Decreto energivori: risparmio di <strong>140.000€/anno</strong> su
+              fattura energia elettrica;
+            </li>
+            <li>
+              Valutazione sostituzione corpi illuminanti con LED:
+              <strong>riduzione consumi del 50%</strong>;
+            </li>
+            <li>
+              Rilascio di un
+              <strong>attestato di sostenibilità energetica</strong>;
+            </li>
+            <li>
+              Consigli per gestire <strong>volture</strong>,
+              <strong>nuovi allacci</strong>, <strong>recessi</strong>,
+              <strong>passaggio alla mobilità elettrica</strong>.
+            </li>
+          </ul>
           <div class="page-contatti">
             <Contact />
           </div>
@@ -312,6 +345,7 @@ export default {
 
 .misura {
   text-align: center;
+  background-color: floralwhite;
   strong {
     color: $primaryColor;
   }
