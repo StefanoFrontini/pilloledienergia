@@ -21,7 +21,7 @@
           <g-link to="/"
             ><g-image
               src="~/assets/logo-pillole-di-energia.svg"
-              alt="logo pillole di energia"
+              alt="pillole di energia"
               width="100"
           /></g-link>
           <nav class="navbar" :class="{ 'nav-active': isActive }">
