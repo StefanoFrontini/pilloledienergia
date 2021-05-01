@@ -28,12 +28,12 @@ import data from "~/data/annualeMixElettrico.json"
             y6Key="import" :data="data"/>
 
 <strong>Grafico aggiornato con dati 2019.</strong><br />
-Il grafico illustra l'andamento annuale delle fonti di produzione di energia elettrica in Italia dal 2000 al 2019. <br />
-I dati sono presi dalla [relazione annuale dell'Autorità di Regolazione per Energia Reti e Ambiente (ARERA).](https://www.arera.it/it/relaz_ann/20/20.htm)
+Il grafico illustra l’andamento annuale delle fonti di produzione di energia elettrica in Italia dal 2000 al 2019. <br />
+I dati sono presi dalla [relazione annuale dell’Autorità di Regolazione per Energia Reti e Ambiente (ARERA).](https://www.arera.it/it/relaz_ann/20/20.htm)
 
 - Nel periodo 2000 - 2019 la quota delle fonti rinnovabili sul totale delle fonti energetiche utilizzate in Italia per la produzione di energia elettrica sale dal 16% al 35%;
 - La quota del petrolio scende dal 27% al 1%;
 - La quota del carbone nel 2019 si è quasi dimezzata rispetto al 2018;
 - Il gas naturale continua ad essere la prima fonte con una quota pari al 44%;
 - Il gas naturale bilancia le fluttuazioni dei consumi e delle rinnovabili;
-- 1 Terawattora (TWh) = 1 000 000 000 Kilowattora (kWh).
+- 1 Terawattora (TWh) = 1.000.000.000 Kilowattora (kWh).

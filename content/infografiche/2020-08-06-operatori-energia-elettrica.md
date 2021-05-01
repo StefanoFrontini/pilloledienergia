@@ -37,6 +37,6 @@ I grafici illustrano rispettivamente:
 - I primi venti gruppi di vendita di energia elettrica al mercato libero nel 2019;
 - I primi venti gruppi di vendita di energia elettrica nel 2019 nel segmento: cliente non domestico allacciato in bassa tensione (BT);
 
-I dati sono presi dall'[ARERA - Indagine annuale sui settori regolati](https://www.arera.it/it/relaz_ann/20/20.htm). L'indagine è stata pubblicata a luglio 2020.
+I dati sono presi dall’[ARERA - Indagine annuale sui settori regolati](https://www.arera.it/it/relaz_ann/20/20.htm). L’indagine è stata pubblicata a luglio 2020.
 
 - 1 GWh = 1 milione di kWh;

@@ -40,7 +40,7 @@ Una volta ricevuto il preventivo per l’allaccio il Cliente può accettarlo o r
 
 Gli spiego infine che il contratto di fornitura con Repower è necessario perché il fornitore deve avere il mandato per agire per conto del Cliente e svolgere tutte le pratiche per l’attivazione.
 
-Il Cliente in mattinata mi gira tutta la documentazione firmata e già entro sera riceve il preventivo da E-distribuzione pari a 2407€ IVA compresa (se non ci sono lavori complessi da fare di solito il costo è di circa 70€ per kW di potenza richiesta + una quota fissa di circa 200€, al quale va aggiunta l'IVA), inferiore di circa 200€ rispetto al preventivo dell’altro fornitore di energia elettrica con il quale non era riuscito a fare la nuova attivazione.
+Il Cliente in mattinata mi gira tutta la documentazione firmata e già entro sera riceve il preventivo da e-distribuzione pari a 2407€ IVA compresa (se non ci sono lavori complessi da fare di solito il costo è di circa 70€ per kW di potenza richiesta + una quota fissa di circa 200€, al quale va aggiunta l'IVA), inferiore di circa 200€ rispetto al preventivo dell’altro fornitore di energia elettrica con il quale non era riuscito a fare la nuova attivazione.
 
 Il Cliente accetta il preventivo e gli fisso un appuntamento con E-distribuzione <span class="grassetto">4 giorni</span> dopo.
-Il giorno stesso dell’appuntamento con E-distribuzione gli viene attivato il nuovo contatore enel della luce e finalmente riesce ad avere energia elettrica presso il suo capannone industriale.
+Il giorno stesso dell’appuntamento con e-distribuzione gli viene attivato il nuovo contatore enel della luce e finalmente riesce ad avere energia elettrica presso il suo capannone industriale.

@@ -32,7 +32,7 @@ Il grafico illustra l'andamento annuale dei consumi di energia elettrica in Ital
 I dati sono presi da [Terna Spa.](https://www.terna.it/it)
 
 - I consumi di energia elettrica italiani hanno subìto una contrazione dai massimi del 2008;
-- 1 Terawattora (TWh) = 1 000 000 000 Kilowattora (kWh);
+- 1 Terawattora (TWh) = 1.000.000.000 Kilowattora (kWh);
 - Consumi al netto delle perdite di rete.
 
 <annualeConsumiEnergiaElettricaSettore title="Andamento storico dei consumi di energia elettrica per settore in Italia" xKey="Anno"

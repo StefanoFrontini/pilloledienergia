@@ -37,15 +37,15 @@ import data_efficienza from "~/data/odex.json"
 
 I grafici illustrano rispettivamente:
 
-- l'andamento annuale dei consumi energetici primari in Italia dal 2000 al 2018;
-- l'andamento dell'efficienza energetica in Italia dal 2000 al 2017;
+- l’andamento annuale dei consumi energetici primari in Italia dal 2000 al 2018;
+- l’andamento dell’efficienza energetica in Italia dal 2000 al 2017;
 
-I dati sono presi da [Ministero dello Sviluppo Economico - bilancio energetico nazionale](https://dgsaie.mise.gov.it/ben.php), dall'ARERA e dal database [ODYSSEE-MURE](https://www.odyssee-mure.eu/publications/efficiency-trends-policies-profiles/italy-italian.html#overview).
+I dati sono presi da [Ministero dello Sviluppo Economico - bilancio energetico nazionale](https://dgsaie.mise.gov.it/ben.php), dall’ARERA e dal database [ODYSSEE-MURE](https://www.odyssee-mure.eu/publications/efficiency-trends-policies-profiles/italy-italian.html#overview).
 
-- I consumi energetici italiani si sono ridotti a causa della crisi economica e dell'aumento dell'efficienza energetica;
-- L'efficienza energetica è aumentata in tutti i settori, in particolare nell'industria;
+- I consumi energetici italiani si sono ridotti a causa della crisi economica e dell’aumento dell’efficienza energetica;
+- L’efficienza energetica è aumentata in tutti i settori, in particolare nell’industria;
 - Un valore di ODEX pari a 90 significa un guadagno del 10% di efficienza energetica;
-- L'unità di misura dell'energia primaria è il tep;
+- L’unità di misura dell’energia primaria è il tep;
 - Il tep rappresenta la quantità di energia rilasciata dalla combustione di una tonnellata di petrolio grezzo;
 - Mtep = milioni di tep;
-- L'energia primaria è l'energia presente in natura e quindi non derivante dalla trasformazione di altra forma di energia.
+- L’energia primaria è l’energia presente in natura e quindi non derivante dalla trasformazione di altra forma di energia.

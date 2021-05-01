@@ -41,9 +41,9 @@ I dati sono presi dal [Ministero dello Sviluppo Economico - bilancio energetico 
             :data="data_settore"
             />
 
-Il grafico illustra l'andamento annuale dei consumi di gas naturale per settore in Italia dal 2000 al 2019. <br />
+Il grafico illustra l’andamento annuale dei consumi di gas naturale per settore in Italia dal 2000 al 2019. <br />
 I dati sono presi da [Ministero dello Sviluppo Economico - bilancio energetico nazionale](https://dgsaie.mise.gov.it/ben.php).
 
 - Termoelettrico e Industria i settori più colpiti dalla crisi del 2008;
-- Il Terziario e Residenziale diventa il primo settore per consumi di gas naturale superando l'Industria;
+- Il Terziario e Residenziale diventa il primo settore per consumi di gas naturale superando l’Industria;
 - Nel 2019 i maggiori consumi del termoelettrico sono dovuti alla generazione a gas che ha sostituito parte della generazione a carbone.

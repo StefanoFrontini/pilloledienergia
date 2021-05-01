@@ -175,7 +175,9 @@
             ></iframe>
           </div>
           <p class="domanda">
-            <strong>Check-up energetico gratuito su misura</strong>
+            <strong
+              >Check-up energetico e sostenibilità gratuito su misura</strong
+            >
           </p>
           <p>
             Se ti sei mai chiesto perché ti arrivano fatture elevate nonostante
@@ -192,11 +194,11 @@
           </p>
           <div class="misura">
             <p>
-              <strong>Analisi delle forniture</strong> di energia elettrica e
-              gas:<br />— extra-costi — oneri accessori — extra-tasse —
-              andamento mercati all’ingrosso di energia elettrica e gas —
-              vantaggi e svantaggi tipologie di contratto (fisso, variabile,
-              altro).
+              <strong>Analisi dei contratti di fornitura</strong> di energia
+              elettrica e gas:<br />— extra-costi — oneri accessori —
+              extra-tasse — andamento mercati all’ingrosso di energia elettrica
+              e gas — vantaggi e svantaggi tipologie di contratto (fisso,
+              variabile, altro).
             </p>
             <p>
               Analisi sulla
