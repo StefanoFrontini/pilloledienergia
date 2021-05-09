@@ -384,6 +384,7 @@
                         >Stefano Frontini consulente energetico per ristoranti e
                         hotel</strong
                       ><br />
+                      Utility Manager UNI 11782:2020<br />
                       <a href="https://www.pilloledienergia.com/"
                         >www.pilloledienergia.com</a
                       ><br />
