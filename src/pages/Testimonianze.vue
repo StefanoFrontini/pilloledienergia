@@ -40,6 +40,27 @@
             scrolling="no"
           ></iframe>
         </div>
+        <h2>
+          <a href="https://www.grandhotelaladistura.it/it/"
+            >Grand Hotel Ala di Stura</a
+          >
+          di Torino
+        </h2>
+        <div class="img2">
+          <g-image src="~/assets/grigio.png" alt="fondo grigio" />
+
+          <iframe
+            title="Video testimonianza Massimo Vannelli"
+            width="100%"
+            height="315"
+            src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FRepowerItalia%2Fvideos%2F550354406129915%2F&show_text=false&width=476"
+            frameborder="0"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            allowfullscreen="true"
+            style="border:none;overflow:hidden"
+            scrolling="no"
+          ></iframe>
+        </div>
 
         <CheckUp />
 
