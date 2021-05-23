@@ -9,6 +9,31 @@
             class="grigio"
           />
           <iframe
+            title="7 consigli per scegliere il fornitore di energia e gas per la tua azienda"
+            width="100%"
+            :height="`${heightYouTube}`"
+            data-src="https://www.youtube.com/embed/kiJIE5ikcI0?enablejsapi=1"
+            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/kiJIE5ikcI0?autoplay=1><img src=https://img.youtube.com/vi/kiJIE5ikcI0/hqdefault.jpg alt='7 consigli per scegliere il fornitore di energia e gas per la tua azienda'><span>▶</span></a>"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <p>
+            <strong
+              >7 consigli per scegliere il fornitore di energia e gas per la tua
+              azienda
+            </strong>
+          </p>
+        </div>
+      </vue-glide-slide>
+      <vue-glide-slide>
+        <div class="img">
+          <g-image
+            src="~/assets/grigio.png"
+            alt="fondo grigio"
+            class="grigio"
+          />
+          <iframe
             title="Come evitare aumenti sostanziali e imprevisti della tua bolletta?"
             width="100%"
             :height="`${heightYouTube}`"
@@ -201,36 +226,6 @@
           </p>
         </div>
       </vue-glide-slide> -->
-
-      <vue-glide-slide>
-        <div class="img">
-          <g-image
-            src="~/assets/grigio.png"
-            alt="fondo grigio"
-            class="grigio"
-          />
-          <iframe
-            title="Consigli per gestire al meglio la fornitura luce e gas della tua azienda al tempo del Coronavirus"
-            width="100%"
-            :height="`${heightYouTube}`"
-            data-src="https://www.youtube.com/embed/jXbU9IJtBmQ?enablejsapi=1"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/jXbU9IJtBmQ?autoplay=1><img src=https://img.youtube.com/vi/jXbU9IJtBmQ/hqdefault.jpg alt='Consigli per gestire al meglio la fornitura luce e gas della tua azienda al tempo del Coronavirus'><span>▶</span></a>"
-          ></iframe>
-          <p>
-            <strong
-              >Durante il coronavirus hai colto tutte le opportunità di
-              risparmio?</strong
-            >
-
-            <!-- <br />In un momento di emergenza quanto è importante avere al tuo
-            fianco una persona che ti dà dei consigli pratici per ottimizzare la
-            fornitura di energia elettrica e gas della tua azienda? -->
-          </p>
-        </div>
-      </vue-glide-slide>
 
       <!-- <vue-glide-slide>
         <div class="img">
