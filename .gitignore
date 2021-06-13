@@ -12,3 +12,5 @@ pilloledienergia_api
 .netlify
 
 jsconfig.json
+
+functions/reviews.js

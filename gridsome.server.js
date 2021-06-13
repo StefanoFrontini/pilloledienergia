@@ -19,6 +19,22 @@ module.exports = function(api) {
 
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
   });
+  api.loadSource(async (actions) => {
+    const data = require("./src/data/reviews.json");
+    const collection = actions.addCollection("Reviews");
+
+    for (const item of data.reviews) {
+      collection.addNode({
+        comment: item.comment,
+        starRating: item.starRating,
+        createTime: item.createTime,
+        name: item.reviewer.displayName,
+        photo: item.reviewer.profilePhotoUrl,
+      });
+    }
+
+    // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
+  });
 
   /*   api.loadSource(async actions =>  {
     const data = require('./src/data/vantaggiConsulente.json');

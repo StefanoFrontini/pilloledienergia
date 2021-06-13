@@ -33,6 +33,9 @@ import {
   faClone,
   faChevronLeft,
   faChevronRight,
+  faQuoteLeft,
+  faQuoteRight,
+  faStar,
 } from "@fortawesome/free-solid-svg-icons";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
@@ -62,7 +65,10 @@ library.add(
   faLightbulb,
   faClone,
   faChevronLeft,
-  faChevronRight
+  faChevronRight,
+  faQuoteLeft,
+  faQuoteRight,
+  faStar
 );
 
 const SocialSharing = require("vue-social-sharing");

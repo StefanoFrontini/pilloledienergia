@@ -1,0 +1,78 @@
+{
+  "reviews": [
+    {
+      "comment": "Stefano \u00e8 una grandissima risorsa per le mie attivit\u00e0. Consigliatissimo\n\n",
+      "updateTime": "2021-06-10T17:34:17.307Z",
+      "name": "accounts/118419512690460968885/locations/10259736278827729273/reviews/AbFvOqmlsDfI0Af8r-dJJCFM0-fKOK2scrJM7zXAf_1ccq_28l0x3GjQg0Bzvnvo1AAq5avgeAR1yg",
+      "reviewId": "AbFvOqmlsDfI0Af8r-dJJCFM0-fKOK2scrJM7zXAf_1ccq_28l0x3GjQg0Bzvnvo1AAq5avgeAR1yg",
+      "starRating": "FIVE",
+      "reviewer": {
+        "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/AOh14GilnZOhekSf2sVif2d0lIhTDX_GF5aIPkRPJUdrkQ=s120-c-c0x00000000-cc-rp-mo-ba4-br100",
+        "displayName": "Edmondo Jonghi Lavarini"
+      },
+      "createTime": "2021-06-10T17:34:17.307Z"
+    },
+    {
+      "comment": "Stefano \u00e8 un ottimo consulente energetico! Professionale, sempre disponibile. Si interfaccia con l\u2019azienda facendo risparmiare molto tempo.\n\n",
+      "updateTime": "2021-05-13T15:26:49.866Z",
+      "name": "accounts/118419512690460968885/locations/10259736278827729273/reviews/AbFvOqlcYZp3dOP2Gj4egnUHduTyXFyi0onBZkhhMxLvm0bJ-JzKC60zivwpV1A8U9uEwGWkuaEcsg",
+      "reviewId": "AbFvOqlcYZp3dOP2Gj4egnUHduTyXFyi0onBZkhhMxLvm0bJ-JzKC60zivwpV1A8U9uEwGWkuaEcsg",
+      "starRating": "FIVE",
+      "reviewer": {
+        "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/AOh14GhsVLxWVtKatdez6hpaqtJms4spQl5jK3-bRjExRw=s120-c-c0x00000000-cc-rp-mo-br100",
+        "displayName": "Alessandro Broccaioli"
+      },
+      "createTime": "2021-05-13T15:26:49.866Z"
+    },
+    {
+      "comment": "Ottima consulenza:\nStefano ha trovato per me ottime soluzioni per il risparmio energetico e le colonnine di ricarica per le auto elettriche.\nConsigliatissimo!\n\n",
+      "updateTime": "2021-05-12T10:48:37.135Z",
+      "name": "accounts/118419512690460968885/locations/10259736278827729273/reviews/AbFvOqm2enCUSG5cRNmd4_QCO8ra2AnRe25KezuIKkcmS2luf6A9S_bffyb4ycdavVykoOAc7jaAaQ",
+      "reviewId": "AbFvOqm2enCUSG5cRNmd4_QCO8ra2AnRe25KezuIKkcmS2luf6A9S_bffyb4ycdavVykoOAc7jaAaQ",
+      "starRating": "FIVE",
+      "reviewer": {
+        "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/AOh14GhL8-_CeikYjZ6mOAVIgfHHSxkxSabRT6iokmUs=s120-c-c0x00000000-cc-rp-mo-ba3-br100",
+        "displayName": "Anna Trombini"
+      },
+      "createTime": "2021-05-12T10:48:37.135Z"
+    },
+    {
+      "comment": "Stefano Frontini \u00e8 un professionista con molta esperienza nel campo energetico per ristoranti e hotel.\nRiesce a far risparmiare sulle bollette di luce e gas tramite un'assistenza continua e gratuita.\nEseguo check-up energetici gratuiti.\nGrazie Stefano ad aver aiutato i ristoranti che ti ho presentato.\n\n",
+      "updateTime": "2021-03-05T06:13:59.486Z",
+      "name": "accounts/118419512690460968885/locations/10259736278827729273/reviews/AbFvOqmDpFl_wuatf1mxXPkNNjsQuqqJD5Fjr3gVZpyXurFUerySPDOmS3zKagUCmSuWHrYVrmKCFw",
+      "reviewId": "AbFvOqmDpFl_wuatf1mxXPkNNjsQuqqJD5Fjr3gVZpyXurFUerySPDOmS3zKagUCmSuWHrYVrmKCFw",
+      "starRating": "FIVE",
+      "reviewer": {
+        "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/AOh14Gh--c1QsHJ45FWIMkNcfwhjVmWb7AwDIWZ_drZPpA=s120-c-c0x00000000-cc-rp-mo-br100",
+        "displayName": "Maurizio Mancini"
+      },
+      "createTime": "2021-03-05T06:13:59.486Z"
+    },
+    {
+      "comment": "Ottimo professionista, preparato, che cura con dedizione i tuoi interessi.\n",
+      "updateTime": "2021-03-03T16:16:15.724Z",
+      "name": "accounts/118419512690460968885/locations/10259736278827729273/reviews/AbFvOqmuSut2uAaFJyx37YY-fQ20KQGaPwp3c4FURe8yX43moDXgY-ONdyUbdpqyUwA6NfaPVLrT9g",
+      "reviewId": "AbFvOqmuSut2uAaFJyx37YY-fQ20KQGaPwp3c4FURe8yX43moDXgY-ONdyUbdpqyUwA6NfaPVLrT9g",
+      "starRating": "FIVE",
+      "reviewer": {
+        "profilePhotoUrl": "https://lh3.googleusercontent.com/a/AATXAJzg32Uf1Agsi-jLsx4thPinPqzCulv-jbBHHGnp=s120-c-c0x00000000-cc-rp-mo-br100",
+        "displayName": "Vincenzo Messina"
+      },
+      "createTime": "2021-03-03T16:16:15.724Z"
+    },
+    {
+      "comment": "Stefano Frontini  \u00e8  un professionista molto serio e preparato. Prende a cuore le esigenze dei propri clienti  personalizzando la sua consulenza . In un settore dove operano tanti improvvisati senza preparazione,  Stefano Frontini \u00e8 una sicurezza, un riferimento certo.\nGrazie Stefano per avere aiutato concretamente le persone che ti ho presentato!\n\n",
+      "updateTime": "2021-03-03T14:39:16.816Z",
+      "name": "accounts/118419512690460968885/locations/10259736278827729273/reviews/AbFvOqmxtoXJbfR33UW_PFDBt5KgiXRx4vBbidZJihE9PvkfUsSNe7shYW8saZyVGbKP8VGB91yM-A",
+      "reviewId": "AbFvOqmxtoXJbfR33UW_PFDBt5KgiXRx4vBbidZJihE9PvkfUsSNe7shYW8saZyVGbKP8VGB91yM-A",
+      "starRating": "FIVE",
+      "reviewer": {
+        "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/AOh14Gg2LjdQ7rsEetVcIOYZsd0-jNSNqhQF0hspnToY=s120-c-c0x00000000-cc-rp-mo-br100",
+        "displayName": "Giovanna Curone"
+      },
+      "createTime": "2021-03-03T14:39:16.816Z"
+    }
+  ],
+  "totalReviewCount": 6,
+  "averageRating": 5
+}
