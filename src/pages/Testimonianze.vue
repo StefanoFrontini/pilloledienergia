@@ -23,7 +23,10 @@
         </div>
 
         <h2>
-          Recensioni Google
+          <a
+            href="https://www.google.com/maps/place/Stefano+Frontini+consulente+energetico+per+ristoranti+e+hotel/@45.4795159,9.2116551,17z/data=!4m5!3m4!1s0x4786c7def5b50fb5:0x9c16d28159e90428!8m2!3d45.4789163!4d9.2149762"
+            >Recensioni Google</a
+          >
         </h2>
 
         <transition appear name="fade" mode="out-in">
