@@ -87,6 +87,19 @@
         </div>
       </footer>
     </div>
+    <SocialChat icon :attendants="attendants">
+      <p slot="header">
+        Clicca per chattare con Stefano su WhatsApp.
+      </p>
+      <template v-slot:button>
+        <img
+          src="https://raw.githubusercontent.com/ktquez/vue-social-chat/master/src/icons/whatsapp.svg"
+          alt="icon whatsapp"
+          aria-hidden="true"
+        />
+      </template>
+      <small slot="footer"></small>
+    </SocialChat>
   </div>
 </template>
 
@@ -109,6 +122,18 @@ export default {
   },
   data: () => ({
     isActive: false,
+    attendants: [
+      {
+        app: "whatsapp",
+        label: "",
+        name: "Stefano Frontini",
+        number: "393351030301",
+        avatar: {
+          src: "https://avatars.githubusercontent.com/u/24897617?v=4",
+          alt: "Stefano Frontini avatar",
+        },
+      },
+    ],
   }),
   methods: {
     toggleMenu() {

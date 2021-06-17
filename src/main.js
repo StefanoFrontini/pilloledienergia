@@ -2,6 +2,7 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
 import DefaultLayout from "~/layouts/Default.vue";
+import VueSocialChat from "vue-social-chat";
 import InfiniteLoading from "vue-infinite-loading";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { config, library } from "@fortawesome/fontawesome-svg-core";
@@ -93,6 +94,7 @@ export default function(Vue, { router, head, isClient }) {
     //   theme_color: "#f78411",
     //   locale: "it_IT",
     // }),
+    Vue.use(VueSocialChat),
     Vue.use(InfiniteLoading),
     Vue.directive("scrollanimation", {
       // When the bound element is inserted into the DOM...
