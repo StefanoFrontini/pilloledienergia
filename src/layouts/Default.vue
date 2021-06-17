@@ -87,6 +87,7 @@
         </div>
       </footer>
     </div>
+    <ClientOnly>
     <SocialChat icon :attendants="attendants">
       <p slot="header">
         Clicca per chattare con Stefano su WhatsApp.
@@ -100,6 +101,7 @@
       </template>
       <small slot="footer"></small>
     </SocialChat>
+    <ClientOnly>
   </div>
 </template>
 
@@ -163,6 +165,15 @@ body {
   color: #1b1b1b;
   overflow-x: hidden;
   position: relative;
+  --vsc-bg-header: #1b1b1b;
+  --vsc-bg-footer: #fafafa;
+  --vsc-text-color-header: white;
+  --vsc-text-color-footer: inherit;
+  --vsc-bg-button: #128c7e;
+  --vsc-text-color-button: white;
+  --vsc-outline-color: $defaultColor;
+  --vsc-border-color-bottom-header: transparent;
+  --vsc-border-color-top-footer: #f3f3f3;
 }
 
 h1,
