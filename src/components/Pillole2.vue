@@ -363,6 +363,7 @@ export default {
     width: 90%;
     font-size: 1em;
     left: 5%;
+    text-align: center;
   }
 
   .grigio {
