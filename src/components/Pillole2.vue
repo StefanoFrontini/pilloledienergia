@@ -9,6 +9,28 @@
             class="grigio"
           />
           <iframe
+            title="TG energia - giugno 2021"
+            width="100%"
+            :height="`${heightYouTube}`"
+            data-src="https://www.youtube.com/embed/a6i6oIxwR_c?enablejsapi=1"
+            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/a6i6oIxwR_c?autoplay=1><img src=https://img.youtube.com/vi/a6i6oIxwR_c/hqdefault.jpg alt='TG energia - giugno 2021'><span>▶</span></a>"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <p>
+            <strong>TG energia - giugno 2021 </strong>
+          </p>
+        </div>
+      </vue-glide-slide>
+      <vue-glide-slide>
+        <div class="img">
+          <g-image
+            src="~/assets/grigio.png"
+            alt="fondo grigio"
+            class="grigio"
+          />
+          <iframe
             title="7 consigli per scegliere il fornitore di energia e gas per la tua azienda"
             width="100%"
             :height="`${heightYouTube}`"
@@ -46,31 +68,6 @@
           <p>
             <strong
               >Come evitare aumenti sostanziali e imprevisti della tua bolletta?
-            </strong>
-          </p>
-        </div>
-      </vue-glide-slide>
-      <vue-glide-slide>
-        <div class="img">
-          <g-image
-            src="~/assets/grigio.png"
-            alt="fondo grigio"
-            class="grigio"
-          />
-          <iframe
-            title="Un’opportunità per sostenere la Protezione Civile e dimezzare il costo delle forniture di energia elettrica e gas della tua azienda"
-            width="100%"
-            :height="`${heightYouTube}`"
-            data-src="https://www.youtube.com/embed/XyYBUeUrago?enablejsapi=1"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/XyYBUeUrago?autoplay=1><img src=https://img.youtube.com/vi/XyYBUeUrago/hqdefault.jpg alt='Un’opportunità per sostenere la Protezione Civile e dimezzare il costo delle forniture di energia elettrica e gas della tua azienda'><span>▶</span></a>"
-          ></iframe>
-          <p>
-            <strong
-              >Stai sfruttando tutte le opportunità che provengono dai mercati
-              energetici?
             </strong>
           </p>
         </div>

@@ -88,20 +88,20 @@
       </footer>
     </div>
     <ClientOnly>
-    <SocialChat icon :attendants="attendants">
-      <p slot="header">
-        Clicca per chattare con Stefano su WhatsApp.
-      </p>
-      <template v-slot:button>
-        <img
-          src="https://raw.githubusercontent.com/ktquez/vue-social-chat/master/src/icons/whatsapp.svg"
-          alt="icon whatsapp"
-          aria-hidden="true"
-        />
-      </template>
-      <small slot="footer"></small>
-    </SocialChat>
-    <ClientOnly>
+      <SocialChat icon :attendants="attendants">
+        <p slot="header">
+          Clicca per chattare con Stefano su WhatsApp.
+        </p>
+        <template v-slot:button>
+          <img
+            src="https://raw.githubusercontent.com/ktquez/vue-social-chat/master/src/icons/whatsapp.svg"
+            alt="icon whatsapp"
+            aria-hidden="true"
+          />
+        </template>
+        <small slot="footer"></small>
+      </SocialChat>
+    </ClientOnly>
   </div>
 </template>
 
