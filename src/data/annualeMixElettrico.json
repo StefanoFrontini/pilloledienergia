@@ -172,11 +172,20 @@
   },
   {
     "anno": "2019",
-    "gas": "143.2",
-    "rinnovabili": "114.8",
+    "gas": "141.7",
+    "rinnovabili": "115.8",
+    "prodotti petroliferi": "3.5",
+    "carbone": "18.8",
+    "altro termo": "12.2",
+    "import": "38.2"
+  },
+  {
+    "anno": "2020",
+    "gas": "137.6",
+    "rinnovabili": "116.1",
     "prodotti petroliferi": "3.3",
-    "carbone": "15.1",
-    "altro termo": "13.4",
-    "import": "38.1"
+    "carbone": "10.4",
+    "altro termo": "12.2",
+    "import": "32.2"
   }
 ]
