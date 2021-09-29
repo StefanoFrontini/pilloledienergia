@@ -7,13 +7,13 @@
       <div class="chart-container">
         <div class="chart">
           <AutoElettriche
-            title="Immatricolazioni auto elettriche per marca e modello: luglio 2021"
+            title="Immatricolazioni auto elettriche per marca e modello: agosto 2021"
             xKey="Modello"
             yKey="Immatricolazioni"
             :data="AutoElettricheData"
           />
           <CumulatoAutoElettriche
-            title="Immatricolazioni auto elettriche per marca e modello: gennaio - luglio 2021"
+            title="Immatricolazioni auto elettriche per marca e modello: gennaio - agosto 2021"
             xKey="Modello"
             yKey="Immatricolazioni"
             :data="CumulatoAutoElettricheData"
@@ -28,11 +28,11 @@
           <ul>
             <li>
               Il numero di immatricolazioni di auto elettriche in Italia a
-              luglio 2021 distinte per marca e modello;
+              agosto 2021 distinte per marca e modello;
             </li>
             <li>
               Il numero di immatricolazioni in Italia nel periodo gennaio -
-              luglio 2021 distinte per marca e modello;
+              agosto 2021 distinte per marca e modello;
             </li>
             <li>
               L’andamento mensile delle immatricolazioni di auto elettriche in

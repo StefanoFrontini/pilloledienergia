@@ -3,14 +3,14 @@
     <div class="img">
       <g-image src="~/assets/grigio.png" alt="fondo grigio" />
       <iframe
-        title="Spot della campagna pubblicitaria Repower 2019"
+        title="Spot della campagna pubblicitaria Repower 2021"
         width="100%"
         :height="`${heightYouTube}`"
-        data-src="https://www.youtube.com/embed/v9YEwA_2800"
+        data-src="https://www.youtube.com/embed/6JxfjBeJQVQ"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
-        srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/v9YEwA_2800?autoplay=1><img src=https://img.youtube.com/vi/v9YEwA_2800/hqdefault.jpg alt='Conguagli elevati nella bolletta della luce? Ecco come eliminarli.'><span>▶</span></a>"
+        srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/6JxfjBeJQVQ?autoplay=1><img src=https://img.youtube.com/vi/6JxfjBeJQVQ/hqdefault.jpg alt='Spot della campagna pubblicitaria Repower 2021'><span>▶</span></a>"
       ></iframe>
     </div>
   </div>
