@@ -1,9 +1,5 @@
 [
   {
-    "Mese": "2020, 9",
-    "Immatricolazioni": "4089"
-  },
-  {
     "Mese": "2020, 10",
     "Immatricolazioni": "2889"
   },
@@ -50,5 +46,9 @@
   {
     "Mese": "2021, 9",
     "Immatricolazioni": "8492"
+  },
+  {
+    "Mese": "2021, 10",
+    "Immatricolazioni": "7134"
   }
 ]
