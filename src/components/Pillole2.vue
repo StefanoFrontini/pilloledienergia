@@ -9,17 +9,17 @@
             class="grigio"
           />
           <iframe
-            title="TG energia - settembre 2021"
+            title="TG energia - novembre 2021"
             width="100%"
             :height="`${heightYouTube}`"
-            data-src="https://www.youtube.com/embed/vlS_-xAEXps?enablejsapi=1"
-            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/vlS_-xAEXps?autoplay=1><img src=https://img.youtube.com/vi/vlS_-xAEXps/hqdefault.jpg alt='TG energia - settembre 2021'><span>▶</span></a>"
+            data-src="https://www.youtube.com/embed/Qnka29CEvXA"
+            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/Qnka29CEvXA?autoplay=1><img src=https://img.youtube.com/vi/Qnka29CEvXA/hqdefault.jpg alt='TG energia - novembre 2021'><span>▶</span></a>"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
           <p>
-            <strong>TG energia - settembre 2021 </strong>
+            <strong>TG energia - novembre 2021 </strong>
           </p>
         </div>
       </vue-glide-slide>
