@@ -1,49 +1,50 @@
 [
   {
     "Modello": "altre",
-    "Immatricolazioni": "14499"
+    "Immatricolazioni": "17492"
   },
   {
-    "Modello": "Opel Corsa",
-    "Immatricolazioni": "1744"
+    "Modello": "Volkswagen Up!",
+    "Immatricolazioni": "1988"
   },
+
   {
     "Modello": "Peugeut 2008",
-    "Immatricolazioni": "1983"
+    "Immatricolazioni": "2196"
   },
   {
     "Modello": "Peugeut 208",
-    "Immatricolazioni": "2308"
+    "Immatricolazioni": "2573"
   },
   {
     "Modello": "Volkswagen ID.3",
-    "Immatricolazioni": "2825"
+    "Immatricolazioni": "3180"
   },
   {
     "Modello": "Renault Zoe",
-    "Immatricolazioni": "3486"
+    "Immatricolazioni": "3693"
+  },
+  {
+    "Modello": "Tesla Model 3",
+    "Immatricolazioni": "4628"
   },
 
   {
     "Modello": "Dacia Spring",
-    "Immatricolazioni": "4274"
-  },
-  {
-    "Modello": "Tesla Model 3",
-    "Immatricolazioni": "4514"
+    "Immatricolazioni": "4691"
   },
 
   {
     "Modello": "Renault Twingo",
-    "Immatricolazioni": "4646"
+    "Immatricolazioni": "5303"
   },
 
   {
     "Modello": "Smart Fortwo",
-    "Immatricolazioni": "5178"
+    "Immatricolazioni": "5721"
   },
   {
     "Modello": "Fiat 500",
-    "Immatricolazioni": "8919"
+    "Immatricolazioni": "9866"
   }
 ]

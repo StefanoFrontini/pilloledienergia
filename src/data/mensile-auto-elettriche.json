@@ -1,43 +1,47 @@
 [
   {
     "Modello": "altre",
-    "Immatricolazioni": "1676"
+    "Immatricolazioni": "2406"
   },
   {
-    "Modello": "Opel Corsa",
-    "Immatricolazioni": "165"
-  },
-  {
-    "Modello": "Peugeot 208",
-    "Immatricolazioni": "173"
-  },
-  {
-    "Modello": "Volkswagen UP!",
+    "Modello": "Volkswagen ID.4",
     "Immatricolazioni": "222"
   },
   {
+    "Modello": "Mini Mini",
+    "Immatricolazioni": "255"
+  },
+  {
+    "Modello": "Peugeot 208",
+    "Immatricolazioni": "265"
+  },
+  {
+    "Modello": "Tesla Model Y",
+    "Immatricolazioni": "325"
+  },
+  {
     "Modello": "Volkswagen ID.3",
-    "Immatricolazioni": "266"
-  },
-  {
-    "Modello": "Peugeot 2008",
-    "Immatricolazioni": "301"
-  },
-
-  {
-    "Modello": "Renault Zoe",
-    "Immatricolazioni": "341"
-  },
-  {
-    "Modello": "Renault Twingo",
-    "Immatricolazioni": "532"
-  },
-  {
-    "Modello": "Smart Fortwo",
-    "Immatricolazioni": "621"
+    "Immatricolazioni": "354"
   },
   {
     "Modello": "Dacia Spring",
-    "Immatricolazioni": "1777"
+    "Immatricolazioni": "416"
+  },
+
+  {
+    "Modello": "Smart Fortwo",
+    "Immatricolazioni": "543"
+  },
+  {
+    "Modello": "Volkswagen UP!",
+    "Immatricolazioni": "570"
+  },
+  {
+    "Modello": "Renault Twingo",
+    "Immatricolazioni": "656"
+  },
+  {
+    "Modello": "Fiat 500",
+    "Immatricolazioni": "946"
   }
 ]
