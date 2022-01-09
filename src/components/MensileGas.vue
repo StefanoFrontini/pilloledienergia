@@ -49,7 +49,7 @@
         </g>
         <g v-for="(item, i) in chartData" :key="i">
           <text
-            style="text-anchor: middle; font-size: 0.45em; stroke-width: 0.1em; stroke: #f78411;"
+            style="text-anchor: middle; font-size: 0.55em; stroke-width: 0.1em; stroke: #f78411;"
             :x="item.x"
             :y="item.y1 - 15"
           >
