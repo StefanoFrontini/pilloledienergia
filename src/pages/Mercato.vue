@@ -24,10 +24,10 @@
             :data="AnnualePUNData"
           />
           <p>
-            I grafici illustrano l'andamento mensile per fasce orarie da aprile
-            2019 ad oggi del prezzo all'ingrosso dell'energia elettrica (PUN) e
-            l'andamento annuale del PUN dal 2004 (anno di fondazione della Borsa
-            elettrica italiana) ad oggi. <br />
+            I grafici illustrano l'andamento mensile per fasce orarie relativo
+            agli ultimi 12 mesi del prezzo all'ingrosso dell'energia elettrica
+            (PUN) e l'andamento annuale del PUN dal 2004 (anno di fondazione
+            della Borsa elettrica italiana) ad oggi. <br />
             I dati sono presi dal sito del
             <a href="http://www.mercatoelettrico.org/It/default.aspx"
               >Gestore dei Mercati Energetici</a
@@ -54,9 +54,17 @@
             y1Key="Media"
             :data="MensileGASData"
           />
+
+          <AnnualeGas
+            title="Andamento annuale del prezzo all'ingrosso del gas naturale"
+            xKey="Anno"
+            y1Key="Media"
+            :data="AnnualeGASData"
+          />
           <p>
-            Il grafico illustra l'andamento mensile del prezzo all'ingrosso del
-            gas naturale da aprile 2019 ad oggi.
+            I grafici illustrano rispettivamente l'andamento mensile relativo
+            agli ultimi 12 mesi e l'andamento annuale dal 2017 ad oggi del
+            prezzo all'ingrosso del gas naturale.
           </p>
           <ul>
             <li>
@@ -100,10 +108,12 @@ query {
 import AnnualePUN from "../components/AnnualePUN.vue";
 import MensilePUN from "../components/MensilePUN.vue";
 import MensileGas from "../components/MensileGas.vue";
+import AnnualeGas from "../components/AnnualeGas.vue";
 
 import MensilePUNData from "@/data/mensilePUN.json";
 import AnnualePUNData from "@/data/annualePUN.json";
 import MensileGASData from "@/data/mensileGAS.json";
+import AnnualeGASData from "@/data/annualeGAS.json";
 
 import SocialSharing from "~/components/SocialSharing.vue";
 import CheckUp from "~/components/CheckUpComponentP.vue";
@@ -113,6 +123,7 @@ export default {
     AnnualePUN,
     MensilePUN,
     MensileGas,
+    AnnualeGas,
     SocialSharing,
     CheckUp,
   },
@@ -166,6 +177,7 @@ export default {
     AnnualePUNData,
     MensilePUNData,
     MensileGASData,
+    AnnualeGASData,
   }),
   computed: {
     ogImageUrl() {
