@@ -80,27 +80,51 @@
             <div>
               <p><strong>Risparmia fino al 25%</strong></p>
               <p>
-                Tramite la consulenza e l’assistenza
+                Attraverso nuove tecnologie che ti permettono di ridurre i
+                consumi di energia elettrica e gas.
+                <!-- Tramite la consulenza e l’assistenza
                 <span class="grassetto">gratuita</span><br />
                 che solo io ti posso dare.<br />
                 <a href="/report-periodico.pdf" download
                   >Scarica il report periodico.</a
-                >
+                > -->
               </p>
             </div>
             <div>
-              <p><strong>Dimentica il call center</strong></p>
-              <p>
-                Sono io il tuo referente per qualsiasi problema<br />
-                o esigenza.
-              </p>
+              <p><strong>Luce e gas</strong></p>
+              <ul>
+                <li>
+                  Sono io il tuo referente per qualsiasi problema o esigenza.
+                </li>
+                <li>
+                  Condizioni contrattuali trasparenti e a
+                  <g-link to="/mercato/">mercato</g-link>. Nel tempo.
+                </li>
+                <li>
+                  Newsletter mensile con aggiornamenti dai mercati e dalla
+                  normativa di settore.
+                </li>
+
+                <li>
+                  <a target="_blank" href="https://energy-report.netlify.app/"
+                    >Report periodici sui consumi</a
+                  >. Personalizzabili.
+                </li>
+                <!-- Sono io il tuo referente per qualsiasi problema<br />
+                o esigenza. -->
+              </ul>
             </div>
             <div>
-              <p><strong>Nessun costo nascosto</strong></p>
-              <p>
-                Condizioni contrattuali trasparenti e a
-                <g-link to="/mercato/">mercato</g-link>.<br />Nel tempo.
-              </p>
+              <p><strong>Mobilità elettrica</strong></p>
+              <ul>
+                <li>
+                  Fornisci un servizio di ricarica per le auto elettriche.
+                </li>
+                <li>
+                  Cattura l’attenzione di chi guida l’auto elettrica attraverso
+                  servizi di visibilità internazionale.
+                </li>
+              </ul>
             </div>
           </div>
           <div class="pulsante">
@@ -271,6 +295,11 @@ export default {
     color: green;
   }
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 .section {
   display: -webkit-box;
@@ -284,6 +313,7 @@ export default {
   .pulsante {
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
   }
 
   .pulsante a {
@@ -324,6 +354,7 @@ export default {
   p strong {
     font-size: 1.3em;
   }
+  padding: 0.5rem;
 }
 
 .consulente-wrapper {
