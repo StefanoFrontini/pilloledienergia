@@ -25,47 +25,113 @@
         <div class="section">
           <p class="title"><strong>Chi è il consulente energetico?</strong></p>
           <p>
-            E’ un professionista che ti mette a disposizione la sua competenza
-            sui:
-            <g-link to="/mercato/"
+            E’ un professionista che mette a disposizione della tua azienda le
+            sue competenze sul settore energetico in modo da generare un
+            <strong>vero risparmio</strong> nel tempo in termini economici, di
+            tempo e di frustrazioni evitate. Gli ambiti in cui lavora il
+            consulente energetico sono:
+            <!-- <g-link to="/mercato/"
               >mercati all’ingrosso dell’energia elettrica e gas</g-link
             >; sui contratti di fornitura di energia elettrica e gas e sui
             relativi costi; sul sistema energetico in generale in modo da
             generare un <strong>vero risparmio</strong> nel tempo in termini
-            economici, di tempo e di frustrazioni evitate.
+            economici, di tempo e di frustrazioni evitate. -->
           </p>
-          <p class="domanda">
+          <ul>
+            <li>
+              <strong>Efficienza energetica</strong><br />
+              Riduzione dei consumi energetici attraverso tecnologie mature e
+              tecnologie innovative: relamping a LED, termografie certificate
+              ISO 9712, analisi fonometrica al circuito dell’aria compressa,
+              ottimizzatori di tensione, fotovoltaico, monitoraggio dei consumi
+              elettrici e termici.
+              <InstagramCardStefano />
+            </li>
+            <li>
+              <strong>Luce e gas</strong><br />
+              Le società che vendono energia elettrica e gas sono ormai più di
+              600. Tutte prendono l’energia e il gas dai
+              <g-link to="/mercato/">mercati all’ingrosso</g-link> e applicano
+              un margine.<strong>
+                I margini delle società serie e trasparenti sono
+                bassissimi</strong
+              >
+              al contrario di moltissime altre società che oltre al prezzo di
+              copertina nascondono
+              <strong>rilevanti costi aggiuntivi</strong> nelle condizioni
+              generali di fornitura. I margini bassissimi delle società di
+              vendita rendono a <strong>scarso valore aggiunto</strong> per il
+              Cliente le attività messe in piedi da broker e consorzi.<br />
+              Pertanto
+              <strong>la vera differenza</strong> tra i fornitori seri è il
+              <strong>servizio</strong>:
+              <ul>
+                <li>
+                  Avere una persona <strong>sempre presente</strong> per
+                  qualsiasi problema/esigenza.
+                </li>
+                <li>
+                  Ricevere aggiornamenti dai mercati e dalla normativa di
+                  settore (<strong>newsletter mensile</strong>)
+                </li>
+                <li>
+                  Avere <strong>report periodici sui consumi</strong> da
+                  analizzare insieme al proprio consulente per far emergere
+                  anomalie nel comportamento di consumo e ottimizzazioni da
+                  compiere. Guarda un fac-simile del report consumi che rilascio
+                  periodicamente ai miei Clienti:
+                  <div class="report">
+                    <a target="_blank" href="https://energy-report.netlify.app/"
+                      ><g-image
+                        src="~/assets/pulsante.png"
+                        alt="report periodico energia elettrica e gas"
+                        width="150px"
+                      ></g-image
+                    ></a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Mobilità elettrica e sostenibilità</strong><br />
+              Grazie alle soluzioni Repower riesco a ridurre l’impatto
+              ambientale della tua struttura tramite
+              <strong>energia 100% verde certificata TUV</strong>, a rilasciarti
+              attestati di sostenibilità energetica, e a renderla pronta per
+              accogliere il crescente turismo green che si muove in
+              <strong
+                ><g-link to="/mercato-auto-elettriche/"
+                  >auto elettrica</g-link
+                ></strong
+              >
+              attraverso
+              <strong
+                >infrastrutture di ricarica e servizi di visibilità
+                internazionale</strong
+              >.
+
+              <InstagramCardRepower />
+            </li>
+          </ul>
+          <!-- <p class="domanda">
             <strong>
               Come faccio a far risparmiare i miei Clienti fino al 25% sulle
               loro forniture di energia elettrica e gas?
             </strong>
-          </p>
-          <p>
-            <strong>Consulenza</strong> sulla corretta applicazione di tutte le
+          </p> -->
+
+          <!-- <strong>Consulenza</strong> sulla corretta applicazione di tutte le
             voci in fattura (ad es.
             <g-link to="/analisi-iva-accise-agevolate/">IVA e accise</g-link>),
             sui costi nascosti, miglioramento delle abitudini di consumo
             dell’energia (monitoraggio dei picchi di potenza), eliminazione
             delle penali per energia reattiva ed extra-costi, monitoraggio della
-            normativa e dei contributi che potresti ricevere.
-          </p>
+            normativa e dei contributi che potresti ricevere. -->
+
           <p>
-            Guarda un fac-simile dei <strong>report</strong> che rilascio ai
-            miei Clienti periodicamente:
-          </p>
-          <div class="report">
-            <a href="/report-periodico.pdf" download
-              ><g-image
-                src="~/assets/pulsante.png"
-                alt="report periodico energia elettrica e gas"
-                width="150px"
-              ></g-image
-            ></a>
-          </div>
-          <p>
-            Io lavoro nel mondo dell’energia <strong>da più di 15 anni</strong>.
-            Ho iniziato come analista dei mercati dell’energia elettrica e del
-            gas presso una società (<a
+            Lavoro nel mondo dell’energia <strong>da più di 15 anni</strong>. Ho
+            iniziato come analista dei mercati dell’energia elettrica e del gas
+            presso una società (<a
               target="_blank"
               rel="noopener"
               href="https://www.ref-e.com/it"
@@ -89,7 +155,7 @@
             >
             UNI 11782:2020.
           </p>
-          <p>
+          <!-- <p>
             A differenza di venditori porta a porta/call center il cui unico
             obiettivo è la firma di un contratto a caso e poi spariscono,
             <strong>io ti seguo in maniera continua</strong> durante il periodo
@@ -154,7 +220,7 @@
               href="https://www.trenino-rosso-bernina.it/it/"
               >trenino rosso del Bernina</a
             >) e lavora solo in ambito business.
-          </p>
+          </p> -->
           <p class="domanda"><strong>Testimonianza</strong></p>
           <p>
             Guarda la testimonianza di Franca e Consuelo del ristorante La
@@ -190,7 +256,7 @@
             fianco un consulente che ti aiuta ad entrare nel mondo della
             sostenibilità e della mobilità elettrica
             <strong>prenota un check-up energetico gratuito</strong>: un’ora in
-            videoconferenza per ricevere una consulenza su misura.
+            azienda per ricevere una consulenza su misura.
           </p>
           <div class="misura">
             <p>
@@ -449,6 +515,7 @@ h1 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    margin-top: 1rem;
   }
 
   .report a {
@@ -456,7 +523,7 @@ h1 {
     position: relative;
   }
   .report a:after {
-    content: "Scarica il report";
+    content: "Guarda il report";
     position: absolute;
     left: 28%;
     top: 28%;

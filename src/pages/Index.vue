@@ -78,10 +78,10 @@
           </div>
           <div class="benefici">
             <div>
-              <p><strong>Risparmia fino al 25%</strong></p>
+              <p><strong>Efficienza Energetica</strong></p>
               <p>
-                Attraverso nuove tecnologie che ti permettono di ridurre i
-                consumi di energia elettrica e gas.
+                Risparmia fino al 25% attraverso nuove tecnologie che ti
+                permettono di ridurre i consumi di energia elettrica e gas.
                 <!-- Tramite la consulenza e l’assistenza
                 <span class="grassetto">gratuita</span><br />
                 che solo io ti posso dare.<br />
@@ -103,6 +103,14 @@
                 <li>
                   Newsletter mensile con aggiornamenti dai mercati e dalla
                   normativa di settore.
+                </li>
+                <li>
+                  <a
+                    href="/certificato-utility-manager-stefano-frontini.pdf"
+                    download
+                  >
+                    Utility Manager certificato UNI 11782:2020</a
+                  >.
                 </li>
 
                 <li>
