@@ -101,9 +101,19 @@
                   <g-link to="/mercato/">mercato</g-link>. Nel tempo.
                 </li>
                 <li>
-                  Newsletter mensile con aggiornamenti dai mercati e dalla
-                  normativa di settore.
+                  <a target="_blank" href="https://energy-report.netlify.app/"
+                    >Report periodici sui consumi</a
+                  >. Personalizzabili.
                 </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://mailchi.mp/411598066c48/video-conguagli-elevati-nella-bolletta-della-luce-ecco-come-eliminarli-passare-allelettrico-per-la-propria-flotta-aziendale-5123841"
+                    >Newsletter mensile</a
+                  >
+                  con aggiornamenti dai mercati e dalla normativa di settore.
+                </li>
+
                 <li>
                   <a
                     href="/certificato-utility-manager-stefano-frontini.pdf"
@@ -112,14 +122,6 @@
                     Utility Manager certificato UNI 11782:2020</a
                   >.
                 </li>
-
-                <li>
-                  <a target="_blank" href="https://energy-report.netlify.app/"
-                    >Report periodici sui consumi</a
-                  >. Personalizzabili.
-                </li>
-                <!-- Sono io il tuo referente per qualsiasi problema<br />
-                o esigenza. -->
               </ul>
             </div>
             <div>
