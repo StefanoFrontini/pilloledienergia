@@ -7,7 +7,7 @@
       <div class="chart-container">
         <div class="chart">
           <AutoElettriche
-            title="Immatricolazioni auto elettriche per marca e modello: dicembre 2021"
+            title="Immatricolazioni auto elettriche per marca e modello: gennaio 2022"
             xKey="Modello"
             yKey="Immatricolazioni"
             :data="AutoElettricheData"
@@ -28,7 +28,7 @@
           <ul>
             <li>
               Il numero di immatricolazioni di auto elettriche in Italia a
-              dicembre 2021 distinte per marca e modello;
+              gennaio 2022 distinte per marca e modello;
             </li>
             <li>
               Il numero di immatricolazioni in Italia nel periodo gennaio -

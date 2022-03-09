@@ -1,46 +1,49 @@
 [
   {
     "Modello": "altre",
-    "Immatricolazioni": "1839"
+    "Immatricolazioni": "1342"
   },
   {
-    "Modello": "Volkswagen ID.4",
-    "Immatricolazioni": "179"
+    "Modello": "Nissan Leaf",
+    "Immatricolazioni": "96"
   },
   {
-    "Modello": "Peugeot 208",
-    "Immatricolazioni": "184"
+    "Modello": "Peugeot 2008",
+    "Immatricolazioni": "97"
+  },
+  {
+    "Modello": "Hyundai Kona",
+    "Immatricolazioni": "101"
+  },
+  {
+    "Modello": "Bmw I4",
+    "Immatricolazioni": "101"
+  },
+  {
+    "Modello": "Audi Q4",
+    "Immatricolazioni": "112"
+  },
+  {
+    "Modello": "Renault Zoe",
+    "Immatricolazioni": "145"
+  },
+
+  {
+    "Modello": "Volkswagen ID.3",
+    "Immatricolazioni": "152"
   },
   {
     "Modello": "Tesla Model Y",
-    "Immatricolazioni": "215"
+    "Immatricolazioni": "223"
   },
-  {
-    "Modello": "Volkswagen ID.3",
-    "Immatricolazioni": "260"
-  },
-  {
-    "Modello": "Tesla Model 3",
-    "Immatricolazioni": "418"
-  },
+
   {
     "Modello": "Smart Fortwo",
-    "Immatricolazioni": "440"
+    "Immatricolazioni": "297"
   },
-  {
-    "Modello": "Volkswagen UP!",
-    "Immatricolazioni": "459"
-  },
-  {
-    "Modello": "Renault Twingo",
-    "Immatricolazioni": "519"
-  },
-  {
-    "Modello": "Dacia Spring",
-    "Immatricolazioni": "805"
-  },
+
   {
     "Modello": "Fiat 500",
-    "Immatricolazioni": "887"
+    "Immatricolazioni": "509"
   }
 ]
