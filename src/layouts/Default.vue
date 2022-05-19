@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="layout">
-      <div class="header-a">
+      <!-- <div class="header-a">
         <div class="tablet">
           <p class="text">Prenota un check-up gratuito su misura</p>
           <div class="header-btn">
@@ -14,7 +14,7 @@
         <div class="header-i">
           <HeaderIcons />
         </div>
-      </div>
+      </div> -->
 
       <div class="ste">
         <header class="header-b">
@@ -75,8 +75,7 @@
 
               <a href="mailto:stefano.frontini@con.repower.com"
                 >stefano.frontini@con.repower.com</a
-              ><br />
-              cell: 335.103.03.01
+              >
             </p>
             <p>
               I tuoi dati sono al sicuro. Leggi l'<g-link to="/privacy"
@@ -87,7 +86,7 @@
         </div>
       </footer>
     </div>
-    <ClientOnly>
+    <!-- <ClientOnly>
       <SocialChat icon :attendants="attendants">
         <p slot="header">
           Clicca per chattare con Stefano su WhatsApp.
@@ -101,7 +100,7 @@
         </template>
         <small slot="footer"></small>
       </SocialChat>
-    </ClientOnly>
+    </ClientOnly> -->
   </div>
 </template>
 
