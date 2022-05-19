@@ -1,4 +1,4 @@
-# Pillole di Energia website
+# Pillole di Energia
 
 The app allows the user to promote their energy consultant business and their YouTube channel. The user can blog, update the charts and collect the email addresses of prospects through the energy and tax check-up functionalities.
 
